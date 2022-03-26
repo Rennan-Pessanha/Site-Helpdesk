@@ -1,0 +1,118 @@
+* { 
+    border: 0px;
+    margin: 0px;
+}
+
+/* =================Cabeça===================*/
+
+header > img { 
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-left: 40%;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+header > h1 { 
+    display: inline-block;
+    position: absolute;
+    top: 3%;
+
+}
+
+
+header { 
+    background-color: #bdbdbd;
+    width: 100%;
+    
+}
+
+/* =================Corpo====================*/
+
+.site { 
+    background-color: #9e9e9e;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+.site > .menu { 
+    height: 100px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 7%;
+    margin-left: 5%;
+    display: inline-block;
+    position: absolute;
+
+
+}
+
+.site > .int { 
+    height: 70%;
+    width: 70%;
+    background-color: black;
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: 7%;
+}
+
+.site > .menu > #menu-box { 
+    background-color: rgb(2, 2, 59);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px black;
+    position: absolute;
+    
+}
+
+/* =================Formulário===============*/
+
+.form { 
+    height: 90%;
+    width: 95%;
+    background-color: aliceblue;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.form > img { 
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    display: block;
+}
+
+.form2 > img { 
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    display: none;
+}
+
+.form3 > img { 
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    display: none;
+}
+
+
+
+
+
+
+
