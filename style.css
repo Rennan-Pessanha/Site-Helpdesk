@@ -67,7 +67,7 @@ transition-duration: 0.2s;
 .burguer { 
     display: inline-block;
     position: absolute;
-    left: 95%;
+    left: 90%;
     display: none;
 }
 
