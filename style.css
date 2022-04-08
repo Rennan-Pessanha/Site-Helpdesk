@@ -63,6 +63,11 @@ header > .content-int > a > .perfil {
     height: 38px;
     position: absolute;
    
+<<<<<<< HEAD
+}
+
+header > .burguer-content-icon {
+=======
 }
 
 header > .burguer-content-icon {
@@ -75,6 +80,62 @@ header > .burguer-content-icon > button {
     cursor: pointer;
 }
 
+@media screen and (max-width: 1700px ) {
+    
+    header > .content-int {
+        margin-left: 80%;
+
+    }
+
+}
+
+@media (max-width: 1450px) {
+    header > .content-int {
+        margin-left: 75%;
+
+    }
+}
+
+@media (max-width: 1500px) {
+    header > .content-int {
+        margin-left: 75%;
+
+    }
+}
+
+@media (max-width: 1200px) {
+    header > .content-int {
+        margin-left: 70%;
+
+    }
+}
+
+@media (max-width: 1000px) {
+    header > .content-int {
+        margin-left: 65%;
+
+    }
+}
+
+@media (max-width: 1000px) {
+    header > .content-int {
+        margin-left: 30%;
+        margin-top: 15px;
+    }
+
+    
+header > .logo  {
+>>>>>>> ea4595faf536683e7fc597be3c2cb766425075e8
+    display: none;
+}
+
+header > .burguer-content-icon > button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+<<<<<<< HEAD
 @media screen and (max-width: 1700px ) {
     
     header > .content-int {
@@ -139,6 +200,8 @@ header > .logo  {
 }
 
 
+=======
+>>>>>>> ea4595faf536683e7fc597be3c2cb766425075e8
 header > .content-int {
     top: -105%;
     margin-left: 50%;
@@ -176,7 +239,10 @@ header > .content-int {
 
 /*      corpo do site */
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ea4595faf536683e7fc597be3c2cb766425075e8
  .mobile-menu { 
     height: 100vh;
     width: 230px;
@@ -186,6 +252,7 @@ header > .content-int {
     border: 0.1px solid rgba(128, 128, 128, 0.274);
     border-top: none;
     border-left: none;
+<<<<<<< HEAD
 }
 
 @media (max-width: 1000px) {
@@ -200,6 +267,22 @@ header > .content-int {
 
 }
 
+=======
+}
+
+@media (max-width: 1000px) {
+
+     .mobile-menu {
+        display: none;
+    }
+
+    .open {
+        display: inline-block;
+    }
+
+}
+
+>>>>>>> ea4595faf536683e7fc597be3c2cb766425075e8
  .mobile-menu > a > img {
     height: 25px;
     width: 25px;
