@@ -176,7 +176,6 @@ header > .content-int {
 
 /*      corpo do site */
 
-
  .mobile-menu { 
     height: 100vh;
     width: 230px;
@@ -245,26 +244,9 @@ article {
 
 }
 
-article > .title {
-    margin-top: 20px;
-    margin-left: 26px;
-    color: #656565;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-article > .title > h1 {
-    margin-bottom: 15px;
-}
-
-article > .form-content {
-    background-color: rgb(255, 255, 255);
-    height: 50%;
-    width: 60%;
-    margin-top: 30px;
-    margin-left: 26px;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.075);
-    border-style: ridge;
-    margin-bottom: 20px;
+article > .capa > img { 
+    height: 350px;
+    width: 100%;
 }
 
 @media (max-width: 1000px) {
