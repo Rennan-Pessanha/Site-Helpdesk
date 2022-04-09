@@ -249,6 +249,28 @@ article > .capa > img {
     width: 100%;
 }
 
+article > .perfil { 
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: -48%;
+    left: 30%;
+}
+
+article > .perfil > img { 
+    height: 150px;
+    width: 150px;
+}
+
+article > .perfil-info {
+    width: 400px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.527);
+    position: relative;
+    top: -45%;
+    left: 22%;
+}
+
 @media (max-width: 1000px) {
 
     article > .form-content {
