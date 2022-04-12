@@ -1,8 +1,9 @@
 * { 
     margin: 0%;
     padding: 0%;
-    overflow-x: hidden;
     overflow-y: hidden;
+    overflow-x: hidden;
+
 }
 
 /*         Cabeça do site */
@@ -269,6 +270,46 @@ article > .perfil-info {
     position: relative;
     top: -45%;
     left: 22%;
+    color: white;
+    text-align: center;
+
+}
+
+article > .perfil-info > h1 {
+    margin-bottom: 15px;
+    margin-top: 8px;
+}
+
+article > .perfil-info > h4 {
+    margin-bottom: 10px;
+}
+
+
+.barra {
+    height: 200px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: 27px;
+    position: relative;
+    top: -40%;
+    display: inline-block;
+    border-style: ridge;
+}
+
+.barra2 {
+
+    height: 200px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: 27px;
+    position: relative;
+    top: -40%;
+    display: inline-block;
+    border-style: ridge;
+
+    
 }
 
 @media (max-width: 1000px) {
