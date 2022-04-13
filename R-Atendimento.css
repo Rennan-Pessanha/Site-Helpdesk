@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
     overflow-x: hidden;
-
+    overflow-y: hidden;
 }
 
 /*         Cabeça do site */
@@ -136,7 +136,6 @@ header > .burguer-content-icon > button {
     
 header > .logo  {
     display: none;
-    
 }
 
 
@@ -245,108 +244,26 @@ article {
 
 }
 
-article > .capa > img { 
-    height: 350px;
-    width: 100%;
+article > .title {
+    margin-top: 20px;
+    margin-left: 26px;
+    color: #656565;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-article > .capa {
-    height: 350px;
-    width: 100%;
-    background: linear-gradient(to middle, #A3241D, #FF6961 );
-}
-
-article > .perfil { 
-    height: 150px;
-    width: 150px;
-    position: relative;
-    top: -33%;
-    left: 40%;
-    overflow-y: hidden;
-}
-
-article > .perfil > img { 
-    height: 150px;
-    width: 150px;
-}
-
-article > .perfil-info {
-    width: 420px;
-    height: 115px;
-    background-color: rgba(0, 0, 0, 0.527);
-    position: relative;
-    top: -31%;
-    left: 33%;
-    color: white;
-    text-align: center;
-
-}
-
-article > .perfil-info > h1 {
+article > .title > h1 {
     margin-bottom: 15px;
-    margin-top: 8px;
 }
 
-article > .perfil-info > h4 {
-    margin-bottom: 10px;
-}
-
-
-.barra {
-    height: 350px;
-    width: 900px;
+article > .form-content {
     background-color: rgb(255, 255, 255);
-    display: flex;
-    margin-left: 100px;
-    position: relative;
-    top: -26%;
-    display: inline-block;
+    height: 50%;
+    width: 84%;
+    margin-top: 30px;
+    margin-left: 26px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.075);
     border-style: ridge;
-}
-
-.barra2 {
-
-    height: 186px;
-    width: 500px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    margin-left: 27px;
-    position: relative;
-    top: -43%;
-    display: inline-block;
-    border-style: ridge;
-
-    
-}
-
-.barra3 {
-
-    height: 155px;
-    width: 500px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    margin-left: 1035px;
-    position: relative;
-    top: -43%;
-    display: inline-block;
-    border-style: ridge;
-
-    
-}
-
-.barra4 {
-
-    height: 600px;
-    width: 76%;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    margin-left: 100px;
-    position: relative;
-    top: -40%;
-    display: inline-block;
-    border-style: ridge;
-
-    
+    margin-bottom: 20px;
 }
 
 @media (max-width: 1000px) {
@@ -365,123 +282,4 @@ article > .perfil-info > h4 {
 article > .line {
     margin-top: 36px;
     margin-left: 26px;
-}
-
-@media (max-width: 1646px) {
-
-    .barra {
-        height: 350px;
-        width: 1000px;
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        margin-left: 100px;
-        position: relative;
-        top: -26%;
-        display: inline-block;
-        border-style: ridge;
-    }
-
-    .barra2 {
-
-        height: 186px;
-        width: 500px;
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        margin-left: 100px;
-        position: relative;
-        display: inline-block;
-        border-style: ridge;
-        margin-top: 170px;
-    
-        
-    }
-
-    .barra3 {
-
-        height: 186px;
-        width: 500px;
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        position: relative;
-        display: inline-block;
-        border-style: ridge;
-        margin-left: 10px;
-        
-    
-}
-
-.barra4 {
-
-    height: 600px;
-    width: 1000px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    margin-left: 100px;
-    position: relative;
-    display: block;
-    border-style: ridge;
-    display: inline-block;
-
-    
-}
-
-}
-
-@media (max-width: 1240px) { 
-    .barra {
-        height: 350px;
-        width: 1000px;
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        margin-left: 100px;
-        position: relative;
-        top: -26%;
-        display: inline-block;
-        border-style: ridge;
-    }
-
-    .barra2 {
-
-        height: 186px;
-        width: 500px;
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        margin-left: 100px;
-        position: relative;
-        display: block;
-        border-style: ridge;
-        margin-top: 170px;
-    
-        
-    }
-
-    .barra3 {
-
-        height: 186px;
-        width: 500px;
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        position: relative;
-        display: inline-block;
-        border-style: ridge;
-        margin-left: 100px;
-        margin-top: 20px;
-        
-    
-}
-
-.barra4 {
-
-    height: 600px;
-    width: 1000px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    margin-left: 100px;
-    position: relative;
-    display: block;
-    border-style: ridge;
-    display: inline-block;
-
-    
-}
 }
