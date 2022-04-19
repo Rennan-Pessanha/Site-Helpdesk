@@ -22,7 +22,7 @@ header > .logo > img {
     height: 200px;
     width: 450px;
     margin-top: -65px;
-    margin-left: -40px;
+    margin-left: 160px;
     display: inline-block
 }
 
@@ -33,7 +33,7 @@ header > .content-int {
     display: inline-block;
     position: relative;
     top: -200%;
-    margin-left: 82%;
+    margin-left: 73%;
     padding: 10px;
 
 }
