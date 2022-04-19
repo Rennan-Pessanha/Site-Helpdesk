@@ -257,8 +257,8 @@ article > .title > h1 {
 
 article > .form-content {
     background-color: rgb(255, 255, 255);
-    height: 35%;
-    width: 60%;
+    height: 75%;
+    width: 80%;
     margin-top: 30px;
     margin-left: 26px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.075);
@@ -266,29 +266,6 @@ article > .form-content {
     margin-bottom: 20px;
 }
 
-article > .form-content > .formu > h4 {
-    display: inline-block;
-    margin-left: 80px;
-    margin-top: 40px;
-
-}
-
-article > .form-content > .formu > hr {
-margin-top: 30px;
-}
-
-article > .form-content > .formu >  input {
-    display: inline-block;
-}
-
-article > .form-content > .formu > .dados {
-    display: inline-block;
-    width: 80%;
-}
-
-article > .form-content > .formu {
-    margin-top: 0px;
-}
 
 @media (max-width: 1000px) {
 
