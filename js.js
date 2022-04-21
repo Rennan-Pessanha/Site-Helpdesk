@@ -2,7 +2,7 @@
 
 
 
-
+// Parte da responsividade, menu-Hamburguer 
 
 function burguer() {
 let menuMobile = document.querySelector('.mobile-menu')
@@ -14,6 +14,7 @@ if (menuMobile.classList.contains('open')) {
 
 }
 
+// Configuração de abas na div para o formulário.
 
 document.getElementById('tabpadrao').click()
 
@@ -27,6 +28,8 @@ for (var i = 0; i < conteudos.length; i++) {
 
 document.getElementById(idtab).style.display = 'block'
 }
+
+// Prenchimento automatico na tabela 'dados do aluno'
 
 function dados(){  
     let dados_total = document.getElementById('dados_total').value;
@@ -45,3 +48,5 @@ function dados(){
 }
 
 document.getElementById('btn_dados').onclick = dados;
+
+// =============================

@@ -313,6 +313,14 @@ article > .tab > button {
     cursor: pointer;
 }
 
+#btn_dados {
+    padding: 10px;
+    background-color: rgb(211, 70, 45);
+    color: white;
+    font-size: large;
+
+}
+
 @media (max-width: 1000px) {
 
     article > .form-content {

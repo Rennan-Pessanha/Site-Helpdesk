@@ -6,6 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Helpdesk</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        table, th, td { 
+            border: 1px solid rgba(141, 141, 141, 0);
+            border-collapse: collapse;
+            margin:auto;
+            margin-top: 10px;
+            padding: 10px;
+        }
+
+        table, th, td, input { 
+            background-color: transparent;
+            border-radius: 5px 5px 5px 5px;
+
+        }
+
+    
+
+
+
+    </style>
 </head>
 <body>
     <header>
@@ -52,25 +73,26 @@
            <button onclick="abrirtab('form4')">	&larr;</button>-->
        </div> 
        <div id="form1" class="form-content">
-            <h2>Dados do aluno</h2>
             <form>
                 <table>
                     <tr>
                         <td>Dados do aluno</td>
                         <td><input type="text" name="" id="dados_total"></td>
+                    
+                
+                        <td><input type="button" value="Aplicar" id="btn_dados"></td>
                     </tr>
-                    <tr>
-                        <td><input type="button" value="Dados" id="btn_dados"></td>
-                    </tr>
+                </table>
+                <table>
                     <tr>
                         <td>ID</td>
                         <td><input type="text" id="id_id" disabled></td>
-                    </tr>
-                    <tr>
+                    
+                    
                         <td>CPF</td>
                         <td><input type="text" id="id_cpf" disabled></td>
-                    </tr>
-                    <tr>
+                    
+                    
                         <td>Nome</td>
                         <td><input type="text" id="id_nome" disabled></td>
                     </tr>
