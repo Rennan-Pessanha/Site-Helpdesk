@@ -28,7 +28,7 @@ for (var i = 0; i < conteudos.length; i++) {
 document.getElementById(idtab).style.display = 'block'
 }
 
-function dados(){
+function dados(){  
     let dados_total = document.getElementById('dados_total').value;
     id = dados_total.split('\t')[0];
     cpf = dados_total.split('\t')[1];
