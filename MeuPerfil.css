@@ -11,11 +11,13 @@ header {
     height: 70px;
     width: 100vw;
     background: linear-gradient(to right, #A3241D, #FF6961 );
+    overflow-y: hidden;
     
 }
 
 header > .logo { 
 display: inline-block;
+overflow-y: hidden;
 }
 
 header > .logo > img {
@@ -23,7 +25,9 @@ header > .logo > img {
     width: 450px;
     margin-top: -65px;
     margin-left: 160px;
-    display: inline-block
+    display: inline-block;
+    overflow-y: hidden;
+
 }
 
 header > .content-int {
@@ -35,16 +39,18 @@ header > .content-int {
     top: -200%;
     margin-left: 73%;
     padding: 10px;
-
+    overflow-y: hidden;
 }
 
 header > .content-int > a {
     text-decoration: none;
+    overflow-y: hidden;
 }
 
 header > .content-int > button {
     background-color: rgba(255, 0, 0, 0);
     border: none;
+    overflow-y: hidden;
 }
 
 header > .content-int > a > img { 
@@ -52,6 +58,7 @@ header > .content-int > a > img {
     margin-top: 10px;
     margin-left: 40px;
     display: inline-block;
+    overflow-y: hidden;
     
 }
 

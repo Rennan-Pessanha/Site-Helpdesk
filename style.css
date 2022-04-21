@@ -2,7 +2,6 @@
     margin: 0%;
     padding: 0%;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 /*         Cabeça do site */
@@ -251,19 +250,26 @@ article > .title {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+article > .title > hr {
+    margin-bottom: 20px;
+}
+
 article > .title > h1 {
     margin-bottom: 15px;
 }
 
 article > .form-content {
     background-color: rgb(255, 255, 255);
-    height: 35%;
-    width: 60%;
-    margin-top: 30px;
+    height: 65%;
+    width: 70%;
+    margin-top: 0px;
     margin-left: 26px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.075);
     border-style: ridge;
     margin-bottom: 20px;
+    border-top: none;
+    display: none;
+
 }
 
 article > .form-content > .formu > h4 {
@@ -283,11 +289,28 @@ article > .form-content > .formu >  input {
 
 article > .form-content > .formu > .dados {
     display: inline-block;
-    width: 80%;
+    width: 60%;
 }
 
 article > .form-content > .formu {
     margin-top: 0px;
+}
+
+article > .tab {
+background-color: #f1f1f1;
+border: 1px solid #ccc;
+width: 70.1%;
+border-style: ridge;
+margin-left: 28px;
+}
+
+article > .tab > button {
+    background-color: #f1f1f1
+    ;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    cursor: pointer;
 }
 
 @media (max-width: 1000px) {
