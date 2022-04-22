@@ -338,3 +338,16 @@ article > .line {
     margin-top: 36px;
     margin-left: 26px;
 }
+
+.input_total{
+    width: 50vw;
+}
+.tabela_dados{
+    margin-left: 0%;
+}
+#tabela_resultado{
+    display: none;
+}
+.input_resposta{
+    text-align: center;
+}

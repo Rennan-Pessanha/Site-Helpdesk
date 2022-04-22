@@ -74,28 +74,59 @@
        </div> 
        <div id="form1" class="form-content">
             <form>
-                <table>
+                <table class="tabela_dados">
                     <tr>
                         <td>Dados do aluno</td>
-                        <td><input type="text" name="" id="dados_total"></td>
-                    
-                
+                        <td><input type="text" name="" id="dados_total" placeholder="Cole ID, CPF e NOME aqui" class="input_total"></td>
+                    </tr>
+                    <tr>
+                        <td>OV do aluno</td>
+                        <td><input type="text" id="ov_total" placeholder="Cole linha OV atual aqui" class="input_total"></td>
+                    </tr>
+                    <tr>
+                        <td>Chamado MGE</td>
+                        <td><input type="text" id="chamado_total" placeholder="Cole linha do chamado aqui" class="input_total"></td>
+                    </tr>
+                    <tr>
                         <td><input type="button" value="Aplicar" id="btn_dados"></td>
                     </tr>
                 </table>
-                <table>
+                <table id="tabela_resultado">
                     <tr>
                         <td>ID</td>
-                        <td><input type="text" id="id_id" disabled></td>
+                        <td><input type="text" id="id_id" disabled class="input_resposta"></td>
                     
                     
                         <td>CPF</td>
-                        <td><input type="text" id="id_cpf" disabled></td>
+                        <td><input type="text" id="id_cpf" disabled class="input_resposta"></td>
                     
                     
                         <td>Nome</td>
-                        <td><input type="text" id="id_nome" disabled></td>
+                        <td><input type="text" id="id_nome" disabled class="input_resposta"></td>
+
                     </tr>
+                    <tr>
+                        <td>OV aluno</td>
+                        <td><input type="text" id="id_produto" disabled class="input_resposta"></td>
+
+                        <td>Data contratação</td>
+                        <td><input type="text" id="id_ov_data" disabled class="input_resposta"></td>
+
+                        <td>Status OV</td>
+                        <td><input type="text" id="id_ov_status" disabled class="input_resposta"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Data</td>
+                        <td><input type="text" id="id_chamado_data" disabled class="input_resposta"></td>
+
+                        <td>Hora</td>
+                        <td><input type="text" id="id_chamado_hora" disabled class="input_resposta"></td>
+
+                        <td>Responsável</td>
+                        <td><input type="text" id="id_chamado_responsavel" disabled class="input_resposta"></td>
+                    </tr>
+                    
                 </table>
             </form>
             <button onclick="abrirtab('form2')">&#10145;</button>
