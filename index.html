@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Helpdesk</title>
     <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
 
     <style>
         table, th, td { 
@@ -67,10 +68,10 @@
            <hr>
        </div>
        <div class="tab">
-           <button id="tabpadrao" onclick="abrirtab('form1')">⚫</button><!--
-           <button onclick="abrirtab('form2')">&rarr;</button>
+           <button id="tabpadrao" onclick="abrirtab('form1')">⚫</button>
+           <button onclick="abrirtab('form2')">⚫</button>
            <button onclick="abrirtab('form3')">⚫</button>
-           <button onclick="abrirtab('form4')">	&larr;</button>-->
+           <button onclick="abrirtab('form4')">⚫</button>
        </div> 
        <div id="form1" class="form-content">
             <form>
@@ -130,7 +131,7 @@
                     
                 </table>
             </form>
-            <button onclick="abrirtab('form2')">&#10145;</button>
+            <!--<button onclick="abrirtab('form2')">&#10145;</button> -->
         </div>
         <div id="form2" class="form-content">
             <form>
@@ -176,17 +177,17 @@
                     </tr>
                     
                 </table>
-            <button onclick="abrirtab('form1')">&#11013;</button>
-            <button onclick="abrirtab('form3')">&#10145;</button>
+           <!-- <button onclick="abrirtab('form1')">&#11013;</button>
+            <button onclick="abrirtab('form3')">&#10145;</button> -->
         </div>
         <div id="form3" class="form-content">
             3
-            <button onclick="abrirtab('form2')">&#11013;</button>
-            <button onclick="abrirtab('form4')">&#10145;</button>
+        <!-- <button onclick="abrirtab('form2')">&#11013;</button>
+            <button onclick="abrirtab('form4')">&#10145;</button> -->
         </div>
         <div id="form4" class="form-content">
             4
-            <button onclick="abrirtab('form3')">&#11013;</button>
+          <!-- <button onclick="abrirtab('form3')">&#11013;</button> --> 
             <button>Enviar</button>
         </div>
        </div>
@@ -195,6 +196,5 @@
        </div>
     </article>
     
-<script src="js.js"></script>
 </body>
 </html>
