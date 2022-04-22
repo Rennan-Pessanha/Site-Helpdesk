@@ -92,6 +92,7 @@
                     </tr>
                 </table>
                 <table id="tabela_resultado">
+                    <hr id="line">
                     <tr>
                         <td>ID</td>
                         <td><input type="text" id="id_id" disabled class="input_resposta"></td>
@@ -132,7 +133,49 @@
             <button onclick="abrirtab('form2')">&#10145;</button>
         </div>
         <div id="form2" class="form-content">
-            2
+            <form>
+                <table class="tabela_dadosII">
+                    <tr>
+                        <td>Dispositivo: </td>
+                        <td><input type="text" name="" id="Dispositivo" placeholder="Dispositivo do aluno ou N/A" class="inputII_total"></td>
+
+                        <td>ID do Card: </td>
+                        <td><input type="text" id="Id-Card" placeholder="ID do Card aqui, ou N/A" class="inputII_total"></td>
+
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                        <td>Versão do APP</td>
+                        <td><input type="text" id="versao" placeholder="Cole linha do chamado aqui" class="inputII_total"></td>
+
+                        <td>Reproduzido?</td>
+                        <td><input type="text" id="foi_reproduzido" placeholder="Foi reproduzido?" class="inputII_total"></td>
+                        <tr>
+                            <td><input type="button" value="Aplicar" id="btn_dadosII" onclick="DadosII()"></td>
+                        </tr>
+                    
+                    </tr>
+                </table>
+                                <table id="tabela_resultado">
+                    <hr id="line">
+                    <tr>
+                    <tr>
+                        <td>Dispositivo:</td>
+                        <td><input type="text" id="id_dispositivo" disabled class="input_resposta"></td>
+
+                        <td>Versão do App</td>
+                        <td><input type="text" id="id_versao_app" disabled class="input_resposta"></td>
+
+                        <td>Id do Card</td>
+                        <td><input type="text" id="id_id_card" disabled class="input_resposta"></td>
+                    </tr>
+                    <tr>
+                        <td>Reproduzido:</td>
+                        <td><input type="text" id="id_reproduzido" disabled class="input_resposta"></td>       
+                    </tr>
+                    
+                </table>
             <button onclick="abrirtab('form1')">&#11013;</button>
             <button onclick="abrirtab('form3')">&#10145;</button>
         </div>

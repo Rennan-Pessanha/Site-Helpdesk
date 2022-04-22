@@ -84,4 +84,24 @@ function dados(){
 
 document.getElementById('btn_dados').onclick = dados;
 
-// =============================
+// Segunda parte do formulário. 
+
+function DadosII(){
+    let dados_dispositivos = document.getElementById('Dispositivo').value;
+    let id_card = document.getElementById('Id-Card').value;
+    let versao_do_app = document.getElementById('versao').value;
+    let reproducao = document.getElementById('foi_reproduzido').value;
+
+    let input_dispositivo = document.getElementById('id_dispositivo');
+    let input_card = document.getElementById('id_id_card');
+    let input_versao_app = document.getElementById('id_versao_app');
+    let input_reproduzido = document.getElementById('id_reproduzido');
+
+    input_dispositivo.value = dados_dispositivos
+    input_card.value = id_card
+    input_versao_app.value = versao_do_app
+    input_reproduzido.value = reproducao
+}
+
+
+

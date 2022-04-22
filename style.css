@@ -260,7 +260,7 @@ article > .title > h1 {
 
 article > .form-content {
     background-color: rgb(255, 255, 255);
-    height: 65%;
+    height: 70%;
     width: 70%;
     margin-top: 0px;
     margin-left: 26px;
@@ -315,7 +315,15 @@ article > .tab > button {
 
 #btn_dados {
     padding: 10px;
-    background-color: rgb(211, 70, 45);
+    background-color: #F9645C;
+    color: white;
+    font-size: large;
+
+}
+
+#btn_dadosII {
+    padding: 10px;
+    background-color: #F9645C;
     color: white;
     font-size: large;
 
@@ -339,15 +347,32 @@ article > .line {
     margin-left: 26px;
 }
 
+#line {
+    margin-top: 50px;
+}
+
 .input_total{
     width: 50vw;
 }
 .tabela_dados{
     margin-left: 0%;
 }
+
+
 #tabela_resultado{
-    display: none;
+    display: block;
 }
 .input_resposta{
     text-align: center;
+}
+
+
+/* Segunda parte do Form */
+
+.tabela_dadosII{
+    margin-left: 0%;
+}
+
+.input_totalII {
+    width: 30vw;
 }
