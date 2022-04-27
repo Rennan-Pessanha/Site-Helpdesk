@@ -103,5 +103,17 @@ function DadosII(){
     input_reproduzido.value = reproducao
 }
 
+// Menu Formulário 
+
+function aparece(){
+    var e = document.getElementById();
+    if(e.style.display == "none"){
+        e.style.display="block";
+    }else{
+        e.style.display="none";
+    }
+}
+
+
 
 

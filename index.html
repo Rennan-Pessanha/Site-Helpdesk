@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Helpdesk</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Styles/style.css">
     <script src="js.js" defer></script>
 
     <style>
@@ -46,6 +46,8 @@
 
             <a href="#"> <img src="img/Icones-menu/Icones superiores/notificação icone.png" alt=""> </a>
 
+            <a href="#"> <img src="img/Icones-menu/Icones superiores/Prencher Formulário.png"> </a>
+
             <a href="#"> <img src="img/Icones-menu/Icones superiores/logoff imagem.png"> </a>
 
         </div>
@@ -64,7 +66,7 @@
     </div>
     <article>
        <div class="title">
-           <h1>Atendimentos Helpdesk</h1>
+           <h1>Registro de Atendimento</h1>
            <hr>
        </div>
        <div class="tab">
@@ -137,11 +139,14 @@
             <form>
                 <table class="tabela_dadosII">
                     <tr>
-                        <td>Dispositivo: </td>
-                        <td><input type="text" name="" id="Dispositivo" placeholder="Dispositivo do aluno ou N/A" class="inputII_total"></td>
 
                         <td>ID do Card: </td>
                         <td><input type="text" id="Id-Card" placeholder="ID do Card aqui, ou N/A" class="inputII_total"></td>
+
+
+                        <td>Dispositivo: </td>
+                        <td><input type="text" name="" id="Dispositivo" placeholder="Dispositivo do aluno ou N/A" class="inputII_total"></td>
+
 
                     </tr>
                     <tr>
@@ -162,14 +167,16 @@
                     <hr id="line">
                     <tr>
                     <tr>
+
+                        <td>Id do Card</td>
+                        <td><input type="text" id="id_id_card" disabled class="input_resposta"></td>
+
                         <td>Dispositivo:</td>
                         <td><input type="text" id="id_dispositivo" disabled class="input_resposta"></td>
 
                         <td>Versão do App</td>
                         <td><input type="text" id="id_versao_app" disabled class="input_resposta"></td>
 
-                        <td>Id do Card</td>
-                        <td><input type="text" id="id_id_card" disabled class="input_resposta"></td>
                     </tr>
                     <tr>
                         <td>Reproduzido:</td>
@@ -181,7 +188,67 @@
             <button onclick="abrirtab('form3')">&#10145;</button> -->
         </div>
         <div id="form3" class="form-content">
-            3
+
+             <table class="tabela_dadosII">
+                    <tr>
+                    </tr>
+                    <tr>
+                        <td>Serviço</td>
+                        <td> 
+                            <input type="text" placeholder="Serviço" list="servico">
+                            <datalist id="servico">
+                                <option value="Medsoft-Pro"></option>
+                                <option value="Area Restrota"></option>
+                                <option value="Inscrições"></option>
+                                <option value="Recursos"></option>
+                                <option value="Concursos"></option>
+                                <option value="MEDELETRO"></option>
+                                <option value="Outros"></option>
+                            </datalist>
+
+                        </td>
+
+                        <td>Versão do SO: </td>
+                        <td><input type="text" id="V_SO" placeholder="Versão do SO " class="inputII_total"></td>
+
+                        <td>Area do Medsoft-Pro</td>
+                        <td> 
+                            <input type="text" placeholder="ârea" list="Area">
+                            <datalist id="Area">
+                                <option value="Aulas"> </option>
+                                <option value="Acesso"></option>
+                                <option value="Bonus"></option>
+                                <option value="Cancela_Contrato"></option>
+                                <option value="Cadastro"> Cadastro </option>
+                                <option value="Concurso integra"></option>
+                                <option value="Checklist"> </option>
+                                <option value="Duvidas Acadêmicas"></option>
+                                <option value="Central De Ajuda"></option>
+                                <option value="Questoes"></option>
+                                <option value="Simulado"></option>
+                                <option value="Slide De Aula"></option>
+                                <option value="Mapas Mentais"></option>
+                                <option value="MedSmarth"></option>
+                                <option value="Combo Box"></option>
+                            </datalist>
+                        </td>
+
+                        <tr>
+                            h1
+                            <div id="app" style="display:none;">
+                                <ul>
+                                    <li>Item Um</li>
+                                    <li>Item Dois</li>
+                                    <li>Item Três</li>
+                                </ul>     
+                        </tr>
+                        <td><input type="button" value="Aplicar" id="btn_dadosII" onclick="DadosII()"></td>
+
+                        
+                    
+                    </tr>
+                </table>
+
         <!-- <button onclick="abrirtab('form2')">&#11013;</button>
             <button onclick="abrirtab('form4')">&#10145;</button> -->
         </div>

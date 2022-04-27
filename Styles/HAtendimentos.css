@@ -1,0 +1,302 @@
+* { 
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+/*         Cabeça do site */
+
+header {
+    height: 70px;
+    width: 100vw;
+    background: linear-gradient(to right, #A3241D, #FF6961 );
+    
+}
+
+header > .logo { 
+display: inline-block;
+}
+
+header > .logo > img {
+    height: 200px;
+    width: 450px;
+    margin-top: -65px;
+    margin-left: 160px;
+    display: inline-block
+}
+
+header > .content-int {
+    background-color: rgba(0, 0, 0, 0);
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    top: -200%;
+    margin-left: 73%;
+    padding: 10px;
+
+}
+
+header > .content-int > a {
+    text-decoration: none;
+}
+
+header > .content-int > button {
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+}
+
+header > .content-int > a > img { 
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 38px;
+    display: inline-block;
+    
+}
+
+header > .content-int > a > img:hover { 
+    filter: invert(75%);
+}
+
+header > .content-int > a > .perfil { 
+    height: 38px;
+    position: absolute;
+   
+}
+
+header > .burguer-content-icon {
+    display: none;
+}
+
+header > .burguer-content-icon > button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1700px ) {
+    
+    header > .content-int {
+        margin-left: 80%;
+
+    }
+
+}
+
+@media (max-width: 1450px) {
+    header > .content-int {
+        margin-left: 75%;
+
+    }
+}
+
+@media (max-width: 1500px) {
+    header > .content-int {
+        margin-left: 75%;
+
+    }
+}
+
+@media (max-width: 1200px) {
+    header > .content-int {
+        margin-left: 70%;
+
+    }
+}
+
+@media (max-width: 1000px) {
+    header > .content-int {
+        margin-left: 65%;
+
+    }
+}
+
+@media (max-width: 425px) {
+    header > .content-int {
+       position: relative;
+       right: 7%;
+    }
+
+    header > .content-int > a > img { 
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 20px;
+        display: inline-block;
+        
+    }
+}
+
+@media (max-width: 1000px) {
+    header > .content-int {
+        margin-left: 30%;
+        margin-top: 15px;
+    }
+
+    
+header > .logo  {
+    display: none;
+}
+
+
+header > .content-int {
+    top: -105%;
+    margin-left: 50%;
+    display: block;
+}
+
+header > .burguer-content-icon {
+    display: inline-block;
+    margin-top: 13px;
+    margin-left: 10px;
+    filter: invert(100%);
+    text-decoration: none;
+}
+
+}
+
+@media (max-width: 900px) {
+    header > .content-int {
+        margin-left: 30%;
+        margin-top: 15px;
+    }
+
+    
+header > .logo  {
+    display: none;
+}
+
+header > .content-int {
+    top: -105%;
+    margin-left: 35%;
+    display: block;
+}
+
+}
+
+/*      corpo do site */
+
+ .mobile-menu { 
+    height: 100vh;
+    width: 230px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 0.1px solid rgba(128, 128, 128, 0.274);
+    border-top: none;
+    border-left: none;
+}
+
+@media (max-width: 1000px) {
+
+     .mobile-menu {
+        display: none;
+    }
+
+    .open {
+        display: inline-block;
+    }
+
+}
+
+ .mobile-menu > a > img {
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+}
+
+ .mobile-menu > a {
+    text-decoration: none;
+    display: block;
+    margin-top: 15px;
+}
+
+ .mobile-menu > a > h5 {
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+ .mobile-menu > a > h5:hover {
+    color: #358C8F;
+
+}
+
+ .mobile-menu {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+ .mobile-menu > a > h5 {
+    display: inline-block
+    
+}
+
+
+article {
+    background-color: #f5f7fa;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    position: absolute;
+
+}
+
+article > .title {
+    margin-top: 20px;
+    margin-left: 26px;
+    color: #656565;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+article > .title > hr {
+    margin-bottom: 20px;
+}
+
+article > .title > h1 {
+    margin-bottom: 15px;
+}
+
+article > .form-content {
+    background-color: rgb(255, 255, 255);
+    height: 70%;
+    width: 70%;
+    margin-top: 0px;
+    margin-left: 26px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.075);
+    border-style: ridge;
+    margin-bottom: 20px;
+    border-top: none;
+    display: none;
+
+}
+
+@media (max-width: 1000px) {
+
+    article > .form-content {
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    article > .title > h1 {
+        text-align: center;
+    }
+
+}
+
+article > .line {
+    margin-top: 36px;
+    margin-left: 26px;
+}
+
+#line {
+    margin-top: 50px;
+}
+
+.input_total{
+    width: 50vw;
+}
+.tabela_dados{
+    margin-left: 0%;
+}
