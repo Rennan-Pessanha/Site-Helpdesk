@@ -78,7 +78,7 @@ function dados(){
     input_chamado_responsavel.value = chamado_responsavel
     
     //Exibindo tabela com respostas
-    document.querySelector('#tabela_resultado').style.display = "block"
+    document.querySelector('.tabela_resultado').style.display = "block"
 
 }
 

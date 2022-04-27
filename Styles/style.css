@@ -361,8 +361,8 @@ article > .line {
 }
 
 
-#tabela_resultado{
-    display: block;
+.tabela_resultado{
+    display: none;
 }
 .input_resposta{
     text-align: center;
