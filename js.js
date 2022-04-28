@@ -105,15 +105,14 @@ function DadosII(){
 
 // Menu Formulário 
 
-function aparece(){
-    var e = document.getElementById();
-    if(e.style.display == "none"){
-        e.style.display="block";
-    }else{
-        e.style.display="none";
-    }
-}
-
-
+//function Clicar(valor) {
+    
+   // if( valor.value == "MEDELETRO") {
+  //      document.querySelector('.campo3').style.display = "inline"
+ //   }
+ //   else {
+   //     document.querySelector('.campo3').style.display = "none"
+  //  }
+//}
 
 

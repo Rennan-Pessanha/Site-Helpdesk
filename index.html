@@ -189,11 +189,11 @@
         </div>
         <div id="form3" class="form-content">
 
-             <table class="tabela_dadosII">
+             <table class="tabela_dadosIII">
                     <tr>
                     </tr>
                     <tr>
-                        <td>Serviço</td>
+                        <td>Serviço:</td>
                         <td> 
                             <input type="text" placeholder="Serviço" list="servico">
                             <datalist id="servico">
@@ -209,11 +209,11 @@
                         </td>
 
                         <td>Versão do SO: </td>
-                        <td><input type="text" id="V_SO" placeholder="Versão do SO " class="inputII_total"></td>
+                        <td><input type="text" id="V_SO" placeholder="Versão do SO " class="input_totalIII"></td>
 
-                        <td>Area do Medsoft-Pro</td>
+                        <td>Area do Medsoft-Pro:</td>
                         <td> 
-                            <input type="text" placeholder="ârea" list="Area">
+                            <input type="text" placeholder="ârea" list="Area" class="input_totalIII">
                             <datalist id="Area">
                                 <option value="Aulas"> </option>
                                 <option value="Acesso"></option>
@@ -232,16 +232,33 @@
                                 <option value="Combo Box"></option>
                             </datalist>
                         </td>
-
                         <tr>
-                            h1
-                            <div id="app" style="display:none;">
-                                <ul>
-                                    <li>Item Um</li>
-                                    <li>Item Dois</li>
-                                    <li>Item Três</li>
-                                </ul>     
+                    
+                            <td>
+                                <td>Aplicação:</td>
+                            <td>
+                                <input type="text" placeholder="Aplicação"  list="Aplicacão" onchange="Clicar(this)" class="input_totalIII">
+                                <datalist id="Aplicacão"  class="">
+                                    <select name="Aplicação">
+                                    <option value="Medsoft-Pro"></option>
+                                    <option value="Plantão de Recursos"></option>
+                                    <option value="MEDELETRO"></option>
+                                    <option value="Ârea Restrita"></option>
+                                    <option value="Concursos"></option>
+                                    <option value="Acadêmicos"></option>
+                                    <option value="Financeiro"></option>
+                                    <option value="Outros"></option>
+                                </datalist>
+                                <td>
+                                    <td>  </td>
+
+
+
+                                </td>
+                            </td>
                         </tr>
+                        
+                        
                         <td><input type="button" value="Aplicar" id="btn_dadosII" onclick="DadosII()"></td>
 
                         
