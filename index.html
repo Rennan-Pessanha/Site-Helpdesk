@@ -15,11 +15,13 @@
             margin:auto;
             margin-top: 10px;
             padding: 10px;
+            margin-left: 0%;
+            margin-right: 0%;
         }
 
         table, th, td, input { 
             background-color: transparent;
-            border-radius: 5px 5px 5px 5px;
+            border-radius: 2px 2px 2px 2px;
 
         }
 
@@ -193,10 +195,10 @@
                     <tr>
                     </tr>
                     <tr>
-                        <td>Serviço:</td>
+                        <td class="">Serviço:</td>
                         <td> 
                             <input type="text" placeholder="Serviço" list="servico">
-                            <datalist id="servico">
+                            <datalist id="servico" class="input_totalIII">
                                 <option value="Medsoft-Pro"></option>
                                 <option value="Area Restrota"></option>
                                 <option value="Inscrições"></option>
@@ -208,63 +210,96 @@
 
                         </td>
 
-                        <td>Versão do SO: </td>
+                        <td class="Tds">Versão do SO: </td>
                         <td><input type="text" id="V_SO" placeholder="Versão do SO " class="input_totalIII"></td>
-
-                        <td>Area do Medsoft-Pro:</td>
-                        <td> 
-                            <input type="text" placeholder="ârea" list="Area" class="input_totalIII">
-                            <datalist id="Area">
-                                <option value="Aulas"> </option>
-                                <option value="Acesso"></option>
-                                <option value="Bonus"></option>
-                                <option value="Cancela_Contrato"></option>
-                                <option value="Cadastro"> Cadastro </option>
-                                <option value="Concurso integra"></option>
-                                <option value="Checklist"> </option>
-                                <option value="Duvidas Acadêmicas"></option>
-                                <option value="Central De Ajuda"></option>
-                                <option value="Questoes"></option>
-                                <option value="Simulado"></option>
-                                <option value="Slide De Aula"></option>
-                                <option value="Mapas Mentais"></option>
-                                <option value="MedSmarth"></option>
-                                <option value="Combo Box"></option>
-                            </datalist>
-                        </td>
                         <tr>
-                    
-                            <td>
-                                <td>Aplicação:</td>
-                            <td>
-                                <input type="text" placeholder="Aplicação"  list="Aplicacão" onchange="Clicar(this)" class="input_totalIII">
-                                <datalist id="Aplicacão"  class="">
-                                    <select name="Aplicação">
-                                    <option value="Medsoft-Pro"></option>
-                                    <option value="Plantão de Recursos"></option>
-                                    <option value="MEDELETRO"></option>
-                                    <option value="Ârea Restrita"></option>
-                                    <option value="Concursos"></option>
-                                    <option value="Acadêmicos"></option>
-                                    <option value="Financeiro"></option>
-                                    <option value="Outros"></option>
-                                </datalist>
-                                <td>
-                                    <td>  </td>
-
-
-
-                                </td>
-                            </td>
-                        </tr>
-                        
-                        
-                        <td><input type="button" value="Aplicar" id="btn_dadosII" onclick="DadosII()"></td>
-
-                        
-                    
-                    </tr>
                 </table>
+
+                <div class="drop-app">
+                    <div class="dropdown-select">
+                        <span>  
+                            <h4 class="drop1">Aplicação:</h4>
+                            <select name="" id="Apps" class="drop1-2" onchange="Clicar(this.value)"> 
+                                <option value="Financeiro">Financeiro</option>
+                                <option value="Academico">Acadêmico</option>
+                                <option value="Medsoft-Pro">Medsoft-Pro</option>
+                                <option value="Recursos">Plantão de Recursos</option>
+                                <option value="MEDELETRO">MEDELETRO</option>
+                                <option value="AreaRestrita">Area Restrita</option>
+                                <option value="Concursos">Concursos</option>
+                                <option value="Outros">Outros</option>    
+                            </select>
+                            <div class="drop2">
+                                <h4 class="Area-Med-Drop"> Àrea: </h4>
+                                    <select name="" id="Area-Med">
+                                        <option value="Login">Login</option>
+                                        <option value="Aula">Aula</option>
+                                        <option value="Material">Material</option>
+                                        <option value="Questões">Questões</option>
+                                        <option value="Medsmarth">Medsmarth</option>
+                                        <option value="Revalida">Revalida</option>
+                                        <option value="Mentoria">Mentoria</option>
+                                        <option value="Cronograma">Cronograma</option>
+                                        <option value="Simulados">Simulados</option>
+                                        <option value="Concurso na Integra">Concurso na Íntegra</option>
+                                        <option value="Monta Provas">Monta Provas</option>
+                                        <option value="Slide de Aula">Slide de Aula</option>
+                                        <option value="MedPlanner">Med Planner</option>
+                                        <option value="Material Virtual">Material Virtual</option>
+                                        <option value="Atualizações e Erratas">Atualizações e Erratas</option> 
+                                        <option value="Medcode">Medcode</option>
+                                        <option value="Instalacao">Instalação</option>
+                                        <option value="No Papo">No Papo</option>
+                                        <option value="Administrativo">Asministrativo</option>
+                                        <option value="Outros">Outros</option>
+                                    </select>
+
+                                </div>
+                                    <div class="drop3">
+                                    <h4 class="Area-Recursos"> Àrea: </h4>
+                                    <select name="" id="Area-Rec">
+                                        <option value="Login">Login</option>
+                                        <option value="Perfil">Perfil</option>
+                                        <option value="Forum-Pré">Forum Pré</option>
+                                        <option value="Forum-Pró"> Forum Pró</option>
+                                        <option value="Ranking">Ranking</option>
+                                        <option value="Outros">Outros</option>
+                                    </select>
+                                </div>
+                                    <div class="drop4">
+                                        <h4 class="Medeletro-Area"> Área: </h4>
+                                        <select name="" id="Area-Eletro">
+                                            <option value="Login">Login</option>
+                                        </select>
+                                    </div>
+                                        <div class="drop5">
+                                            <h4 class="Restrita-Dropdown">Área:</h4>
+                                            <select name="Restrita" id="Area-Res">
+                                                <option value="Login">Login</option>
+                                                <option value="Financeiro">Financeiro</option>
+                                                <option value="Dados Cadastrais"> Dados Cadastrais </option>
+                                                <option value="Contratos">Contratos</option>
+                                                <option value="Imagens da semana">Imagens da semana</option>
+                                                <option value="Medcliping">Medcliping</option>
+                                                <option value="Headlines">Headlines</option>
+                                                <option value="Autorizacao do portador"> Autorizacao do portador</option>
+                                            </select>
+                                        </div>
+                                    <div class="drop6">
+                                        <h4 class="Concurso-Dropdown">Área:</h4>
+                                        <select name="" id="Concurso-Dropdown">
+                                            <option value="Login">Login</option>
+                                            <option value="Edital nao Encontrado">Edital não Encontrado</option>
+                                            <option value="Pagina nao carrega">Pagina nao carrega</option>
+                                        </select>
+                                    </div>
+                        </span>
+
+                    </div>
+
+
+                </div>
+                <input type="button" value="Aplicar" id="btn_dadosII" onclick="DadosII()">
 
         <!-- <button onclick="abrirtab('form2')">&#11013;</button>
             <button onclick="abrirtab('form4')">&#10145;</button> -->

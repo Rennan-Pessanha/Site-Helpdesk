@@ -103,16 +103,40 @@ function DadosII(){
     input_reproduzido.value = reproducao
 }
 
-// Menu Formulário 
+// Parte III do formulário
 
-//function Clicar(valor) {
+function Clicar(valor) {
     
-   // if( valor.value == "MEDELETRO") {
-  //      document.querySelector('.campo3').style.display = "inline"
- //   }
- //   else {
-   //     document.querySelector('.campo3').style.display = "none"
-  //  }
-//}
+    if(valor == "Medsoft-Pro") {
+        document.querySelector('.drop2').style.display = "inline-flex"
+    } 
+    else {
+        document.querySelector('.drop2').style.display = "none"
+    }
+    if(valor == "Recursos") { 
+
+        document.querySelector('.drop3').style.display = "inline-flex"
+    }
+    else {
+        document.querySelector('.drop3').style.display = "none"
+    }
+    if(valor == 'MEDELETRO') { 
+        document.querySelector('.drop4').style.display = "inline-flex"
+    }
+    else {
+        document.querySelector('.drop4').style.display = "none"
+    }
+    if(valor == 'AreaRestrita') { 
+        document.querySelector('.drop5').style.display = "inline-flex"
+    }
+    else {
+        document.querySelector('.drop5').style.display = "none"
+    }
+    if(valor == 'Concursos') { 
+        document.querySelector('.drop6').style.display = "inline-flex"
+    } else {
+        document.querySelector('.drop6').style.display = "none"
+    }
+}
 
 

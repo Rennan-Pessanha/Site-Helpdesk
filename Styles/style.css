@@ -381,12 +381,91 @@ article > .line {
 
 
 .tabela_dadosIII{
+    margin-bottom: 10px;
 }
 
 .input_totalIII {
     width: 10vw;
-    margin-right: 0%;
+    margin-left: 0px;
 }
 
-.campo1 { 
+.drop1 { 
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-weight: normal
+
 }
+
+.drop1-2 { 
+    display: inline;
+    height: 30px;
+    font-size: larger;
+    border-radius: 5px 5px 5px 5px
+}
+
+.drop1-2:hover { 
+background-color: rgba(0, 0, 255, 0.034);
+
+}
+
+.Area-Med-Drop {
+
+
+}
+
+.AreaII { 
+ display: inline-block;
+}
+
+.AreaI { 
+    display: none
+}
+
+.drop2 { 
+    display: none;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-weight: normal;
+    font-size: larger;
+    border-radius: 5px 5px 5px 5px
+}
+
+.drop3 { 
+    display: none;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-weight: normal;
+    font-size: larger;
+    border-radius: 5px 5px 5px 5px
+}
+
+.drop4 { 
+    display: none;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-weight: normal;
+    font-size: larger;
+    border-radius: 5px 5px 5px 5px
+}
+
+.drop5 { 
+    display: none;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-weight: normal;
+    font-size: larger;
+    border-radius: 5px 5px 5px 5px
+}
+
+.drop6 { 
+    display: none;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-weight: normal;
+    border-radius: 5px 5px 5px 5px
+}
+
+
+
+
