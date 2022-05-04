@@ -520,7 +520,7 @@
                                 </div>
                                     <div class="drop3">
                                     <h4 class="Area-Recursos"> Àrea: </h4>
-                                    <select name="" id="Area-Rec">
+                                    <select name="" id="Area-Rec" onchange="RevelarProblemaDrop3(this.value)">
                                         <option value="Login">Login</option>
                                         <option value="Perfil">Perfil</option>
                                         <option value="Forum-Pré">Forum Pré</option>
@@ -540,26 +540,55 @@
                                                 <option value="Regra de Acesso">Regra de Acesso</option>
                                             </select>
                                         </div>
-                                    <div class="Problema-Perfil-D3">
-                                        <h4>Problema:</h4>
-                                        <select name="Problema Perfil" id="P-Perfil-D3">
-
-
-
-                                        </select>
-
-
-                                    </div>    
-
-
+                                            <div class="Problema-Perfil-D3">
+                                                <h4>Problema:</h4>
+                                                <select name="Problema Perfil" id="P-Perfil-D3">
+                                                    <option value="Excluir Foto">Excluir Foto</option>
+                                                    <option value="Análise de Recurso">Análise de Recurso</option>
+                                                </select>
+                                            </div>
+                                            <div class="Problema-ForumPre-D3">
+                                                <h4>Problema:</h4>
+                                                <select name="Problema Forum Pré" id="P-ForumP-D3">
+                                                    <option value="Exclusão de comentário">Exclusão de comentário</option>
+                                                    <option value="Análise de Recursos">Análise de Recursos</option>
+                                                </select>
+                                            </div>
+                                            <div class="Problema-ForumPos-D3">
+                                                <h4>Problema:</h4>
+                                                <select name="Problema Forum Pos" id="P-ForumPos-D3">
+                                                    <option value="Exclusão de comentário">Exclusão de Comentário</option>
+                                                </select>
+                                            </div>
+                                            <div class="Problema-Ranking">
+                                                <h4>Problema:</h4>
+                                                <select name="Ranking-Problema" id="P-Ranking-D3">
+                                                    <option value="Exclusão de notas">Exclusão de Notas</option>
+                                                </select>
+                                            </div>
+                                            <div class="Problema-Outros">
+                                                <h4>Problema</h4>
+                                                <select name="Problema-Outros-D3" id="P-Outros-D3">
+                                                    <option value="Provas Indisponíveis"> Provas Indisponíveis</option>
+                                                    <option value="Dùvidas">Dùvidas</option>
+                                                </select>
+                                            </div>
                                     </div>
 
                                 </div>
                                     <div class="drop4">
                                         <h4 class="Medeletro-Area"> Área: </h4>
-                                        <select name="" id="Area-Eletro">
+                                        <select name="" id="Area-Eletro" onchange="RevelarProblemaDrop4(this.value)">
                                             <option value="Login">Login</option>
                                         </select>
+                                        <div class="Problema-Login-D4">
+                                            <h4>Problema</h4>
+                                            <select name="Problema Login" id="Problema Login-D4">
+                                                <option value="Usuário não cadastrado">Usuário não Cadastrado</option>
+                                                <option value="CPF Bloqueado">CPF Bloqueado</option>
+                                            </select>
+                                        </div>
+
                                     </div>
                                         <div class="drop5">
                                             <h4 class="Restrita-Dropdown">Área:</h4>
@@ -583,7 +612,6 @@
                                         </select>
                                     </div>
                         </span>
-
                     </div>
 
 
@@ -592,9 +620,16 @@
 
         <!-- <button onclick="abrirtab('form2')">&#11013;</button>
             <button onclick="abrirtab('form4')">&#10145;</button> -->
+            
+            <div class="Imagem-Representativa">
+                <img id="Foto-Espelho" src="img/Fotos-Medsoft/Medsoft-Pro.png" alt="" style="height: 100%; width: 100%;">
+                    
+                </div>
+           
+            </div>
         </div>
         <div id="form4" class="form-content">
-            4
+        
           <!-- <button onclick="abrirtab('form3')">&#11013;</button> --> 
             <button>Enviar</button>
         </div>
