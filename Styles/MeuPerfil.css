@@ -26,8 +26,8 @@ header > .logo > img {
     margin-top: -65px;
     margin-left: 160px;
     display: inline-block;
-    overflow-y: hidden;
-
+    filter: invert(1);
+    
 }
 
 header > .content-int {

@@ -409,9 +409,8 @@ background-color: rgba(0, 0, 255, 0.034);
 
 }
 
-.Area-Med-Drop {
-
-
+.dropdown-select {
+    display: inline-flex;
 }
 
 .AreaII { 
@@ -424,11 +423,12 @@ background-color: rgba(0, 0, 255, 0.034);
 
 .drop2 { 
     display: none;
-    margin-top: 0px;
+    margin-top: 10pxpx;
     margin-left: 10px;
     font-weight: normal;
     font-size: larger;
-    border-radius: 5px 5px 5px 5px
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 10px;
 }
 
 .drop3 { 
@@ -466,6 +466,197 @@ background-color: rgba(0, 0, 255, 0.034);
     border-radius: 5px 5px 5px 5px
 }
 
+
+    .Problema-Login { 
+        display: none;
+        margin-left: 0px;
+        font-weight: normal;
+        border-radius: 5px 5px 5px 5px;
+        text-decoration: none;
+
+
+}
+
+.Problema-Aulas {
+    display: none;
+    margin-left: 0px;
+    font-weight: normal;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.Problema-Materiais { 
+    display: none;
+    margin-left: 10px;
+    font-weight: normal;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+
+.Problema-Questoes {
+    display: none;
+    margin-left: 0px;
+    font-weight: normal;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.Problema-Medsmart {
+    display: none;
+    margin-left: 0px;
+    font-weight: normal;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.Problema-Revalida {
+    display: none;
+    margin-left: 0px;
+    font-weight: normal;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    margin-top: 10px;
+ }
+
+.Problema-Mentoria {
+    display: none;
+    margin-left: 0px;
+    font-weight: normal;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.Problema-Cronograma {
+    display: none;
+    margin-left: 0px;
+    font-weight: normal;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.Problema-Simulados {
+    display: none;
+    margin-left: 0px;
+    font-weight: normal;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.Problema-Concurso-Integra { 
+    display: none;
+    margin-left: 0px;
+    font-weight: normal;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+.Problema-Monta-Provas { 
+    display: none;
+    margin-left: 0px;
+    font-weight: normal;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+.Problema-Slide-de-Aulas { 
+    display: none;
+    margin-left: 0px;
+    font-weight: normal;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+.Problema-Medplanner { 
+    display: none;
+    margin-left: 0px;
+    font-weight: normal;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+.Problema-Material-Virtual { 
+    display: none;
+    margin-left: 0px;
+    font-weight: normal;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+.Problema-Atualizacao-Erratas { 
+    display: none;
+    margin-left: 0px;
+    font-weight: normal;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+.Problema-Medcode { 
+    display: none;
+    margin-left: 0px;
+    font-weight: normal;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+.Problema-Instalacao {
+    display: none;
+    margin-left: 0px;
+    font-weight: normal;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+.Problema-NoPapo {
+    display: none;
+    margin-left: 0px;
+    font-weight: normal;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+.Problema-Administrativo { 
+    display: none;
+    margin-left: 0px;
+    font-weight: normal;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+.Problemas-Outros { 
+    display: none;
+    margin-left: 0px;
+    font-weight: normal;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
 
 
 

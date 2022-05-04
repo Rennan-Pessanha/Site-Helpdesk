@@ -23,7 +23,9 @@ header > .logo > img {
     width: 450px;
     margin-top: -65px;
     margin-left: 160px;
-    display: inline-block
+    display: inline-block;
+    filter: invert(1);
+    
 }
 
 header > .content-int {
