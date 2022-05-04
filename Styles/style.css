@@ -488,7 +488,7 @@ background-color: rgba(0, 0, 255, 0.034);
 
 .Problema-Materiais { 
     display: none;
-    margin-left: 10px;
+    margin-left: 0px;
     font-weight: normal;
     border-radius: 5px 5px 5px 5px;
     text-decoration: none;
