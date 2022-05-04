@@ -1,4 +1,4 @@
-Site para o setor Helpdesk (EM DESENVOLVIMENTO)
+Site para o setor Helpdesk (EM DESENVOLVIMENTO).
 
 Demonstração: https://rennan-pessanha.github.io/Site-Helpdesk/
 
