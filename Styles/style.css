@@ -195,6 +195,17 @@ header > .content-int {
         display: none;
     }
 
+    article > .tab {
+        background-color: #f1f1f1;
+        border: 1px solid #ccc;
+        width: 71%;
+        border-style: ridge;
+        margin-left: 28px;
+        position: fixed;
+        top: 22.3%;
+        left: 11.4%;
+        }
+
     .open {
         display: inline-block;
     }
@@ -274,6 +285,8 @@ article > .form-content {
     display: none;
 
 }
+
+
 
 article > .form-content > .formu > h4 {
     display: inline-block;
@@ -733,5 +746,48 @@ background-color: rgba(0, 0, 255, 0.034);
     background-color: black;
     left: 50%;
     top: 35%;
+
+}
+
+@media (max-width: 1240px ) { 
+    .Imagem-Representativa { 
+        position: fixed;
+        height: 400px;
+        width: 450px;
+        background-color: black;
+        left: 50%;
+        top: 35%;
+    
+    }
+
+
+}
+
+@media (max-width: 1000px) {
+    .Imagem-Representativa { 
+        position: fixed;
+        height: 250px;
+        width: 400px;
+        background-color: black;
+        left: 20%;
+        top: 60%;
+    
+    }
+}
+
+@media (max-width: 639px) { 
+    .Imagem-Representativa { 
+        position: fixed;
+        height: 250px;
+        width: 350px;
+        background-color: black;
+        left: 20%;
+        top: 60%;
+    
+    }
+
+    #form3 > td { 
+        display: inline-block;
+    }
 
 }

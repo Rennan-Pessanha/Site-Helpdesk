@@ -106,6 +106,7 @@ function DadosII(){
 // Foto 
 
 var img = document.getElementById("Foto-Espelho")
+var none = undefined
 
 // Parte III do formulário
 
@@ -122,27 +123,42 @@ function Clicar(valor) {
     }
     if(valor == "Recursos") { 
 
+        img.src = "img/Fotos-Medsoft/P-Recursos.png"
         document.querySelector('.drop3').style.display = "inline-block"
     }
     else {
         document.querySelector('.drop3').style.display = "none"
     }
     if(valor == 'MEDELETRO') { 
+        img.src = "img/Fotos-Medsoft/Medeletro.jpg"
         document.querySelector('.drop4').style.display = "inline-block"
     }
     else {
         document.querySelector('.drop4').style.display = "none"
     }
     if(valor == 'AreaRestrita') { 
+        img.src = "img/Fotos-Medsoft/Area-Restrita.png"
         document.querySelector('.drop5').style.display = "inline-block"
     }
     else {
         document.querySelector('.drop5').style.display = "none"
     }
     if(valor == 'Concursos') { 
+        img.src = "img/Fotos-Medsoft/Concursos.jpg"
         document.querySelector('.drop6').style.display = "inline-block"
     } else {
         document.querySelector('.drop6').style.display = "none"
+    }
+    if(valor == 'Financeiro') {
+        img.src = "img/Fotos-Medsoft/Financeiro.jpg"
+    }
+
+    else if(valor == 'Academico') {
+        img.src = "img/Fotos-Medsoft/Outros.jpg"
+    } else if(valor == 'Outros') { 
+        img.src = 'img/Fotos-Medsoft/duvida.jpg'
+    } else { 
+        return none
     }
 }
 
