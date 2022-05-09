@@ -334,6 +334,7 @@ article > .tab > button {
     background-color: #F9645C;
     color: white;
     font-size: large;
+    cursor: pointer;
 
 }
 
@@ -342,6 +343,7 @@ article > .tab > button {
     background-color: #F9645C;
     color: white;
     font-size: large;
+    cursor: pointer;
 
 }
 
@@ -790,4 +792,8 @@ background-color: rgba(0, 0, 255, 0.034);
         display: inline-block;
     }
 
+}
+#msg_erro{
+    color: #A3241D;
+    font-size: 4vh;
 }
