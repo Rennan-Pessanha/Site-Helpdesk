@@ -149,11 +149,7 @@ function Clicar(valor) {
     } else {
         document.querySelector('.drop6').style.display = "none"
     }
-    if(valor == 'Financeiro') {
-        img.src = "img/Fotos-Medsoft/Financeiro.jpg"
-    }
-
-    else if(valor == 'Academico') {
+    if(valor == 'Academico') {
         img.src = "img/Fotos-Medsoft/Outros.jpg"
     } else if(valor == 'Outros') { 
         img.src = 'img/Fotos-Medsoft/duvida.jpg'
