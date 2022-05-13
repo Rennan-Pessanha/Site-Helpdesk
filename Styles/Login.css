@@ -4,12 +4,17 @@
     overflow-y: hidden;
 }
 
+header { 
+    background: linear-gradient(to right, #A3241D, #FF6961 );
+}
+
 
 header > img { 
     height: 190px;
     margin: auto;
     margin-left: 40%;
     margin-top: -55px;
+    filter: invert()
 }
 
 header > hr { 
@@ -104,17 +109,17 @@ text-decoration: underline;
     margin-bottom: 20px;
     height: 40px;
     margin-top: 0px;
-    background-color: #185D71;
+    background-color: #dd463e;
     color: white;
     cursor: pointer;
 }
 
-#Cadastrar-Button {
+.Cadastrar-Button {
     display: block;
     margin-left: 27px;
     width: 87%;
     height: 40px;
-    background-color: #3FA782;
+    background-color: #A3241D;
     color: white;
     cursor: pointer;
 }

@@ -5,13 +5,21 @@
     overflow-y: hidden;
 }
 
+@font-face {
+    font-family: Secundária;
+    src: url(/Fontes/Harmonia\ Sans\ Mono\ W01\ Bold.otf);
+    font-family: Primária;
+    src: url(/Fontes/Harmonia\ Sans\ W01\ Regular.ttf);
+}
+
+
+
 /*         Cabeça do site */
 
 header {
     height: 70px;
     width: 100vw;
-    background: linear-gradient(to right, #A3241D, #FF6961 );
-    
+    background: linear-gradient(to right, #A3241D, #FF6961 );    
 }
 
 header > .logo { 
@@ -67,6 +75,10 @@ header > .content-int > a > .perfil {
    
 }
 
+.Titulo-page {
+    font-family: Primária;
+}
+
 header > .burguer-content-icon {
     display: none;
 }
@@ -76,6 +88,8 @@ header > .burguer-content-icon > button {
     background-color: transparent;
     cursor: pointer;
 }
+
+
 
 @media screen and (max-width: 1700px ) {
     
@@ -227,7 +241,7 @@ header > .content-int {
  .mobile-menu > a > h5 {
     text-decoration: none;
     color: rgb(48, 48, 48);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Secundária;
 
 }
 
@@ -261,7 +275,6 @@ article > .title {
     margin-top: 20px;
     margin-left: 26px;
     color: #656565;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 article > .title > hr {
@@ -332,9 +345,12 @@ article > .tab > button {
 #btn_dados {
     padding: 10px;
     background-color: #F9645C;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: large;
     cursor: pointer;
+    font-family: Secundária;
+    font-weight: bolder;
+
 
 }
 
@@ -374,6 +390,7 @@ article > .line {
 }
 .tabela_dados{
     margin-left: 0%;
+    font-family: Secundária;
 }
 
 
@@ -389,6 +406,7 @@ article > .line {
 
 .tabela_dadosII{
     margin-left: 0%;
+    font-family: Secundária;
 }
 
 .input_totalII {
@@ -398,6 +416,7 @@ article > .line {
 
 .tabela_dadosIII{
     margin-bottom: 10px;
+    font-family: Secundária;
 }
 
 .input_totalIII {
@@ -409,15 +428,19 @@ article > .line {
     display: inline-block;
     margin-top: 0px;
     margin-left: 10px;
-    font-weight: normal
+    font-weight: normal;
+    font-family: Secundária;
+    font-weight: normal;
 
 }
 
 .drop1-2 { 
+    font-family: Secundária;
     display: inline;
     height: 30px;
     font-size: larger;
-    border-radius: 5px 5px 5px 5px
+    border-radius: 5px 5px 5px 5px;
+    font-weight: normal;
 }
 
 .drop1-2:hover { 
@@ -431,10 +454,12 @@ background-color: rgba(0, 0, 255, 0.034);
 
 .AreaII { 
  display: inline-block;
+ font-family: Secundária;
 }
 
 .AreaI { 
-    display: none
+    display: none;
+    font-family: Secundária;
 }
 
 .drop2 { 
@@ -445,6 +470,7 @@ background-color: rgba(0, 0, 255, 0.034);
     font-size: larger;
     border-radius: 5px 5px 5px 5px;
     margin-bottom: 10px;
+    font-family: Secundária;
 }
 
 .drop3 { 
@@ -453,7 +479,8 @@ background-color: rgba(0, 0, 255, 0.034);
     margin-left: 10px;
     font-weight: normal;
     font-size: larger;
-    border-radius: 5px 5px 5px 5px
+    border-radius: 5px 5px 5px 5px;
+    font-family: Secundária;
 }
 
 .drop4 { 
@@ -462,6 +489,7 @@ background-color: rgba(0, 0, 255, 0.034);
     margin-left: 10px;
     font-weight: normal;
     font-size: larger;
+    font-family: Secundária;
     border-radius: 5px 5px 5px 5px
 }
 
@@ -471,6 +499,7 @@ background-color: rgba(0, 0, 255, 0.034);
     margin-left: 10px;
     font-weight: normal;
     font-size: larger;
+    font-family: Secundária;
     border-radius: 5px 5px 5px 5px
 }
 
@@ -479,14 +508,25 @@ background-color: rgba(0, 0, 255, 0.034);
     margin-top: 0px;
     margin-left: 10px;
     font-weight: normal;
+    font-family: Secundária;
     border-radius: 5px 5px 5px 5px
 }
 
+.Area {
+    font-weight: normal;
+    font-family: Secundária;
+}
 
-    .Problema-Login { 
+.Problema { 
+    font-weight: normal;
+    font-family: Secundária;
+}
+
+.Problema-Login { 
         display: none;
         margin-left: 0px;
         font-weight: normal;
+        font-family: Secundária;
         border-radius: 5px 5px 5px 5px;
         text-decoration: none;
 
@@ -496,6 +536,7 @@ background-color: rgba(0, 0, 255, 0.034);
 .Problema-Aulas {
     display: none;
     margin-left: 0px;
+    font-family: Secundária;
     font-weight: normal;
     border-radius: 5px 5px 5px 5px;
     text-decoration: none;
@@ -505,6 +546,7 @@ background-color: rgba(0, 0, 255, 0.034);
 .Problema-Materiais { 
     display: none;
     margin-left: 0px;
+    font-family: Secundária;
     font-weight: normal;
     border-radius: 5px 5px 5px 5px;
     text-decoration: none;
@@ -512,6 +554,7 @@ background-color: rgba(0, 0, 255, 0.034);
 
 .Problema-Questoes {
     display: none;
+    font-family: Secundária;
     margin-left: 0px;
     font-weight: normal;
     border-radius: 5px 5px 5px 5px;
@@ -523,6 +566,7 @@ background-color: rgba(0, 0, 255, 0.034);
     display: none;
     margin-left: 0px;
     font-weight: normal;
+    font-family: Secundária;
     border-radius: 5px 5px 5px 5px;
     text-decoration: none;
     margin-top: 10px;
@@ -532,6 +576,7 @@ background-color: rgba(0, 0, 255, 0.034);
     display: none;
     margin-left: 0px;
     font-weight: normal;
+    font-family: Secundária;
     border-radius: 5px 5px 5px 5px;
     text-decoration: none;
     margin-top: 10px;
@@ -541,6 +586,7 @@ background-color: rgba(0, 0, 255, 0.034);
     display: none;
     margin-left: 0px;
     font-weight: normal;
+    font-family: Secundária;
     border-radius: 5px 5px 5px 5px;
     text-decoration: none;
     margin-top: 10px;
@@ -550,6 +596,7 @@ background-color: rgba(0, 0, 255, 0.034);
     display: none;
     margin-left: 0px;
     font-weight: normal;
+    font-family: Secundária;
     border-radius: 5px 5px 5px 5px;
     text-decoration: none;
     margin-top: 10px;

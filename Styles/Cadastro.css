@@ -4,12 +4,17 @@
     overflow-y: hidden;
 }
 
+header { 
+    background: linear-gradient(to right, #A3241D, #FF6961 );
+}
+
 
 header > img { 
     height: 190px;
     margin: auto;
     margin-left: 40%;
     margin-top: -55px;
+    filter: invert();
 }
 
 header > hr { 
@@ -101,26 +106,19 @@ text-decoration: underline;
     margin-top: 10px;
 }
 
-#Entrar-Button {
-    display: block;
-    margin-left: 27px;
-    width: 87%;
-    margin-bottom: 20px;
-    height: 40px;
-    margin-top: 0px;
-    background-color: #185D71;
-    color: white;
-    cursor: pointer;
-}
-
 #submit {
     display: block;
     margin-left: 27px;
     width: 87%;
     height: 40px;
-    background-color: #3FA782;
+    background-color: #A3241D;
     color: white;
     cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #FF6961;
+
 }
 
 .obs-A { 
