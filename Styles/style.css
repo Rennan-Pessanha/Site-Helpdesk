@@ -48,6 +48,143 @@ header > .content-int {
 
 }
 
+.Sub-Menu-Perfil {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 180px;
+    width: 200px;
+    margin-left: 74%;
+    display: none;
+    border-style: solid;
+    border-top: none;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.363);
+    border-color: rgba(0, 0, 0, 0.267);
+    border-width: 0.1px;
+    z-index: 1;
+}
+
+.Perfil-Content {
+    margin-top: 5px;
+}
+
+.Perfil-Content > img { 
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.Perfil-Content > a {
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    font-weight: bolder;
+    font-family: Primária;
+    display: inline-block;
+}
+
+.Perfil-Content > a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.Sub-Menu-Not {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 140px;
+    width: 700px;
+    margin-left: 40.3%;
+    display: none;
+    border-style: solid;
+    border-top: none;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.363);
+    border-color: rgba(0, 0, 0, 0.267);
+    border-width: 0.1px;
+    z-index: 1;
+    }
+
+
+.Title-Not > h2 {
+    margin-top: 10px;
+    margin-left: 16px;
+    margin-bottom: 10px;
+    font-family: Primária;
+    font-size: 1.6em;
+    }
+
+.content-not > h4 { 
+    margin-top: 10px;
+    margin-left: 16px;
+    margin-bottom: 10px;
+    color: rgba(112, 112, 112, 0.63);
+    font-family: Secundária;
+}
+
+.Footer-Not { 
+    margin-top: 10px;
+    margin-left: 16px;
+    margin-bottom: 0px;
+}
+
+.Footer-Not > a { 
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    font-family: Secundária;
+    font-size: 1.3em;
+}
+
+.Footer-Not > a:hover { 
+    color: rgb(0, 0, 0);
+}
+
+
+.Sub-Menu-Tar {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 500px;
+    margin-left: 50%;
+    display: none;
+    border-style: solid;
+    border-top: none;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.363);
+    border-color: rgba(0, 0, 0, 0.267);
+    border-width: 0.1px;
+    z-index: 1;
+    }
+
+    .Title-Tar > h2 {
+        margin-top: 10px;
+        margin-left: 16px;
+        margin-bottom: 10px;
+        font-family: Primária;
+        font-size: 1.6em;
+        }
+    
+    .content-Tar > h4 { 
+        margin-top: 10px;
+        margin-left: 16px;
+        margin-bottom: 10px;
+        color: rgba(112, 112, 112, 0.63);
+        font-family: Secundária;
+    }
+    
+    .Footer-Tar { 
+        margin-top: 10px;
+        margin-left: 16px;
+        margin-bottom: 0px;
+    }
+    
+    .Footer-Tar > a { 
+        text-decoration: none;
+        color: rgb(77, 77, 77);
+        font-family: Secundária;
+        font-size: 1.3em;
+    }
+    
+    .Footer-Tar > a:hover { 
+        color: rgb(0, 0, 0);
+    }
+    
+
+
 header > .content-int > a {
     text-decoration: none;
 }
