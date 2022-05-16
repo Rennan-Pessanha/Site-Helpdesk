@@ -479,16 +479,19 @@ article > .tab > button {
     cursor: pointer;
 }
 
-#btn_dados {
+#btn_dados, #btn_dadosII {
+    border-radius: 14px;
     padding: 10px;
-    background-color: #F9645C;
+    background-color: rgb(249, 100, 92);
     color: rgb(255, 255, 255);
     font-size: large;
     cursor: pointer;
     font-family: Secundária;
     font-weight: bolder;
 
-
+}
+#btn_dados:hover, #btn_dadosII:hover{
+    background-color: rgba(249, 100, 92, 0.9);
 }
 
 #btn_dadosII {
@@ -522,9 +525,19 @@ article > .line {
     margin-top: 50px;
 }
 
-.input_total{
+.input_total, .inputII_total{
     width: 50vw;
+    border-radius: 30px;
+    padding: 1vh 1.5vw;
+    background-color: rgba(209, 23, 23, 0.144);
+    border: none
 }
+
+.inputII_total{
+    width: 20vw;
+}
+
+
 .tabela_dados{
     margin-left: 0%;
     font-family: Secundária;
@@ -536,6 +549,11 @@ article > .line {
 }
 .input_resposta{
     text-align: center;
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(209, 23, 23, 0.1);
+    color: black;
+    width: 15vw;
 }
 
 
@@ -981,3 +999,4 @@ background-color: rgba(0, 0, 255, 0.034);
     color: #A3241D;
     font-size: 4vh;
 }
+
