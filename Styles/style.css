@@ -40,10 +40,10 @@ header > .content-int {
     background-color: rgba(0, 0, 0, 0);
     height: 300px;
     width: 300px;
-    display: inline-block;
+    display: inline-flex;
     position: relative;
     top: -200%;
-    margin-left: 73%;
+    left: -5%;
     padding: 10px;
 
 }
