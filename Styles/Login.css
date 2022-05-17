@@ -6,6 +6,7 @@
 
 header { 
     background: linear-gradient(to right, #A3241D, #FF6961 );
+    height: 90px;
 }
 
 
@@ -13,7 +14,7 @@ header > img {
     height: 190px;
     margin: auto;
     margin-left: 40%;
-    margin-top: -55px;
+    margin-top: -50px;
     filter: invert()
 }
 
