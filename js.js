@@ -366,9 +366,21 @@ function Clicar(valor) {
         
     });
 
+// Configuração botões 
 
+let myButton = document.querySelectorAll('.tab > button');
 
+myButton.forEach(function(key){
+    key.addEventListener('click', function(){
+        removeStyles();
+        this.setAttribute('class', 'buttonClicked');
+    });
+})
 
-
+function removeStyles(){
+    for(let i = 0;i < myButton.length;i++){
+        document.querySelectorAll('.tab > button')[i].classList.add('botaoN');
+    }
+}
 
   

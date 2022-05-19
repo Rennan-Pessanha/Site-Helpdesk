@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+
 * { 
     margin: 0%;
     padding: 0%;
@@ -6,29 +9,36 @@
 }
 
 @font-face {
-    font-family: Secundária;
-    src: url(/Fontes/Harmonia\ Sans\ Mono\ W01\ Bold.otf);
-    font-family: Primária;
-    src: url(/Fontes/Harmonia\ Sans\ W01\ Regular.ttf);
+    font-family: Baloo;
+    src: url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
 }
 
 /* Classes */
 
 .Padrao-Primário { 
-    color: red;
+    color: rgb(0, 0, 0);
+    font-size: 27px;
+    font-family: 'Baloo Da 2', cursive;
 
 }
 
 .Padrao-Secundário {
-color: blue;
+    font-family: 'Baloo Da 2', cursive;
+    color: black;
+    font-size: medium;
 }
 
 .Padrao-Terciária { 
-    color: rgb(4, 253, 4);
+    font-family: 'Baloo Da 2', cursive;
+    color: black;
+    font-weight: small
+    ;
 }
 
 .Padrao-Quarternária {
-    color: aqua;
+    font-family: 'Baloo Da 2', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
 }
 
 
@@ -103,7 +113,7 @@ header > .content-int {
 .Sub-Menu-Not {
     position: absolute;
     background-color: rgb(255, 255, 255);
-    height: 140px;
+    height: 185px;
     width: 700px;
     margin-left: 40.3%;
     display: none;
@@ -146,7 +156,7 @@ header > .content-int {
 .Sub-Menu-Tar {
     position: absolute;
     background-color: rgb(255, 255, 255);
-    height: 150px;
+    height: 198px;
     width: 500px;
     margin-left: 50%;
     display: none;
@@ -211,10 +221,6 @@ header > .content-int > a > .perfil {
     height: 38px;
     position: absolute;
    
-}
-
-.Titulo-page {
-    font-family: Primária;
 }
 
 header > .burguer-content-icon {
@@ -471,7 +477,7 @@ border-width: 1;
 margin-left: 28px;
 }
 
-article > .tab > button {
+article > .tab > .botaoN {
     color: #31302B;
     background: #FFF;
     height: 100%;
@@ -488,14 +494,21 @@ article > .tab > button {
 	transition: all ease 0.8s;
 }
 
-article > .tab > button:hover {
+article > .tab > .botaoN:hover {
     box-shadow: inset 350px 0 0 0;
     color: #FC675F;
-
 }
   
 article > .tab > button:focus {
     background: #C23C34;
+}
+
+.buttonClicked {
+    background-color: #C23C34;
+    height: 100%;
+    width: 25%;
+    margin-right: -4px;
+
 }
 
 #btn_dados, #btn_dadosII {
