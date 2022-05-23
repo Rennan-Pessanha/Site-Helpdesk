@@ -210,15 +210,19 @@ header > .content-int > a > img {
     margin-top: 10px;
     margin-left: 38px;
     display: inline-block;
+    filter: invert(1);
     
+}
+
+.formS {
+    height: 50px;
 }
 
 header > .content-int > a > img:hover { 
     filter: invert(75%);
 }
 
-header > .content-int > a > .perfil { 
-    height: 38px;
+header > .content-int > a > .perfil {
     position: absolute;
    
 }
@@ -506,32 +510,34 @@ article > .tab > button:focus {
 .buttonClicked {
     background-color: #C23C34;
     height: 100%;
+    border: none;
     width: 25%;
     margin-right: -4px;
 
 }
 
 #btn_dados, #btn_dadosII {
-    border-radius: 14px;
-    padding: 10px;
-    background-color: rgb(249, 100, 92);
-    color: rgb(255, 255, 255);
-    font-size: large;
-    cursor: pointer;
-    font-family: Secundária;
-    font-weight: bolder;
-
-}
-#btn_dados:hover, #btn_dadosII:hover{
-    background-color: rgba(249, 100, 92, 0.9);
+cursor: pointer;
+background-color: transparent;
+border: none;
+margin-left: 48%;
+margin-top: 10px;
 }
 
 #btn_dadosII {
-    padding: 10px;
-    background-color: #F9645C;
-    color: white;
-    font-size: large;
+
     cursor: pointer;
+    margin-left: 47%;
+
+}
+
+#btn_dadosIII {
+
+    cursor: pointer;
+    margin-left: 39%;
+    background-color: transparent;
+    border: none;
+    margin-top: 20%;
 
 }
 
