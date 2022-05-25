@@ -189,6 +189,7 @@ header > .content-int > a > img {
     margin-top: 10px;
     margin-left: 40px;
     display: inline-block;
+    filter: invert(1);
     
 }
 

@@ -54,6 +54,7 @@ header > .content-int > a > img {
     margin-top: 10px;
     margin-left: 40px;
     display: inline-block;
+    filter: invert(1);
     
 }
 
@@ -178,6 +179,124 @@ header > .content-int {
 
 /*      corpo do site */
 
+.Sub-Menu-Perfil {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 180px;
+    width: 200px;
+    margin-left: 74%;
+    display: none;
+    border-style: solid;
+    border-top: none;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.363);
+    border-color: rgba(0, 0, 0, 0.267);
+    border-width: 0.1px;
+    z-index: 1;
+}
+
+.Perfil-Content {
+    margin-top: 5px;
+}
+
+.Perfil-Content > img { 
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.Perfil-Content > a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Perfil-Content > a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.Sub-Menu-Not {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 185px;
+    width: 700px;
+    margin-left: 40.3%;
+    display: none;
+    border-style: solid;
+    border-top: none;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.363);
+    border-color: rgba(0, 0, 0, 0.267);
+    border-width: 0.1px;
+    z-index: 1;
+    }
+
+
+.Title-Not > h2 {
+    margin-top: 10px;
+    margin-left: 16px;
+    margin-bottom: 10px;
+    }
+
+.content-not > h4 { 
+    margin-top: 10px;
+    margin-left: 16px;
+    margin-bottom: 10px;
+}
+
+.Footer-Not { 
+    margin-top: 10px;
+    margin-left: 16px;
+    margin-bottom: 0px;
+}
+
+.Footer-Not > a { 
+    text-decoration: none;
+}
+
+.Footer-Not > a:hover { 
+    color: rgb(0, 0, 0);
+}
+
+
+.Sub-Menu-Tar {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 198px;
+    width: 500px;
+    margin-left: 50%;
+    display: none;
+    border-style: solid;
+    border-top: none;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.363);
+    border-color: rgba(0, 0, 0, 0.267);
+    border-width: 0.1px;
+    z-index: 1;
+    }
+
+    .Title-Tar > h2 {
+        margin-top: 10px;
+        margin-left: 16px;
+        margin-bottom: 10px;
+        }
+    
+    .content-Tar > h4 { 
+        margin-top: 10px;
+        margin-left: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .Footer-Tar { 
+        margin-top: 10px;
+        margin-left: 16px;
+        margin-bottom: 0px;
+    }
+    
+    .Footer-Tar > a { 
+        text-decoration: none;
+    }
+    
+    .Footer-Tar > a:hover { 
+        color: rgb(0, 0, 0);
+    }
+
  .mobile-menu { 
     height: 100vh;
     width: 230px;
@@ -241,61 +360,20 @@ article {
     height: 100%;
     width: 100%;
     display: inline-block;
-    position: relative;
     position: absolute;
+
 
 }
 
-.Sub-Menu-Tar {
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    height: 198px;
-    width: 500px;
-    margin-left: 50%;
-    display: none;
-    border-style: solid;
-    border-top: none;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.363);
-    border-color: rgba(0, 0, 0, 0.267);
-    border-width: 0.1px;
-    z-index: 1;
-    }
-
-    .Title-Tar > h2 {
-        margin-top: 10px;
-        margin-left: 16px;
-        margin-bottom: 10px;
-        }
-    
-    .content-Tar > h4 { 
-        margin-top: 10px;
-        margin-left: 16px;
-        margin-bottom: 10px;
-    }
-    
-    .Footer-Tar { 
-        margin-top: 10px;
-        margin-left: 16px;
-        margin-bottom: 0px;
-    }
-    
-    .Footer-Tar > a { 
-        text-decoration: none;
-    }
-    
-    .Footer-Tar > a:hover { 
-        color: rgb(0, 0, 0);
-    }
-
 article > .title {
-    margin-top: 20px;
-    margin-left: 26px;
+    margin-top: 1em;
+    margin-left: 2em;
     color: #656565;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 article > .title > h1 {
-    margin-bottom: 15px;
+    margin-bottom: 1em;
 }
 
 article > .form-content {
