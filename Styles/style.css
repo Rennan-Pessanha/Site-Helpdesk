@@ -25,7 +25,7 @@
 .Padrao-Secundário {
     font-family: 'Baloo Da 2', cursive;
     color: black;
-    font-size: medium;
+    font-size: 13px;
 }
 
 .Padrao-Terciária { 
@@ -231,6 +231,10 @@ header > .burguer-content-icon > button {
     border: none;
     background-color: transparent;
     cursor: pointer;
+}
+
+.Titulo-page { 
+    margin-top: 0px;
 }
 
 
@@ -471,7 +475,7 @@ article > .tab {
 background-color: #f1f1f1;
 border: 1px solid #ccc;
 width: 70.1%;
-height: 100px;
+height: 90px;
 border-style: ridge;
 border-width: 1;
 margin-left: 28px;
@@ -981,7 +985,7 @@ background-color: rgba(0, 0, 255, 0.034);
     width: 500px;
     background-color: black;
     left: 50%;
-    top: 35%;
+    top: 50%;
 
 }
 
