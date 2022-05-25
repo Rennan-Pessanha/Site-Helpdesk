@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+
 * { 
     margin: 0%;
     padding: 0%;
@@ -5,13 +7,45 @@
     overflow-y: hidden;
 }
 
+@font-face {
+    font-family: Baloo;
+    src: url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+}
+
+/* Classes */
+
+.Padrao-Primário { 
+    color: rgb(0, 0, 0);
+    font-size: 27px;
+    font-family: 'Baloo Da 2', cursive;
+
+}
+
+.Padrao-Secundário {
+    font-family: 'Baloo Da 2', cursive;
+    color: black;
+    font-size: 13px;
+}
+
+.Padrao-Terciária { 
+    font-family: 'Baloo Da 2', cursive;
+    color: black;
+    font-weight: small, bold;
+}
+
+.Padrao-Quarternária {
+    font-family: 'Baloo Da 2', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+}
+
+
 /*         Cabeça do site */
 
 header {
     height: 70px;
     width: 100vw;
-    background: linear-gradient(to right, #A3241D, #FF6961 );
-    
+    background: linear-gradient(to right, #A3241D, #FF6961 );    
 }
 
 header > .logo { 
@@ -35,10 +69,129 @@ header > .content-int {
     display: inline-block;
     position: relative;
     top: -200%;
-    margin-left: 73%;
+    margin-left: 80%;
     padding: 10px;
 
 }
+
+.Sub-Menu-Perfil {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 180px;
+    width: 200px;
+    margin-left: 74%;
+    display: none;
+    border-style: solid;
+    border-top: none;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.363);
+    border-color: rgba(0, 0, 0, 0.267);
+    border-width: 0.1px;
+    z-index: 1;
+}
+
+.Perfil-Content {
+    margin-top: 5px;
+}
+
+.Perfil-Content > img { 
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.Perfil-Content > a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Perfil-Content > a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.Sub-Menu-Not {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 198px;
+    width: 700px;
+    margin-left: 40.3%;
+    display: none;
+    border-style: solid;
+    border-top: none;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.363);
+    border-color: rgba(0, 0, 0, 0.267);
+    border-width: 0.1px;
+    z-index: 1;
+    }
+
+
+.Title-Not > h2 {
+    margin-top: 10px;
+    margin-left: 16px;
+    margin-bottom: 10px;
+    }
+
+.content-not > h4 { 
+    margin-top: 10px;
+    margin-left: 16px;
+    margin-bottom: 10px;
+}
+
+.Footer-Not { 
+    margin-top: 10px;
+    margin-left: 16px;
+    margin-bottom: 0px;
+}
+
+.Footer-Not > a { 
+    text-decoration: none;
+}
+
+.Footer-Not > a:hover { 
+    color: rgb(0, 0, 0);
+}
+
+
+.Sub-Menu-Tar {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 198px;
+    width: 500px;
+    margin-left: 50%;
+    display: none;
+    border-style: solid;
+    border-top: none;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.363);
+    border-color: rgba(0, 0, 0, 0.267);
+    border-width: 0.1px;
+    z-index: 1;
+    }
+
+    .Title-Tar > h2 {
+        margin-top: 10px;
+        margin-left: 16px;
+        margin-bottom: 10px;
+        }
+    
+    .content-Tar > h4 { 
+        margin-top: 10px;
+        margin-left: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .Footer-Tar { 
+        margin-top: 10px;
+        margin-left: 16px;
+        margin-bottom: 0px;
+    }
+    
+    .Footer-Tar > a { 
+        text-decoration: none;
+    }
+    
+    .Footer-Tar > a:hover { 
+        color: rgb(0, 0, 0);
+    }
+    
 
 header > .content-int > a {
     text-decoration: none;
@@ -52,17 +205,21 @@ header > .content-int > button {
 header > .content-int > a > img { 
     height: 30px;
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 38px;
     display: inline-block;
+    filter: invert(1);
     
+}
+
+.formS {
+    height: 50px;
 }
 
 header > .content-int > a > img:hover { 
     filter: invert(75%);
 }
 
-header > .content-int > a > .perfil { 
-    height: 38px;
+header > .content-int > a > .perfil {
     position: absolute;
    
 }
@@ -75,6 +232,10 @@ header > .burguer-content-icon > button {
     border: none;
     background-color: transparent;
     cursor: pointer;
+}
+
+.Titulo-page { 
+    margin-top: 0px;
 }
 
 @media screen and (max-width: 1700px ) {
@@ -195,6 +356,17 @@ header > .content-int {
         display: none;
     }
 
+    article > .tab {
+        background-color: #f1f1f1;
+        border: 1px solid #ccc;
+        width: 71%;
+        border-style: ridge;
+        margin-left: 28px;
+        position: fixed;
+        top: 22.3%;
+        left: 11.4%;
+        }
+
     .open {
         display: inline-block;
     }
@@ -215,8 +387,6 @@ header > .content-int {
 
  .mobile-menu > a > h5 {
     text-decoration: none;
-    color: rgb(48, 48, 48);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -235,37 +405,20 @@ header > .content-int {
     
 }
 
-
-article {
-    background-color: #f5f7fa;
-    height: 100%;
-    width: 100%;
-    display: inline-block;
-    position: relative;
-    position: absolute;
-
-}
+/*      Título principal da página */
 
 article > .title {
     margin-top: 20px;
     margin-left: 26px;
     color: #656565;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+article > .title > hr {
+    margin-bottom: 20px;
 }
 
 article > .title > h1 {
     margin-bottom: 15px;
-}
-
-article > .form-content {
-    background-color: rgb(255, 255, 255);
-    height: 50%;
-    width: 84%;
-    margin-top: 30px;
-    margin-left: 26px;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.075);
-    border-style: ridge;
-    margin-bottom: 20px;
 }
 
 @media (max-width: 1000px) {
@@ -279,9 +432,4 @@ article > .form-content {
         text-align: center;
     }
 
-}
-
-article > .line {
-    margin-top: 36px;
-    margin-left: 26px;
 }
