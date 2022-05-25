@@ -46,25 +46,25 @@
             </button>
         </div>
         <div class="content-int">
-            <a href="#" id="Tarefas"> <img src="img/Icones-menu/Icones superiores/Tarefas.png" alt=""> 
+            <a href="#" id="Tarefas"> <img src="img/Icones-menu/Icones superiores/Terefas.Icon.svg" alt=""> 
 
-            <a href="#" id="Not"> <img src="img/Icones-menu/Icones superiores/notificação icone.png" alt=""> </a>
+            <a href="#" id="Not"> <img src="img/Icones-menu/Icones superiores/Notificação.icon.svg" alt=""> </a>
 
-            <a href="#"> <img src="img/Icones-menu/Icones superiores/Prencher Formulário.png"> </a>
+            <a href="#"> <img src="img/Icones-menu/Icones superiores/form.icon.svg"> </a>
 
-            <a href="#" id="Perfil"> <img class="perfil" src="img/Icones-menu/Icones superiores/perfil.png"> </a>
+            <a href="#" id="Perfil"> <img class="perfil" src="img/Icones-menu/Icones superiores/Perfil.icon.svg"> </a>
 
         </div>
     </header>
     <section>
     <div class="mobile-menu">
-        <a href="Meus-Atendimentos.html"> <img src="img/Icones-menu/Histórico-Icone.png" alt=""> <h5 class="Padrao-Secundário">Atendimentos Helpdesk</h5> </a>
+        <a href="Meus-Atendimentos.html"> <img src="img/Icones-menu/Histórico.icon.svg" alt=""> <h5 class="Padrao-Secundário">Atendimentos Helpdesk</h5> </a>
 
-        <a href="MeuPerfil.html"> <img src="img/Icones-menu/Perfil-icone.png" alt=""> <h5 class="Padrao-Secundário"> Meu Perfil</h5> </a>
+        <a href="MeuPerfil.html"> <img src="img/Icones-menu/MeuPerfil.icon.svg" alt=""> <h5 class="Padrao-Secundário"> Meu Perfil</h5> </a>
 
-        <a href="dash.html"> <img src="img/Icones-menu/Dash-Icone.png" alt=""> <h5 class="Padrao-Secundário">Dashboard Geral</h5> </a>
+        <a href="dash.html"> <img src="img/Icones-menu/Dash.icon.svg" alt=""> <h5 class="Padrao-Secundário">Dashboard Geral</h5> </a>
 
-        <a href="P.D.Email.html"> <img src="img/Icones-menu/Email-Padrão.png" alt=""> <h5 class="Padrao-Secundário">Padrões de email</h5> </a>
+        <a href="P.D.Email.html"> <img src="img/Icones-menu/Email.icon.svg" alt=""> <h5 class="Padrao-Secundário">Padrões de email</h5> </a>
 
 
     </div>
@@ -110,74 +110,71 @@
            <hr>
        </div>
        <div class="tab">
-           <button id="tabpadrao" class="botaoN" onclick="abrirtab('form1')"> <img src="img/Icones-menu/Icones superiores/Form-Icon/contact_mail.svg" alt=""> </button>
+           <button id="tabpadrao" class="buttonClicked" onclick="abrirtab('form1')"> <img src="img/Icones-menu/Icones superiores/Form-Icon/contact_mail.svg" alt=""> </button>
            <button class="botaoN" onclick="abrirtab('form2')"><img src="img/Icones-menu/Icones superiores/Form-Icon/feed.svg" alt=""> </button>
            <button class="botaoN" onclick="abrirtab('form3')"><img src="img/Icones-menu/Icones superiores/Form-Icon/devices.svg" alt=""></button>
            <button class="botaoN" onclick="abrirtab('form4')"><img src="img/Icones-menu/Icones superiores/Form-Icon/check_circle.svg" alt=""></button>
        </div> 
        <div id="form1" class="form-content">
-            <form>
-                <table class="tabela_dados">
-                    <tr class="Padrao-Terciária">
-                        <td>Dados do aluno</td>
-                        <td><input type="text" name="" id="dados_total" placeholder="Cole ID, CPF e NOME aqui" class="input_total Padrao-Terciária"></td>
-                    </tr>
-                    <tr class="Padrao-Terciária">
-                        <td>OV do aluno</td>
-                        <td><input type="text" id="ov_total" placeholder="Cole linha OV atual aqui" class="input_total Padrao-Terciária"></td>
-                    </tr>
-                    <tr class="Padrao-Terciária">
-                        <td>Chamado MGE</td>
-                        <td><input type="text" id="chamado_total" placeholder="Cole linha do chamado aqui" class="input_total Padrao-Terciária"></td>
-                    </tr>
-                    <tr>
-                        <td><input type="button" value="Aplicar" id="btn_dados"></td>
-                    </tr>
-                </table>
-                <table class="tabela_resultado">
-                    <hr id="line">
-                    <tr class="Padrao-Terciária">
-                        <td>ID</td>
-                        <td><input type="text" id="id_id" disabled class="input_resposta"></td>
+            
+            <table class="tabela_dados">
+                 <tr class="Padrao-Terciária">
+                    <td>Dados do aluno</td>
+                    <td><input type="text" name="" id="dados_total" placeholder="Cole ID, CPF e NOME aqui" class="input_total Padrao-Terciária"></td>
+                </tr>
+                <tr class="Padrao-Terciária">
+                    <td>OV do aluno</td>
+                    <td><input type="text" id="ov_total" placeholder="Cole linha OV atual aqui" class="input_total Padrao-Terciária"></td>
+                </tr>
+                <tr class="Padrao-Terciária">
+                    <td>Chamado MGE</td>
+                    <td><input type="text" id="chamado_total" placeholder="Cole linha do chamado aqui" class="input_total Padrao-Terciária"></td>
+                </tr>
+            </table>
+            <button value="Aplicar" id="btn_dados"> <img src="img/Icones-menu/Aplicar.icon.svg" alt="Aplicar"> </button>
+            <table class="tabela_resultado">
+                <hr id="line">
+                <tr class="Padrao-Terciária">
+                    <td>ID</td>
+                    <td><input type="text" id="id_id" disabled class="input_resposta"></td>
+                    
+                    <td>CPF</td>
+                    <td><input type="text" id="id_cpf" disabled class="input_resposta"></td>
                     
                     
-                        <td>CPF</td>
-                        <td><input type="text" id="id_cpf" disabled class="input_resposta"></td>
+                    <td>Nome</td>
+                    <td><input type="text" id="id_nome" disabled class="input_resposta"></td>
+
+                </tr>
+                <tr class="Padrao-Terciária">
+                    <td>OV aluno</td>
+                    <td><input type="text" id="id_produto" disabled class="input_resposta"></td>
+
+                    <td>Data contratação</td>
+                    <td><input type="text" id="id_ov_data" disabled class="input_resposta"></td>
+
+                    <td>Status OV</td>
+                    <td><input type="text" id="id_ov_status" disabled class="input_resposta"></td>
+                </tr>
+
+                <tr class="Padrao-Terciária">
+                    <td>Data</td>
+                    <td><input type="text" id="id_chamado_data" disabled class="input_resposta"></td>
+
+                    <td>Hora</td>
+                    <td><input type="text" id="id_chamado_hora" disabled class="input_resposta"></td>
+
+                    <td>Responsável</td>
+                    <td><input type="text" id="id_chamado_responsavel" disabled class="input_resposta"></td>
+                </tr>
                     
-                    
-                        <td>Nome</td>
-                        <td><input type="text" id="id_nome" disabled class="input_resposta"></td>
-
-                    </tr>
-                    <tr class="Padrao-Terciária">
-                        <td>OV aluno</td>
-                        <td><input type="text" id="id_produto" disabled class="input_resposta"></td>
-
-                        <td>Data contratação</td>
-                        <td><input type="text" id="id_ov_data" disabled class="input_resposta"></td>
-
-                        <td>Status OV</td>
-                        <td><input type="text" id="id_ov_status" disabled class="input_resposta"></td>
-                    </tr>
-
-                    <tr class="Padrao-Terciária">
-                        <td>Data</td>
-                        <td><input type="text" id="id_chamado_data" disabled class="input_resposta"></td>
-
-                        <td>Hora</td>
-                        <td><input type="text" id="id_chamado_hora" disabled class="input_resposta"></td>
-
-                        <td>Responsável</td>
-                        <td><input type="text" id="id_chamado_responsavel" disabled class="input_resposta"></td>
-                    </tr>
-                    
-                </table>
-                <p id="msg_erro"></p>
-            </form>
+            </table>
+            <p id="msg_erro"></p>
+            
             <!--<button onclick="abrirtab('form2')">&#10145;</button> -->
         </div>
         <div id="form2" class="form-content" class="tabela_resultado" >
-            <form>
+            
                 <table class="tabela_dadosII">
                     <tr class="Padrao-Terciária">
 
@@ -197,13 +194,15 @@
                         <td><input type="text" id="versao" placeholder="Digite a versão" class="inputII_total"></td>
 
                         <td>Reproduzido?</td>
-                        <td><input type="text" id="foi_reproduzido" placeholder="Foi reproduzido?" class="inputII_total"></td>
-                        <tr>
-                            <td><input type="button" value="Aplicar" id="btn_dadosII" onclick="DadosII()"></td>
-                        </tr>
+                        <td><select name="Reproduzido" id="Reproduzido" class="inputII_total">
+                            <option value="N/A" class="option">N/A</option>
+                            <option value="Sim" class="option">Sim</option>
+                            <option value="Não" class="option">Não</option>
+                        </select></td>
                     
                     </tr>
                 </table>
+                <button value=" Aplicar" id="btn_dadosII" onclick="DadosII()"> <img src="img/Icones-menu/Aplicar.icon.svg" alt=""> </button>
                 <table class="tabela_resultado">
                     <hr id="line">
                     <tr>
@@ -225,6 +224,7 @@
                     </tr>
                     
                 </table>
+            
            <!-- <button onclick="abrirtab('form1')">&#11013;</button>
             <button onclick="abrirtab('form3')">&#10145;</button> -->
         </div>
@@ -654,7 +654,8 @@
 
 
                 </div>
-                <input type="button" value="Aplicar" id="btn_dadosII" onclick="DadosII()">
+
+                <button value="Aplicar" id="btn_dadosIII" onclick="DadosIII()"> <img src="img/Icones-menu/Aplicar.icon.svg" alt=""> </button>
 
         <!-- <button onclick="abrirtab('form2')">&#11013;</button>
             <button onclick="abrirtab('form4')">&#10145;</button> -->

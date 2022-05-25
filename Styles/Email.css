@@ -246,6 +246,47 @@ article {
 
 }
 
+.Sub-Menu-Tar {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 198px;
+    width: 500px;
+    margin-left: 50%;
+    display: none;
+    border-style: solid;
+    border-top: none;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.363);
+    border-color: rgba(0, 0, 0, 0.267);
+    border-width: 0.1px;
+    z-index: 1;
+    }
+
+    .Title-Tar > h2 {
+        margin-top: 10px;
+        margin-left: 16px;
+        margin-bottom: 10px;
+        }
+    
+    .content-Tar > h4 { 
+        margin-top: 10px;
+        margin-left: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .Footer-Tar { 
+        margin-top: 10px;
+        margin-left: 16px;
+        margin-bottom: 0px;
+    }
+    
+    .Footer-Tar > a { 
+        text-decoration: none;
+    }
+    
+    .Footer-Tar > a:hover { 
+        color: rgb(0, 0, 0);
+    }
+
 article > .title {
     margin-top: 20px;
     margin-left: 26px;
