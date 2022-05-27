@@ -1,3 +1,11 @@
+/* Classes  */
+.Select-Content { 
+    width: 10em;
+    border-radius: 5px 5px 5px 5px;
+    height: 2em;
+
+}
+
 /*      corpo do site */
 
 article {
@@ -57,6 +65,10 @@ border-style: ridge;
 border-width: 1;
 margin-left: 28px;
 }
+
+@media screen and (max-width: 1000px ) {
+    
+    }
 
 article > .tab > .botaoN {
     color: #31302B;
@@ -181,8 +193,22 @@ article > .line {
     margin-left: 0px;
 }
 
+.cont-content {
+    margin-left: 2em;
+    width: 30em;
+    height: 100%;
+    border-left: 1px;
+    border: solid;
+    border-color: black;
+    border-right: solid;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    margin-left: 14.5%;
+}
+
 .drop1 { 
-    display: inline-block;
+    display: block;
     margin-top: 0px;
     margin-left: 10px;
     font-weight: normal;
@@ -193,9 +219,9 @@ article > .line {
 
 .drop1-2 { 
     font-family: Secundária;
-    display: inline;
+    display: blo;
     height: 30px;
-    font-size: larger;
+    margin-left: 0.5em;
     border-radius: 5px 5px 5px 5px;
     font-weight: normal;
 }
@@ -224,7 +250,6 @@ background-color: rgba(0, 0, 255, 0.034);
     margin-top: 10pxpx;
     margin-left: 10px;
     font-weight: normal;
-    font-size: larger;
     border-radius: 5px 5px 5px 5px;
     margin-bottom: 10px;
     font-family: Secundária;
@@ -235,7 +260,6 @@ background-color: rgba(0, 0, 255, 0.034);
     margin-top: 0px;
     margin-left: 10px;
     font-weight: normal;
-    font-size: larger;
     border-radius: 5px 5px 5px 5px;
     font-family: Secundária;
 }
@@ -245,7 +269,6 @@ background-color: rgba(0, 0, 255, 0.034);
     margin-top: 0px;
     margin-left: 10px;
     font-weight: normal;
-    font-size: larger;
     font-family: Secundária;
     border-radius: 5px 5px 5px 5px
 }
@@ -255,7 +278,6 @@ background-color: rgba(0, 0, 255, 0.034);
     margin-top: 0px;
     margin-left: 10px;
     font-weight: normal;
-    font-size: larger;
     font-family: Secundária;
     border-radius: 5px 5px 5px 5px
 }
@@ -555,48 +577,6 @@ background-color: rgba(0, 0, 255, 0.034);
 
 }
 
-@media (max-width: 1240px ) { 
-    .Imagem-Representativa { 
-        position: fixed;
-        height: 400px;
-        width: 450px;
-        background-color: black;
-        left: 50%;
-        top: 35%;
-    
-    }
-
-
-}
-
-@media (max-width: 1000px) {
-    .Imagem-Representativa { 
-        position: fixed;
-        height: 250px;
-        width: 400px;
-        background-color: black;
-        left: 20%;
-        top: 60%;
-    
-    }
-}
-
-@media (max-width: 639px) { 
-    .Imagem-Representativa { 
-        position: fixed;
-        height: 250px;
-        width: 350px;
-        background-color: black;
-        left: 20%;
-        top: 60%;
-    
-    }
-
-    #form3 > td { 
-        display: inline-block;
-    }
-
-}
 #msg_erro{
     color: #A3241D;
     font-size: 4vh;

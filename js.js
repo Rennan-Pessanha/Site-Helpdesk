@@ -1,7 +1,3 @@
-
-
-
-
 // Parte da responsividade, menu-Hamburguer 
 
 function burguer() {
@@ -120,48 +116,33 @@ var none = undefined
 function Clicar(valor) {
     
     if(valor == "Medsoft-Pro") {
-
-        img.src = "img/Fotos-Medsoft/Medsoft-Pro.png"
-
         document.querySelector('.drop2').style.display = "inline-block"
     } 
     else {
         document.querySelector('.drop2').style.display = "none"
     }
     if(valor == "Recursos") { 
-
-        img.src = "img/Fotos-Medsoft/P-Recursos.png"
         document.querySelector('.drop3').style.display = "inline-block"
     }
     else {
         document.querySelector('.drop3').style.display = "none"
     }
     if(valor == 'MEDELETRO') { 
-        img.src = "img/Fotos-Medsoft/Medeletro.jpg"
         document.querySelector('.drop4').style.display = "inline-block"
     }
     else {
         document.querySelector('.drop4').style.display = "none"
     }
     if(valor == 'AreaRestrita') { 
-        img.src = "img/Fotos-Medsoft/Area-Restrita.png"
         document.querySelector('.drop5').style.display = "inline-block"
     }
     else {
         document.querySelector('.drop5').style.display = "none"
     }
     if(valor == 'Concursos') { 
-        img.src = "img/Fotos-Medsoft/Concursos.jpg"
         document.querySelector('.drop6').style.display = "inline-block"
     } else {
         document.querySelector('.drop6').style.display = "none"
-    }
-    if(valor == 'Academico') {
-        img.src = "img/Fotos-Medsoft/Outros.jpg"
-    } else if(valor == 'Outros') { 
-        img.src = 'img/Fotos-Medsoft/duvida.jpg'
-    } else { 
-        return none
     }
 }
 
@@ -171,33 +152,27 @@ function Clicar(valor) {
     function RevelarProblemaDrop2(valor) { 
 
         if(valor == 'Login') {
-
-            img.src = "img/Fotos-Medsoft/Medsoft-Pro.png"
             document.querySelector('.Problema-Login').style.display = "inline-block"
         } else {
             document.querySelector('.Problema-Login').style.display = "none"
         }
 
         if(valor == 'Aula') { 
-            img.src = "img/Fotos-Medsoft/Aba-Aulas.png"
             document.querySelector('.Problema-Aulas').style.display = "inline-block"
         } else { 
             document.querySelector('.Problema-Aulas').style.display = "none"
         }
         if(valor == 'Material') {
-            img.src = "img/Fotos-Medsoft/Aba-Materiais.png"
             document.querySelector('.Problema-Materiais').style.display = "inline-block"
         } else {
             document.querySelector('.Problema-Materiais').style.display = "none"
         }
         if(valor == 'Questões') {
-            img.src = "img/Fotos-Medsoft/Aba-Questão.png"
             document.querySelector('.Problema-Questoes').style.display = "inline-block"
         } else { 
             document.querySelector('.Problema-Questoes').style.display = "none"
         }
         if(valor == 'Medsmarth') {
-            img.src = "img/Fotos-Medsoft/medsmarth.png"
             document.querySelector('.Problema-Medsmart').style.display = "inline-block"
         } else { 
             document.querySelector('.Problema-Medsmart').style.display = "none"
@@ -208,55 +183,46 @@ function Clicar(valor) {
             document.querySelector('.Problema-Revalida').style.display = "none"
         }
         if(valor == 'Mentoria') { 
-            img.src = "img/Fotos-Medsoft/Mentoria.png"
             document.querySelector('.Problema-Mentoria').style.display = "inline-block"
         } else { 
             document.querySelector('.Problema-Mentoria').style.display = "none"
         }
         if(valor == 'Cronograma') { 
-            img.src = "img/Fotos-Medsoft/cronograma.png"
             document.querySelector('.Problema-Cronograma').style.display = "inline-block"
         } else { 
             document.querySelector('.Problema-Cronograma').style.display = "none"
         }
         if(valor == 'Simulados') { 
-            img.src = "img/Fotos-Medsoft/Simulados.png"
             document.querySelector('.Problema-Simulados').style.display = "inline-block"
         } else { 
             document.querySelector('.Problema-Simulados').style.display = "none"
         }
         if(valor == 'Concurso na Integra') { 
-            img.src = "img/Fotos-Medsoft/Mentoria.png"
             document.querySelector('.Problema-Concurso-Integra').style.display = "inline-block"
         } else { 
             document.querySelector('.Problema-Concurso-Integra').style.display = "none"
         }
         if(valor == 'Monta Provas') { 
-            img.src = "img/Fotos-Medsoft/Monta-Provas.png"
             document.querySelector('.Problema-Monta-Provas').style.display = "inline-block"
         } else { 
             document.querySelector('.Problema-Monta-Provas').style.display = "none"
         }
         if(valor == 'Slide de Aula') {
-            img.src = "img/Fotos-Medsoft/Slide-De-Aula.png"
             document.querySelector('.Problema-Slide-de-Aulas').style.display = "inline-block"
         } else {
             document.querySelector('.Problema-Slide-de-Aulas').style.display = "none"
         }
         if(valor == 'MedPlanner') {
-            img.src = "img/Fotos-Medsoft/Med-Planner.png"
             document.querySelector('.Problema-Medplanner').style.display = "inline-block"
         } else { 
             document.querySelector('.Problema-Medplanner').style.display = "none"
         }
         if(valor == 'Material Virtual') { 
-            img.src = "img/Fotos-Medsoft/Material-Virtual.png"
             document.querySelector('.Problema-Material-Virtual').style.display = "inline-block"
         } else { 
             document.querySelector('.Problema-Material-Virtual').style.display = "none"
         }
         if(valor == 'Atualizações e Erratas') {
-            img.src = "img/Fotos-Medsoft/Arualização-E-Erratas.png"
             document.querySelector('.Problema-Atualizacao-Erratas').style.display = "inline-block"
         } else { 
             document.querySelector('.Problema-Atualizacao-Erratas').style.display = "none"
@@ -272,13 +238,11 @@ function Clicar(valor) {
             document.querySelector('.Problema-Medcode').style.display = "none"
         }
         if(valor == 'No Papo') {
-            img.src = "img/Fotos-Medsoft/No-Papo.png"
             document.querySelector('.Problema-NoPapo').style.display = "inline-block"
         } else { 
             document.querySelector('.Problema-NoPapo').style.display = "none"
         }
         if(valor == 'Administrativo') { 
-            img.src = "img/Fotos-Medsoft/admin.png"
             document.querySelector('.Problema-Administrativo').style.display = "inline-block"
         } else { 
             document.querySelector('.Problema-Administrativo').style.display = "none"

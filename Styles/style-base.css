@@ -359,18 +359,27 @@ header > .content-int {
     article > .tab {
         background-color: #f1f1f1;
         border: 1px solid #ccc;
-        width: 71%;
+        width: 70.5%;
         border-style: ridge;
-        margin-left: 28px;
-        position: fixed;
-        top: 22.3%;
-        left: 11.4%;
+        margin-bottom: -4%;
+        margin-left: 14.7%;
         }
 
     .open {
         display: inline-block;
     }
 
+}
+
+@media (max-width: 630px) {
+    article > .tab {
+        background-color: #f1f1f1;
+        border: 1px solid #ccc;
+        width: 70.5%;
+        border-style: ridge;
+        margin-bottom: -15;
+        margin-left: 14.7%;
+        }
 }
 
  .mobile-menu > a > img {
