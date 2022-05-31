@@ -290,7 +290,7 @@ function Clicar(valor) {
 
     var btn = document.querySelector("#Perfil");
 
-    btn.addEventListener("click", function() {
+    btn.addEventListener("mouseover", function() {
     
         var div = document.querySelector(".Sub-Menu-Perfil");
         
@@ -304,7 +304,7 @@ function Clicar(valor) {
 
     var btn = document.querySelector("#Not");
 
-    btn.addEventListener("click", function() {
+    btn.addEventListener("mouseover", function() {
     
         var div = document.querySelector(".Sub-Menu-Not");
         
@@ -318,7 +318,7 @@ function Clicar(valor) {
 
     var btn = document.querySelector("#Tarefas");
 
-    btn.addEventListener("click", function() {
+    btn.addEventListener("mouseover", function() {
     
         var div = document.querySelector(".Sub-Menu-Tar");
         
@@ -346,5 +346,7 @@ function removeStyles(){
         document.querySelectorAll('.tab > button')[i].classList.add('botaoN');
     }
 }
+
+
 
 

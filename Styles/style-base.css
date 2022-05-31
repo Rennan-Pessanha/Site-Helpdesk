@@ -77,8 +77,8 @@ header > .content-int {
 .Sub-Menu-Perfil {
     position: absolute;
     background-color: rgb(255, 255, 255);
-    height: 180px;
-    width: 200px;
+    height: 11rem;
+    width: 12rem;
     margin-left: 74%;
     display: none;
     border-style: solid;
@@ -111,7 +111,7 @@ header > .content-int {
 .Sub-Menu-Not {
     position: absolute;
     background-color: rgb(255, 255, 255);
-    height: 198px;
+    height: 12rem;
     width: 700px;
     margin-left: 40.3%;
     display: none;
@@ -154,8 +154,8 @@ header > .content-int {
 .Sub-Menu-Tar {
     position: absolute;
     background-color: rgb(255, 255, 255);
-    height: 198px;
-    width: 500px;
+    height: 12rem;
+    width: 37rem;
     margin-left: 50%;
     display: none;
     border-style: solid;
@@ -245,12 +245,20 @@ header > .burguer-content-icon > button {
 
     }
 
+    .Sub-Menu-Perfil {
+        margin-left: 70%;
+    }
+
 }
 
 @media (max-width: 1450px) {
     header > .content-int {
         margin-left: 75%;
 
+    }
+
+    .Sub-Menu-Perfil {
+        margin-left: 54%;
     }
 }
 
@@ -377,7 +385,7 @@ header > .content-int {
         border: 1px solid #ccc;
         width: 70.5%;
         border-style: ridge;
-        margin-bottom: -15;
+        margin-bottom: -10%;
         margin-left: 14.7%;
         }
 }
