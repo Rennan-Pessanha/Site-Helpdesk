@@ -1,8 +1,9 @@
 /* Classes  */
 .Select-Content { 
-    width: 10em;
+    width: 15em;
     border-radius: 5px 5px 5px 5px;
     height: 2em;
+    text-align: center;
 
 }
 
@@ -123,7 +124,7 @@ margin-top: 10px;
 #btn_dadosIII {
 
     cursor: pointer;
-    margin-left: 39%;
+    margin-left: 10%;
     background-color: transparent;
     border: none;
     margin-top: 20%;
@@ -194,18 +195,27 @@ article > .line {
 }
 
 .cont-content {
-    margin-left: 2em;
     width: 30em;
     height: 100%;
-    border-left: 1px;
-    border: solid;
-    border-color: black;
-    border-right: solid;
-    border-top: none;
-    border-left: none;
-    border-bottom: none;
-    margin-left: 14.5%;
+    margin-left: 12%;
+    display: inline-block;
 }
+
+.Text-content {
+background-color: black;
+display: inline-block;
+height: 100%;
+width: 100%;
+}
+
+#Details {
+height: 65vh;
+width: 36vw;
+margin-bottom: 2%;
+border-radius: 5px;
+}
+
+
 
 .drop1 { 
     display: block;
@@ -565,16 +575,6 @@ background-color: rgba(0, 0, 255, 0.034);
     border-radius: 5px 5px 5px 5px;
     text-decoration: none;
     margin-top: 10px;
-}
-
-.Imagem-Representativa { 
-    position: fixed;
-    height: 400px;
-    width: 500px;
-    background-color: black;
-    left: 50%;
-    top: 50%;
-
 }
 
 #msg_erro{

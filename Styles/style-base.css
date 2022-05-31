@@ -74,6 +74,10 @@ header > .content-int {
 
 }
 
+#form-content-icon { 
+    display: none;
+}
+
 .Sub-Menu-Perfil {
     position: absolute;
     background-color: rgb(255, 255, 255);
@@ -210,6 +214,7 @@ header > .content-int > a > img {
     filter: invert(1);
     
 }
+
 
 .formS {
     height: 50px;
@@ -371,6 +376,10 @@ header > .content-int {
         border-style: ridge;
         margin-bottom: -4%;
         margin-left: 14.7%;
+        }
+
+        #form-content-icon { 
+            display: inline-flex;
         }
 
     .open {
