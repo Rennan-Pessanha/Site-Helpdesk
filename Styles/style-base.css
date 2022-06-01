@@ -16,7 +16,7 @@
 
 .Padrao-Primário { 
     color: rgb(0, 0, 0);
-    font-size: 27px;
+    font-size: 130%;
     font-family: 'Baloo Da 2', cursive;
 
 }
@@ -24,7 +24,7 @@
 .Padrao-Secundário {
     font-family: 'Baloo Da 2', cursive;
     color: black;
-    font-size: 13px;
+    font-size: 90%;
 }
 
 .Padrao-Terciária { 

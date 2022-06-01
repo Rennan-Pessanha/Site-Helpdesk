@@ -1,135 +1,74 @@
 article {
     background-color: #f5f7fa;
-    height: 100%;
+    height: 90%;
     width: 100%;
     display: inline-block;
     position: relative;
     position: absolute;
-
-}
-
-article > .capa > img { 
-    height: 350px;
-    width: 100%;
 }
 
 article > .capa {
-    height: 350px;
-    width: 100%;
-    background: linear-gradient(to middle, #A3241D, #FF6961 );
+    height: 50%;
 }
 
 article > .perfil { 
     background-color: #f5f7fa;
-    height: 48%;
-    width: 20%;
     position: relative;
     top: -50%;
-    left: 32%;
     overflow-y: hidden;
-    text-align: center;
     border-radius: 20px;
-    
 }
 
 
 .perfil-desc {
     background-color: #f5f5f5;
     border-radius: 20px;
-    width: 174px;
-    padding: 5px;
-    margin: 13px;
-    margin-left: 15%;
+    width: 80%;
+    padding: 0.3%;
+    margin: 0.7%;
     border: 1px solid #E4E6EF;
 }
-article > .perfil > img { 
-    padding: 20px;
-    height: 100px;
-    width: 100px;
-    text-align: center;
-}
-
-article > .perfil-info {
-    width: 220px;
-    height: 105px;
-    background-color: rgba(0, 0, 0, 0.527);
-    position: relative;
-    top: -55%;
-    left: 33%;
-    color: white;
-    text-align: center;
-    border-radius: 20px;
-
-}
-
-article > .perfil-info > h1 {
-    margin-bottom: 15px;
-    margin-top: 8px;
-}
-
-article > .perfil-info > h4 {
-    margin-bottom: 10px;
-}
-
 
 .barra {
-    height: 350px;
-    width: 900px;
+    height: 65%;
+    width: 40%;
     background-color: rgb(255, 255, 255);
     display: flex;
-    margin-left: 100px;
+    margin-left: 1%;
     position: relative;
-    top: -26%;
+    top: -50%;
     display: inline-block;
     border-style: ridge;
 }
 
 .barra2 {
 
-    height: 186px;
-    width: 500px;
+    height: 35%;
+    width: 35%;
     background-color: rgb(255, 255, 255);
     display: flex;
-    margin-left: 27px;
+    margin-left: 3%;
     position: relative;
-    top: -43%;
+    top: -80%;
     display: inline-block;
     border-style: ridge;
-
-    
 }
 
 .barra3 {
 
-    height: 155px;
-    width: 500px;
+    height: 35%;
+    width: 35%;
     background-color: rgb(255, 255, 255);
     display: flex;
-    margin-left: 1035px;
+    margin-left: 44.5%;
     position: relative;
-    top: -43%;
+    top: -80%;
     display: inline-block;
-    border-style: ridge;
-
-    
+    border-style: ridge; 
 }
 
-.barra4 {
 
-    height: 600px;
-    width: 76%;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    margin-left: 100px;
-    position: relative;
-    top: -40%;
-    display: inline-block;
-    border-style: ridge;
-
-    
-}
-
-@media (max-width: 1000px) {
+@media (max-width: 100%) {
 
     article > .form-content {
         margin: auto;
@@ -147,14 +86,14 @@ article > .line {
     margin-left: 26px;
 }
 
-@media (max-width: 1646px) {
+@media (max-width: 100%) {
 
     .barra {
-        height: 350px;
-        width: 1000px;
+        height: 30%;
+        width: 100%;
         background-color: rgb(255, 255, 255);
         display: flex;
-        margin-left: 100px;
+        margin-left: 10%;
         position: relative;
         top: -26%;
         display: inline-block;
@@ -163,57 +102,37 @@ article > .line {
 
     .barra2 {
 
-        height: 186px;
-        width: 500px;
+        height: 30%;
+        width: 100%;
         background-color: rgb(255, 255, 255);
         display: flex;
-        margin-left: 100px;
+        margin-left: 10%;
         position: relative;
         display: inline-block;
         border-style: ridge;
-        margin-top: 170px;
-    
-        
     }
 
     .barra3 {
 
-        height: 186px;
-        width: 500px;
+        height: 30%;
+        width: 100%;
         background-color: rgb(255, 255, 255);
         display: flex;
         position: relative;
         display: inline-block;
         border-style: ridge;
-        margin-left: 10px;
-        
-    
-}
-
-.barra4 {
-
-    height: 600px;
-    width: 1000px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    margin-left: 100px;
-    position: relative;
-    display: block;
-    border-style: ridge;
-    display: inline-block;
-
-    
+        margin-left: 10%;
 }
 
 }
 
-@media (max-width: 1240px) { 
+@media (max-width: 100%) { 
     .barra {
-        height: 350px;
-        width: 1000px;
+        height: 30%;
+        width: 100%;
         background-color: rgb(255, 255, 255);
         display: flex;
-        margin-left: 100px;
+        margin-left: 10%;
         position: relative;
         top: -26%;
         display: inline-block;
@@ -231,8 +150,6 @@ article > .line {
         display: block;
         border-style: ridge;
         margin-top: 170px;
-    
-        
     }
 
     .barra3 {
@@ -245,23 +162,7 @@ article > .line {
         display: inline-block;
         border-style: ridge;
         margin-left: 100px;
-        margin-top: 20px;
-        
-    
+        margin-top: 20px; 
 }
 
-.barra4 {
-
-    height: 600px;
-    width: 1000px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    margin-left: 100px;
-    position: relative;
-    display: block;
-    border-style: ridge;
-    display: inline-block;
-
-    
-}
 }
