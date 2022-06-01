@@ -1,7 +1,4 @@
 
-
-
-
 let Email = document.getElementById('Email-Login')
 let Senha = document.getElementById('Senha-Login')
 let RepitaSenha = document.getElementById('Repita-Senha-Login')
