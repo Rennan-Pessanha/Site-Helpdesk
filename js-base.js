@@ -31,25 +31,26 @@ document.querySelector(".Sub-Menu-Perfil").addEventListener("mouseleave", functi
 });
 
 
-    var btn = document.querySelector("#Not");
-
+  var btn = document.querySelector("#Not");
+  var submenu = document.querySelector(".Sub-Menu-Not");
     btn.addEventListener("mouseover", function(){
-    
-        var div = document.querySelector(".Sub-Menu-Not");
+      let submenu = document.querySelector(".Sub-Menu-Not")
+        if( submenu.style.display === "none"){
+            submenu.style.display = "block";
+          
+        } 
         
-      if(div.style.display === "none") {
-            div.style.display = "block";
-            document.querySelector('.Sub-Menu-Perfil').style.display = "none"
-            document.querySelector('.Sub-Menu-Tar').style.display = "none"
-        } else {
-          div.style.display = "none";
+    });
+    document.querySelector(".Sub-Menu-Not").addEventListener("mouseleave", function(){
+      let submenu = document.querySelector(".Sub-Menu-Not")
+        if(submenu.style.display == 'block'){
+          submenu.style.display = "none";
       }
-        
     });
 
     var btn = document.querySelector("#Tarefas");
-
-    btn.addEventListener("mouseover", function(){
+    var submenu = document.querySelector(".Sub-Menu-Not");
+      btn.addEventListener("mouseover", function(){
     
         var div = document.querySelector(".Sub-Menu-Tar");
         
@@ -62,3 +63,5 @@ document.querySelector(".Sub-Menu-Perfil").addEventListener("mouseleave", functi
       }
         
     });
+
+    
