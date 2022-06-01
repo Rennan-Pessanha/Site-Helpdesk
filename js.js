@@ -172,7 +172,7 @@ function Clicar(valor) {
         } else { 
             document.querySelector('.Problema-Questoes').style.display = "none"
         }
-        if(valor == 'Medsmarth') {
+        if(valor == 'Medsmart') {
             document.querySelector('.Problema-Medsmart').style.display = "inline-block"
         } else { 
             document.querySelector('.Problema-Medsmart').style.display = "none"
