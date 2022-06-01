@@ -13,25 +13,27 @@ function burguer() {
     
 // Dropdown-Menu-Superior.
 
-    var btn = document.querySelector("#Perfil");
+var btn = document.querySelector("#Perfil");
+var submenu = document.querySelector(".Sub-Menu-Perfil");
 
-    btn.addEventListener("click", function(){
-    
-        var div = document.querySelector(".Sub-Menu-Perfil");
-        
-      if(div.style.display === "none") {
-            div.style.display = "block";
-            document.querySelector('.Sub-Menu-Not').style.display = "none"
-            document.querySelector('.Sub-Menu-Tar').style.display = "none"
-        } else {
-          div.style.display = "none";
-      }
-        
-    });
+btn.addEventListener("mouseover", function(){
+  let submenu = document.querySelector(".Sub-Menu-Perfil")
+    if(submenu.style.display=='none'){
+      submenu.style.display = "block";
+  }
+});
+
+document.querySelector(".Sub-Menu-Perfil").addEventListener("mouseleave", function(){
+  let submenu = document.querySelector(".Sub-Menu-Perfil")
+    if(submenu.style.display == 'block'){
+      submenu.style.display = "none";
+  }
+});
+
 
     var btn = document.querySelector("#Not");
 
-    btn.addEventListener("click", function(){
+    btn.addEventListener("mouseover", function(){
     
         var div = document.querySelector(".Sub-Menu-Not");
         
@@ -47,7 +49,7 @@ function burguer() {
 
     var btn = document.querySelector("#Tarefas");
 
-    btn.addEventListener("click", function(){
+    btn.addEventListener("mouseover", function(){
     
         var div = document.querySelector(".Sub-Menu-Tar");
         
