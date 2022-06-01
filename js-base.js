@@ -48,8 +48,8 @@ document.querySelector(".Sub-Menu-Perfil").addEventListener("mouseleave", functi
       }
     });
 
-    var btn = document.querySelector("#Tarefas");
-    var submenu = document.querySelector(".Sub-Menu-Not");
+    var btn = document.querySelector("#Tar");
+    var submenu = document.querySelector(".Sub-Menu-Tar");
       btn.addEventListener("mouseover", function(){
     
         var div = document.querySelector(".Sub-Menu-Tar");
