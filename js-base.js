@@ -22,7 +22,7 @@ document.querySelector('.Sub-Menu-Tar').style.display = "none"
 var btn = document.querySelector("#Perfil");
 var submenu = document.querySelector(".Sub-Menu-Perfil");
 
-  btn.addEventListener("mouseover", function(){
+  btn.addEventListener("click", function(){
     let submenu = document.querySelector(".Sub-Menu-Perfil")
       if(submenu.style.display=='none'){
         submenu.style.display = "block";
@@ -43,7 +43,7 @@ var submenu = document.querySelector(".Sub-Menu-Perfil");
 var btn = document.querySelector("#Not");
 var div = document.querySelector(".Sub-Menu-Not");
     
-  btn.addEventListener("mouseover", function(){
+  btn.addEventListener("click", function(){
     let div = document.querySelector(".Sub-Menu-Not")
       if( div.style.display === "none"){
           div.style.display = "block";
@@ -68,7 +68,7 @@ var div = document.querySelector(".Sub-Menu-Not");
     var btn = document.querySelector("#Tar");
     var div = document.querySelector(".Sub-Menu-Tar");
         
-      btn.addEventListener("mouseover", function(){
+      btn.addEventListener("click", function(){
         let div = document.querySelector(".Sub-Menu-Tar")
           if( div.style.display === "none"){
               div.style.display = "block";
