@@ -26,6 +26,9 @@ var submenu = document.querySelector(".Sub-Menu-Perfil");
     let submenu = document.querySelector(".Sub-Menu-Perfil")
       if(submenu.style.display=='none'){
         submenu.style.display = "block";
+        document.querySelector('.Sub-Menu-Tar').style.display = "none"
+        document.querySelector('.Sub-Menu-Not').style.display = "none"
+
   }
 });
 
@@ -44,6 +47,9 @@ var div = document.querySelector(".Sub-Menu-Not");
     let div = document.querySelector(".Sub-Menu-Not")
       if( div.style.display === "none"){
           div.style.display = "block";
+          document.querySelector('.Sub-Menu-Perfil').style.display = "none"
+          document.querySelector('.Sub-Menu-Tar').style.display = "none"
+
           
         } 
         
@@ -66,6 +72,8 @@ var div = document.querySelector(".Sub-Menu-Not");
         let div = document.querySelector(".Sub-Menu-Tar")
           if( div.style.display === "none"){
               div.style.display = "block";
+              document.querySelector('.Sub-Menu-Perfil').style.display = "none"
+              document.querySelector('.Sub-Menu-Not').style.display = "none"
               
             } 
             
