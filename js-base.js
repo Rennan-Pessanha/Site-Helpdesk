@@ -13,55 +13,79 @@ function burguer() {
     
 // Dropdown-Menu-Superior.
 
+document.querySelector('.Sub-Menu-Perfil').style.display = "none"
+document.querySelector('.Sub-Menu-Not').style.display = "none"
+document.querySelector('.Sub-Menu-Tar').style.display = "none"
+
+
+
 var btn = document.querySelector("#Perfil");
 var submenu = document.querySelector(".Sub-Menu-Perfil");
 
-btn.addEventListener("mouseover", function(){
-  let submenu = document.querySelector(".Sub-Menu-Perfil")
-    if(submenu.style.display=='none'){
-      submenu.style.display = "block";
+  btn.addEventListener("mouseover", function(){
+    let submenu = document.querySelector(".Sub-Menu-Perfil")
+      if(submenu.style.display=='none'){
+        submenu.style.display = "block";
   }
 });
 
-document.querySelector(".Sub-Menu-Perfil").addEventListener("mouseleave", function(){
-  let submenu = document.querySelector(".Sub-Menu-Perfil")
-    if(submenu.style.display == 'block'){
-      submenu.style.display = "none";
+  document.querySelector(".Sub-Menu-Perfil").addEventListener("mouseleave", function(){
+    let submenu = document.querySelector(".Sub-Menu-Perfil")
+      if(submenu.style.display == 'block'){
+        submenu.style.display = "none";
   }
 });
 
 
-  var btn = document.querySelector("#Not");
-  var submenu = document.querySelector(".Sub-Menu-Not");
-    btn.addEventListener("mouseover", function(){
-      let submenu = document.querySelector(".Sub-Menu-Not")
-        if( submenu.style.display === "none"){
-            submenu.style.display = "block";
+var btn = document.querySelector("#Not");
+var div = document.querySelector(".Sub-Menu-Not");
+    
+  btn.addEventListener("mouseover", function(){
+    let div = document.querySelector(".Sub-Menu-Not")
+      if( div.style.display === "none"){
+          div.style.display = "block";
           
         } 
         
     });
-    document.querySelector(".Sub-Menu-Not").addEventListener("mouseleave", function(){
-      let submenu = document.querySelector(".Sub-Menu-Not")
-        if(submenu.style.display == 'block'){
-          submenu.style.display = "none";
+  document.querySelector(".Sub-Menu-Not").addEventListener("mouseleave", function(){
+    let submenu = document.querySelector(".Sub-Menu-Not")
+      if(submenu.style.display == 'block'){
+        submenu.style.display = "none";
       }
     });
+
+
+
+
 
     var btn = document.querySelector("#Tar");
-    var submenu = document.querySelector(".Sub-Menu-Tar");
+    var div = document.querySelector(".Sub-Menu-Tar");
+        
       btn.addEventListener("mouseover", function(){
+        let div = document.querySelector(".Sub-Menu-Tar")
+          if( div.style.display === "none"){
+              div.style.display = "block";
+              
+            } 
+            
+        });
+      document.querySelector(".Sub-Menu-Tar").addEventListener("mouseleave", function(){
+        let submenu = document.querySelector(".Sub-Menu-Tar")
+          if(submenu.style.display == 'block'){
+            submenu.style.display = "none";
+          }
+        });
     
-        var div = document.querySelector(".Sub-Menu-Tar");
-        
-      if(div.style.display === "none") {
-            div.style.display = "block";
-            document.querySelector('.Sub-Menu-Perfil').style.display = "none"
-            document.querySelector('.Sub-Menu-Not').style.display = "none"
-        } else {
-          div.style.display = "none";
-      }
-        
-    });
+    
+  
 
     
+
+  
+
+
+
+    
+    
+ 
