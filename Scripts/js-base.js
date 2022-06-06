@@ -84,6 +84,13 @@ var div = document.querySelector(".Sub-Menu-Not");
             submenu.style.display = "none";
           }
         });
+
+
+        // Finalizando Formulário
+
+        function SubmitForm() {
+          window.alert("Parte em Construção :)")
+        }
     
     
   
