@@ -1,168 +1,347 @@
-article {
-    background-color: #f5f7fa;
-    height: 90%;
-    width: 100%;
-    display: inline-block;
-    position: relative;
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+
+
+@font-face {
+    font-family: Baloo;
+    src: url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+}
+
+* { 
+    margin: 0%;
+    padding: 0%;
+
+
+}
+
+@media screen and (min-width: 1000px ) {
+
+main{
     position: absolute;
+    background: #f2f2f2;
+    top: 84px;
+    right: -4;
+    padding-left: 245px;
+    margin-left: 285px;
+    height: 85%;
+    width: 54%;
+    border-radius: 17px;
 }
 
-article > .capa {
-    height: 50%;
+.titulo {
+    color: rgb(0, 0, 0);
+    font-size: 130%;
+    font-family: 'Baloo Da 2', cursive;
+
+}
+.box-principal {
+    background: #e91212;
+    width: 1210px;
+    height: 600px;
+    margin-top: 50px;
+    border-radius: 30px;
 }
 
-article > .perfil { 
-    background-color: #f5f7fa;
-    position: relative;
-    top: -50%;
-    overflow-y: hidden;
-    border-radius: 20px;
+.container {
+    width: 700px;
+}
+
+h1 {
+    display: inline-block;
+    padding-top:20px;
+    padding-left: 100px;
 }
 
 
-.perfil-desc {
-    background-color: #f5f5f5;
-    border-radius: 20px;
+.box-esquerdo {
+    position: absolute;
+    background: white;
+    width: 25%;
+    height: 70%;
+    margin-top:3em;
+    margin-left: 5em;
+    border-radius: 17px;
+}
+
+
+
+.foto-de-perfil img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 2px auto;
+
+}
+
+.nome-usuario {
+    position: absolute;
+    font-weight: bold;
+    margin-left: -7%;
+}
+
+
+
+.box-pequeno {
+    height: 60%;
     width: 80%;
-    padding: 0.3%;
-    margin: 0.7%;
-    border: 1px solid #E4E6EF;
 }
 
-.barra {
-    height: 65%;
-    width: 40%;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    margin-left: 1%;
+.lista {
+    position: absolute;
+    top: 20px;
+    right: -4;
+    height: 60%;
+    width: 80%;
+}
+
+
+.lista li{
+    text-align: center;
     position: relative;
-    top: -50%;
+    left: 21em;
     display: inline-block;
-    border-style: ridge;
-}
-
-.barra2 {
-
+    background: white;
     height: 35%;
-    width: 35%;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    margin-left: 3%;
-    position: relative;
-    top: -80%;
-    display: inline-block;
-    border-style: ridge;
+    width: 19.85%;
+    margin-top: 1em;
+    margin-left: 2.37em;
+    left: 15em;
+    border-radius: 17px
+
+
 }
 
-.barra3 {
+.box-grande {
+    position: absolute;
+    background: white;
+    bottom: 8%;
+    left: 32.8em;
+    height: 55%;
+    width: 54.1%;
+    border-radius: 17px;
+}
 
+
+
+
+.box-foto {
+    position: absolute;
+    background: white;
+    bottom: 26.1%;
+    left: 2.4em;
+    height: 69%;
+    width: 32%;
+    border-radius: 17px;
+
+
+}
+
+.box-foto img {
+    
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        margin: 2px auto;
+    
+    
+}
+
+.foto-de-perfil{
+    background: #A3241D;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 20px auto;
+}
+
+.cargo {
+    position: absolute;
+    background: #f5f5f5;
+    bottom: 35.6%;
+    left: 2.4em;
+    height: 15%;
+    width: 78%;
+    border-radius: 17px;
+
+}
+
+.turno {
+    position: absolute;
+    background: #f5f5f5;
+    bottom: 18.6%;
+    left: 2.4em;
+    height: 15%;
+    width: 78%;
+    border-radius: 17px;
+}
+
+}
+
+
+
+
+@media screen and (max-height: 800px ) {
+
+
+
+
+main{
+    position: absolute;
+    background: #f2f2f2;
+    top: 84px;
+    right: -4;
+    padding-left: 245px;
+    margin-left: 285px;
+    height: 85%;
+    width: 54%;
+    border-radius: 17px;
+}
+
+.titulo {
+    color: rgb(0, 0, 0);
+    font-size: 130%;
+    font-family: 'Baloo Da 2', cursive;
+
+}
+.box-principal {
+    background: #e91212;
+    width: 1210px;
+    height: 600px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+.container {
+    width: 700px;
+}
+
+h1 {
+    display: inline-block;
+    padding-top:20px;
+    padding-left: 100px;
+}
+
+
+.box-esquerdo {
+    position: absolute;
+    background: white;
+    width: 25%;
+    height: 70%;
+    margin-top:3em;
+    margin-left: 5em;
+    border-radius: 17px;
+}
+
+
+
+.foto-de-perfil img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 2px auto;
+
+}
+
+.nome-usuario {
+    position: absolute;
+    font-weight: bold;
+    margin-left: -7%;
+}
+
+
+
+.box-pequeno {
+    height: 60%;
+    width: 80%;
+}
+
+.lista {
+    position: absolute;
+    top: 20px;
+    right: -4;
+    height: 60%;
+    width: 80%;
+}
+
+
+.lista li{
+    text-align: center;
+    position: relative;
+    left: 21em;
+    display: inline-block;
+    background: white;
     height: 35%;
-    width: 35%;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    margin-left: 44.5%;
-    position: relative;
-    top: -80%;
-    display: inline-block;
-    border-style: ridge; 
+    width: 18.9%;
+    margin-top: 1em;
+    margin-left: 2.37em;
+    left: 7em;
+    border-radius: 17px;
 }
 
 
-@media (max-width: 100%) {
 
-    article > .form-content {
-        margin: auto;
-        margin-top: 30px;
-    }
 
-    article > .title > h1 {
-        text-align: center;
-    }
+.box-grande {
+    position: absolute;
+    background: white;
+    bottom: 8%;
+    left: 24.8em;
+    height: 55%;
+    width: 54.1%;
+    border-radius: 17px;
+}
+
+
+
+
+.box-foto {
+    position: absolute;
+    background: white;
+    bottom: 26.1%;
+    left: 2.4em;
+    height: 69%;
+    width: 32%;
+    border-radius: 17px;
+
 
 }
 
-article > .line {
-    margin-top: 36px;
-    margin-left: 26px;
+.box-foto img {
+    
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        margin: 2px auto;
+    
+    
 }
 
-@media (max-width: 100%) {
-
-    .barra {
-        height: 30%;
-        width: 100%;
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        margin-left: 10%;
-        position: relative;
-        top: -26%;
-        display: inline-block;
-        border-style: ridge;
-    }
-
-    .barra2 {
-
-        height: 30%;
-        width: 100%;
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        margin-left: 10%;
-        position: relative;
-        display: inline-block;
-        border-style: ridge;
-    }
-
-    .barra3 {
-
-        height: 30%;
-        width: 100%;
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        position: relative;
-        display: inline-block;
-        border-style: ridge;
-        margin-left: 10%;
+.foto-de-perfil{
+    background: #A3241D;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 20px auto;
 }
+
+.cargo {
+    position: absolute;
+    background: #f5f5f5;
+    bottom: 35.6%;
+    left: 2.4em;
+    height: 15%;
+    width: 78%;
+    border-radius: 17px;
 
 }
 
-@media (max-width: 100%) { 
-    .barra {
-        height: 30%;
-        width: 100%;
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        margin-left: 10%;
-        position: relative;
-        top: -26%;
-        display: inline-block;
-        border-style: ridge;
-    }
-
-    .barra2 {
-
-        height: 186px;
-        width: 500px;
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        margin-left: 100px;
-        position: relative;
-        display: block;
-        border-style: ridge;
-        margin-top: 170px;
-    }
-
-    .barra3 {
-
-        height: 186px;
-        width: 500px;
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        position: relative;
-        display: inline-block;
-        border-style: ridge;
-        margin-left: 100px;
-        margin-top: 20px; 
+.turno {
+    position: absolute;
+    background: #f5f5f5;
+    bottom: 18.6%;
+    left: 2.4em;
+    height: 15%;
+    width: 78%;
+    border-radius: 17px;
 }
 
 }
