@@ -115,7 +115,7 @@ header > .content-int {
     background-color: rgb(255, 255, 255);
     height: 12rem;
     width: 700px;
-    margin-left: 30%;
+    margin-left: 39%;
     display: none;
     border-style: solid;
     border-top: none;
@@ -455,5 +455,85 @@ article > .title > h1 {
     article > .title > h1 {
         text-align: center;
     }
+
+}
+
+
+
+
+
+
+
+@media screen and (min-height: 800px ) {
+
+
+
+.Sub-Menu-Tar {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 12rem;
+    width: 37rem;
+    margin-left: 41%;
+    display: none;
+    border-style: solid;
+    border-top: none;
+    box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 36%);
+    border-color: rgba(0, 0, 0, 0.267);
+    border-width: 0.1px;
+    z-index: 1;
+}
+
+Sub-Menu-Not {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 12rem;
+    width: 700px;
+    margin-left: 39%;
+    display: none;
+    border-style: solid;
+    border-top: none;
+    box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 36%);
+    border-color: rgba(0, 0, 0, 0.267);
+    border-width: 0.1px;
+    z-index: 1;
+}
+
+
+
+
+}
+
+@media screen and (max-height: 800px ) {
+
+    .Sub-Menu-Tar {
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        height: 12rem;
+        width: 37rem;
+        margin-left: 20%;
+        display: none;
+        border-style: solid;
+        border-top: none;
+        box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 36%);
+        border-color: rgba(0, 0, 0, 0.267);
+        border-width: 0.1px;
+        z-index: 1;
+    }
+
+    
+Sub-Menu-Not {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 12rem;
+    width: 700px;
+    margin-left: 30%;
+    display: none;
+    border-style: solid;
+    border-top: none;
+    box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 36%);
+    border-color: rgba(0, 0, 0, 0.267);
+    border-width: 0.1px;
+    z-index: 1;
+}
 
 }
