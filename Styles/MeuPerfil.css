@@ -18,7 +18,7 @@
 main{
     position: absolute;
     background: #f2f2f2;
-    top: 84px;
+    top: 114px;
     right: -4;
     padding-left: 245px;
     margin-left: 285px;
@@ -27,11 +27,15 @@ main{
     border-radius: 17px;
 }
 
+
 .titulo {
     color: rgb(0, 0, 0);
     font-size: 130%;
     font-family: 'Baloo Da 2', cursive;
-
+    position: absolute;
+    margin: -18px;
+    margin-left: -305px;
+    width: 1174px;
 }
 .box-principal {
     background: #e91212;
@@ -62,13 +66,22 @@ h1 {
     border-radius: 17px;
 }
 
-
-
-.foto-de-perfil img{
-    width: 100px;
-    height: 100px;
+.foto-de-perfil{
+    background: #A3241D;
+    width: 150px;
+    height: 150px;
     border-radius: 100px;
-    margin: 2px auto;
+    margin: 40px auto;
+}
+
+
+.box-foto img {
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin: 1px auto;
+
 
 }
 
@@ -102,22 +115,34 @@ h1 {
     background: white;
     height: 35%;
     width: 19.85%;
-    margin-top: 1em;
+    margin-top: 3em;
     margin-left: 2.37em;
     left: 15em;
-    border-radius: 17px
+    border-radius: 17px;
 
 
+}
+
+
+hr{
+    
+    margin-left: -206px;
+    width: 1167px;
+    position: absolute;
+    margin-top: 39px;
+    border-top: 1px solid #f00;
+    opacity: .1;
 }
 
 .box-grande {
     position: absolute;
     background: white;
-    bottom: 8%;
+    bottom: 6%;
     left: 32.8em;
-    height: 55%;
+    height: 60%;
     width: 54.1%;
     border-radius: 17px;
+
 }
 
 
@@ -126,32 +151,16 @@ h1 {
 .box-foto {
     position: absolute;
     background: white;
-    bottom: 26.1%;
-    left: 2.4em;
+    bottom: 23.3%;
+    left: 3.3em;
     height: 69%;
-    width: 32%;
-    border-radius: 17px;
-
+    width: 33%;
+    border-radius: 17px
 
 }
 
-.box-foto img {
-    
-        width: 100px;
-        height: 100px;
-        border-radius: 100px;
-        margin: 2px auto;
-    
-    
-}
 
-.foto-de-perfil{
-    background: #A3241D;
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-    margin: 20px auto;
-}
+
 
 .cargo {
     position: absolute;
@@ -200,6 +209,10 @@ main{
     color: rgb(0, 0, 0);
     font-size: 130%;
     font-family: 'Baloo Da 2', cursive;
+    position: absolute;
+    margin: -18px;
+    margin-left: -305px;
+    width: 899px;
 
 }
 .box-principal {
@@ -270,25 +283,33 @@ h1 {
     display: inline-block;
     background: white;
     height: 35%;
-    width: 18.9%;
-    margin-top: 1em;
-    margin-left: 2.37em;
-    left: 7em;
-    border-radius: 17px;
+    width: 19.6%;
+    margin-top: 2.6em;
+    margin-left: 2.1em;
+    left: 7.5em;
+    border-radius: 17px
 }
 
 
-
+hr{
+    margin-left: -198px;
+    width: 872px;
+    position: absolute;
+    margin-top: 35px;
+    border-top: 1px solid #f00; opacity: .1;
+}
 
 .box-grande {
     position: absolute;
     background: white;
-    bottom: 8%;
-    left: 24.8em;
-    height: 55%;
-    width: 54.1%;
+    bottom: 7%;
+    left: 25em;
+    height: 54%;
+    width: 54.7%;
     border-radius: 17px;
 }
+
+
 
 
 
@@ -296,11 +317,11 @@ h1 {
 .box-foto {
     position: absolute;
     background: white;
-    bottom: 26.1%;
+    bottom: 19.1%;
     left: 2.4em;
     height: 69%;
     width: 32%;
-    border-radius: 17px;
+    border-radius: 17px
 
 
 }
