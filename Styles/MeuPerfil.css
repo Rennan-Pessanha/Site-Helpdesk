@@ -34,7 +34,7 @@ main{
     font-family: 'Baloo Da 2', cursive;
     position: absolute;
     margin: -18px;
-    margin-left: -305px;
+    margin-left: -292px;
     width: 1174px;
 }
 .box-principal {
@@ -126,8 +126,8 @@ h1 {
 
 hr{
     
-    margin-left: -206px;
-    width: 1167px;
+    margin-left: -192px;
+    width: 1160px;
     position: absolute;
     margin-top: 39px;
     border-top: 1px solid #f00;
@@ -292,12 +292,14 @@ h1 {
 
 
 hr{
-    margin-left: -198px;
-    width: 872px;
+    margin-left: -207px;
+    width: 893px;
     position: absolute;
     margin-top: 35px;
-    border-top: 1px solid #f00; opacity: .1;
+    border-top: 1px solid #f00;
+    opacity: .08;
 }
+
 
 .box-grande {
     position: absolute;
