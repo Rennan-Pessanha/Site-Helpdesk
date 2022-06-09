@@ -17,9 +17,9 @@ document.getElementById(idtab).style.display = 'block'
 
 function dados(){  
     //Coletando dados do input bruto
-    let dados_total = document.getElementById('dados_total').value;
-    let ov_total = document.getElementById('ov_total').value;
-    let chamado_total = document.getElementById('chamado_total').value;
+    var dados_total = document.getElementById('dados_total').value;
+    var ov_total = document.getElementById('ov_total').value;
+    var chamado_total = document.getElementById('chamado_total').value;
 
     if(dados_total == '' || ov_total == '' || chamado_total == ''){
         document.getElementById('msg_erro').innerHTML = 'Preencha todos os campos antes de aplicar.'
@@ -29,17 +29,17 @@ function dados(){
 
         document.getElementById('msg_erro').innerHTML = ''
         //Separando dados em variaveis
-        let id = dados_total.split('\t')[1];
-        let cpf = dados_total.split('\t')[2];
-        let nome = dados_total.split('\t')[3];
+        var id = dados_total.split('\t')[1];
+        var cpf = dados_total.split('\t')[2];
+        var nome = dados_total.split('\t')[3];
 
-        let ov_produto = ov_total.split('\t')[4];
-        let ov_data = ov_total.split('\t')[2];
-        let ov_status = (ov_total.split('\t')[6] + " " + ov_total.split('\t')[7]);
+        var ov_produto = ov_total.split('\t')[4];
+        var ov_data = ov_total.split('\t')[2];
+        var ov_status = (ov_total.split('\t')[6] + " " + ov_total.split('\t')[7]);
 
-        let chamado_data = chamado_total.split('\t')[2];
-        let chamado_hora = chamado_total.split('\t')[3];
-        let chamado_responsavel = chamado_total.split('\t')[9];
+        var chamado_data = chamado_total.split('\t')[2];
+        var chamado_hora = chamado_total.split('\t')[3];
+        var chamado_responsavel = chamado_total.split('\t')[9];
 
         //Adicionando campos dos inputs variaveis
         input_id = document.getElementById('id_id');
@@ -78,26 +78,23 @@ document.getElementById('btn_dados').onclick = dados;
 // Segunda parte do formulário. 
 
 function DadosII(){
-    let dados_dispositivos = document.getElementById('Dispositivo').value;
-    let id_card = document.getElementById('Id-Card').value;
-    let versao_do_app = document.getElementById('versao').value;
-    let reproducao = document.getElementById('foi_reproduzido').value;
+    var dados_dispositivos = document.getElementById('Dispositivo').value;
+    var id_card = document.getElementById('Id-Card').value;
+    var versao_do_app = document.getElementById('versao').value;
+    var reproducao = document.getElementById('foi_reproduzido').value;
 
-    let input_dispositivo = document.getElementById('id_dispositivo');
-    let input_card = document.getElementById('id_id_card');
-    let input_versao_app = document.getElementById('id_versao_app');
-    let input_reproduzido = document.getElementById('id_reproduzido');
+    var input_dispositivo = document.getElementById('id_dispositivo');
+    var input_card = document.getElementById('id_id_card');
+    var input_versao_app = document.getElementById('id_versao_app');
+    var input_reproduzido = document.getElementById('id_reproduzido');
 
     input_dispositivo.value = dados_dispositivos
     input_card.value = id_card
     input_versao_app.value = versao_do_app
     input_reproduzido.value = reproducao
+
+    document.querySelector('.tabela_resultadoII').style.display = "block"
 }
-
-// Foto 
-
-var img = document.getElementById("Foto-Espelho")
-var none = undefined
 
 // Parte III do formulário
 
@@ -289,4 +286,35 @@ function removeStyles(){
         document.querySelectorAll('.tab > button')[i].classList.add('botaoN');
     }
 }
+
+// Botão de Enviar o Formulário
+
+function SubmitForm() {
+
+var XHR = new XMLHttpRequest()
+
+var SubmitForm = {
+    "aluno_id":id,
+    "aluno_cpf":cpf,
+    "aluno_nome":nome,
+    "aluno_ov":ov_produto,
+    "aluno_data_ov":ov_data,
+    "aluno_status_ov":ov_status,
+    "aluno_data_chamado":chamado_data,
+    "aluno_hora_chamado":chamado_hora,
+    "responsavel_chamado":chamado_responsavel,
+    "aluno_dispositivo":dados_dispositivos,
+    "aluno_card_id":id_card,
+    "aluno_versao_app":versao_do_app,
+    "Aluno_reproducao_dispositivo":reproducao,
+}
+
+    JSON.stringify(SubmitForm)
+
+
+}
+
+
+
+
 
