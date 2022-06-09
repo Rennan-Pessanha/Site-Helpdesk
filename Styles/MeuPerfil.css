@@ -89,9 +89,12 @@ h1 {
 .nome-usuario {
     position: absolute;
     font-weight: bold;
-    margin-left: -7%;
+    color: rgb(0, 0, 0);
+    font-size: 281%;
+    font-family: 'Baloo Da 2', cursive;
+    text-align: center;
+    margin-left: 1%;
 }
-
 
 
 .box-pequeno {
@@ -203,6 +206,7 @@ h3 {
 
 
 li.indicadores {
+    color: black;
     font-size: 20px;
     font-family: 'Baloo Da 2', cursive;
     padding-left: 18px;
@@ -224,6 +228,17 @@ li p {
     margin-top: -91px;
 }
 
+.detalhamento {
+    color: rgb(0, 0, 0);
+    font-size: 133%;
+    font-family: 'Baloo Da 2', cursive;
+    position: absolute;
+    margin-right: 51px;
+    padding-left: 41px;
+    padding-top: 36px;
+    width: 899px;
+    
+    }
 
 
 }
@@ -301,7 +316,11 @@ h1 {
 .nome-usuario {
     position: absolute;
     font-weight: bold;
-    margin-left: -7%;
+    color: rgb(0, 0, 0);
+    font-size: 147%;
+    font-family: 'Baloo Da 2', cursive;
+    text-align: center;
+    margin-left: 0%;
 }
 
 
@@ -360,10 +379,10 @@ hr{
 
 
 .box-grande hr{
-    margin-left: 40px;
-    width: 819px;
+    margin-left: 34px;
+    width: 544px;
     position: absolute;
-    margin-top: 70px;
+    margin-top: 45px;
     border-top: 1px solid #f00;
     opacity: .1;
 }
@@ -433,6 +452,7 @@ h3 {
 
 
 li.indicadores {
+    color: black;
     font-size: 15px;
     font-family: 'Baloo Da 2', cursive;
     padding-left: 18px;
@@ -451,6 +471,17 @@ li.p {
     text-align: left;
 }
 
+.detalhamento {
+    color: rgb(0, 0, 0);
+    font-size: 109%;
+    font-family: 'Baloo Da 2', cursive;
+    position: absolute;
+    margin-right: 51px;
+    padding-left: 33px;
+    padding-top: 18px;
+    width: 899px;
+
+}
 }
 
 
