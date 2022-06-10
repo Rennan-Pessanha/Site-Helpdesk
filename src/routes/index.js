@@ -16,4 +16,8 @@ routes.get('/perfil', (req, res)=>{
     res.sendFile(path.join(__dirname, '../views', 'MeuPerfil.html'))
 })
 
+routes.get('/dashboard', (req, res)=>{
+    res.sendFile(path.join(__dirname, '../views', 'dash.html'))
+})
+
 module.exports = routes;
