@@ -1,0 +1,27 @@
+{
+  "name": "site-helpdesk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rennan-Pessanha/Site-Helpdesk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rennan-Pessanha/Site-Helpdesk/issues"
+  },
+  "homepage": "https://github.com/Rennan-Pessanha/Site-Helpdesk#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.3.6",
+    "nodemon": "^2.0.16"
+  }
+}
