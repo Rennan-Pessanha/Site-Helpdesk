@@ -23,7 +23,7 @@ main{
     padding-left: 245px;
     margin-left: 285px;
     height: 85%;
-    width: 54%;
+    width: 70%;
     border-radius: 17px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
@@ -69,8 +69,8 @@ h1 {
 
 .foto-de-perfil{
     background: #A3241D;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 100px;
     margin: 40px auto;
 }
@@ -78,8 +78,8 @@ h1 {
 
 .box-foto img {
     
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 100px;
     margin: 1px auto;
 
@@ -89,9 +89,12 @@ h1 {
 .nome-usuario {
     position: absolute;
     font-weight: bold;
-    margin-left: -7%;
+    color: rgb(0, 0, 0);
+    font-size: 281%;
+    font-family: 'Baloo Da 2', cursive;
+    text-align: center;
+    margin-left: 1%;
 }
-
 
 
 .box-pequeno {
@@ -104,7 +107,7 @@ h1 {
     top: 20px;
     right: -4;
     height: 60%;
-    width: 80%;
+    width: 82%;
 }
 
 
@@ -114,21 +117,20 @@ h1 {
     left: 21em;
     display: inline-block;
     background: white;
-    height: 35%;
-    width: 19.85%;
-    margin-top: 3em;
-    margin-left: 2.37em;
-    left: 15em;
+    height: 19%;
+    width: 19.5%;
+    margin-top: 2.8em;
+    margin-left: 2em;
+    left: 17.3em;
     border-radius: 17px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
-
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
 }
 
 
 hr{
     
     margin-left: -192px;
-    width: 1160px;
+    width: 1469px;
     position: absolute;
     margin-top: 39px;
     border-top: 1px solid #f00;
@@ -139,26 +141,32 @@ hr{
     position: absolute;
     background: white;
     bottom: 6%;
-    left: 32.8em;
+    left: 39.35em;
     height: 60%;
-    width: 54.1%;
+    width: 56.9%;
     border-radius: 17px;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-
+    box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
 }
 
 
-
+.box-grande hr{
+    margin-left: 40px;
+    width: 819px;
+    position: absolute;
+    margin-top: 70px;
+    border-top: 1px solid #f00;
+    opacity: .1;
+}
 
 .box-foto {
     position: absolute;
     background: white;
-    bottom: 23.3%;
+    bottom: 14.3%;
     left: 3.3em;
-    height: 69%;
+    height: 77%;
     width: 33%;
     border-radius: 17px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
 }
 
 
@@ -168,7 +176,7 @@ hr{
     position: absolute;
     background: #f9f9f9;
     bottom: 35.6%;
-    left: 2.9em;
+    left: 3.6em;
     height: 13%;
     width: 78%;
     border-radius: 17px;
@@ -179,7 +187,7 @@ hr{
     position: absolute;
     background: #f9f9f9;
     bottom: 18.6%;
-    left: 2.9em;
+    left: 3.6em;
     height: 13%;
     width: 78%;
     border-radius: 17px;
@@ -195,6 +203,43 @@ h3 {
     padding-left: 13px;
     padding-top: 6px;
 }
+
+
+li.indicadores {
+    color: black;
+    font-size: 20px;
+    font-family: 'Baloo Da 2', cursive;
+    padding-left: 18px;
+    padding-top: 88px;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+li p {
+    color: #e91212;
+    font-size: 45px;
+    font-family: 'Baloo Da 2', cursive;
+    padding-left: 0px;
+    padding-top: -18px;
+    font-weight: bold;
+    text-align: left;
+    vertical-align: top;
+    margin-top: -91px;
+}
+
+.detalhamento {
+    color: rgb(0, 0, 0);
+    font-size: 133%;
+    font-family: 'Baloo Da 2', cursive;
+    position: absolute;
+    margin-right: 51px;
+    padding-left: 41px;
+    padding-top: 36px;
+    width: 899px;
+    
+    }
+
 
 }
 
@@ -214,7 +259,7 @@ main{
     padding-left: 245px;
     margin-left: 285px;
     height: 85%;
-    width: 54%;
+    width: 58%;
     border-radius: 17px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
@@ -271,7 +316,11 @@ h1 {
 .nome-usuario {
     position: absolute;
     font-weight: bold;
-    margin-left: -7%;
+    color: rgb(0, 0, 0);
+    font-size: 147%;
+    font-family: 'Baloo Da 2', cursive;
+    text-align: center;
+    margin-left: 0%;
 }
 
 
@@ -297,22 +346,23 @@ h1 {
     display: inline-block;
     background: white;
     height: 35%;
-    width: 19.6%;
+    width: 22.8%;
     margin-top: 2.6em;
     margin-left: 2.1em;
-    left: 7.5em;
+    left: 9.9%;
     border-radius: 17px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    box-sizing: border-box;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
 }
-
 
 hr{
     margin-left: -207px;
-    width: 893px;
+    width: 956px;
     position: absolute;
     margin-top: 35px;
     border-top: 1px solid #f00;
     opacity: .08;
+    
 }
 
 
@@ -320,16 +370,24 @@ hr{
     position: absolute;
     background: white;
     bottom: 7%;
-    left: 25em;
+    left: 34.6%;
     height: 54%;
-    width: 54.7%;
+    width: 61.7%;
     border-radius: 17px;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
 }
 
 
 
 
+.box-grande hr{
+    margin-left: 34px;
+    width: 570px;
+    position: absolute;
+    margin-top: 45px;
+    border-top: 1px solid #f00;
+    opacity: .1;
+}
 
 
 .box-foto {
@@ -338,9 +396,10 @@ hr{
     bottom: 19.1%;
     left: 2.4em;
     height: 69%;
-    width: 32%;
+    width: 27%;
     border-radius: 17px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
+
 
 
 }
@@ -367,7 +426,7 @@ hr{
     position: absolute;
     background: #f9f9f9;
     bottom: 35.6%;
-    left: 2.2em;
+    left: 11%;
     height: 15%;
     width: 78%;
     border-radius: 17px;
@@ -379,7 +438,7 @@ hr{
     position: absolute;
     background: #f9f9f9;
     bottom: 18.6%;
-    left: 2.2em;
+    left: 11%;
     height: 15%;
     width: 78%;
     border-radius: 17px;
@@ -395,5 +454,55 @@ h3 {
 }
 
 
+li.indicadores {
+    color: black;
+    font-size: 15px;
+    font-family: 'Baloo Da 2', cursive;
+    padding-left: 18px;
+    padding-top: 53px;
+    font-weight: bold;
+    text-align: left;
 }
 
+li.p {
+    color: #e91212;
+    font-size: 15px;
+    font-family: 'Baloo Da 2', cursive;
+    padding-left: 10px;
+    padding-top: 53px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.detalhamento {
+    color: rgb(0, 0, 0);
+    font-size: 109%;
+    font-family: 'Baloo Da 2', cursive;
+    position: absolute;
+    margin-right: 51px;
+    padding-left: 33px;
+    padding-top: 18px;
+    width: 899px;
+
+}
+}
+
+
+@media screen and (max-height: 800px ) {
+
+
+    li p{
+        
+        color: #e91212;
+        font-size: 30px;
+        font-family: 'Baloo Da 2', cursive;
+        padding-left: 0px;
+        padding-top: -18px;
+        font-weight: bold;
+        text-align: left;
+        vertical-align: top;
+        margin-top: -66px
+    }
+
+
+}
