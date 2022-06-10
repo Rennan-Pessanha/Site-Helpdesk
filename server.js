@@ -6,4 +6,4 @@ app.listen(3005, () => {
   console.log('Conexão aberta na porta 3005');
 });
 
-app.use(express.static(path.join(__dirname,'./src/')))
+app.use(express.static(path.join(__dirname,'./src/public')))
