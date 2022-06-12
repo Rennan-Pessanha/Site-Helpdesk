@@ -65,6 +65,7 @@ height: 90px;
 border-style: ridge;
 border-width: 1;
 margin-left: 28px;
+border-radius: 17px 17px 0px 0px;
 }
 
 @media screen and (max-width: 1000px ) {

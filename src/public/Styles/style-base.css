@@ -374,6 +374,7 @@ header > .content-int {
         border-style: ridge;
         margin-bottom: -4%;
         margin-left: 14.7%;
+        border-radius: 17px 17px 0px 0px;
         }
 
         #form-content-icon { 
@@ -394,6 +395,7 @@ header > .content-int {
         border-style: ridge;
         margin-bottom: -10%;
         margin-left: 14.7%;
+        border-radius: 17px 17px 0px 0px;
         }
 }
 
