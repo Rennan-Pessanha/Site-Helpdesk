@@ -170,7 +170,25 @@ hr{
 }
 
 
+div.upload {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url(/img/lapis-removebg-preview.png);
+    overflow: hidden;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    margin: 46px 310px;
 
+}
+ 
+div.upload input {
+    display: block !important;
+    width: 20px !important;
+    height: 20px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+}
 
 .cargo {
     position: absolute;
@@ -256,7 +274,6 @@ main{
     background: #f2f2f2;
     top: 84px;
     right: -4;
-    padding-left: 245px;
     margin-left: 285px;
     height: 85%;
     width: 58%;
@@ -403,6 +420,28 @@ hr{
 
 
 }
+
+div.upload {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(/img/lapis-removebg-preview.png);
+    overflow: hidden;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    margin: 20px 160px;
+
+}
+ 
+div.upload input {
+    display: block !important;
+    width: 20px !important;
+    height: 20px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+}
+
+
 
 .box-foto img {
     
