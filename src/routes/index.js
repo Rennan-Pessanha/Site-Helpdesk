@@ -1,6 +1,6 @@
 const { Router } = require('express');
 const path = require('path');
-const getAll = require('../controllers/index.controller')
+const {getAll, createControl} = require('../controllers/index.controller')
 const routes = new Router();
 
 routes.get('/', (req, res) => {
@@ -24,5 +24,7 @@ routes.get('/padroes', (req, res)=>{
 })
 
 routes.get('/all', getAll)
+
+routes.post('/', createControl)
 
 module.exports = routes;

@@ -291,25 +291,54 @@ function removeStyles(){
 
 function SubmitForm() {
 
-var XHR = new XMLHttpRequest()
+    var XHR = new XMLHttpRequest()
 
-var SubmitForm = {
-    "aluno_id":id,
-    "aluno_cpf":cpf,
-    "aluno_nome":nome,
-    "aluno_ov":ov_produto,
-    "aluno_data_ov":ov_data,
-    "aluno_status_ov":ov_status,
-    "aluno_data_chamado":chamado_data,
-    "aluno_hora_chamado":chamado_hora,
-    "responsavel_chamado":chamado_responsavel,
-    "aluno_dispositivo":dados_dispositivos,
-    "aluno_card_id":id_card,
-    "aluno_versao_app":versao_do_app,
-    "Aluno_reproducao_dispositivo":reproducao,
-}
+    var dados_total = document.getElementById('dados_total').value;
+    var ov_total = document.getElementById('ov_total').value;
+    var chamado_total = document.getElementById('chamado_total').value;
 
-    JSON.stringify(SubmitForm)
+    var id = dados_total.split('\t')[1];
+    var cpf = dados_total.split('\t')[2];
+    var nome = dados_total.split('\t')[3];
+
+    var ov_produto = ov_total.split('\t')[4];
+    var ov_data = ov_total.split('\t')[2];
+    var ov_status = (ov_total.split('\t')[6] + " " + ov_total.split('\t')[7]);
+
+    var chamado_data = chamado_total.split('\t')[2];
+    var chamado_hora = chamado_total.split('\t')[3];
+    var chamado_responsavel = chamado_total.split('\t')[9];
+
+    var dados_dispositivos = document.getElementById('Dispositivo').value;
+    var id_card = document.getElementById('Id-Card').value;
+    var versao_do_app = document.getElementById('versao').value;
+    var reproducao = document.getElementById('Reproduzido').value;
+
+
+
+
+    var SubmitForm = {
+        "aluno_id":id,
+        "aluno_cpf":cpf,
+        "aluno_nome":nome,
+        "aluno_ov":ov_produto,
+        "aluno_ov_data":ov_data,
+        "aluno_ov_status":ov_status,
+        "aluno_chamado_data":chamado_data,
+        "aluno_chamado_hora":chamado_hora,
+        "responsavel":chamado_responsavel,
+        "aluno_dispositivo":dados_dispositivos,
+        "aluno_card_id":id_card,
+        "aluno_app_versao":versao_do_app,
+        "aluno_reproducao":reproducao,
+        
+    }
+
+        SubmitForm = JSON.stringify(SubmitForm)
+
+        XHR.open('POST', '/', true);
+        XHR.setRequestHeader("Content-Type", "application/json;charset=UTF-8")
+        XHR.send(SubmitForm);
 
 
 }
