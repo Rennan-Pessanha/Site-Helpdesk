@@ -25,6 +25,6 @@ routes.get('/padroes', (req, res)=>{
 
 routes.get('/all', getAll)
 
-routes.post('/', createControl)
+routes.post('/send', createControl)
 
 module.exports = routes;
