@@ -297,50 +297,57 @@ function SubmitForm() {
     var ov_total = document.getElementById('ov_total').value;
     var chamado_total = document.getElementById('chamado_total').value;
 
-    var id = dados_total.split('\t')[1];
-    var cpf = dados_total.split('\t')[2];
-    var nome = dados_total.split('\t')[3];
+    if(dados_total != '' && ov_total != '' && chamado_total != ''){
 
-    var ov_produto = ov_total.split('\t')[4];
-    var ov_data = ov_total.split('\t')[2];
-    var ov_status = (ov_total.split('\t')[6] + " " + ov_total.split('\t')[7]);
+        var id = dados_total.split('\t')[1];
+        var cpf = dados_total.split('\t')[2];
+        var nome = dados_total.split('\t')[3];
 
-    var chamado_data = chamado_total.split('\t')[2];
-    var chamado_hora = chamado_total.split('\t')[3];
-    var chamado_responsavel = chamado_total.split('\t')[9];
+        var ov_produto = ov_total.split('\t')[4];
+        var ov_data = ov_total.split('\t')[2];
+        var ov_status = (ov_total.split('\t')[6] + " " + ov_total.split('\t')[7]);
 
-    var dados_dispositivos = document.getElementById('Dispositivo').value;
-    var id_card = document.getElementById('Id-Card').value;
-    var versao_do_app = document.getElementById('versao').value;
-    var reproducao = document.getElementById('Reproduzido').value;
+        var chamado_data = chamado_total.split('\t')[2];
+        var chamado_hora = chamado_total.split('\t')[3];
+        var chamado_responsavel = chamado_total.split('\t')[9];
+
+        var dados_dispositivos = document.getElementById('Dispositivo').value;
+        var id_card = document.getElementById('Id-Card').value;
+        var versao_do_app = document.getElementById('versao').value;
+        var reproducao = document.getElementById('Reproduzido').value;
 
 
 
 
-    var SubmitForm = {
-        "aluno_id":id,
-        "aluno_cpf":cpf,
-        "aluno_nome":nome,
-        "aluno_ov":ov_produto,
-        "aluno_ov_data":ov_data,
-        "aluno_ov_status":ov_status,
-        "aluno_chamado_data":chamado_data,
-        "aluno_chamado_hora":chamado_hora,
-        "responsavel":chamado_responsavel,
-        "aluno_dispositivo":dados_dispositivos,
-        "aluno_card_id":id_card,
-        "aluno_app_versao":versao_do_app,
-        "aluno_reproducao":reproducao,
-        
+        var SubmitForm = {
+            "aluno_id":id,
+            "aluno_cpf":cpf,
+            "aluno_nome":nome,
+            "aluno_ov":ov_produto,
+            "aluno_ov_data":ov_data,
+            "aluno_ov_status":ov_status,
+            "aluno_chamado_data":chamado_data,
+            "aluno_chamado_hora":chamado_hora,
+            "responsavel":chamado_responsavel,
+            "aluno_dispositivo":dados_dispositivos,
+            "aluno_card_id":id_card,
+            "aluno_app_versao":versao_do_app,
+            "aluno_reproducao":reproducao,
+            
+        }
+
+            SubmitForm = JSON.stringify(SubmitForm)
+
+            XHR.open('POST', '/send', true);
+            XHR.setRequestHeader("Content-Type", "application/json;charset=UTF-8")
+            XHR.send(SubmitForm);
+
+            window.location.reload()
+
+    }else{
+        abrirtab('form1');
+        document.getElementById('msg_erro').innerHTML = 'Preencha todos os campos antes de aplicar'
     }
-
-        SubmitForm = JSON.stringify(SubmitForm)
-
-        XHR.open('POST', '/send', true);
-        XHR.setRequestHeader("Content-Type", "application/json;charset=UTF-8")
-        XHR.send(SubmitForm);
-
-
 }
 
 
