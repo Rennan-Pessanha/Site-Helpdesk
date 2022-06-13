@@ -20,10 +20,9 @@ main{
     background: #f2f2f2;
     top: 114px;
     right: -4;
-    padding-left: 245px;
     margin-left: 285px;
     height: 85%;
-    width: 70%;
+    width: 82.5%;
     border-radius: 17px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
@@ -31,13 +30,13 @@ main{
 
 .titulo {
     color: rgb(0, 0, 0);
-    font-size: 130%;
+    font-size: 200%;
     font-family: 'Baloo Da 2', cursive;
     position: absolute;
-    margin: -18px;
-    margin-left: -292px;
-    width: 1174px;
+    margin: -15px 0 0px -41px;
+    width: 899px;
 }
+
 .box-principal {
     background: #e91212;
     width: 1210px;
@@ -102,48 +101,56 @@ h1 {
     width: 80%;
 }
 
-.lista {
+
+.container-2  {
     position: absolute;
     top: 20px;
     right: -4;
-    height: 60%;
-    width: 82%;
+    height: 100%;
+    width: 66%;
+    left: 31%;
 }
 
+.lista {
+    top: 20px;
+    height: 90%;
+    width: 100%;
+}
 
 .lista li{
     text-align: center;
     position: relative;
-    left: 21em;
+    /* left: 21em; */
     display: inline-block;
     background: white;
-    height: 19%;
-    width: 19.5%;
-    margin-top: 2.8em;
-    margin-left: 2em;
-    left: 17.3em;
+    height: 27%;
+    width: 26%;
+    margin-top: 4.6em;
+    margin-left: 1.8em;
+    left: 8.7%;
+    top: -4%;
     border-radius: 17px;
-    box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
+    box-sizing: border-box;
+    box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
 }
-
 
 hr{
     
-    margin-left: -192px;
-    width: 1469px;
-    position: absolute;
-    margin-top: 39px;
+    margin-left: 56px;
+    width: 1450px;
+    margin-top: 48px;
     border-top: 1px solid #f00;
     opacity: .1;
 }
 
 .box-grande {
-    position: absolute;
+    position: relative;
     background: white;
-    bottom: 6%;
-    left: 39.35em;
-    height: 60%;
-    width: 56.9%;
+    bottom: 60%;
+    left: 5.2%;
+    height: 58%;
+    width: 86%;
+    margin: 0 auto;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
 }
@@ -389,7 +396,7 @@ li.indicadores {
     color: black;
     font-size: 20px;
     font-family: 'Baloo Da 2', cursive;
-    padding-left: 18px;
+    padding-left: 17px;
     padding-top: 88px;
     font-weight: bold;
     text-align: left;
@@ -438,7 +445,7 @@ main{
     right: -4;
     margin-left: 285px;
     height: 85%;
-    width: 58%;
+    width: 77%;
     border-radius: 17px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
@@ -448,8 +455,7 @@ main{
     font-size: 130%;
     font-family: 'Baloo Da 2', cursive;
     position: absolute;
-    margin: -18px;
-    margin-left: -305px;
+    margin: -22px;
     width: 899px;
 
 }
@@ -509,34 +515,41 @@ h1 {
     width: 80%;
 }
 
-.lista {
+
+.container-2  {
     position: absolute;
     top: 20px;
     right: -4;
-    height: 60%;
-    width: 80%;
+    height: 100%;
+    width: 66%;
+    left: 31%;
 }
-
+.lista {
+    top: 20px;
+    height: 90%;
+    width: 100%;
+}
 
 .lista li{
     text-align: center;
     position: relative;
-    left: 21em;
+    /* left: 21em; */
     display: inline-block;
     background: white;
-    height: 35%;
-    width: 22.8%;
-    margin-top: 2.6em;
-    margin-left: 2.1em;
-    left: 9.9%;
+    height: 31%;
+    width: 30%;
+    margin-top: 4.6em;
+    margin-left: 1.2em;
+    left: -1.1%;
+    top: -7%;
     border-radius: 17px;
     box-sizing: border-box;
     box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
 }
 
 hr{
-    margin-left: -207px;
-    width: 956px;
+    margin-left: 20px;
+    width: 969px;
     position: absolute;
     margin-top: 35px;
     border-top: 1px solid #f00;
@@ -546,12 +559,13 @@ hr{
 
 
 .box-grande {
-    position: absolute;
+    position: relative;
     background: white;
-    bottom: 7%;
-    left: 34.6%;
-    height: 54%;
-    width: 61.7%;
+    bottom: 51%;
+    left: -0.4%;
+    height: 53%;
+    width: 97%;
+    margin: 0 auto;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
 }
@@ -727,12 +741,13 @@ hr.quebradelinha-3{
 .box-foto {
     position: absolute;
     background: white;
-    bottom: 19.1%;
-    left: 2.4em;
-    height: 69%;
+    bottom: 13.1%;
+    left: 1.6em;
+    height: 76%;
     width: 27%;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
+
 
 
 
