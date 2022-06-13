@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb');
 
-const MONGO_DB_URL = 'mongodb+srv://mdavilag:sitehelpdesk@cluster0.xp361wq.mongodb.net/';
+const MONGO_DB_URL = 'mongodb+srv://Kinanino:sitehelpdesk@cluster0.6syq1.mongodb.net/';
 
 const DB_NAME = 'Sitehelpdesk';
 

@@ -1,7 +1,6 @@
 const { Router } = require('express');
 const path = require('path');
-const { send } = require('process');
-
+const getAll = require('../controllers/index.controller')
 const routes = new Router();
 
 routes.get('/', (req, res) => {
@@ -19,5 +18,11 @@ routes.get('/perfil', (req, res)=>{
 routes.get('/dashboard', (req, res)=>{
     res.sendFile(path.join(__dirname, '../views', 'dash.html'))
 })
+
+routes.get('/padroes', (req, res)=>{
+    res.sendFile(path.join(__dirname, '../views', 'P.D.Email.html'))
+})
+
+routes.get('/all', getAll)
 
 module.exports = routes;
