@@ -114,7 +114,7 @@ h1 {
 .lista {
     top: 20px;
     height: 90%;
-    width: 100%;
+    width: 102%;
 }
 
 .lista li{
@@ -124,10 +124,10 @@ h1 {
     display: inline-block;
     background: white;
     height: 27%;
-    width: 26%;
+    width: 25.9%;
     margin-top: 4.6em;
     margin-left: 1.8em;
-    left: 8.7%;
+    left: 9.0%;
     top: -4%;
     border-radius: 17px;
     box-sizing: border-box;
@@ -137,8 +137,8 @@ h1 {
 hr{
     
     margin-left: 56px;
-    width: 1450px;
-    margin-top: 48px;
+    width: 1470px;
+    margin-top: 54px;
     border-top: 1px solid #f00;
     opacity: .1;
 }
@@ -146,10 +146,10 @@ hr{
 .box-grande {
     position: relative;
     background: white;
-    bottom: 60%;
-    left: 5.2%;
+    bottom: 55%;
+    left: 6.2%;
     height: 58%;
-    width: 86%;
+    width: 87%;
     margin: 0 auto;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
@@ -173,18 +173,21 @@ hr{
     }   
 
     .select-estiloso select { /* <select> */
-       background: transparent; /* importante para exibir o novo ícone */
-       width: 268px;
-       padding: 0px 0px 0px 16px;
-       font-size: 16px;
-       line-height: 1;
-       border: 0;
-       border-radius: 0;
-       height: 34px;
-       color: #989EA7;
-       font-family: 'Baloo Da 2', cursive;
+        background: transparent; /* importante para exibir o novo ícone */
+        width: 150px;
+        padding: 0px 0px 0px 16px;
+        font-size: 16px;
+        line-height: 1;
+        border: 0;
+        border-radius: 17px;
+        height: 36px;
+        color: #989EA7;
+        font-family: 'Baloo Da 2', cursive;
     }      
 
+    .select-estiloso:hover {
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
 
 
 .box-grande hr{
@@ -445,7 +448,7 @@ main{
     right: -4;
     margin-left: 285px;
     height: 85%;
-    width: 77%;
+    width: 76%;
     border-radius: 17px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
@@ -457,6 +460,7 @@ main{
     position: absolute;
     margin: -22px;
     width: 899px;
+    margin-left: -71px;
 
 }
 .box-principal {
@@ -521,9 +525,10 @@ h1 {
     top: 20px;
     right: -4;
     height: 100%;
-    width: 66%;
+    width: 66.5%;
     left: 31%;
 }
+
 .lista {
     top: 20px;
     height: 90%;
@@ -537,10 +542,10 @@ h1 {
     display: inline-block;
     background: white;
     height: 31%;
-    width: 30%;
+    width: 30.3%;
     margin-top: 4.6em;
     margin-left: 1.2em;
-    left: -1.1%;
+    left: -0.9%;
     top: -7%;
     border-radius: 17px;
     box-sizing: border-box;
@@ -548,7 +553,7 @@ h1 {
 }
 
 hr{
-    margin-left: 20px;
+    margin-left: 29px;
     width: 969px;
     position: absolute;
     margin-top: 35px;
@@ -562,12 +567,13 @@ hr{
     position: relative;
     background: white;
     bottom: 51%;
-    left: -0.4%;
+    left: 0.6%;
     height: 53%;
-    width: 97%;
+    width: 97.7%;
     margin: 0 auto;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+
 }
 
    .select-estiloso { /* <div> */
@@ -582,27 +588,33 @@ hr{
     border-radius: 17px;
     top: 61px;
     left: 30px;
+    padding-right: 4px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
     }   
 
     .select-estiloso select { /* <select> */
-       background: transparent; /* importante para exibir o novo ícone */
-       width: 268px;
-       padding: 0px 0px 0px 16px;
-       font-size: 16px;
-       line-height: 1;
-       border: 0;
-       border-radius: 0;
-       height: 34px;
-       color: #989EA7;
-       font-family: 'Baloo Da 2', cursive;
+        background: transparent; /* importante para exibir o novo ícone */
+        width: 150px;
+        padding: 0px 0px 0px 16px;
+        font-size: 16px;
+        line-height: 1;
+        border: 0;
+        border-radius: 17px;
+        height: 36px;
+        color: #989EA7;
+        font-family: 'Baloo Da 2', cursive;
+        
     }      
 
 
 
+    .select-estiloso:hover {
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+
 .box-grande hr{
-    margin-left: 34px;
-    width: 570px;
+    margin-left: 30px;
+    width: 605px;
     position: absolute;
     margin-top: 45px;
     border-top: 1px solid #f00;
@@ -651,12 +663,12 @@ hr{
 }
 
 hr.quebradelinha{
-    width: 570px;
+    margin-left: 33px;
+    width: 605px;
     position: absolute;
-    margin-top: 45px;
+    margin-top: 10px;
     border-top: 1px solid #f00;
     opacity: .1;
-    margin: 8px 0px 0px 34px;
 }
 
 
@@ -690,7 +702,8 @@ hr.quebradelinha{
 }
 
 hr.quebradelinha-2{
-    width: 570px;
+    margin-left: 30px;
+    width: 605px;
     position: absolute;
     margin-top: 45px;
     border-top: 1px solid #f00;
@@ -728,7 +741,8 @@ hr.quebradelinha-2{
 }
 
 hr.quebradelinha-3{
-    width: 570px;
+    margin-left: 30px;
+    width: 605px;
     position: absolute;
     margin-top: 45px;
     border-top: 1px solid #f00;
