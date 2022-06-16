@@ -40,6 +40,7 @@
 }
 
 
+
 /*         Cabeça do site */
 
 header {
@@ -538,4 +539,8 @@ Sub-Menu-Not {
     z-index: 1;
 }
 
+}
+
+.Orientações {
+    padding-left: 8px;
 }

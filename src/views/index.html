@@ -240,34 +240,24 @@
                     </tr>
                     <tr>
                         <td> 
-                            <select name="Atendimento" id="Atendimento" class="Padrao-Quarternária Select-Content">
-                                <option value="Orientação">Orientação</option>
+                            <select name="Atendimento" id="Atendimento" class="Padrao-Quarternária Select-Content" onchange="Clicar(this.value)"> 
                                 <option value="Conflito-de-dados">Conflito de Dados</option>
+                                <option value="Orientação">Orientação</option>
                                 <option value="Sugestão">Sugestão</option>
                                 <option value="Demanda">Demanda</option>
                             </select>
 
                         </td>
                     </tr>
-
-                        <td class="Tds">Versão do SO: </td>
-                        <tr>
-                        <td>
-                            <select name="V-SO" id="V-SO" class="Padrao-Quarternária Select-Content">
-                                <option value="Medsoft-Pro">Windows 10</option>
-                                <option value="Area Restrita">Windows 8/7</option>
-                                <option value="Inscrições">MacOS</option>
-                                <option value="Recursos">IOS 13+</option>
-                                <option value="Concursos">IOS 13-</option>
-                                <option value="MEDELETRO">Android 9+</option>
-                                <option value="Outros">Android 9-</option>
-                            </select>
-                        </td>
-                        </tr>
-                        <tr>
                 </table>
-
                 <div class="drop-app">
+                    <div class="Orientações">
+                        <h4 class="drop1 Padrao-Terciária">Orientação:</h4>
+                        <select name="Orientações" id="Orientações" class="Padrao-Quarternária Select-Content" onchange="RevelarProblemaDrop2(this.value)">
+                            <option value="Dificuldade em Scrollar">Dificuldade em Scrollar</option>
+                            <option value="Dificuldade em Localizar Conteúdo">Dificuldade em Localizar Conteúdo</option>
+                        </select>
+                    </div>
                     <div class="dropdown-select Padrao-Terciária">
                         <span class="Span-drops">  
                             <h4 class="drop1 Padrao-Terciária">Aplicação:</h4>

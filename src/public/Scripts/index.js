@@ -1,3 +1,6 @@
+document.querySelector('.Orientações').style.display = "none"
+
+
 // Configuração de abas na div para o formulário.
 
 document.getElementById('tabpadrao').click()
@@ -129,12 +132,21 @@ function Clicar(valor) {
     } else {
         document.querySelector('.drop6').style.display = "none"
     }
+    if(valor == 'Orientação') { 
+        document.querySelector('.Orientações').style.display = "inline-block"
+        
+    } else { 
+        document.querySelector('.Orientações').style.display = "none"
+    }
 }
 
 // Revelar Problema Drop2
 
 
     function RevelarProblemaDrop2(valor) { 
+
+        document.querySelector('.Atendimento').style.display = "none"
+
 
         if(valor == 'Login') {
             document.querySelector('.Problema-Login').style.display = "inline-block"
@@ -236,6 +248,13 @@ function Clicar(valor) {
             document.querySelector('.Problemas-Outros').style.display = "inline-block"
         } else { 
             
+        }
+
+        if(valor == 'Orientação') { 
+            document.querySelector('.Orientações').style.display = "inline-block"
+            
+        } else { 
+            document.querySelector('.Orientações').style.display = "none"
         }
 }   
 
