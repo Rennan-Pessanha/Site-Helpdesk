@@ -19,6 +19,8 @@
             padding: 10px;
             margin-left: 0%;
             margin-right: 0%;
+            margin-bottom: 12px;
+            padding-top: 1px;
         }
 
         table, th, td, input { 
@@ -246,7 +248,6 @@
                                 <option value="Sugestão">Sugestão</option>
                                 <option value="Demanda">Demanda</option>
                             </select>
-
                         </td>
                     </tr>
                 </table>
@@ -254,8 +255,15 @@
                     <div class="Orientações">
                         <h4 class="drop1 Padrao-Terciária">Orientação:</h4>
                         <select name="Orientações" id="Orientações" class="Padrao-Quarternária Select-Content" onchange="RevelarProblemaDrop2(this.value)">
-                            <option value="Dificuldade em Scrollar">Dificuldade em Scrollar</option>
-                            <option value="Dificuldade em Localizar Conteúdo">Dificuldade em Localizar Conteúdo</option>
+                            <option value="Dificuldade em Scrollar">Função Scrollar</option>
+                            <option value="Dificuldade em Localizar Conteúdo">Localizar Conteúdo</option>
+                        </select>
+                    </div>
+                    <div class="Demanda-Option">
+                        <h4 class="drop1 Padrao-Terciária">Demanda:</h4>
+                        <select name="Demanda-Option" id="Demanda-Option" class="Padrao-Quarternária Select-Content" onchange="RevelarProblemaDrop2(this.value)">
+                            <option value="Encaminhado">Encaminhado</option>
+                            <option value="Reclamação">Reclamação</option>
                         </select>
                     </div>
                     <div class="dropdown-select Padrao-Terciária">

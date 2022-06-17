@@ -1,4 +1,7 @@
 document.querySelector('.Orientações').style.display = "none"
+document.querySelector('.Demanda-Option').style.display = "none"
+
+
 
 
 // Configuração de abas na div para o formulário.
@@ -138,6 +141,13 @@ function Clicar(valor) {
     } else { 
         document.querySelector('.Orientações').style.display = "none"
     }
+    
+    if(valor == 'Demanda') { 
+    document.querySelector('.Demanda-Option').style.display = "inline-block"
+    
+     } else { 
+    document.querySelector('.Demanda-Option').style.display = "none"
+    }
 }
 
 // Revelar Problema Drop2
@@ -250,12 +260,7 @@ function Clicar(valor) {
             
         }
 
-        if(valor == 'Orientação') { 
-            document.querySelector('.Orientações').style.display = "inline-block"
-            
-        } else { 
-            document.querySelector('.Orientações').style.display = "none"
-        }
+       
 }   
 
     function RevelarProblemaDrop3(valor) {

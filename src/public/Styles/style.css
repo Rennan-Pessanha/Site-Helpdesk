@@ -261,6 +261,12 @@ background-color: rgba(0, 0, 255, 0.034);
     font-family: Secundária;
 }
 
+
+.Span-drops {
+    padding-left: 4px;
+
+}
+
 .drop2 { 
     display: none;
     margin-top: 10pxpx;

@@ -31,12 +31,15 @@
     font-family: 'Baloo Da 2', cursive;
     color: black;
     font-weight: small, bold;
+    margin: 0;
 }
 
 .Padrao-Quarternária {
     font-family: 'Baloo Da 2', cursive;
     color: rgb(0, 0, 0);
     font-size: 1em;
+    margin-bottom: 5px;
+
 }
 
 
@@ -541,6 +544,10 @@ Sub-Menu-Not {
 
 }
 
-.Orientações {
-    padding-left: 8px;
+.Orientações, .Demanda-Option {
+    padding-left: 12px;
+}
+
+h4.drop1.Padrao-Terciária {
+    margin: 0 0 11px 7px;
 }
