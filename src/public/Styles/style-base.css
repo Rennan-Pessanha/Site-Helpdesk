@@ -527,7 +527,7 @@ Sub-Menu-Not {
     }
 
     
-Sub-Menu-Not {
+.Sub-Menu-Not {
     position: absolute;
     background-color: rgb(255, 255, 255);
     height: 12rem;

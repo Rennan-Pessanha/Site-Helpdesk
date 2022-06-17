@@ -240,6 +240,7 @@ border-radius: 5px;
     margin-left: 0.5em;
     border-radius: 5px 5px 5px 5px;
     font-weight: normal;
+    margin-left: 0px;
 }
 
 .drop1-2:hover { 
@@ -263,14 +264,14 @@ background-color: rgba(0, 0, 255, 0.034);
 
 
 .Span-drops {
-    padding-left: 4px;
+    padding-left: 12px;
 
 }
 
 .drop2 { 
     display: none;
     margin-top: 10pxpx;
-    margin-left: 10px;
+    margin-left: 0px;
     font-weight: normal;
     border-radius: 5px 5px 5px 5px;
     margin-bottom: 10px;
@@ -280,7 +281,7 @@ background-color: rgba(0, 0, 255, 0.034);
 .drop3 { 
     display: none;
     margin-top: 0px;
-    margin-left: 10px;
+    margin-left: 0px;
     font-weight: normal;
     border-radius: 5px 5px 5px 5px;
     font-family: Secundária;
@@ -289,7 +290,7 @@ background-color: rgba(0, 0, 255, 0.034);
 .drop4 { 
     display: none;
     margin-top: 0px;
-    margin-left: 10px;
+    margin-left: 0px;
     font-weight: normal;
     font-family: Secundária;
     border-radius: 5px 5px 5px 5px
@@ -298,7 +299,7 @@ background-color: rgba(0, 0, 255, 0.034);
 .drop5 { 
     display: none;
     margin-top: 0px;
-    margin-left: 10px;
+    margin-left: 0px;
     font-weight: normal;
     font-family: Secundária;
     border-radius: 5px 5px 5px 5px
@@ -307,7 +308,7 @@ background-color: rgba(0, 0, 255, 0.034);
 .drop6 { 
     display: none;
     margin-top: 0px;
-    margin-left: 10px;
+    margin-left: 0px;
     font-weight: normal;
     font-family: Secundária;
     border-radius: 5px 5px 5px 5px

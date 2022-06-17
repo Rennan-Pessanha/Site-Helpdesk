@@ -155,8 +155,6 @@ function Clicar(valor) {
 
     function RevelarProblemaDrop2(valor) { 
 
-        document.querySelector('.Atendimento').style.display = "none"
-
 
         if(valor == 'Login') {
             document.querySelector('.Problema-Login').style.display = "inline-block"
