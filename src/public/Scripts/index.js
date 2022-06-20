@@ -338,6 +338,8 @@ function SubmitForm() {
         var versao_do_app = document.getElementById('versao').value;
         var reproducao = document.getElementById('Reproduzido').value;
 
+        var processos = document.getElementById('Atendimento').value;
+
 
 
 
@@ -355,6 +357,7 @@ function SubmitForm() {
             "aluno_card_id":id_card,
             "aluno_app_versao":versao_do_app,
             "aluno_reproducao":reproducao,
+            "Aluno_Processos":processos
             
         }
 
