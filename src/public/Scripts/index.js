@@ -104,159 +104,192 @@ function DadosII(){
 
 // Parte III do formulário
 
-function Clicar(valor){
-
-        switch (valor){
-
-            case "Medsoft-Pro":
-                document.querySelector('.drop2').style.display = "inline-block"
-            break;
-
-            case "Recursos":
-                document.querySelector('.drop3').style.display = "inline-block"
-            break;
-
-            case "MEDELETRO":
-                document.querySelector('.drop4').style.display = "inline-block"
-            break;
-
-            case "AreaRestrita":
-                document.querySelector('.drop5').style.display = "inline-block"
-            break;
-
-            case "Concursos":
-                document.querySelector('.drop6').style.display = "inline-block"
-            break;
-
-            case "Orientação":
-                document.querySelector('.Orientações').style.display = "inline-block"
-            break;
-
-            case "Demanda":
-                document.querySelector('.Demanda-Option').style.display = "inline-block"
-            break;
+function Clicar(valor) {
+    
+    if(valor == "Medsoft-Pro") {
+        document.querySelector('.drop2').style.display = "inline-block"
+    } 
+    else {
+        document.querySelector('.drop2').style.display = "none"
     }
-
+    if(valor == "Recursos") { 
+        document.querySelector('.drop3').style.display = "inline-block"
+    }
+    else {
+        document.querySelector('.drop3').style.display = "none"
+    }
+    if(valor == 'MEDELETRO') { 
+        document.querySelector('.drop4').style.display = "inline-block"
+    }
+    else {
+        document.querySelector('.drop4').style.display = "none"
+    }
+    if(valor == 'AreaRestrita') { 
+        document.querySelector('.drop5').style.display = "inline-block"
+    }
+    else {
+        document.querySelector('.drop5').style.display = "none"
+    }
+    if(valor == 'Concursos') { 
+        document.querySelector('.drop6').style.display = "inline-block"
+    } else {
+        document.querySelector('.drop6').style.display = "none"
+    }
+    if(valor == 'Orientação') { 
+        document.querySelector('.Orientações').style.display = "inline-block"
+        
+    } else { 
+        document.querySelector('.Orientações').style.display = "none"
+    }
+    
+    if(valor == 'Demanda') { 
+    document.querySelector('.Demanda-Option').style.display = "inline-block"
+    
+     } else { 
+    document.querySelector('.Demanda-Option').style.display = "none"
+    }
 }
 
 // Revelar Problema Drop2
 
-    function RevelarProblemaDrop2(valor){
 
-        var Area = undefined
+    function RevelarProblemaDrop2(valor) { 
 
-        switch (valor) {
-            case "Login":
-                document.querySelector('.Problema-Login').style.display = "inline-block"
-            break;
-            
-            case "Aula":
-                document.querySelector('.Problema-Aulas').style.display = "inline-block"
-            break;
-            
-            case "Material":
-                document.querySelector('.Problema-Materiais').style.display = "inline-block"
-            break;
 
-            case "Questões":
-                document.querySelector('.Problema-Questoes').style.display = "inline-block"
-            break;
-            case "Medsmart":
-                document.querySelector('.Problema-Medsmart').style.display = "inline-block"
-            break;
-
-            case "Revalida":
-                document.querySelector('.Problema-Revalida').style.display = "inline-block"
-            break;
-
-            case "Mentoria":
-                document.querySelector('.Problema-Mentoria').style.display = "inline-block"
-            break;
-            
-            case "Cronograma":
-                document.querySelector('.Problema-Cronograma').style.display = "inline-block"
-            break;
-
-            case "Simulados":
-                document.querySelector('.Problema-Simulados').style.display = "inline-block"
-            break;
-
-            case "Concurso_na_Integra":
-                document.querySelector('.Problema-Concurso-Integra').style.display = "inline-block"
-            break;
-
-            case "Monta_Provas":
-                document.querySelector('.Problema-Monta-Provas').style.display = "inline-block"
-            break;
-
-            case "Slide_De_Aula":
-                document.querySelector('.Problema-Slide-de-Aulas').style.display = "inline-block"
-            break;
-
-            case "MedPlanner":
-                document.querySelector('.Problema-Medplanner').style.display = "inline-block"
-            break;
-
-            case "Material_Virtual": 
-                document.querySelector('.Problema-Material-Virtual').style.display = "inline-block"
-            break;
-
-            case "Atualizações_e_Erratas":
-                document.querySelector('.Problema-Atualizacao-Erratas').style.display = "inline-block"
-            break;
-
-            case "Medcode":
-                document.querySelector('.Problema-Medcode').style.display = "inline-block"
-            break;
-
-            case "Instalacao":
-                document.querySelector('.Problema-Medcode').style.display = "inline-block"
-            break;
-
-            case "No_Papo":
-                document.querySelector('.Problema-NoPapo').style.display = "inline-block"
-            break;
-
-            case "Administrativo":
-                document.querySelector('.Problema-Administrativo').style.display = "inline-block"
-            break;
-
-            case "Outros":
-                document.querySelector('.Problemas-Outros').style.display = "inline-block"
-            break;
+        if(valor == 'Login') {
+            document.querySelector('.Problema-Login').style.display = "inline-block"
+        } else {
+            document.querySelector('.Problema-Login').style.display = "none"
         }
-    }
 
+        if(valor == 'Aula') { 
+            document.querySelector('.Problema-Aulas').style.display = "inline-block"
+        } else { 
+            document.querySelector('.Problema-Aulas').style.display = "none"
+        }
+        if(valor == 'Material') {
+            document.querySelector('.Problema-Materiais').style.display = "inline-block"
+        } else {
+            document.querySelector('.Problema-Materiais').style.display = "none"
+        }
+        if(valor == 'Questões') {
+            document.querySelector('.Problema-Questoes').style.display = "inline-block"
+        } else { 
+            document.querySelector('.Problema-Questoes').style.display = "none"
+        }
+        if(valor == 'Medsmart') {
+            document.querySelector('.Problema-Medsmart').style.display = "inline-block"
+        } else { 
+            document.querySelector('.Problema-Medsmart').style.display = "none"
+        }
+        if(valor == 'Revalida') { 
+            document.querySelector('.Problema-Revalida').style.display = "inline-block"
+        } else { 
+            document.querySelector('.Problema-Revalida').style.display = "none"
+        }
+        if(valor == 'Mentoria') { 
+            document.querySelector('.Problema-Mentoria').style.display = "inline-block"
+        } else { 
+            document.querySelector('.Problema-Mentoria').style.display = "none"
+        }
+        if(valor == 'Cronograma') { 
+            document.querySelector('.Problema-Cronograma').style.display = "inline-block"
+        } else { 
+            document.querySelector('.Problema-Cronograma').style.display = "none"
+        }
+        if(valor == 'Simulados') { 
+            document.querySelector('.Problema-Simulados').style.display = "inline-block"
+        } else { 
+            document.querySelector('.Problema-Simulados').style.display = "none"
+        }
+        if(valor == 'Concurso na Integra') { 
+            document.querySelector('.Problema-Concurso-Integra').style.display = "inline-block"
+        } else { 
+            document.querySelector('.Problema-Concurso-Integra').style.display = "none"
+        }
+        if(valor == 'Monta Provas') { 
+            document.querySelector('.Problema-Monta-Provas').style.display = "inline-block"
+        } else { 
+            document.querySelector('.Problema-Monta-Provas').style.display = "none"
+        }
+        if(valor == 'Slide de Aula') {
+            document.querySelector('.Problema-Slide-de-Aulas').style.display = "inline-block"
+        } else {
+            document.querySelector('.Problema-Slide-de-Aulas').style.display = "none"
+        }
+        if(valor == 'MedPlanner') {
+            document.querySelector('.Problema-Medplanner').style.display = "inline-block"
+        } else { 
+            document.querySelector('.Problema-Medplanner').style.display = "none"
+        }
+        if(valor == 'Material Virtual') { 
+            document.querySelector('.Problema-Material-Virtual').style.display = "inline-block"
+        } else { 
+            document.querySelector('.Problema-Material-Virtual').style.display = "none"
+        }
+        if(valor == 'Atualizações e Erratas') {
+            document.querySelector('.Problema-Atualizacao-Erratas').style.display = "inline-block"
+        } else { 
+            document.querySelector('.Problema-Atualizacao-Erratas').style.display = "none"
+        }
+        if(valor == 'Medcode') {
+            document.querySelector('.Problema-Medcode').style.display = "inline-block"
+        } else { 
+            document.querySelector('.Problema-Medcode').style.display = "none"
+        }
+        if(valor == 'Instalacao') {
+            document.querySelector('.Problema-Medcode').style.display = "inline-block"
+        } else { 
+            document.querySelector('.Problema-Medcode').style.display = "none"
+        }
+        if(valor == 'No Papo') {
+            document.querySelector('.Problema-NoPapo').style.display = "inline-block"
+        } else { 
+            document.querySelector('.Problema-NoPapo').style.display = "none"
+        }
+        if(valor == 'Administrativo') { 
+            document.querySelector('.Problema-Administrativo').style.display = "inline-block"
+        } else { 
+            document.querySelector('.Problema-Administrativo').style.display = "none"
+        }
+        if(valor == 'Outros') { 
+            document.querySelector('.Problemas-Outros').style.display = "inline-block"
+        } else { 
+            
+        }
+
+       
+}   
 
     function RevelarProblemaDrop3(valor) {
-
-        switch (valor){
-
-            case "Login":
-                document.querySelector('.Problema-Login-D3').style.display = "inline-block"
-            break;
-
-            case "Perfil":
-                document.querySelector('.Problema-Perfil-D3').style.display = "inline-block"
-            break;
-
-            case "Forum-Pré":
-                document.querySelector('.Problema-ForumPre-D3').style.display = "inline-block"
-            break;
-
-            case "Forum-Pró":
-                document.querySelector('.Problema-ForumPos-D3').style.display = "inline-block"
-            break;
-            
-            case "Ranking":
-                document.querySelector('.Problema-ForumPos-D3').style.display = "inline-block"
-            break;
-
-            case "Outros":
-                document.querySelector('.Problema-Outros').style.display = "inline-block"
+        if(valor == 'Login') { 
+            document.querySelector('.Problema-Login-D3').style.display = "inline-block"
+        } else { 
+            document.querySelector('.Problema-Login-D3').style.display = "none"
+        } 
+        if(valor == 'Perfil') {
+            document.querySelector('.Problema-Perfil-D3').style.display = "inline-block"
+        } else { 
+            document.querySelector('.Problema-Perfil-D3').style.display = "none"
         }
-
-
+        if(valor == 'Forum-Pré') { 
+            document.querySelector('.Problema-ForumPre-D3').style.display = "inline-block"
+        } else {
+            document.querySelector('.Problema-ForumPre-D3').style.display = "none"
+        }
+        if(valor == 'Forum-Pró') {
+            document.querySelector('.Problema-ForumPos-D3').style.display = "inline-block"
+        } else {
+            document.querySelector('.Problema-ForumPos-D3').style.display = "none"
+        }
+        if(valor == 'Ranking') {
+            document.querySelector('.Problema-ForumPos-D3').style.display = "inline-block"
+        }
+        if(valor == 'Outros') { 
+            document.querySelector('.Problema-Outros').style.display = "inline-block"
+        } else { 
+            document.querySelector('.Problema-Outros').style.display = "none"
+        }
     }
 
 // Configuração botões 
@@ -326,12 +359,8 @@ function SubmitForm() {
             "aluno_card_id":id_card,
             "aluno_app_versao":versao_do_app,
             "aluno_reproducao":reproducao,
-            "Aluno_Processos":processos,
-            "Aluno_Orientacoes":Orientação,
-            "Demanda":Demanda-Option,
-            "Aplicação":App,
-            "Area_App":Area,
-            "Problema_App":Problema,
+            "Aluno_Processos":processos
+            
         }
 
             SubmitForm = JSON.stringify(SubmitForm)
