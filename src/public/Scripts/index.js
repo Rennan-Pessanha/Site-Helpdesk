@@ -4,6 +4,7 @@ document.querySelector('.Demanda-Option').style.display = "none"
 
 
 
+
 // Configuração de abas na div para o formulário.
 
 document.getElementById('tabpadrao').click()
@@ -155,6 +156,7 @@ function Clicar(valor) {
 
     function RevelarProblemaDrop2(valor) { 
 
+        var Area = document.getElementById('.Area-Med').value
 
         if(valor == 'Login') {
             document.querySelector('.Problema-Login').style.display = "inline-block"
@@ -262,6 +264,9 @@ function Clicar(valor) {
 }   
 
     function RevelarProblemaDrop3(valor) {
+
+        var Area = document.getElementById('.Area-Rec').value
+
         if(valor == 'Login') { 
             document.querySelector('.Problema-Login-D3').style.display = "inline-block"
         } else { 
@@ -342,6 +347,7 @@ function SubmitForm() {
         var Orientação = document.getElementById('Orientacoes').value;
         var Demanda = document.getElementById('Demanda-Option').value;
         var App = document.getElementById('Apps').value;
+        var Area = undefined
 
 
 
@@ -359,7 +365,10 @@ function SubmitForm() {
             "aluno_card_id":id_card,
             "aluno_app_versao":versao_do_app,
             "aluno_reproducao":reproducao,
-            "Aluno_Processos":processos
+            "aluno_Processos":processos,
+            "aluno_Orientação":Orientação,
+            "aluno_Demanda":Demanda,
+            "aluno_app":App,
             
         }
 

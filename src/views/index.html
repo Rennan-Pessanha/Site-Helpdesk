@@ -138,6 +138,7 @@
                 </tr>
             </table>
             <button value="Aplicar" id="btn_dados"> <img src="/img/Icones-menu/Aplicar.icon.svg" alt="Aplicar"> </button>
+
             <table class="tabela_resultado">
                 <hr id="line">
                 <tr class="Padrao-Terciária">
@@ -178,6 +179,8 @@
             <p id="msg_erro"></p>
             
             <!--<button onclick="abrirtab('form2')">&#10145;</button> -->
+
+            <button value="Aplicar" id="btn_clear1" onclick=""><img src="/img/Icones-menu/Clear.icon.svg" alt=""></button>
         </div>
         <div id="form3" class="form-content" class="tabela_resultado" >
             
@@ -233,6 +236,7 @@
             
            <!-- <button onclick="abrirtab('form1')">&#11013;</button>
             <button onclick="abrirtab('form3')">&#10145;</button> -->
+            <button value="Aplicar" id="btn_clear" onclick=""> <img src="/img/Icones-menu/Clear.icon.svg" alt=""></button>
         </div>
         <div id="form2" class="form-content">
             <div class="cont-content">
@@ -254,7 +258,7 @@
                 <div class="drop-app">
                     <div class="Orientações">
                         <h4 class="drop1 Padrao-Terciária">Orientação:</h4>
-                        <select name="Orientações" id="Orientações" class="Padrao-Quarternária Select-Content" onchange="RevelarProblemaDrop2(this.value)">
+                        <select name="Orientações" id="Orientacoes" class="Padrao-Quarternária Select-Content" onchange="RevelarProblemaDrop2(this.value)">
                             <option value="Dificuldade em Scrollar">Função Scrollar</option>
                             <option value="Dificuldade em Localizar Conteúdo">Localizar Conteúdo</option>
                         </select>
