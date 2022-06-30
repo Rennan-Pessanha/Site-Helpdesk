@@ -7,6 +7,6 @@ Roadmap do projeto: https://trello.com/invite/b/dREdR9Sh/edee62db05093a148bd1238
 
 Comandos utilizados:
 
-npm i express mongoose nodemon mongodb njs  -> Instalar packages
+npm install -> instalar packages
 
 npm run dev -> Abrir servidor como desenvolvimento
