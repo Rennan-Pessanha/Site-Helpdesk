@@ -153,10 +153,9 @@ function Clicar(valor) {
 
 // Revelar Problema Drop2
 
+var Area = document.getElementById('.Area-Med').value
 
     function RevelarProblemaDrop2(valor) { 
-
-        var Area = document.getElementById('.Area-Med').value
 
         if(valor == 'Login') {
             document.querySelector('.Problema-Login').style.display = "inline-block"
@@ -265,7 +264,6 @@ function Clicar(valor) {
 
     function RevelarProblemaDrop3(valor) {
 
-        var Area = document.getElementById('.Area-Rec').value
 
         if(valor == 'Login') { 
             document.querySelector('.Problema-Login-D3').style.display = "inline-block"
