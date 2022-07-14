@@ -87,8 +87,8 @@
            <h1 class="Padrao-Primário"> Histórico de Atendimentos </h1>
            <hr>
        </div> 
-       <div class="form-content">
-
+       <div id = "chamados-box" class="form-content">
+            <div></div>
 
        </div>
        <div class="line">
@@ -97,5 +97,43 @@
     </article>
 <script src="/Scripts/js-base.js"></script>    
 <script src="/Scripts/Atendimentos.js"></script>
+<script>
+    window.onload = () =>{
+        const chamadosBox = document.getElementById('chamados-box')
+         fetch(window.location.origin + "/all").then((result)=>{
+            result.json().then((res)=>{
+                console.log(res)
+                res.forEach((r)=>{
+                    const div = document.createElement('div');
+                    div.className = 'chamado'
+
+                    const title = document.createElement('h3')
+                    const lista = document.createElement('ul')
+                    const liNome = document.createElement('li')
+                    const liData = document.createElement('li')
+                    const liResponsavel = document.createElement('li')
+
+
+                    const nome = document.createTextNode(`Aluno: ${r.aluno_nome}`);
+                    const data = document.createTextNode(`Data: ${r.aluno_chamado_data}`)
+                    const responsavel = document.createTextNode(`Responsável: ${r.responsavel}`)
+                    
+                    liNome.appendChild(nome)
+                    liData.appendChild(data)
+                    liResponsavel.appendChild(responsavel)
+                    
+                    lista.appendChild(liNome)
+                    lista.appendChild(liData)
+                    lista.appendChild(liResponsavel)
+                    div.appendChild(lista)
+                    
+                    chamadosBox.appendChild(div);
+                })
+            })
+            
+        })
+        
+    } 
+</script>
 </body>
 </html>

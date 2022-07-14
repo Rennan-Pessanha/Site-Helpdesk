@@ -17,3 +17,18 @@ article > .form-content {
     border-style: ridge;
     margin-bottom: 20px;
 }
+
+.chamado{
+    border: 1px solid black;
+    padding: 1%;
+    text-align: justify;
+    background-color: rgba(187, 183, 183, 0.493);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.chamado:hover{
+    background-color: rgba(187, 183, 183, 0.2);
+    cursor: pointer;
+}
+li {
+    list-style-type: none;
+  }
