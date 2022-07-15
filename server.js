@@ -5,7 +5,7 @@ const bodyParser = require('body-parser')
 const db = require('./src/configs/mongoConnection')
 
 app.listen(3005, () => {
-  console.log('Conexão aberta na porta 3005');
+  console.log('Conexão aberta em http://localhost:3005/');
 });
 
 app.engine('html', require('ejs').renderFile);

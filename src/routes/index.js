@@ -25,4 +25,6 @@ routes.get('/padroes', (req, res)=>{
 
 routes.get('/all', chamadosController.listarChamados)
 
+routes.get('/chamado/:id', chamadosController.chamadoId)
+
 module.exports = routes;

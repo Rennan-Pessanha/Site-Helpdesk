@@ -11,8 +11,9 @@ window.onload = () =>{
                 const liNome = document.createElement('li')
                 const liData = document.createElement('li')
                 const liResponsavel = document.createElement('li')
-
-
+                const link = document.createElement('a')
+                link.href = `/chamado/${r._id}`
+                
                 const nome = document.createTextNode(`Aluno: ${r.aluno_nome}`);
                 const data = document.createTextNode(`Data: ${r.aluno_chamado_data}`)
                 const responsavel = document.createTextNode(`Responsável: ${r.responsavel}`)
@@ -25,8 +26,9 @@ window.onload = () =>{
                 lista.appendChild(liData)
                 lista.appendChild(liResponsavel)
                 div.appendChild(lista)
+                link.appendChild(div)
                 
-                chamadosBox.appendChild(div);
+                chamadosBox.appendChild(link);
             })
         })
         

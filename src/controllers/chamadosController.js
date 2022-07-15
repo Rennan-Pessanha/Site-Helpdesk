@@ -19,6 +19,16 @@ class chamadosController{
             }
         })
     }
+    static chamadoId = (req, res)=>{
+        let id = req.params.id;
+        chamados.findById(id, (err, aluno)=>{
+            if(err){
+                res.status(404).send({message: err.message + "id não existe"})
+            }else{
+                res.status(200).send((aluno.toJSON()))
+            }
+        })
+    }
 }
 
 module.exports = chamadosController;
