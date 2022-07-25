@@ -449,6 +449,7 @@ article > .title > hr {
 
 article > .title > h1 {
     margin-bottom: 15px;
+    
 }
 
 @media (max-width: 1000px) {
