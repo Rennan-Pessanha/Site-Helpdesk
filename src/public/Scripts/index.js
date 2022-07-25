@@ -341,7 +341,7 @@ function SubmitForm() {
         var versao_do_app = document.getElementById('versao').value;
         var reproducao = document.getElementById('Reproduzido').value;
 
-<<<<<<< Updated upstream
+
         var processos = document.getElementById('Processos').value;
         var orientação = document.getElementById('Orientacoes').value;
         var demanda = document.getElementById('Demanda-Option').value;
@@ -382,14 +382,14 @@ function SubmitForm() {
         var ProblemaOutrosRec = document.getElementById('P-Outros-D3"').value
         // Problemas Selecionados do Dropdown do MedEletro  //
         var ProblemaLoginEletro = document.getElementById('Problema Login-D4').value
-=======
+
         //var processos = document.getElementById('Processos').value;
         ///var Orientação = document.getElementById('Orientacoes').value;
         //var Demanda = document.getElementById('Demanda-Option').value;
         //var App = document.getElementById('Apps').value;
         //var Area = undefined
 
->>>>>>> Stashed changes
+
 
 
         var SubmitForm = {
@@ -406,7 +406,7 @@ function SubmitForm() {
             "aluno_card_id":id_card,
             "aluno_app_versao":versao_do_app,
             "aluno_reproducao":reproducao,
-<<<<<<< Updated upstream
+
             "aluno_Processos":processos,
             "aluno_Orientação":orientação,
             "aluno_Demanda":demanda,
@@ -418,12 +418,12 @@ function SubmitForm() {
             "ares_Concurso":areaConcurso,
 
 
-=======
+
             //"aluno_Processos":processos,
             //"aluno_Orientação":Orientação,
             //"aluno_Demanda":Demanda,
             //"aluno_app":App
->>>>>>> Stashed changes
+
             
         }
         
