@@ -14,16 +14,17 @@ article > .form-content {
     margin-top: 30px;
     margin-left: 26px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.075);
-    border-style: ridge;
     margin-bottom: 20px;
 }
 
 .chamado{
-    border: 1px solid black;
     padding: 1%;
     text-align: justify;
-    background-color: rgba(187, 183, 183, 0.493);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px;
+    background: white;
+    border-radius: 17px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px; 
 }
 .chamado:hover{
     background-color: rgba(187, 183, 183, 0.2);
@@ -33,7 +34,20 @@ li {
     list-style-type: none;
   }
 
+
 a{
     text-decoration: none;
     color: black;
+}
+#chamados-box {
+    background: #f2f2f2;
+    border-radius: 17px;
+    box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+}
+
+.chamado {
+    margin: 15px;
+    background: white;
+    border-radius: 17px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
 }

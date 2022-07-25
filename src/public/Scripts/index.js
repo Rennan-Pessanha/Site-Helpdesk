@@ -342,11 +342,45 @@ function SubmitForm() {
         var reproducao = document.getElementById('Reproduzido').value;
 
         var processos = document.getElementById('Processos').value;
-        var Orientação = document.getElementById('Orientacoes').value;
-        var Demanda = document.getElementById('Demanda-Option').value;
-        var App = document.getElementById('Apps').value;
-        var Area = undefined
-
+        var orientação = document.getElementById('Orientacoes').value;
+        var demanda = document.getElementById('Demanda-Option').value;
+        var app = document.getElementById('Apps').value;
+        // Areas Selecionadas no Dropdown //
+        var areaMed = document.getElementById('Area-Med').value
+        var areaRec = document.getElementById('Area-Rec').value
+        var areaEletro = document.getElementById('Area-Eletro').value
+        var areaRes = document.getElementById('Area-Res').value
+        var areaConcurso = document.getElementById('Concurso-Dropdown').value
+        // Problemas Selecionados no Dropdown do medsoft-pro //
+        var problemaLogin = document.getElementById('P-Login').value
+        var problemaAula = document.getElementById('P.Aulas').value
+        var problemaMaterial = document.getElementById('P-Materiais').value
+        var problemaQuestoes = document.getElementById('P-Questões').value
+        var problemaMedSmarth = document.getElementById('P-MedSmart').value
+        var problemaRevalida = document.getElementById('P-Revalida').value
+        var problemaMentoria = document.getElementById('P-Mentoria').value
+        var problemaCronograma = document.getElementById('P-Cronograma').value
+        var problemaSimulado = document.getElementById('P-Simulados').value
+        var problemaCIntegra = document.getElementById('P-C-Integra').value
+        var problemaMontaProva = document.getElementById('P-M-Provas').value
+        var problemaSlideAula = document.getElementById('P-Slide-de-Aula').value
+        var problemaMedPlanner = document.getElementById('P-Medplanner').value
+        var problemaMaterialVirtual = document.getElementById('P-M-Virtual').value
+        var problemaErratas = document.getElementById('P-A-E"').value
+        var problemaMedcode = document.getElementById('P-Medcode').value
+        var problemaInstalacao = document.getElementById('P-Instalacao').value
+        var problemaNoPapo = document.getElementById('P-NoPapo').value
+        var problemaAdministrativo = document.getElementById('P-Administrativo').value
+        var problemaOutros = document.getElementById('P-Outros').value
+        // Problemas Selecionados do Dropdown do Recursos  //
+        var ProblemaLoginRec = document.getElementById('P-Login-D3').value
+        var ProblemaPerfil = document.getElementById('P-Perfil-D3').value
+        var ProblemaForumPre = document.getElementById('P-ForumP-D3').value
+        var problemaForumPos = document.getElementById('P-ForumPos-D3').value
+        var problemaRanking = document.getElementById('P-Ranking-D3').value
+        var ProblemaOutrosRec = document.getElementById('P-Outros-D3"').value
+        // Problemas Selecionados do Dropdown do MedEletro  //
+        var ProblemaLoginEletro = document.getElementById('Problema Login-D4').value
 
 
         var SubmitForm = {
@@ -364,9 +398,16 @@ function SubmitForm() {
             "aluno_app_versao":versao_do_app,
             "aluno_reproducao":reproducao,
             "aluno_Processos":processos,
-            "aluno_Orientação":Orientação,
-            "aluno_Demanda":Demanda,
-            "aluno_app":App,
+            "aluno_Orientação":orientação,
+            "aluno_Demanda":demanda,
+            "aluno_app":app,
+            "area_Med":areaMed,
+            "area_Rec":areaRec,
+            "area_Eletro":areaEletro,
+            "area_Res":areaRes,
+            "ares_Concurso":areaConcurso,
+
+
             
         }
 
