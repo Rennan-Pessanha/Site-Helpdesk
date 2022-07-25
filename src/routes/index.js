@@ -12,19 +12,22 @@ routes.get('/atendimentos', (req, res) =>{
 })
 
 routes.get('/perfil', (req, res)=>{
-    res.render('MeuPerfil.html')
+    res.render('MeuPerfil')
 })
 
 routes.get('/dashboard', (req, res)=>{
-    res.render('dash.html')
+    res.render('dash')
 })
 
 routes.get('/padroes', (req, res)=>{
-    res.render('P.D.Email.html')
+    res.render('P.D.Email')
 })
 
 routes.get('/all', chamadosController.listarChamados)
 
+routes.post('/send', chamadosController.criarChamado)
+
 routes.get('/chamado/:id', chamadosController.chamadoId)
+
 
 module.exports = routes;
