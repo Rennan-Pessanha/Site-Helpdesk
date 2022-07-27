@@ -21,7 +21,7 @@ article > .form-content {
     padding: 1%;
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 15px;
+    margin: 6px 15px 31px;
     background: white;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px; 
@@ -52,17 +52,20 @@ a{
     color: rgb(0, 0, 0);
     font-size: 200%;
     font-family: 'Baloo Da 2', cursive;
-    margin: 10px 0px 0px 46px;
+    margin: 10px 0px 0px 40px;
     width: 899px;
 }
 
+.container-titulo{
+    margin-top: 18px;
 
+}
 .campo-1 {
 
     display: inline-block;
-    width: 70%;
+    width: 130px;
     height: 90%;
-    margin-left: 33px;
+    margin-left: 38px;
 }
 
 .campo-2 {
@@ -76,7 +79,7 @@ a{
 .busca-aluno {
     padding-left: 12px;
     background: #f9f9f9;
-    width: 95%;
+    width: 80%;
     height: 85%;
     border: 1px solid #ccc;
     border-radius: 17px;
@@ -102,7 +105,7 @@ a{
 h2 {
 
     color: rgb(0, 0, 0);
-    font-size: 100%;
+    font-size: 125%;
     font-family: 'Baloo Da 2', cursive;
     margin: 10px 0px 0px 42px;
     width: 899px;
@@ -138,5 +141,18 @@ h2 {
 
 .infoHide{
     display: none;
+}
+
+.line {
+    display: none;
+}
+
+.container-chamados hr {
+    margin-left: 39px;
+    width: 91%;
+    margin-top: -8px;
+    margin-bottom: 14px;
+    border-top: 1px solid #f00;
+    opacity: .1;
 }
 
