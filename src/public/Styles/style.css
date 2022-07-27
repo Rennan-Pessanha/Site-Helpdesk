@@ -20,17 +20,15 @@ article {
 }
 
 article > .form-content {
-    background-color: rgb(255, 255, 255);
-    height: 70%;
-    width: 70%;
-    margin-top: 0px;
-    margin-left: 26px;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.075);
-    border-style: ridge;
-    margin-bottom: 20px;
-    border-top: none;
-    display: none;
-
+    position: absolute;
+    background: #f2f2f2;
+    top: 196px;
+    right: -4;
+    margin-left: 28px;
+    height: 68%;
+    width: 70.2%;
+    border-radius: 17px;
+    box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
 }
 
 article > .form-content > .formu > h4 {
