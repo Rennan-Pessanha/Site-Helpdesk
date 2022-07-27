@@ -29,5 +29,7 @@ routes.post('/send', chamadosController.criarChamado)
 
 routes.get('/chamado/:id', chamadosController.chamadoId)
 
+routes.get('/aluno/:id', chamadosController.consultaAluno)
+
 
 module.exports = routes;

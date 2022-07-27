@@ -29,6 +29,12 @@ class chamadosController{
             }
         })
     }
+    static consultaAluno = (req, res)=>{
+        let id = req.params.id;
+        chamados.find({"aluno_id": String(id)}, null ,(err, aluno)=>{
+                res.status(200).json(aluno)
+        })
+    }
 }
 
 module.exports = chamadosController;

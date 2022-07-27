@@ -3,7 +3,8 @@ window.onload = loadChamados();
 function loadChamados(){
     limparChamados()
     const chamadosBox = document.getElementById('chamados-box')
-     fetch(window.location.origin + "/all").then((result)=>{
+    let id = document.getElementById('number').value;
+     fetch(window.location.origin + `/aluno/${id}`).then((result)=>{
         result.json().then((res)=>{
             console.log(res)
             res.forEach((r,i)=>{
@@ -11,7 +12,7 @@ function loadChamados(){
                 
                 //Criando elementos <ul>, <li>. <a>. <div>
                 const lista = document.createElement('ul')
-                const liNome = document.createElement('li')
+                //const liNome = document.createElement('li')
                 const liData = document.createElement('li')
                 const liResponsavel = document.createElement('li')
                 const liAlunoId = document.createElement('li')
@@ -42,7 +43,7 @@ function loadChamados(){
                 const appVersao = document.createTextNode(`Versão APP: ${r.aluno_app_versao}`);
                 const ov = document.createTextNode(`Ordem de venda: ${r.aluno_ov}`);
                 const ovStatus = document.createTextNode(`Status: ${r.aluno_ov_status}`);
-                const nome = document.createTextNode(`Aluno: ${r.aluno_nome}`);
+                //const nome = document.createTextNode(`Aluno: ${r.aluno_nome}`);
                 const data = document.createTextNode(`Data: ${r.aluno_chamado_data}`)
                 const responsavel = document.createTextNode(`Responsável: ${r.responsavel}`)
                 const alunoId = document.createTextNode(`Aluno ID: ${r.aluno_id}`)
@@ -55,6 +56,9 @@ function loadChamados(){
                 liAppVersao.className = 'infoHide'
                 liAlunoOv.className = 'infoHide'
                 liStatus.className = 'infoHide'
+
+                let campoNome = document.getElementById('campoNome');
+                campoNome.innerHTML = `Aluno: ${r.aluno_nome}`
 
                 //Adicionando conteúdos nos <li>
                 if(dispositivo.nodeValue!='Dispositivo: '){
@@ -76,12 +80,13 @@ function loadChamados(){
                 liAlunoOv.appendChild(ov)
                 liStatus.appendChild(ovStatus)
                 liAlunoId.appendChild(alunoId)
-                liNome.appendChild(nome)
+                //liNome.appendChild(nome)
                 liData.appendChild(data)
                 liResponsavel.appendChild(responsavel)
                 
                 //Adicionando <li> na <ul>
-                lista.appendChild(liNome)
+                //lista.appendChild(liNome)
+                
                 lista.appendChild(liData)
                 lista.appendChild(liResponsavel)
                 lista.appendChild(liAlunoId)
@@ -103,7 +108,9 @@ function loadChamados(){
 
 function limparChamados(){
     const chamadosBox = document.getElementById('chamados-box')
+    const campoNome = document.getElementById('campoNome')
     chamadosBox.innerHTML = ''
+    campoNome.innerHTML = ''
 }
 
 function preencherTudo(chamadoId){

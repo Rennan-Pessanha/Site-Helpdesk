@@ -40,12 +40,89 @@ a{
     color: black;
 }
 
-#chamados-box {
-    padding-top: 10px;
+.container-chamados {
+    margin: 10px 50px;
+    width: 50%;
     background: #f2f2f2;
     border-radius: 17px;
-    overflow-y: scroll;
     box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+}
+
+.container-chamados h1 {
+    color: rgb(0, 0, 0);
+    font-size: 200%;
+    font-family: 'Baloo Da 2', cursive;
+    margin: 10px 0px 0px 46px;
+    width: 899px;
+}
+
+
+.campo-1 {
+
+    display: inline-block;
+    width: 70%;
+    height: 90%;
+    margin-left: 33px;
+}
+
+.campo-2 {
+
+    display: inline-block;
+    width: 130px;
+    height: 90%;
+    margin-left: 3px;
+}
+
+.busca-aluno {
+    padding-left: 12px;
+    background: #f9f9f9;
+    width: 95%;
+    height: 85%;
+    border: 1px solid #ccc;
+    border-radius: 17px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 100%;
+}
+
+.button {
+    position: relative;
+    background: #f9f9f9;
+    width: 130px;
+    height: 85%;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 17px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+    cursor: pointer;
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 100%;
+}
+
+h2 {
+
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    font-family: 'Baloo Da 2', cursive;
+    margin: 10px 0px 0px 42px;
+    width: 899px;
+
+}
+
+#chamados-box {
+    width: 95%;
+    margin: 0px auto;
+    padding-top: 10px;
+    overflow-y: scroll;
+}
+
+
+#chamados-box hr {
+    margin-left: 56px;
+    width: 1470px;
+    margin-top: 54px;
+    border-top: 1px solid #f00;
+    opacity: .1;
 }
 
 #chamados-box::-webkit-scrollbar {

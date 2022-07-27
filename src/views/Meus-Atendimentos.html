@@ -86,17 +86,28 @@
        <div class="title Padrao-Primário">
            <h1 class="Padrao-Primário"></h1>
        </div> 
-       <div>
-        <button id="refresh" onclick="loadChamados()">Refresh</button>
-       </div>
-       <div id = "chamados-box" class="form-content">
+       
+       <div class="container-chamados">
             <div><h1>Histórico de Atendimentos</h1></div>
-                <hr>
 
-       </div>
-       <div class="line">
-           <hr>
-       </div>
+            <div class="">
+                <div class="campo-1">
+                    <input class="busca-aluno" type="number" id="number" name="number" placeholder="Digite um id" required>
+                </div>
+                <div class="campo-2">
+                    <button class= "button" id="refresh" onclick="loadChamados()">Buscar</button>
+                </div>
+                <div>
+                    <h2 id="campoNome"></h2>
+                </div>
+            </div>
+            <div id = "chamados-box" class="form-content">
+                <hr>
+            </div>
+            <div class="line">
+                <hr>
+            </div>
+        </div>
     </article>
 <script src="/Scripts/js-base.js"></script>    
 <script src="/Scripts/Atendimentos.js"></script>
