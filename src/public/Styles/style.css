@@ -10,25 +10,28 @@
 /*      corpo do site */
 
 article {
-    background-color: #f5f7fa;
-    height: 100%;
-    width: 100%;
-    display: inline-block;
-    position: relative;
     position: absolute;
+    background: #f2f2f2;
+    top: 114px;
+    right: -4;
+    margin-left: 285px;
+    height: 78%;
+    width: 69.5%;
+    border-radius: 17px;
+    box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
 
 }
 
 article > .form-content {
     position: absolute;
-    background: #f2f2f2;
-    top: 196px;
+    background: white;
+    top: 224px;
     right: -4;
     margin-left: 28px;
-    height: 68%;
-    width: 70.2%;
+    height: 54%;
+    width: 94%;
     border-radius: 17px;
-    box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
 }
 
 article > .form-content > .formu > h4 {
@@ -56,14 +59,12 @@ article > .form-content > .formu {
 }
 
 article > .tab {
-background-color: #f1f1f1;
-border: 1px solid #ccc;
-width: 70.1%;
+background: white;
+margin-left: 27px;
+width: 94.1%;
 height: 90px;
-border-style: ridge;
-border-width: 1;
-margin-left: 28px;
-border-radius: 17px 17px 0px 0px;
+border-radius: 17px;
+box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
 }
 
 @media screen and (max-width: 1000px ) {
@@ -125,8 +126,8 @@ margin-top: 10px;
     background-color: transparent;
     margin-left: 2%;
     position: relative;
-    top: 40%;
-    left: 93%;
+    top: 30%;
+    left: 92%;
     cursor: pointer;
 }
 
@@ -163,7 +164,7 @@ article > .line {
     width: 50vw;
     border-radius: 30px;
     padding: 1vh 1.5vw;
-    background-color: rgba(209, 23, 23, 0.144);
+    background-color: #E6E8ED;
     border: none
 }
 
@@ -173,8 +174,10 @@ article > .line {
 
 
 .tabela_dados{
-    margin-left: 0%;
+    margin: 10px auto;
     font-family: Secundária;
+    width: 70%;
+
 }
 
 
@@ -611,6 +614,7 @@ background-color: rgba(0, 0, 255, 0.034);
 #msg_erro{
     color: #A3241D;
     font-size: 4vh;
+    margin-left: 20px;
 }
 
 #Reproduzido{
