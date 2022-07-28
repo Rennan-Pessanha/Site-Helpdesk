@@ -455,7 +455,7 @@ main{
 
 .titulo {
     color: rgb(0, 0, 0);
-    font-size: 150%;
+    font-size: 30px;
     font-family: 'Baloo Da 2', cursive;
     position: absolute;
     margin: -22px;
@@ -554,7 +554,7 @@ h1 {
 
 hr{
     margin-left: 29px;
-    width: 1218px;
+    width: 1000px;
     position: absolute;
     margin-top: 35px;
     border-top: 1px solid #f00;
@@ -614,7 +614,7 @@ hr{
 
 .box-grande hr{
     margin-left: 30px;
-    width: 775px;
+    width: 634px;
     position: absolute;
     margin-top: 45px;
     border-top: 1px solid #f00;
@@ -664,7 +664,7 @@ hr{
 
 hr.quebradelinha{
     margin-left: 33px;
-    width: 775px;
+    width: 634px;
     position: absolute;
     margin-top: 10px;
     border-top: 1px solid #f00;
@@ -703,7 +703,7 @@ hr.quebradelinha{
 
 hr.quebradelinha-2{
     margin-left: 30px;
-    width: 775px;
+    width: 634px;
     position: absolute;
     margin-top: 45px;
     border-top: 1px solid #f00;
@@ -742,7 +742,7 @@ hr.quebradelinha-2{
 
 hr.quebradelinha-3{
     margin-left: 30px;
-    width: 775px;
+    width: 634px;
     position: absolute;
     margin-top: 45px;
     border-top: 1px solid #f00;
