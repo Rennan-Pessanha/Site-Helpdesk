@@ -444,7 +444,7 @@ li p {
 main{
     position: absolute;
     background: #f2f2f2;
-    top: 114px;
+    top: 93px;
     right: -4;
     margin-left: 285px;
     height: 78%;
@@ -455,7 +455,7 @@ main{
 
 .titulo {
     color: rgb(0, 0, 0);
-    font-size: 150%;
+    font-size: 30px;
     font-family: 'Baloo Da 2', cursive;
     position: absolute;
     margin: -22px;
@@ -554,7 +554,7 @@ h1 {
 
 hr{
     margin-left: 29px;
-    width: 1218px;
+    width: 1000px;
     position: absolute;
     margin-top: 35px;
     border-top: 1px solid #f00;
@@ -612,9 +612,9 @@ hr{
         box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
     }
 
-.box-grande hr{
+.box-grande hr, hr.quebradelinha, hr.quebradelinha-2, hr.quebradelinha-3 {
     margin-left: 30px;
-    width: 775px;
+    width: 634px;
     position: absolute;
     margin-top: 45px;
     border-top: 1px solid #f00;
@@ -663,12 +663,9 @@ hr{
 }
 
 hr.quebradelinha{
-    margin-left: 33px;
-    width: 775px;
-    position: absolute;
+
     margin-top: 10px;
-    border-top: 1px solid #f00;
-    opacity: .1;
+    
 }
 
 
@@ -702,13 +699,8 @@ hr.quebradelinha{
 }
 
 hr.quebradelinha-2{
-    margin-left: 30px;
-    width: 775px;
-    position: absolute;
-    margin-top: 45px;
-    border-top: 1px solid #f00;
-    opacity: .1;
-    margin: 8px 0px 0px 34px;
+    margin-top: 12px;
+   
 }
 
 
@@ -741,13 +733,8 @@ hr.quebradelinha-2{
 }
 
 hr.quebradelinha-3{
-    margin-left: 30px;
-    width: 775px;
-    position: absolute;
     margin-top: 45px;
-    border-top: 1px solid #f00;
-    opacity: .1;
-    margin: 8px 0px 0px 34px;
+  
 }
 
 
