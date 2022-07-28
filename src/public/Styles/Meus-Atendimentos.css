@@ -49,8 +49,9 @@ a{
 }
 
 .container-chamados h1 {
+    display: inline-block;
     color: rgb(0, 0, 0);
-    font-size: 200%;
+    font-size: 150%;
     font-family: 'Baloo Da 2', cursive;
     margin: 10px 0px 0px 40px;
     width: 50%;
@@ -81,10 +82,33 @@ a{
     left: 44px;
     padding-right: 4px;
 }
+
+.campo-3 {
+
+    margin-left: 610px;
+    margin-top: -43px;
+}
+
+.campo-4 {
+    position: relative;
+    background: #f9f9f9;
+    width: 18px;
+    height: 19px;
+    overflow: hidden;
+    background: url(/img/lupa.png) no-repeat right;
+    background-size: 115%;
+    border-radius: 17px;
+    top: -25px;
+    left: 615px;
+    padding-right: 4px;
+}
+
+
+
 .busca-aluno {
     padding-left: 33px;
     background: #E6E8ED;
-    width: 30%;
+    width: 62%;
     height: 85%;
     border: 1px solid #ccc;
     border-radius: 17px;

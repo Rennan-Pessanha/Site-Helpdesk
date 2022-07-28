@@ -15,7 +15,7 @@ article {
     top: 114px;
     right: -4;
     margin-left: 285px;
-    height: 85%;
+    height: 78%;
     width: 69.5%;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
@@ -28,7 +28,7 @@ article > .form-content {
     top: 224px;
     right: -4;
     margin-left: 28px;
-    height: 67%;
+    height: 54%;
     width: 94%;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
@@ -164,7 +164,7 @@ article > .line {
     width: 50vw;
     border-radius: 30px;
     padding: 1vh 1.5vw;
-    background-color: rgba(209, 23, 23, 0.144);
+    background-color: #E6E8ED;
     border: none
 }
 
