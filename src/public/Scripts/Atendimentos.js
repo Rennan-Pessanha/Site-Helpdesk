@@ -7,6 +7,9 @@ function loadChamados(){
      fetch(window.location.origin + `/aluno/${id}`).then((result)=>{
         result.json().then((res)=>{
             console.log(res)
+            if(res.length==0){
+                chamadosBox.innerHTML = `O aluno ID ${id} não possui chamados registrados.`
+            }else{
             res.forEach((r,i)=>{
                 
                 
@@ -31,9 +34,6 @@ function loadChamados(){
 
 
                 const link = document.createElement('a')
-                //link.href = `/chamado/${r._id}`
-                //link.href = 'javascript:limparChamados()'
-                //link.href = 'javascript:preencherTudo()'
 
                 
                 //Transformando dados em texto
@@ -101,6 +101,7 @@ function loadChamados(){
                 
                 chamadosBox.appendChild(link);
             })
+        }
         })
         
     })
