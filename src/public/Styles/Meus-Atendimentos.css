@@ -42,7 +42,7 @@ a{
 
 .container-chamados {
     margin: 10px 50px;
-    width: 50%;
+    width: 69.5%;
     background: #f2f2f2;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
@@ -53,8 +53,9 @@ a{
     color: rgb(0, 0, 0);
     font-size: 30px;
     font-family: 'Baloo Da 2', cursive;
-    margin: 10px 0px 0px 40px;
+    margin: 0px 0px 0px 22px;
     width: 50%;
+
 }
 
 .container-titulo{
@@ -84,8 +85,7 @@ a{
 }
 
 .campo-3 {
-
-    margin-left: 610px;
+    margin-left: 908px;
     margin-top: -43px;
 }
 
@@ -99,7 +99,7 @@ a{
     background-size: 115%;
     border-radius: 17px;
     top: -25px;
-    left: 615px;
+    left: 914px;
     padding-right: 4px;
 }
 
@@ -108,7 +108,7 @@ a{
 .busca-aluno {
     padding-left: 33px;
     background: #E6E8ED;
-    width: 62%;
+    width: 58%;
     height: 85%;
     border: 1px solid #ccc;
     border-radius: 17px;
@@ -177,9 +177,9 @@ h2 {
 }
 
 .container-chamados hr {
-    margin-left: 39px;
-    width: 91%;
-    margin-top: -8px;
+    margin-left: 21px;
+    width: 95%;
+    margin-top: -15px;
     margin-bottom: 14px;
     border-top: 1px solid #f00;
     opacity: .1;

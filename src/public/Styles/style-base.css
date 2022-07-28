@@ -438,7 +438,7 @@ header > .content-int {
 /*      Título principal da página */
 
 article > .title {
-    margin-top: 20px;
+    margin-top: 13px;
     margin-left: 26px;
     color: #656565;
 }
@@ -448,7 +448,9 @@ article > .title > hr {
 }
 
 article > .title > h1 {
-    margin-bottom: 15px;
+    margin: -10px;
+    width: 899px;
+    margin-left: 0px;
     
 }
 

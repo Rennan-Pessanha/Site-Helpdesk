@@ -12,7 +12,7 @@
 article {
     position: absolute;
     background: #f2f2f2;
-    top: 114px;
+    top: 93px;
     right: -4;
     margin-left: 285px;
     height: 78%;
@@ -174,9 +174,9 @@ article > .line {
 
 
 .tabela_dados{
-    margin: 10px auto;
+    margin: 20px auto;
     font-family: Secundária;
-    width: 70%;
+    width: 96%;
 
 }
 
@@ -624,4 +624,13 @@ background-color: rgba(0, 0, 255, 0.034);
 
 #Reproduzido *{
     border-radius: 30px;
+}
+
+.Padrao-Primário hr {
+    margin-left: 0px;
+    width: 96%;
+    margin-top: -15px;
+    margin-bottom: 14px;
+    border-top: 1px solid #f00;
+    opacity: .1;
 }
