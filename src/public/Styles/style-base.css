@@ -515,7 +515,8 @@ article > .title > h1 {
     background-color: rgb(255, 255, 255);
     height: 12rem;
     width: 37rem;
-    margin-left: 41%;
+    margin-left: 53%;
+    margin-top: -21%;
     display: none;
     border-style: solid;
     border-top: none;
@@ -525,12 +526,13 @@ article > .title > h1 {
     z-index: 1;
 }
 
-Sub-Menu-Not {
+.Sub-Menu-Not {
     position: absolute;
     background-color: rgb(255, 255, 255);
     height: 12rem;
     width: 700px;
-    margin-left: 39%;
+    margin-left: 51%;
+    margin-top: -21%;
     display: none;
     border-style: solid;
     border-top: none;
@@ -540,7 +542,23 @@ Sub-Menu-Not {
     z-index: 1;
 }
 
+.Sub-Menu-Perfil {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 12rem;
+    width: 700px;
+    margin-left: 55%;
+    margin-top: -21%;
+    display: none;
+    border-style: solid;
+    border-top: none;
+    box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 36%);
+    border-color: rgba(0, 0, 0, 0.267);
+    border-width: 0.1px;
+    z-index: 1;
 
+
+    }
 
 
 }
