@@ -40,28 +40,6 @@ a{
     color: black;
 }
 
-.container-chamados {
-    margin: 10px 50px;
-    width: 69.5%;
-    background: #f2f2f2;
-    border-radius: 17px;
-    box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
-}
-
-.container-chamados h1 {
-    display: inline-block;
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    font-family: 'Baloo Da 2', cursive;
-    margin: 0px 0px 0px 22px;
-    width: 50%;
-
-}
-
-.container-titulo{
-    margin-top: 18px;
-
-}
 .campo-1 {
 
     display: inline-block;
@@ -86,7 +64,7 @@ a{
 
 .campo-3 {
     margin-left: 908px;
-    margin-top: -43px;
+    margin-top: 3px;
 }
 
 .campo-4 {
@@ -176,14 +154,7 @@ h2 {
     display: none;
 }
 
-.container-chamados hr {
-    margin-left: 21px;
-    width: 95%;
-    margin-top: -15px;
-    margin-bottom: 14px;
-    border-top: 1px solid #f00;
-    opacity: .1;
-}
+
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {

@@ -245,6 +245,40 @@ header > .burguer-content-icon > button {
     margin-top: 0px;
 }
 
+main{
+    position: absolute;
+    background: #f2f2f2;
+    top: 93px;
+    right: -4;
+    margin-left: 285px;
+    height: 78%;
+    width: 69.5%;
+    border-radius: 17px;
+    box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+}
+
+
+.titulo {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Baloo Da 2', cursive;
+    margin: -22px;
+    width: 899px;
+    margin-left: -71px;
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 100px;
+    position: absolute;
+}
+
+hr {
+    margin-left: 29px;
+    width: 1000px;
+    position: absolute;
+    margin-top: 35px;
+    border-top: 1px solid #f00;
+    opacity: .08;
+}
 @media screen and (max-width: 1700px ) {
     
     header > .content-int {
@@ -360,9 +394,9 @@ header > .content-int {
     display: inline-block;
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
-    border: 0.1px solid rgba(128, 128, 128, 0.274);
     border-top: none;
     border-left: none;
+    box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
 }
 
 @media (max-width: 1000px) {
@@ -426,8 +460,7 @@ header > .content-int {
 }
 
  .mobile-menu {
-    margin-top: 20px;
-    margin-left: 10px;
+    padding: 20px 10px;
 }
 
  .mobile-menu > a > h5 {
