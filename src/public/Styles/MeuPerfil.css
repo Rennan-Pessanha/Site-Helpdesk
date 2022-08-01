@@ -114,7 +114,7 @@ h1 {
 .lista {
     top: 20px;
     height: 90%;
-    width: 102%;
+    width: 99%;
 }
 
 .lista li{
@@ -350,7 +350,7 @@ div.upload {
     overflow: hidden;
     background-size: 40px;
     background-repeat: no-repeat;
-    margin: 46px 310px;
+    margin: 8% 59%;
 
 }
  
@@ -762,7 +762,7 @@ div.upload {
     overflow: hidden;
     background-size: 20px;
     background-repeat: no-repeat;
-    margin: 20px 160px;
+    margin: 6% 56%;
 
 }
  

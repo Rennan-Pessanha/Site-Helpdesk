@@ -16,7 +16,7 @@
 
 .Padrao-Primário { 
     color: rgb(0, 0, 0);
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Baloo Da 2', cursive;
 
 }
@@ -552,7 +552,8 @@ Sub-Menu-Not {
         background-color: rgb(255, 255, 255);
         height: 12rem;
         width: 37rem;
-        margin-left: 20%;
+        margin-left: 47%;
+        margin-top: -26%;
         display: none;
         border-style: solid;
         border-top: none;
@@ -561,22 +562,37 @@ Sub-Menu-Not {
         border-width: 0.1px;
         z-index: 1;
     }
-
     
-.Sub-Menu-Not {
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    height: 12rem;
-    width: 700px;
-    margin-left: 30%;
-    display: none;
-    border-style: solid;
-    border-top: none;
-    box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 36%);
-    border-color: rgba(0, 0, 0, 0.267);
-    border-width: 0.1px;
-    z-index: 1;
-}
+    .Sub-Menu-Not {
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        height: 12rem;
+        width: 700px;
+        margin-left: 44%;
+        margin-top: -26%;
+        display: none;
+        border-style: solid;
+        border-top: none;
+        box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 36%);
+        border-color: rgba(0, 0, 0, 0.267);
+        border-width: 0.1px;
+        z-index: 1;
+    }
+    .Sub-Menu-Perfil {
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        height: 11rem;
+        width: 12rem;
+        margin-left: 81%;
+        margin-top: -26%;
+        display: none;
+        border-style: solid;
+        border-top: none;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.363);
+        border-color: rgba(0, 0, 0, 0.267);
+        border-width: 0.1px;
+        z-index: 1;
+    }
 
 }
 
@@ -586,4 +602,8 @@ Sub-Menu-Not {
 
 h4.drop1.Padrao-Terciária {
     margin: 0 0 11px 7px;
+}
+
+#form-content-icon {
+    display: none;
 }
