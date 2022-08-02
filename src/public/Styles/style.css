@@ -9,7 +9,8 @@
 
 /*      corpo do site */
 
-article {
+
+main{
     position: absolute;
     background: #f2f2f2;
     top: 93px;
@@ -22,7 +23,7 @@ article {
 
 }
 
-article > .form-content {
+main > .form-content {
     position: absolute;
     background: white;
     top: 224px;
@@ -34,32 +35,33 @@ article > .form-content {
     box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
 }
 
-article > .form-content > .formu > h4 {
+main > .form-content > .formu > h4 {
     display: inline-block;
     margin-left: 80px;
     margin-top: 40px;
 
 }
 
-article > .form-content > .formu > hr {
+main > .form-content > .formu > hr {
 margin-top: 30px;
 }
 
-article > .form-content > .formu >  input {
+main > .form-content > .formu >  input {
     display: inline-block;
 }
 
-article > .form-content > .formu > .dados {
+main > .form-content > .formu > .dados {
     display: inline-block;
     width: 60%;
 }
 
-article > .form-content > .formu {
+main > .form-content > .formu {
     margin-top: 0px;
 }
 
-article > .tab {
+main > .tab {
 background: white;
+margin-top: 60px;
 margin-left: 27px;
 width: 94.1%;
 height: 90px;
@@ -70,8 +72,7 @@ box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
 @media screen and (max-width: 1000px ) {
     
     }
-
-article > .tab > .botaoN {
+main > .tab > .botaoN {
     color: #31302B;
     background: #FFF;
     height: 100%;
@@ -87,13 +88,11 @@ article > .tab > .botaoN {
 	-moz-transition: all ease 0.8s;
 	transition: all ease 0.8s;
 }
-
-article > .tab > .botaoN:hover {
+main > .tab > .botaoN:hover {
     box-shadow: inset 350px 0 0 0;
     color: #FC675F;
 }
-  
-article > .tab > button:focus {
+  main > .tab > button:focus {
     background: #C23C34;
 }
 
@@ -150,8 +149,7 @@ margin-top: 10px;
     margin-top: 20%;
 
 }
-
-article > .line {
+main > .line {
     margin-top: 36px;
     margin-left: 26px;
 }
@@ -160,16 +158,26 @@ article > .line {
     margin-top: 50px;
 }
 
-.input_total, .inputII_total{
-    width: 50vw;
+.input_total, .inputII_total, .Select-Content 
+    {
+    
     border-radius: 30px;
     padding: 1vh 1.5vw;
     background-color: #E6E8ED;
     border: none
 }
 
+.input_total {
+    width: 50vw;
+}
+
 .inputII_total{
     width: 20vw;
+}
+
+.Select-Content {
+    width: 20vw;
+    padding-top: 0px;
 }
 
 
@@ -222,11 +230,12 @@ article > .line {
 }
 
 .cont-content {
-    width: 33%;
+    width: 90%;
     height: 100%;
-    margin-left: 12%;
+    margin-left: 30%;
     display: inline-block;
 }
+
 
 .Text-content {
 background-color: black;
@@ -626,11 +635,3 @@ background-color: rgba(0, 0, 255, 0.034);
     border-radius: 30px;
 }
 
-.Padrao-Primário hr {
-    margin-left: 0px;
-    width: 96%;
-    margin-top: -15px;
-    margin-bottom: 14px;
-    border-top: 1px solid #f00;
-    opacity: .1;
-}

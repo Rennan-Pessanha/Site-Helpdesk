@@ -24,29 +24,60 @@
             <a href="#" id="Tar"> <img src="/img/Icones-menu/Icones superiores/Terefas.Icon.svg" alt=""> </a>
 
             <a href="#" id="Not"> <img src="/img/Icones-menu/Icones superiores/Notificação.icon.svg" alt=""> </a>
-    
-            <a href="/"> <img src="/img/Icones-menu/Icones superiores/form.icon.svg"> </a>
-    
+
             <a href="#" id="Perfil"> <img class="perfil" src="/img/Icones-menu/Icones superiores/Perfil.icon.svg"> </a>
 
         </div>
+
+        <div class="Sub-Menu-Perfil ">
+            <div class="Perfil-Content">
+                <img src="/img/Icones-menu/Icones superiores/Perfil-Content/MinhaConta.png" alt="Detalhes da conta"> <a href="#" class="Padrao-Secundário">Minha Conta</a> <br>
+                <img src="/img/Icones-menu/Icones superiores/Perfil-Content/CNot.png" alt="Configuração de Notificação"> <a href="#" class="Padrao-Secundário">Configurar Notificações</a> <br> 
+                <img src="/img/Icones-menu/Icones superiores/Perfil-Content/FazerLogin.png" alt="Login"> <a href="Login.html" class="Padrao-Secundário"> Login/Logout</a>
+            </div>
+
+        </div>
+        <div class="Sub-Menu-Not Padrao-Primário">
+            <div class="Title-Not">
+                <h2>Notificações</h2>
+                <hr>
+            </div>
+            <div class="content-not Padrao-Secundário">
+                <h4>Você não tem notificações no momento.</h4>
+                <hr>
+            </div>
+            <div class="Footer-Not ">
+                <a href="#" class="Padrao-Terciária">Todas as notificações.</a>
+            </div>
+
+        </div>
+        <div class="Sub-Menu-Tar Padrao-Primário">
+            <div class="Title-Tar">
+                <h2>Tarefas</h2>
+                <hr>
+            </div>
+            <div class="content-Tar Padrao-Primário">
+                <h4>Você não tem Tarefas no momento.</h4>
+                <hr>
+            </div>
+            <div class="Footer-Tar Padrao-Terciária">
+                <a href="#" class="Padrao-Terciária">Todas as Tarefas</a>
+            </div>
+
+        </div>
     </header>
-    <section>
-    <div class="mobile-menu">
+    <nav class="mobile-menu">
         <a href="/"> <img src="/img/Icones-menu/Icones superiores/form.icon.svg" alt=""> <h5 class="Padrao-Secundário">Preencher Formulário</h5> </a>
         
         <a href="atendimentos"> <img src="/img/Icones-menu/Histórico.icon.svg" alt=""> <h5 class="Padrao-Secundário">Atendimentos Helpdesk</h5> </a>
 
         <a href="perfil"> <img src="/img/Icones-menu/MeuPerfil.icon.svg" alt=""> <h5 class="Padrao-Secundário">Meu Perfil</h5> </a>
 
-        <a href="dash.html"> <img src="/img/Icones-menu/Dash.icon.svg" alt=""> <h5 class="Padrao-Secundário">Dashboard Geral</h5> </a>
+        <a href="/dashboard"> <img src="/img/Icones-menu/Dash.icon.svg" alt=""> <h5 class="Padrao-Secundário">Dashboard Geral</h5> </a>
 
-        <a href="P.D.Email.html"> <img src="/img/Icones-menu/Email.icon.svg" alt=""> <h5 class="Padrao-Secundário">Padrões de E-mail</h5> </a>
-
-
-
-    </div>
-    <article>
+        <a href="/padroes"> <img src="/img/Icones-menu/Email.icon.svg" alt=""> <h5 class="Padrao-Secundário">Padrões de E-mail</h5> </a>
+    </nav>
+    
         <div class="Sub-Menu-Perfil">
             <div class="Perfil-Content">
                 <img src="/img/Icones-menu/Icones superiores/Perfil-Content/MinhaConta.png" alt="Detalhes da conta"> <a href="#" class="Padrao-Secundário">Minha Conta</a> <br>
@@ -74,7 +105,7 @@
                 <h2>Tarefas</h2>
                 <hr>
             </div>
-            <div class="content-Tar Padrao-Secundário">
+            <div class="content-Tar Padrao-Primário">
                 <h4>Você não tem Tarefas no momento.</h4>
                 <hr>
             </div>
@@ -87,19 +118,15 @@
            <h1 class="Padrao-Primário"></h1>
        </div> 
        
-       <div class="container-chamados">
-            <div>
-                <h1>Histórico de Atendimentos</h1>
-                <div class="campo-3">
-                    <input class="busca-aluno" type="number" id="number" name="number" placeholder="Digite um id" required>
-                </div>
-                <div class="campo-4">
-                    <button class= "button" id="refresh" onclick="loadChamados()"></button>
-                </div>
-                    <hr>
-            
+        <main class="container-chamados">
+            <h1 class="titulo">Histórico de Atendimentos</h1><hr>
+            <div class="campo-3">
+                <input class="busca-aluno" type="number" id="number" name="number" placeholder="Digite um id" required>
             </div>
-            
+            <div class="campo-4">
+                        <button class= "button" id="refresh" onclick="loadChamados()"></button>
+            </div>
+                
             <div class="container-titulo">
                 <div>
                     <h2 id="campoNome"></h2>
@@ -111,9 +138,8 @@
             <div class="line">
                 <hr>
             </div>
-        </div>
-    </article>
-<script src="/Scripts/js-base.js"></script>    
-<script src="/Scripts/Atendimentos.js"></script>
+        </main>
+    <script src="/Scripts/js-base.js"></script>    
+    <script src="/Scripts/Atendimentos.js"></script>
 </body>
 </html>
