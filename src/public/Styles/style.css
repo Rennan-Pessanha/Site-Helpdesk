@@ -125,7 +125,7 @@ margin-top: 10px;
     background-color: transparent;
     margin-left: 2%;
     position: relative;
-    top: 30%;
+    top: 16%;
     left: 92%;
     cursor: pointer;
 }
@@ -135,7 +135,7 @@ margin-top: 10px;
     background-color: transparent;
     margin-left: 2%;
     position: relative;
-    top: 50%;
+    top: 16%;
     left: 93%;
     cursor: pointer;
 }
@@ -232,7 +232,7 @@ main > .line {
 .cont-content {
     width: 90%;
     height: 100%;
-    margin-left: 30%;
+    margin-left: 19%;
     display: inline-block;
 }
 
@@ -295,6 +295,7 @@ background-color: rgba(0, 0, 255, 0.034);
 
 .Span-drops {
     padding-left: 12px;
+   
 
 }
 

@@ -64,7 +64,7 @@ a{
 
 .campo-3 {
     margin-left: 84%;
-    margin-top: 3px;
+    margin-top: -2.7%;
 }
 
 .campo-4 {
@@ -165,3 +165,4 @@ input::-webkit-inner-spin-button {
 input[type=number]{
     -moz-appearance: textfield;
 }
+
