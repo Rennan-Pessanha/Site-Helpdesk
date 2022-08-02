@@ -1,4 +1,14 @@
-window.onload = loadChamados();
+window.onload = function(){
+    let input = document.getElementById('number');
+    let btn = document.getElementById('refresh')
+
+    input.addEventListener('keydown', (event)=>{
+        if(event.key=='Enter'){
+            loadChamados();
+        }
+    })
+}
+
 
 function loadChamados(){
     limparChamados()
@@ -30,6 +40,9 @@ function loadChamados(){
                 div.id = `chamado${i}`
                 div.onclick = function(){
                     preencherTudo(div.id)
+                    div.onclick = function(){
+                        loadChamados()
+                    }
                 }
 
 
