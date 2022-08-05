@@ -137,7 +137,7 @@ h1 {
 hr{
     
     margin-left: 26px;
-    width: 1266px;
+    width: 94.5%;
     margin-top: 40px;
     border-top: 1px solid #f00;
     opacity: .1;
@@ -614,7 +614,7 @@ hr{
 
 .box-grande hr, hr.quebradelinha, hr.quebradelinha-2, hr.quebradelinha-3 {
     margin-left: 30px;
-    width: 634px;
+    width: 91%;
     position: absolute;
     margin-top: 45px;
     border-top: 1px solid #f00;
@@ -828,10 +828,10 @@ h3 {
 
 li.indicadores {
     color: black;
-    font-size: 15px;
+    font-size: 92%;
     font-family: 'Baloo Da 2', cursive;
-    padding-left: 18px;
-    padding-top: 53px;
+    padding-left: 3%;
+    padding-top: 8%;
     font-weight: bold;
     text-align: left;
 }
@@ -866,7 +866,7 @@ li.p {
     li p{
         
         color: #e91212;
-        font-size: 30px;
+        font-size: 210%;
         font-family: 'Baloo Da 2', cursive;
         padding-left: 0px;
         padding-top: -18px;
