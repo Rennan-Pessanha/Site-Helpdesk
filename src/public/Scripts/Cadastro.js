@@ -17,7 +17,7 @@ form.addEventListener('submit', (e)=> {
         console.log(Senha.value)
         console.log(RepitaSenha.value)
     } else { 
-        textform.textContent = 'Há algum erro nos seus campos de cadastro :/'
+        textform.textContent = 'Há algum erro nos seus campos de cadastro '
     }
 })
 
