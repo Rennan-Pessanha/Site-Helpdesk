@@ -1,3 +1,3 @@
 function Cadastre() {
-    window.location.href = "Cadastro.html";
+    window.location.href = "/Cadastro";
 }
