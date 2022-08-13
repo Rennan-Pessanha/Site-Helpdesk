@@ -192,8 +192,8 @@ hr{
 
 
 .box-grande hr{
-    margin-left: 40px;
-    width: 819px;
+    margin-left: 4%;
+    width: 91%;
     position: absolute;
     margin-top: 70px;
     border-top: 1px solid #f00;
@@ -244,7 +244,7 @@ hr{
 }
 
 hr.quebradelinha{
-    width: 819px;
+    width: 91%;
     position: absolute;
     margin-top: 45px;
     border-top: 1px solid #f00;
@@ -283,7 +283,7 @@ hr.quebradelinha{
 }
 
 hr.quebradelinha-2{
-    width: 819px;
+    width: 91%;
     position: absolute;
     margin-top: 45px;
     border-top: 1px solid #f00;
@@ -321,7 +321,7 @@ hr.quebradelinha-2{
 }
 
 hr.quebradelinha-3{
-    width: 819px;
+    width: 91%;
     position: absolute;
     margin-top: 45px;
     border-top: 1px solid #f00;
@@ -445,13 +445,13 @@ li p {
 main{
     position: absolute;
     background: #f2f2f2;
-    top: 93px;
+    top: 5%;
     right: -4;
-    margin-left: 285px;
+    margin-left: 17%;
     height: 78%;
     width: 69.5%;
     border-radius: 17px;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
 }
 
 .titulo {
@@ -614,7 +614,7 @@ hr{
     }
 
 .box-grande hr, hr.quebradelinha, hr.quebradelinha-2, hr.quebradelinha-3 {
-    margin-left: 30px;
+    margin-left: 4%;
     width: 91%;
     position: absolute;
     margin-top: 45px;

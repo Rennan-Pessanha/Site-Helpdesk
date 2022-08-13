@@ -23,6 +23,19 @@ routes.get('/padroes', (req, res)=>{
     res.render('P.D.Email')
 })
 
+routes.get('/login', (req, res)=>{
+    res.render('Login')
+})
+
+routes.get('/cadastro', (req, res)=>{
+    res.render('Cadastro')
+})
+
+routes.get('/padroes', (req, res)=>{
+    res.render('P.D.Email')
+})
+
+
 routes.get('/all', chamadosController.listarChamados)
 
 routes.post('/send', chamadosController.criarChamado)
