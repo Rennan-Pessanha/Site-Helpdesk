@@ -1,3 +1,4 @@
+
 /* Classes  */
 .Select-Content { 
     width: 15em;
@@ -26,13 +27,15 @@ main{
 main > .form-content {
     position: absolute;
     background: white;
-    top: 224px;
+    top: 221px;
     right: -4;
     margin-left: 28px;
-    height: 54%;
+    margin-top: -1%;
+    height: 58%;
     width: 94%;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
+    overflow-y: scroll;
 }
 
 main > .form-content > .formu > h4 {
@@ -300,7 +303,7 @@ background-color: rgba(0, 0, 255, 0.034);
 }
 
 .drop2 { 
-    display: none;
+    display: inline-block;
     margin-top: 10pxpx;
     margin-left: 0px;
     font-weight: normal;
@@ -309,40 +312,13 @@ background-color: rgba(0, 0, 255, 0.034);
     font-family: Secundária;
 }
 
-.drop3 { 
-    display: none;
-    margin-top: 0px;
-    margin-left: 0px;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    font-family: Secundária;
+
+.Orientações, .Demanda-Option {
+    padding-left: 12px;
 }
 
-.drop4 { 
-    display: none;
-    margin-top: 0px;
-    margin-left: 0px;
-    font-weight: normal;
-    font-family: Secundária;
-    border-radius: 5px 5px 5px 5px
-}
-
-.drop5 { 
-    display: none;
-    margin-top: 0px;
-    margin-left: 0px;
-    font-weight: normal;
-    font-family: Secundária;
-    border-radius: 5px 5px 5px 5px
-}
-
-.drop6 { 
-    display: none;
-    margin-top: 0px;
-    margin-left: 0px;
-    font-weight: normal;
-    font-family: Secundária;
-    border-radius: 5px 5px 5px 5px
+h4.drop1.Padrao-Terciária {
+    margin: 0 0 11px 7px;
 }
 
 .Area {
@@ -350,12 +326,15 @@ background-color: rgba(0, 0, 255, 0.034);
     font-family: Secundária;
 }
 
+.aplic { 
+}
+
 .Problema { 
     font-weight: normal;
     font-family: Secundária;
 }
 
-.Problema-Login { 
+.ProblemaD { 
         display: none;
         margin-left: 0px;
         font-weight: normal;
@@ -366,260 +345,6 @@ background-color: rgba(0, 0, 255, 0.034);
 
 }
 
-.Problema-Aulas {
-    display: none;
-    margin-left: 0px;
-    font-family: Secundária;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-}
-
-.Problema-Materiais { 
-    display: none;
-    margin-left: 0px;
-    font-family: Secundária;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-}
-
-.Problema-Questoes {
-    display: none;
-    font-family: Secundária;
-    margin-left: 0px;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-}
-
-.Problema-Medsmart {
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    font-family: Secundária;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-}
-
-.Problema-Revalida {
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    font-family: Secundária;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
- }
-
-.Problema-Mentoria {
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    font-family: Secundária;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-}
-
-.Problema-Cronograma {
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    font-family: Secundária;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-}
-
-.Problema-Simulados {
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-}
-
-.Problema-Concurso-Integra { 
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-
-}
-
-.Problema-Monta-Provas { 
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-
-}
-
-.Problema-Slide-de-Aulas { 
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-
-}
-
-.Problema-Medplanner { 
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-
-}
-
-.Problema-Material-Virtual { 
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-
-}
-
-.Problema-Atualizacao-Erratas { 
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-
-}
-
-.Problema-Medcode { 
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-
-}
-
-.Problema-Instalacao {
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-
-}
-
-.Problema-NoPapo {
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-
-}
-
-.Problema-Administrativo { 
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-
-}
-
-.Problemas-Outros { 
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-
-}
-
-/* Problemas Area recursos */
-
-.Problema-Login-D3 { 
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-}
-
-.Problema-Perfil-D3 {
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-}
-
-.Problema-ForumPre-D3 {
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-}
-
-.Problema-ForumPos-D3 {
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-}
-
-.Problema-Ranking {
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-}
-
-.Problema-Outros {
-    display: none;
-    margin-left: 0px;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-}
-
-/* Problemas Medeletro */
-
-.Problema-Login-D4 { 
-    display: block;
-    margin-left: 0px;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
-    margin-top: 10px;
-}
 
 #msg_erro{
     color: #A3241D;

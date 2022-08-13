@@ -4,7 +4,6 @@
     margin: 0%;
     padding: 0%;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 @font-face {
@@ -631,14 +630,6 @@ article > .title > h1 {
         z-index: 1;
     }
 
-}
-
-.Orientações, .Demanda-Option {
-    padding-left: 12px;
-}
-
-h4.drop1.Padrao-Terciária {
-    margin: 0 0 11px 7px;
 }
 
 #form-content-icon {
