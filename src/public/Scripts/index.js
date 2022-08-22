@@ -130,6 +130,35 @@ function Aplicacao(){
         aplicacao.appendChild(option)
 }
 
+function area() {
+
+    let aplicacao = document.getElementById('Apps')
+    let aplicacao2 = document.getElementById('Area')
+
+    aplicacao2.innerHTML = ''
+
+    let temp = []
+    switch(apps.value) {
+        case 'Academico':
+            temp = ['teste', 'teste', 'teste']
+        break
+        case 'N/A':
+            temp = ['teste', 'teste', 'teste']
+        break
+    }
+
+    for(val of temp){
+        let option = document.createElement('option')
+        option.text = `${val}`
+        option.value = `${val}`
+
+        aplicacao2.appendChild(option)
+
+    }
+}
+
+
+
 // Configuração botões 
 
 let myButton = document.querySelectorAll('.tab > button');
