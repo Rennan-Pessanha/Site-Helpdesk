@@ -24,7 +24,7 @@ routes.get('/padroes', (req, res)=>{
 })
 
 routes.get('/login', (req, res)=>{
-    res.render('Login')
+    res.render('login')
 })
 
 routes.get('/cadastro', (req, res)=>{

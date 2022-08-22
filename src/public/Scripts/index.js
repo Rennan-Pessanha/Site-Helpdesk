@@ -122,7 +122,7 @@ function Aplicacao(){
     let opc1 = ['N/A', 'Academico', 'Medsoft-Pro', 'Recursos', 'MEDELETRO', 'AreaRestrita', 'Concursos', 'Outros']
 
     for(val of opc1){
-        let opc1 = document.createElement('option')
+        let option = document.createElement('option')
         option.text = `${val}`
         option.value = `${val}`
     }
@@ -138,12 +138,13 @@ function area() {
     aplicacao2.innerHTML = ''
 
     let temp = []
-    switch(apps.value) {
-        case 'Academico':
+    switch(aplicacao.value) {
+        case 'Academico':  
+        case 'Medsoft-Pro':
             temp = ['teste', 'teste', 'teste']
-        break
+            break;
         case 'N/A':
-            temp = ['teste', 'teste', 'teste']
+            temp = ['teste2', 'teste2', 'teste2']
         break
     }
 
