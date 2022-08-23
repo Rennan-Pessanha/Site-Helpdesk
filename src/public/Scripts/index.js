@@ -105,17 +105,6 @@ function DadosII(){
 
 // Parte III do formulário
 
-function ClicarI(valor) {
-
-    if(valor == 'Demanda') { 
-    document.querySelector('.Demanda-Option').style.display = "block"
-    document.querySelector('.dropdown-select').style.display = "none"
-     } else { 
-    document.querySelector('.Demanda-Option').style.display = "none"
-    document.querySelector('.dropdown-select').style.display = "block"
-    }
-}
-
 function Aplicacao(){
     let aplicacao = document.getElementById('Apps')
 
@@ -138,13 +127,24 @@ function area() {
     aplicacao2.innerHTML = ''
 
     let temp = []
-    switch(aplicacao.value) {
-        case 'Academico':  
+    switch(aplicacao.value) { 
         case 'Medsoft-Pro':
-            temp = ['teste', 'teste', 'teste']
+            temp = ['Login', 'Aula', 'Materiais', 'Questões', 'Medsmart', 'Revalida', 'Cronograma', 'Simulados', 'Concurso Na Integra', 'Monta Prova', 'Slide De Aula', 'MedPlaner', 'Material Virtual', 'Atualização E Erratas', 'Medcode', 'Instalacao', 'No-Papo', 'Administrativo', 'Outros']
             break;
-        case 'N/A':
-            temp = ['teste2', 'teste2', 'teste2']
+        case 'Recursos':
+            temp = ['Login', 'Perfil', 'Forum Pré', 'Forum Pró', 'Ranking', 'Outros']
+        break
+        case 'MEDELETRO':
+            temp = ['login']
+        break
+        case 'AreaRestrita':
+            temp = ['Login', 'Financeiro', 'Dados Cadastrais', 'Contrato','Imagem Da Semana', 'Med Clipping','Headline', 'Autorização Do Portador']
+        break
+        case 'Concursos': 
+            temp = ['Login', 'Editorial Não Encontrado', 'Pagina Não Carrega']
+        break
+        default:
+            temp = ['--']
         break
     }
 
@@ -156,6 +156,99 @@ function area() {
         aplicacao2.appendChild(option)
 
     }
+}
+
+function ProblemaD(){
+
+    let aplicacao2 = document.getElementById('Area')
+    let aplicacao3 = document.getElementById('ProblemaD')
+
+    aplicacao3.innerHTML = ''
+
+    let temp = []
+    switch(aplicacao2.value){
+        case 'Aula':
+            temp = ['Vídeos Não Carregam', 'Aula Presencial', 'Video Travando', 'Videos Indisponiveis', 'Videos Trocados', 'Resolução de vídeo', 'Função Avançar/Retroceder', 'Qualidade Dos Videos', 'Qualidade Dos Audios', 'Vídeos Sem Audio', 'Aba Indisponivel', 'Conflito Em Porcentagem', 'Tela Cheia', 'Dificuldade Em Download', 'Aulas Repetidas', 'Bloco De Material Anterior', 'Dúvida']
+        break
+        case 'Login':
+            temp = ['Acesso Bloqueado', 'Travando na tela configuração de ambiente', 'Email Não Cadastrado', 'Login nao carrega', 'Serviço indisponivel', 'Erro de Senha', 'Reset De Senha', 'Usuario Sem OV Permitida', 'Logout', 'Instabilidade Momentânea', 'Assinatura de contrato', 'Regras De Acesso', 'Dùvida', 'Email Duplicado', 'Outros']
+        break
+        case 'Questões':
+            temp = ['Resetar Questões', 'Respostas Não Ficam Salvas', 'Questões Duplicadas', 'Questões Indisponíveis', 'Filtro De Questões', 'Imprimir Questões', 'Conflito Em Porcentagem', 'Aba Indisponivel', 'Problema Em Imagem', 'Dificultade em Favoritar', 'Dificuldade Em Download', 'Gabarito Comentado', 'Dificuldade Em Depositar Duvidas', 'Questões Desordenadas', 'Dúvida']
+        break
+        case 'Materiais':
+            temp = ['Apostila Indisponivel', 'Apostila Não Carrega', 'Imagens Não Carrega', 'Imagens Trocadas', 'Erro De Requisição', 'Marcação de Texto', 'Anotações', 'Índice de Apostila', 'Vídeo De Apostila Indisponível', 'Conflito Em Porcentagem', 'Tela Cheia Em Vídeos', 'Dificuldade Em Donwload', 'Dúvida']
+        break
+        case 'Medsmart':
+            temp = ['medsmart Indisponivel', 'Medsmart Não Carrega', 'Questões Já Realizadas', 'Questões Já Repetidas', 'Métricas', 'Revisões Não Carregam', 'SmartCard Indisponivel', 'Temas Não Vistos', 'Questões Não Contabilizam', 'Dúvida', 'Sugestão']
+        break
+        case 'Revalida':
+            temp = ['Conteudo Indisponivel', 'Dúvida']
+        break
+        case 'Cronograma':
+            temp = ['Conteudos Não Liberados', 'Cronograma Indisponivel', 'Cronograma Divergente', 'Imprimir Cronograma', 'Dúvida']
+        break
+        case 'Simulados':
+            temp = ['Reset De Simulado', 'Simulado Não Carrega', 'Simulado Indisponivel', 'Simulado Não Finaliza', 'Filtro de Ranking', 'Ranking Em Processamento', 'Ranking Indisponivel', 'Dificuldade Em Imprimir', 'Nota Divergente', 'Multimidia Indisponivel', 'Prazo Encerrado', 'Métrica De Desempenho']
+        break
+        case 'Concurso Na Integra':
+            temp = ['Imprimir Provas', 'Prova Não Encontrada', 'Ranking De Acertos', 'Prova Não Carrega', 'Função Indisponivel', 'Dúvida',]
+        break
+        case 'Monta Prova':
+            temp = ['Pesquisa Por Temas', 'Especialidade', 'Concurso', 'Conflito Em Filtro De Ano', 'Filtros Especiais', 'Dúvidas']
+        break
+        case 'Slide De Aula':
+            temp = ['Slide Indisponivel', 'Mapa Mental Indisponivel', 'Slide Não Carrega', 'Vídeo Mapa Mental Não Carrega', 'Dúvida']
+        break
+        case 'MedPlaner':
+            temp = ['Função Indisponivel', 'Função Não Carrega', 'Informação', 'Dùvida']
+        break
+        case 'Material Virtual':
+            temp = ['Função Indisponivel', 'Função Não Carrega', 'Informação', 'Dúvida']
+        break
+        case 'Atualização E Erratas':
+            temp = ['Dificuldade de Imprenssão', 'Conteudos Indisponiveis', 'Dificuldade em baixar', 'Dúvida']
+        break
+        case 'Medcode':
+            temp = ['Leitura QR CODE', 'Tela Preta', 'Dúvida']
+        break
+        case 'Instalacao':
+            temp = ['Dificuldade em instalar no Mac', 'Dificuldade em instalar no Windows', 'Dificuldade em instalar no Smartphone', 'Dificuldade em instalar no tablet', 'Requisitos Minimos']
+        break
+        case 'Administrativo':
+            temp = ['Boleto não Carreta', 'Notas Fiscais']
+        break
+        case 'Outros':
+            temp = ['--']
+        break
+        case 'Perfil':
+            temp = ['Excluir Foto']
+        break
+        case 'Forum Pré':
+            temp = ['Exclusão De Comentário', 'Análise De Recurso']
+        break
+        case 'Forum Pró':
+            temp = 'Exclusão De Comentário'
+        break
+        case 'Ranking':
+            temp = ['Exclusão De Nota']
+        break
+        default:
+            temp = ['--']
+        break
+    }
+
+
+    for(val of temp){
+        let option = document.createElement('option')
+        option.text = `${val}`
+        option.value = `${val}`
+
+        aplicacao3.appendChild(option)
+    }
+
+    
+
 }
 
 
@@ -211,14 +304,8 @@ function SubmitForm() {
         var orientação = document.getElementById('Orientacoes').value;
         var demanda = document.getElementById('Demanda-Option').value;
         var app = document.getElementById('Apps').value;
-        // Areas Selecionadas no Dropdown //
-        // Problemas Selecionados no Dropdown do medsoft-pro //
-
-        //var processos = document.getElementById('Processos').value;
-        ///var Orientação = document.getElementById('Orientacoes').value;
-        //var Demanda = document.getElementById('Demanda-Option').value;
-        //var App = document.getElementById('Apps').value;
-        //var Area = undefined
+        var Area = document.getElementById('Area').value
+        var Problema = document.getElementById('ProblemaD').value
 
 
 
@@ -242,18 +329,11 @@ function SubmitForm() {
             "aluno_Orientação":orientação,
             "aluno_Demanda":demanda,
             "aluno_app":app,
-            "area_Med":areaMed,
-            "area_Rec":areaRec,
-            "area_Eletro":areaEletro,
-            "area_Res":areaRes,
-            "ares_Concurso":areaConcurso,
 
+            "Aluno_Area": Area,
+            "Aluno_Problema":Problema
+            
 
-
-            //"aluno_Processos":processos,
-            //"aluno_Orientação":Orientação,
-            //"aluno_Demanda":Demanda,
-            //"aluno_app":App
 
             
         }
