@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="/Styles/Login.css">
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <meta name="google-signin-client_id" content="676725718949-m0u3n2191f4eakc5rfleqfp6b5jj478l.apps.googleusercontent.com">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
 </head>
 <body>
     <header>
@@ -33,14 +32,23 @@
             </div>
             </div>
             <div class="botoes-content">
-                <div class="g-signin2" data-onsuccess="onSignIn"></div>
-                <button class="signOut" onclick="signOut()">Signout</button>
+                <div id="g_id_onload"
+                data-client_id="676725718949-m0u3n2191f4eakc5rfleqfp6b5jj478l"
+                data-login_uri="http://localhost:3005/Login"
+                data-auto_prompt="false">
+             </div>
+             <div class="g_id_signin"
+                data-type="standard"
+                data-size="large"
+                data-theme="outline"
+                data-text="sign_in_with"
+                data-shape="rectangular"
+                data-logo_alignment="left">
+             </div>
             </div>
-            <a href="#" class="obs-A">
-            <p class="obs">Não possui o Email corporativo? Clique aqui.</p> </a>
         </div>
     </article>
     
- <script src="/Scripts/login.js"></script>
+ <script src="../Scripts/login.js"></script>
 </body>
 </html>

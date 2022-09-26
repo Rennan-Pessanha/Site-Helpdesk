@@ -23,7 +23,7 @@ form.addEventListener('submit', (e)=> {
 
 Email.addEventListener('keyup', ()=> {
     if(ValidarEmail(Email.value) !== true) {
-        textEmail.textContent = 'formato do email deve ser ex: Fulano.silva@medgrupo.com'
+        textEmail.textContent = 'formato do email deve ser ex: Rennan.silva@medgrupo.com'
     } else { 
         textEmail.textContent = ''
     }
