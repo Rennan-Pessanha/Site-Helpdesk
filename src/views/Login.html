@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="/Styles/Login.css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="676725718949-m0u3n2191f4eakc5rfleqfp6b5jj478l.apps.googleusercontent.com">
 </head>
 <body>
     <header>
@@ -31,8 +33,8 @@
             </div>
             </div>
             <div class="botoes-content">
-                <button id="Entrar-Button">Entrar</button>
-                <button class="Cadastrar-Button" onclick="Cadastre()">Cadastre-se</button>
+                <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                <button class="signOut" onclick="signOut()">Signout</button>
             </div>
             <a href="#" class="obs-A">
             <p class="obs">Não possui o Email corporativo? Clique aqui.</p> </a>
