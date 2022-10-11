@@ -64,7 +64,7 @@ a{
 
 .campo-3 {
     margin-left: 84%;
-    margin-top: -3.3%;
+    margin-top: -2.8%;
 }
 
 .campo-4 {
@@ -166,3 +166,6 @@ input[type=number]{
     -moz-appearance: textfield;
 }
 
+main {
+    height: auto;
+}
