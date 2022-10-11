@@ -167,5 +167,5 @@ input[type=number]{
 }
 
 main {
-    height: auto;
+    height: auto !important;
 }
