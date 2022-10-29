@@ -19,10 +19,6 @@ routes.get('/dashboard', (req, res)=>{
     res.render('dash')
 })
 
-routes.get('/padroes', (req, res)=>{
-    res.render('P.D.Email')
-})
-
 routes.get('/login', (req, res)=>{
     res.render('login')
 })
@@ -32,7 +28,7 @@ routes.get('/cadastro', (req, res)=>{
 })
 
 routes.get('/padroes', (req, res)=>{
-    res.render('P.D.Email')
+    res.render('padroes')
 })
 
 
