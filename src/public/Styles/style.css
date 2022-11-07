@@ -351,7 +351,10 @@ h4.drop1.Padrao-Terciária {
 #msg_erro{
     color: #A3241D;
     font-size: 4vh;
-    margin-left: 20px;
+    margin-left: 259px;
+    position: absolute;
+    margin-top: 32px;
+    text-align: center;
 }
 
 #Reproduzido{
