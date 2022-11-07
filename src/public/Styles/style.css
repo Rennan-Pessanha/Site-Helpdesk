@@ -115,12 +115,11 @@ border: none;
 margin-left: 48%;
 margin-top: 10px;
 }
-
 #btn_dadosII {
-
     cursor: pointer;
-    margin-left: 42%;
-
+    margin-left: 2%;
+    margin-top: 13%;
+    position: absolute;
 }
 
 #btn_clear1 {
@@ -138,7 +137,7 @@ margin-top: 10px;
     background-color: transparent;
     margin-left: 2%;
     position: relative;
-    top: 5%;
+    top: 28%;
     left: 91%;
     cursor: pointer;
 
