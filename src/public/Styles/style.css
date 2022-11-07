@@ -109,11 +109,13 @@ main > .tab > .botaoN:hover {
 }
 
 #btn_dados, #btn_dadosII {
-cursor: pointer;
-background-color: transparent;
-border: none;
-margin-left: 48%;
-margin-top: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    margin-left: 2%;
+    margin-top: 20px;
+    position: absolute;
+
 }
 #btn_dadosII {
     cursor: pointer;
@@ -127,7 +129,7 @@ margin-top: 10px;
     background-color: transparent;
     margin-left: 2%;
     position: relative;
-    top: 16%;
+    top: 6%;
     left: 92%;
     cursor: pointer;
 }
@@ -138,7 +140,7 @@ margin-top: 10px;
     margin-left: 2%;
     position: relative;
     top: 28%;
-    left: 91%;
+    left: 92%;
     cursor: pointer;
 
 }
