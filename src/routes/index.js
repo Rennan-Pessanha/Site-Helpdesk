@@ -3,7 +3,7 @@ const path = require('path');
 const routes = new Router();
 const chamadosController = require('../controllers/chamadosController')
 
-routes.get('/', (req, res) => {
+routes.get('/Principal', (req, res) => {
     res.render('index');
 });
 

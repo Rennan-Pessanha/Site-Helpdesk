@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -10,29 +11,7 @@
     <script src="https://accounts.google.com/gsi/client" async defer></script>
     <script src="https://unpkg.com/jwt-decode/build/jwt-decode.js"></script>
 </head>
-<script class=>
-  function handleCredentialResponse(response) {
-    const data = jwt_decode(response.credential)
 
-console.log(data.sub)
-
-  }
-  window.onload = function () {
-    google.accounts.id.initialize({
-      client_id: "892608599199-ii1eu43snk1cbrdenq4d9ams2vn48k2e.apps.googleusercontent.com",
-      callback: handleCredentialResponse
-    });
-    google.accounts.id.renderButton(
-      document.getElementById("buttonDiv"),
-      { theme: "outline", size: "large" }  // customization attributes
-    );
-    google.accounts.id.prompt(); // also display the One Tap dialog
-  }
-  function onSignIn(googleUser) {
-    var id_token = googleUser.getAuthResponse().id_token;
-    
-  }
-</script>
 <body>
     <header>
 
@@ -57,7 +36,30 @@ console.log(data.sub)
             </div>
             </div>            
             </div>
-            <div id="buttonDiv"></div> 
+            <div id="buttonDiv"></div>
+            <script>
+              function handleCredentialResponse(response) {
+                const data = jwt_decode(response.credential)
+            
+            console.log(data.sub)
+            
+              }
+              window.onload = function () {
+                google.accounts.id.initialize({
+                  client_id: "892608599199-ii1eu43snk1cbrdenq4d9ams2vn48k2e.apps.googleusercontent.com",
+                  callback: handleCredentialResponse
+                });
+                google.accounts.id.renderButton(
+                  document.getElementById("buttonDiv"),
+                  { theme: "outline", size: "large" }  // customization attributes
+                );
+                google.accounts.id.prompt(); // also display the One Tap dialog
+              }
+              function onSignIn(googleUser) {
+                var id_token = googleUser.getAuthResponse().id_token;
+                
+              }
+            </script> 
         </div>
     </article>
     
