@@ -460,3 +460,78 @@ input:focus {
 .adicionar:hover {
     color: #D0453E ;
 }
+
+
+@media screen and (max-height: 1400px ) {
+    main > .form-content {
+    
+        height: 46%;
+    
+    }
+
+}
+
+
+@media screen and (max-height: 1100px ) {
+    main > .form-content {
+        height: 49%;
+        margin-top: -4%;
+    }
+
+}
+
+@media screen and (max-height: 1024px ) {
+    main > .form-content {
+        margin-top: -1%;
+        height: 309px;
+    }
+
+}
+
+@media screen and (min-width: 1350px) {
+    main > .form-content {
+        height: 302px;
+    }
+
+}
+
+@media screen and (min-width: 1350px) {
+    main > .form-content {
+        height: 361px;
+    }
+
+}
+
+@media screen and (max-height: 720px) {
+    main > .form-content {
+        height: 316px;
+    }
+
+}
+
+@media screen and (max-height: 650px) {
+    main > .form-content {
+        height: 271px;
+    }
+
+    .botao-limpar {
+    
+        margin-top: 8px !important;
+    }
+
+}
+
+
+@media screen and (max-height: 575px) {
+    main > .form-content {
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-height: 476px) {
+    main > .form-content {
+        height: 145px;
+    }
+
+}
