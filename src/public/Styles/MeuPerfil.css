@@ -894,6 +894,19 @@ li.p {
 }
 
 
+
+
+@media screen and (max-width: 1550px ) {
+    .lista {
+        top: 20px;
+        height: 90%;
+        width: 99.7%;
+        margin-left: 1px;
+    }
+
+}
+
+
 @media screen and (max-width: 1440px ) {
     .lista li {
         width: 29.5%;
