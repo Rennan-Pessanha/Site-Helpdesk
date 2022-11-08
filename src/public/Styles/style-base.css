@@ -635,3 +635,8 @@ article > .title > h1 {
 #form-content-icon {
     display: none;
 }
+
+td {
+    font-size: 14px;
+}
+

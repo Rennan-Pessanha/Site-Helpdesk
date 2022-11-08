@@ -35,6 +35,7 @@ main > .form-content {
     width: 94%;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
+    overflow: hidden;
 }
 
 main > .form-content > .formu > h4 {
@@ -62,13 +63,13 @@ main > .form-content > .formu {
 }
 
 main > .tab {
-background: white;
 margin-top: 40px;
 margin-left: 27px;
 width: 94.1%;
 height: 90px;
 border-radius: 17px;
 box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
+overflow: hidden;
 }
 
 @media screen and (max-width: 1000px ) {
@@ -99,8 +100,21 @@ main > .tab > .botaoN , .add-botao{
     margin-top: 0%;
 }
 
-.buttonClicked {
-    background-color: #C23C34;
+.botoes {
+    height: 100%;
+    border: none;
+    width: 33%;
+    margin-right: -4px;
+}
+
+.botoes:hover {
+    cursor: pointer;
+    background-color: #E5B8B5;
+}
+
+
+.buttonClicked{
+    background-color: #D54942;
     height: 100%;
     border: none;
     width: 25%;
@@ -113,8 +127,8 @@ main > .tab > .botaoN , .add-botao{
     background-color: transparent;
     border: none;
     margin-left: 3%;
-    margin-top: 0px;
-    position: absolute;
+    margin-top: 138px;
+    
 
 }
 #btn_dadosII {
@@ -349,9 +363,9 @@ h4.drop1.Padrao-Terciária {
 #msg_erro{
     color: #A3241D;
     font-size: 4vh;
-    margin-left: 28%;
+    margin-left: 22%;
     position: absolute;
-    margin-top: 1%;
+    margin-top: 10.8%;
 }
 
 #Reproduzido{
@@ -366,3 +380,76 @@ h4.drop1.Padrao-Terciária {
 main {
     overflow: hidden;
 }
+
+input:focus {
+   border: none;
+   background-color: #F1DBDA;
+}
+
+.botao-limpar {
+    background-color: #E6E8ED !important;
+    border: none;
+    font-size: 16px;
+    float: left;
+    margin-top: 69px;
+    margin-left: 37px;
+    cursor: pointer;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: #525252;
+    margin-top: 114px !important;
+}
+
+.adicionar {
+
+    background-color: #C23C34 !important;
+    border: none;
+    font-size: 16px;
+    float: right;
+    margin-top: 69px;
+    margin-right: 37px;
+    cursor: pointer;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: #F1DBDA;
+
+}
+
+
+.adicionar {
+    background-color: #C23C34 !important;
+    border: none;
+    font-size: 16px;
+    float: right;
+    margin-right: 37px;
+    cursor: pointer;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    font-weight: lighter;
+    color: #F1DBDA;
+    margin-top: 196px !important;
+
+
+}
+
+.botao-limpar-3 {
+    background-color: #E6E8ED !important;
+    border: none;
+    font-size: 16px;
+    float: left;
+    margin-left: 37px;
+    cursor: pointer;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    font-weight: lighter;
+    color: #525252;
+    margin-top: 196px !important;
+
+}
+
