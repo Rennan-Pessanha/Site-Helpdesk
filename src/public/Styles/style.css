@@ -35,7 +35,7 @@ main > .form-content {
     width: 94%;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
-    overflow-y: scroll;
+    overflow: hidden;
 }
 
 main > .form-content > .formu > h4 {
@@ -63,20 +63,20 @@ main > .form-content > .formu {
 }
 
 main > .tab {
-background: white;
-margin-top: 60px;
+margin-top: 40px;
 margin-left: 27px;
 width: 94.1%;
 height: 90px;
 border-radius: 17px;
 box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
+overflow: hidden;
 }
 
 @media screen and (max-width: 1000px ) {
     
     }
-main > .tab > .botaoN {
-    color: #31302B;
+main > .tab > .botaoN , .add-botao{
+    color: #525252;
     background: #FFF;
     height: 100%;
     width: 25%;
@@ -90,17 +90,31 @@ main > .tab > .botaoN {
     box-shadow: inset 0 0 0 0 #FC675F;
 	-moz-transition: all ease 0.8s;
 	transition: all ease 0.8s;
-}
-main > .tab > .botaoN:hover {
-    box-shadow: inset 350px 0 0 0;
-    color: #FC675F;
+    margin-top: -8px;
 }
   main > .tab > button:focus {
     background: #C23C34;
 }
 
-.buttonClicked {
-    background-color: #C23C34;
+.add-botao {
+    margin-top: 0%;
+}
+
+.botoes {
+    height: 100%;
+    border: none;
+    width: 33%;
+    margin-right: -4px;
+}
+
+.botoes:hover {
+    cursor: pointer;
+    background-color: #E5B8B5;
+}
+
+
+.buttonClicked{
+    background-color: #D54942;
     height: 100%;
     border: none;
     width: 25%;
@@ -109,18 +123,19 @@ main > .tab > .botaoN:hover {
 }
 
 #btn_dados, #btn_dadosII {
-cursor: pointer;
-background-color: transparent;
-border: none;
-margin-left: 48%;
-margin-top: 10px;
-}
-
-#btn_dadosII {
-
     cursor: pointer;
-    margin-left: 42%;
+    background-color: transparent;
+    border: none;
+    margin-left: 3%;
+    margin-top: 138px;
+    
 
+}
+#btn_dadosII {
+    cursor: pointer;
+    margin-left: 2%;
+    margin-top: 13%;
+    position: absolute;
 }
 
 #btn_clear1 {
@@ -128,7 +143,7 @@ margin-top: 10px;
     background-color: transparent;
     margin-left: 2%;
     position: relative;
-    top: 16%;
+    top: -1%;
     left: 92%;
     cursor: pointer;
 }
@@ -138,9 +153,10 @@ margin-top: 10px;
     background-color: transparent;
     margin-left: 2%;
     position: relative;
-    top: 16%;
-    left: 93%;
+    top: 3%;
+    left: 92%;
     cursor: pointer;
+
 }
 
 #btn_dadosIII {
@@ -158,7 +174,7 @@ main > .line {
 }
 
 #line {
-    margin-top: 50px;
+    margin-top: 11%;
 }
 
 .input_total, .inputII_total, .Select-Content 
@@ -326,8 +342,6 @@ h4.drop1.Padrao-Terciária {
     font-family: Secundária;
 }
 
-.aplic { 
-}
 
 .Problema { 
     font-weight: normal;
@@ -349,7 +363,9 @@ h4.drop1.Padrao-Terciária {
 #msg_erro{
     color: #A3241D;
     font-size: 4vh;
-    margin-left: 20px;
+    margin-left: 22%;
+    position: absolute;
+    margin-top: 10.8%;
 }
 
 #Reproduzido{
@@ -361,3 +377,86 @@ h4.drop1.Padrao-Terciária {
     border-radius: 30px;
 }
 
+main {
+    overflow: hidden;
+}
+
+input:focus {
+   border: none;
+   background-color: #F1DBDA;
+}
+
+.botao-limpar {
+    background-color: #E6E8ED !important;
+    border: none;
+    font-size: 16px;
+    float: left;
+    margin-top: 69px;
+    margin-left: 37px;
+    cursor: pointer;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: #525252;
+    margin-top: 75px !important;
+}
+
+.adicionar {
+
+    background-color: #C23C34 !important;
+    border: none;
+    font-size: 16px;
+    float: right;
+    margin-top: 69px;
+    margin-right: 37px;
+    cursor: pointer;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: #F1DBDA;
+
+}
+
+
+.adicionar {
+    background-color: #C23C34 !important;
+    border: none;
+    font-size: 16px;
+    float: right;
+    margin-right: 37px;
+    cursor: pointer;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    font-weight: lighter;
+    color: #F1DBDA;
+    margin-top: 152px !important;
+
+
+}
+
+.botao-limpar-3 {
+    background-color: #E6E8ED !important;
+    border: none;
+    font-size: 16px;
+    float: left;
+    margin-left: 37px;
+    cursor: pointer;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    font-weight: lighter;
+    color: #525252;
+    margin-top: 152px !important;
+
+}
+.botao-limpar:hover, .botao-limpar-3:hover, .adicionar:hover  {
+    background-color: #E5B8B5 !important;
+
+}
+
+.adicionar:hover {
+    color: #D0453E ;
+}

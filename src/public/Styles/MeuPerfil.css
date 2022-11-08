@@ -19,7 +19,6 @@
 main{
     position: absolute;
     background: #f2f2f2;
-    top: 114px;
     right: -4;
     margin-left: 285px;
     height: 85%;
@@ -53,7 +52,7 @@ main{
 h1 {
     display: inline-block;
     padding-top:20px;
-    padding-left: 100px;
+    
 }
 
 
@@ -72,7 +71,7 @@ h1 {
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    margin: 40px auto;
+    margin: 6px auto;
 }
 
 
@@ -533,7 +532,8 @@ h1 {
 .lista {
     top: 20px;
     height: 90%;
-    width: 100.7%;
+    width: 99.7%;
+    margin-left: 19px;
 }
 
 .lista li{
@@ -874,8 +874,157 @@ li.p {
         font-weight: bold;
         text-align: left;
         vertical-align: top;
-        margin-top: -66px
+        margin-top: -76px;
     }
 
 
 }
+
+
+.principal {
+    position: absolute;
+    background: #f2f2f2;
+    top: 93px;
+    right: -4;
+    margin-left: 255px;
+    height: 78%;
+    width: 69.5%;
+    border-radius: 17px;
+    box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+}
+
+
+
+
+@media screen and (max-width: 1550px ) {
+    .lista {
+        top: 20px;
+        height: 90%;
+        width: 99.7%;
+        margin-left: 1px;
+    }
+
+}
+
+
+@media screen and (max-width: 1440px ) {
+    .lista li {
+        width: 29.5%;
+        left: -2.9%;
+        }
+        
+        
+    .box-grande {
+        left: 0.9%;
+        width: 96.7%;
+        
+        }
+    .principal {
+        width: 64.5%;
+    }
+}
+
+
+@media screen and (max-width: 1240px ) {
+    .lista li {
+        width: 24.5%;
+        margin-left: 20px;
+
+        }
+
+    .box-grande {
+        left: -5.1%;
+        width: 81.7%;
+    }
+
+    .container-2 {
+        width: 77.5%;
+    }
+}
+
+@media screen and (max-width: 1000px ) {
+    .principal {
+        width: 84.5%;
+        margin-left: 81px
+    }
+}
+
+
+@media screen and (max-width: 900px ) {
+    .lista {
+        width: 104.7%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 800px ) {
+
+   .principal { 
+    width: 77.5%;
+    margin-top: 39px;
+    margin-left: 82px;
+    }
+
+    .box-foto {
+        bottom: 42.3%;
+        left: 2.9em;
+        height: 50%;
+        width: 29%;
+    }
+
+    .cargo , .turno {
+        height: 10%;
+    }
+
+    .turno {
+        bottom: 22.6%;
+    }
+
+    .container-2 {
+        position: absolute;
+        top: 8px;
+        right: -4;
+        height: 100%;
+        width: 111.5%;
+        margin-left: -155px;
+
+    }
+    h1 {
+        display: none;
+    }
+
+    .box-foto img {
+        width: 80px;
+        height: 80px;
+        border-radius: 100px;
+        margin: 2px auto;
+    }
+
+    .foto-de-perfil {
+        background: #A3241D;
+        width: 80px;
+        height: 80px;
+        border-radius: 100px;
+        margin: 7px auto;
+    }
+
+    .nome-usuario {
+        position: absolute;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        font-size: 147%;
+        font-family: 'Baloo Da 2', cursive;
+        text-align: center;
+        margin-left: -2%;
+    }
+
+
+    .box-grande {
+        bottom: 149px;
+        height: 182px;
+    }
+}
+
+

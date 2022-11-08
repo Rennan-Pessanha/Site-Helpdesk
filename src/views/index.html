@@ -98,17 +98,19 @@
     
             <a href="/dashboard"> <img src="/img/Icones-menu/Dash.icon.svg" alt=""> <h5 class="Padrao-Secundário">Dashboard Geral</h5> </a>
     
-            <a href="/padroes"> <img src="/img/Icones-menu/Email.icon.svg" alt=""> <h5 class="Padrao-Secundário">Padrões de E-mail</h5> </a>
+            <a href="padroes"> <img src="/img/Icones-menu/Email.icon.svg" alt=""> <h5 class="Padrao-Secundário">Padrões de E-mail</h5> </a>
     </nav>
     <main>
        <div class="title Padrao-Primário">
            <h1 class="titulo">Registro de Atendimento</h1><hr>
        </div>
        <div class="tab">
-           <button id="tabpadrao" class="buttonClicked" onclick="abrirtab('form1')"> <img src="/img/Icones-menu/Icones superiores/Form-Icon/contact_mail.svg" alt=""> </button>
-           <button class="botaoN" onclick="abrirtab('form2')"><img src="/img/Icones-menu/Icones superiores/Form-Icon/devices.svg" alt=""></button>
-           <button class="botaoN" onclick="abrirtab('form3')"><img src="/img/Icones-menu/Icones superiores/Form-Icon/feed.svg" alt=""></button>
-           <button class="botaoN" onclick="SubmitForm()"><img src="/img/Icones-menu/Icones superiores/Form-Icon/check_circle.svg" alt=""></button>
+           <button id="tabpadrao" class="botoes" onclick="abrirtab('form1')"> <img src="/img/Icones-menu/Icones superiores/Form-Icon/form-svgrepo-com 1.svg" alt=""> </button>
+           <button class="botoes" onclick="abrirtab('form2')"><img src="/img/Icones-menu/Icones superiores/Form-Icon/icon-5.svg" alt=""></button>
+           <button class="botoes" onclick="abrirtab('form3')"><img src="/img/Icones-menu/Icones superiores/Form-Icon/add-icon.svg" alt=""></button>
+           
+
+          
        </div> 
        <div id="form1" class="form-content">
             
@@ -126,7 +128,8 @@
                     <td><input type="text" id="chamado_total" placeholder="Cole linha do chamado aqui" class="input_total Padrao-Terciária"></td>
                 </tr>
             </table>
-            <button value="Aplicar" id="btn_dados"> <img src="/img/Icones-menu/Aplicar.icon.svg" alt="Aplicar"> </button>
+        
+            <button id="btn_dados" value="" class="botao-limpar" alt="Limpar">LIMPAR</button>
 
             <table class="tabela_resultado">
                 <tr class="Padrao-Terciária">
@@ -165,10 +168,6 @@
                     
             </table>
             <p id="msg_erro"></p>
-            
-            <!--<button onclick="abrirtab('form2')">&#10145;</button> -->
-
-            <button value="Aplicar" id="btn_clear1" onclick=""><img src="/img/Icones-menu/Clear.icon.svg" alt=""></button>
         </div>
         <div id="form3" class="form-content" class="tabela_resultado" >
             
@@ -199,9 +198,10 @@
                     
                     </tr>
                 </table>
-                <button value="Aplicar" id="btn_dadosII" onclick="DadosII()"> <img src="/img/Icones-menu/Aplicar.icon.svg" alt=""> </button>
+            
+
                 <table class="tabela_resultadoII">
-                    <hr id="line">
+                    
                     <tr>
                     <tr class="Padrao-Terciária">
 
@@ -221,10 +221,9 @@
                     </tr>
                     
                 </table>
-            
-           <!-- <button onclick="abrirtab('form1')">&#11013;</button>
-            <button onclick="abrirtab('form3')">&#10145;</button> -->
-            <button value="Aplicar" id="btn_clear" onclick=""> <img src="/img/Icones-menu/Clear.icon.svg" alt=""></button>
+
+            <button id="btn_dados" value="" class="botao-limpar-3" alt="Limpar">LIMPAR</button>
+            <button id="btn_dados" value="" class="adicionar" alt="adicionar">ADICIONAR</button>
         </div>
         <div id="form2" class="form-content">
             <div class="cont-content">
@@ -280,7 +279,7 @@
                 </div>
                 
 
-                <button value="Aplicar" id="btn_dadosIII" onclick="DadosIII()"> <img src="/public//img/Icones-menu/Aplicar.icon.svg" alt=""> </button>
+                <button value="Aplicar" id="btn_dadosIII" onclick="DadosIII()"> <img src="/public//img/add-icon.svg" alt=""> </button>
             </div>
         </div>
         

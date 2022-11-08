@@ -64,11 +64,10 @@ a{
 
 .campo-3 {
     margin-left: 84%;
-    margin-top: -2.8%;
+    margin-top: -2.5%;
 }
 
 .campo-4 {
-    position: relative;
     background: #f9f9f9;
     width: 18px;
     height: 19px;
@@ -76,9 +75,10 @@ a{
     background: url(/img/lupa.png) no-repeat right;
     background-size: 115%;
     border-radius: 17px;
-    top: -4%;
+    top: 18%;
     left: 85%;
     padding-right: 4px;
+    position: absolute;
 }
 
 
@@ -156,16 +156,23 @@ h2 {
 
 
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
 
-input[type=number]{
-    -moz-appearance: textfield;
-}
 
 main {
     height: auto !important;
+}
+
+.principal {
+    
+        position: absolute;
+        background: #f2f2f2;
+        right: -4;
+        margin-left: 255px;
+        top: 93px;
+        height: 78%;
+        width: 69.5%;
+        border-radius: 17px;
+        box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+        overflow: hidden;
+    
 }
