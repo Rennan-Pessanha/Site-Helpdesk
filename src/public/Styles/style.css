@@ -35,7 +35,6 @@ main > .form-content {
     width: 94%;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
-    overflow-y: scroll;
 }
 
 main > .form-content > .formu > h4 {
@@ -75,8 +74,8 @@ box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
 @media screen and (max-width: 1000px ) {
     
     }
-main > .tab > .botaoN {
-    color: #31302B;
+main > .tab > .botaoN , .add-botao{
+    color: #525252;
     background: #FFF;
     height: 100%;
     width: 25%;
@@ -90,13 +89,14 @@ main > .tab > .botaoN {
     box-shadow: inset 0 0 0 0 #FC675F;
 	-moz-transition: all ease 0.8s;
 	transition: all ease 0.8s;
-}
-main > .tab > .botaoN:hover {
-    box-shadow: inset 350px 0 0 0;
-    color: #FC675F;
+    margin-top: -8px;
 }
   main > .tab > button:focus {
     background: #C23C34;
+}
+
+.add-botao {
+    margin-top: 0%;
 }
 
 .buttonClicked {
@@ -112,8 +112,8 @@ main > .tab > .botaoN:hover {
     cursor: pointer;
     background-color: transparent;
     border: none;
-    margin-left: 2%;
-    margin-top: 20px;
+    margin-left: 3%;
+    margin-top: 0px;
     position: absolute;
 
 }
@@ -129,7 +129,7 @@ main > .tab > .botaoN:hover {
     background-color: transparent;
     margin-left: 2%;
     position: relative;
-    top: 6%;
+    top: -1%;
     left: 92%;
     cursor: pointer;
 }
@@ -139,7 +139,7 @@ main > .tab > .botaoN:hover {
     background-color: transparent;
     margin-left: 2%;
     position: relative;
-    top: 28%;
+    top: 3%;
     left: 92%;
     cursor: pointer;
 
@@ -160,7 +160,7 @@ main > .line {
 }
 
 #line {
-    margin-top: 50px;
+    margin-top: 11%;
 }
 
 .input_total, .inputII_total, .Select-Content 
@@ -328,8 +328,6 @@ h4.drop1.Padrao-Terciária {
     font-family: Secundária;
 }
 
-.aplic { 
-}
 
 .Problema { 
     font-weight: normal;
@@ -351,10 +349,9 @@ h4.drop1.Padrao-Terciária {
 #msg_erro{
     color: #A3241D;
     font-size: 4vh;
-    margin-left: 259px;
+    margin-left: 28%;
     position: absolute;
-    margin-top: 32px;
-    text-align: center;
+    margin-top: 1%;
 }
 
 #Reproduzido{
@@ -366,3 +363,6 @@ h4.drop1.Padrao-Terciária {
     border-radius: 30px;
 }
 
+main {
+    overflow: hidden;
+}
