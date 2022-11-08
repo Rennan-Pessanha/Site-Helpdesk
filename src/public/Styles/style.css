@@ -399,7 +399,7 @@ input:focus {
     padding: 10px 20px;
     font-weight: 600;
     color: #525252;
-    margin-top: 114px !important;
+    margin-top: 75px !important;
 }
 
 .adicionar {
@@ -432,7 +432,7 @@ input:focus {
     padding: 10px 20px;
     font-weight: lighter;
     color: #F1DBDA;
-    margin-top: 196px !important;
+    margin-top: 152px !important;
 
 
 }
@@ -449,7 +449,14 @@ input:focus {
     padding: 10px 20px;
     font-weight: lighter;
     color: #525252;
-    margin-top: 196px !important;
+    margin-top: 152px !important;
+
+}
+.botao-limpar:hover, .botao-limpar-3:hover, .adicionar:hover  {
+    background-color: #E5B8B5 !important;
 
 }
 
+.adicionar:hover {
+    color: #D0453E ;
+}
