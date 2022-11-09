@@ -233,12 +233,15 @@ main > .line {
 /* Segunda parte do Form */
 
 .tabela_dadosII{
-    margin-left: 0%;
     font-family: Secundária;
+    margin: 22px auto;
+    
+
 }
 
 .input_totalII {
     width: 30vw;
+    
 }
 
 

@@ -44,7 +44,7 @@
 
 }
 
-.label-form1 {
+.label-form1, .label-form3 {
     font-family: 'Baloo Da 2', cursive;
     color: black;
     font-weight: small, bold;
@@ -52,7 +52,9 @@
     margin-top: 10px;
     font-size: 20px;
 }
-
+.label-form3 {
+    
+}
 /*         Cabeça do site */
 
 header {
