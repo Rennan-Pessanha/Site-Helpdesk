@@ -5,6 +5,7 @@
     border-radius: 5px 5px 5px 5px;
     height: 2em;
     text-align: center;
+    margin: 8px 0;
 
 }
 
@@ -188,6 +189,8 @@ main > .line {
 
 .input_total {
     width: 50vw;
+    height: 14px;
+
 }
 
 .inputII_total{
@@ -197,6 +200,7 @@ main > .line {
 .Select-Content {
     width: 20vw;
     padding-top: 0px;
+    margin-left: 23px;
 }
 
 
@@ -251,8 +255,9 @@ main > .line {
 .cont-content {
     width: 90%;
     height: 100%;
-    margin-left: 19%;
+    margin-left: 8%;
     display: inline-block;
+    margin-top: 12px;
 }
 
 
@@ -333,13 +338,18 @@ background-color: rgba(0, 0, 255, 0.034);
     padding-left: 12px;
 }
 
-h4.drop1.Padrao-Terciária {
-    margin: 0 0 11px 7px;
+h4.drop1.padrao-terciaria {
+    margin: 0 0 11px -80px;
+    position: absolute;
+    margin-top: 8px;
 }
 
 .Area {
     font-weight: normal;
-    font-family: Secundária;
+    margin-left: -80px !important;
+    position: absolute;
+    margin-top: 7px !important;
+
 }
 
 
@@ -534,4 +544,24 @@ input:focus {
         height: 145px;
     }
 
+}
+
+
+td.padrao-terciaria {
+    position: absolute;
+    margin-left: -81px;
+    margin-top: 6px !important;
+}
+
+.problema-label {
+    
+    position: absolute;
+    margin-left: -80px !important;
+    font-weight: normal;
+    margin-top: 7px !important;
+}
+
+.select-processos {
+    margin-bottom: -7px !important;
+    margin-left: 23px;
 }

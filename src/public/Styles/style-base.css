@@ -26,22 +26,32 @@
     font-size: 90%;
 }
 
-.Padrao-Terciária { 
+.padrao-terciaria { 
     font-family: 'Baloo Da 2', cursive;
     color: black;
     font-weight: small, bold;
     margin: 0;
+    margin-top: 1px;
+    font-size: 20px;
+
 }
 
-.Padrao-Quarternária {
+.padrao-quartenaria {
     font-family: 'Baloo Da 2', cursive;
     color: rgb(0, 0, 0);
-    font-size: 1em;
+    font-size: 16px;
     margin-bottom: 5px;
 
 }
 
-
+.label-form1 {
+    font-family: 'Baloo Da 2', cursive;
+    color: black;
+    font-weight: small, bold;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 20px;
+}
 
 /*         Cabeça do site */
 
