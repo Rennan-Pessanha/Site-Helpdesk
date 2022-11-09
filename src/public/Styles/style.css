@@ -80,7 +80,7 @@ main > .tab > .botaoN , .add-botao{
     color: #525252;
     background: #FFF;
     height: 100%;
-    width: 25%;
+    width: 33.33%;
     border: none;
     margin-right: -4px;
     letter-spacing: 1px;
@@ -104,8 +104,9 @@ main > .tab > .botaoN , .add-botao{
 .botoes {
     height: 100%;
     border: none;
-    width: 33%;
+    width: 33.33%;
     margin-right: -4px;
+    
 }
 
 .botoes:hover {
@@ -118,7 +119,7 @@ main > .tab > .botaoN , .add-botao{
     background-color: #D54942;
     height: 100%;
     border: none;
-    width: 25%;
+    width: 33.33%;
     margin-right: -4px;
 
 }
@@ -188,7 +189,7 @@ main > .line {
 }
 
 .input_total {
-    width: 50vw;
+    width: 49vw;
     height: 14px;
 
 }
@@ -412,7 +413,7 @@ input:focus {
     padding: 10px 20px;
     font-weight: 600;
     color: #525252;
-    margin-top: 75px !important;
+    margin-top: 110px !important;
 }
 
 .adicionar {
@@ -427,7 +428,7 @@ input:focus {
     border-radius: 4px;
     letter-spacing: 1px;
     padding: 10px 20px;
-    font-weight: 600;
+    font-weight: bold;
     color: #F1DBDA;
 
 }
@@ -449,6 +450,22 @@ input:focus {
 
 
 }
+.botao-limpar-2 {
+    background-color: #E6E8ED !important;
+    border: none;
+    font-size: 16px;
+    float: left;
+    margin-left: -78px !important;
+    cursor: pointer;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #525252;
+    margin-top: 47px !important;
+    position: absolute;
+}
+
 
 .botao-limpar-3 {
     background-color: #E6E8ED !important;
@@ -460,7 +477,7 @@ input:focus {
     border-radius: 4px;
     letter-spacing: 1px;
     padding: 10px 20px;
-    font-weight: lighter;
+    font-weight: bold;
     color: #525252;
     margin-top: 152px !important;
 
@@ -473,6 +490,32 @@ input:focus {
 .adicionar:hover {
     color: #D0453E ;
 }
+
+@media screen and (min-height: 950px ) {
+    .textarea-descricao {
+        margin-top: -220px;
+        margin-left: 39%;
+    }
+}
+
+
+@media screen and (max-width: 1921px ) {
+    .textarea-descricao {
+        margin-top: -220px;
+        margin-left: 37%;
+        width: 32%;
+    }
+
+
+}
+
+@media screen and (max-width: 1707px ) {
+    .input_total {
+        width: 48vw;
+        height: 14px;
+    }
+}
+
 
 
 @media screen and (max-height: 1400px ) {
@@ -579,7 +622,7 @@ td.padrao-terciaria {
 
 
 .textarea-descricao {  
-    margin-top: -220px;
+    margin-top: -177px;
     margin-left: 39%;
     position: absolute;
     padding-left: 226px;
@@ -593,4 +636,37 @@ td.padrao-terciaria {
     padding-top: 6px;
     width: 93%;
 
+}
+
+
+
+
+@media screen and (max-width: 1920px ) {
+    .textarea-descricao {
+        margin-top: -220px;
+        margin-left: 37%;
+    }
+}
+
+@media screen and (max-width: 1750px ) {
+    .textarea-descricao {
+        margin-top: -220px;
+        margin-left: 34%;
+    }
+}
+
+@media screen and (max-width: 1536px ) {
+    .tabela_dados {
+        margin: 20px auto;
+        font-family: Secundária;
+        width: 101%;
+    }
+
+    .cont-content {
+        margin-left: 9%;
+    }
+
+    .textarea-descricao textarea {
+        width: 78%;
+    }
 }

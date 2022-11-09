@@ -1,7 +1,31 @@
+
 window.addEventListener ('load',abrirtab('form1'))
 
+window.addEventListener ('load',function(){
+    let myButton = document.querySelectorAll('.tab > button');
 
-document.querySelector('.Orientações').style.display = "none"
+myButton.forEach(function(key){
+    key.addEventListener('click', function(){
+        removeStyles();
+        this.setAttribute('class', 'buttonClicked');
+        console.log('clicou')
+    });
+})
+
+myButton[0].setAttribute('class', 'buttonClicked');
+
+
+function removeStyles(){
+    for(let i = 0;i < myButton.length;i++){
+        document.querySelectorAll('.tab > button')[i].classList.add('botaoN');
+        console.log('limpou')
+
+    }
+}
+})
+
+
+
 document.querySelector('.Demanda-Option').style.display = "none"
 
 
@@ -258,20 +282,7 @@ function ProblemaD(){
 
 // Configuração botões 
 
-let myButton = document.querySelectorAll('.tab > button');
 
-myButton.forEach(function(key){
-    key.addEventListener('click', function(){
-        removeStyles();
-        this.setAttribute('class', 'buttonClicked');
-    });
-})
-
-function removeStyles(){
-    for(let i = 0;i < myButton.length;i++){
-        document.querySelectorAll('.tab > button')[i].classList.add('botaoN');
-    }
-}
 
 // Botão de Enviar o Formulário
 
