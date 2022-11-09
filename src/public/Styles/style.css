@@ -106,6 +106,7 @@ main > .tab > .botaoN , .add-botao{
     border: none;
     width: 33.33%;
     margin-right: -4px;
+    background: #FFF;
     
 }
 
@@ -670,3 +671,4 @@ td.padrao-terciaria {
         width: 78%;
     }
 }
+
