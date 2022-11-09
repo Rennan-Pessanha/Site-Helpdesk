@@ -580,7 +580,7 @@ td.padrao-terciaria {
 
 .textarea-descricao {  
     margin-top: -220px;
-    margin-left: 523px;
+    margin-left: 39%;
     position: absolute;
     padding-left: 226px;
 }
@@ -591,4 +591,6 @@ td.padrao-terciaria {
     border: none;
     padding-left: 26px;
     padding-top: 6px;
+    width: 93%;
+
 }
