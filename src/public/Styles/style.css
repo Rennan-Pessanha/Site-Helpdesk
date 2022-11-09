@@ -568,3 +568,27 @@ td.padrao-terciaria {
     margin-bottom: -7px !important;
     margin-left: 23px;
 }
+
+
+.label-textarea {
+    position: absolute;
+    margin-left: -216px;
+    z-index: 1;
+    margin-top: -1px;
+}
+
+
+.textarea-descricao {  
+    margin-top: -220px;
+    margin-left: 523px;
+    position: absolute;
+    padding-left: 226px;
+}
+
+.textarea-descricao textarea {
+    border-radius: 30px;
+    background-color: #E6E8ED;
+    border: none;
+    padding-left: 26px;
+    padding-top: 6px;
+}
