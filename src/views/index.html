@@ -69,7 +69,7 @@
                 <hr>
             </div>
             <div class="Footer-Not ">
-                <a href="#" class="Padrao-Terciária">Todas as notificações.</a>
+                <a href="#" class="padrao-terciaria">Todas as notificações.</a>
             </div>
 
         </div>
@@ -82,8 +82,8 @@
                 <h4>Você não tem Tarefas no momento.</h4>
                 <hr>
             </div>
-            <div class="Footer-Tar Padrao-Terciária">
-                <a href="#" class="Padrao-Terciária">Todas as Tarefas</a>
+            <div class="Footer-Tar padrao-terciaria">
+                <a href="#" class="padrao-terciaria">Todas as Tarefas</a>
             </div>
 
         </div>
@@ -108,31 +108,28 @@
            <button id="tabpadrao" class="botoes" onclick="abrirtab('form1')"> <img src="/img/Icones-menu/Icones superiores/Form-Icon/form-svgrepo-com 1.svg" alt=""> </button>
            <button class="botoes" onclick="abrirtab('form2')"><img src="/img/Icones-menu/Icones superiores/Form-Icon/icon-5.svg" alt=""></button>
            <button class="botoes" onclick="abrirtab('form3')"><img src="/img/Icones-menu/Icones superiores/Form-Icon/add-icon.svg" alt=""></button>
-           
-
-          
        </div> 
        <div id="form1" class="form-content">
             
             <table class="tabela_dados">
-                 <tr class="Padrao-Terciária">
-                    <td>Dados do aluno</td>
-                    <td><input type="text" name="" id="dados_total" placeholder="Cole ID, CPF e NOME aqui" class="input_total Padrao-Terciária"></td>
+                 <tr class="padrao-terciaria">
+                    <td class="label-form1" >Dados do aluno:</td>
+                    <td><input type="text" name="" id="dados_total" placeholder="Cole ID, CPF e NOME aqui" class="input_total padrao-terciaria"></td>
                 </tr>
-                <tr class="Padrao-Terciária">
-                    <td>OV do aluno</td>
-                    <td><input type="text" id="ov_total" placeholder="Cole linha OV atual aqui" class="input_total Padrao-Terciária"></td>
+                <tr class="padrao-terciaria">
+                    <td class="label-form1">OV do aluno:</td>
+                    <td><input type="text" id="ov_total" placeholder="Cole linha OV atual aqui" class="input_total padrao-terciaria"></td>
                 </tr>
-                <tr class="Padrao-Terciária">
-                    <td>Chamado MGE</td>
-                    <td><input type="text" id="chamado_total" placeholder="Cole linha do chamado aqui" class="input_total Padrao-Terciária"></td>
+                <tr class="padrao-terciaria">
+                    <td class="label-form1">Chamado MGE:</td>
+                    <td><input type="text" id="chamado_total" placeholder="Cole linha do chamado aqui" class="input_total padrao-terciaria"></td>
                 </tr>
             </table>
         
-            <button id="btn_dados" value="" class="botao-limpar" alt="Limpar">LIMPAR</button>
+            <button id="btn_dados" value="" type="reset" class="botao-limpar" alt="Limpar">LIMPAR</button>
 
             <table class="tabela_resultado">
-                <tr class="Padrao-Terciária">
+                <tr class="padrao-terciaria">
                     <td>ID</td>
                     <td><input type="text" id="id_id" disabled class="input_resposta"></td>
                     
@@ -144,7 +141,7 @@
                     <td><input type="text" id="id_nome" disabled class="input_resposta"></td>
 
                 </tr>
-                <tr class="Padrao-Terciária">
+                <tr class="padrao-terciaria">
                     <td>OV aluno</td>
                     <td><input type="text" id="id_produto" disabled class="input_resposta"></td>
 
@@ -155,7 +152,7 @@
                     <td><input type="text" id="id_ov_status" disabled class="input_resposta"></td>
                 </tr>
 
-                <tr class="Padrao-Terciária">
+                <tr class="padrao-terciaria">
                     <td>Data</td>
                     <td><input type="text" id="id_chamado_data" disabled class="input_resposta"></td>
 
@@ -172,24 +169,24 @@
         <div id="form3" class="form-content" class="tabela_resultado" >
             
                 <table class="tabela_dadosII">
-                    <tr class="Padrao-Terciária">
+                    <tr class="padrao-terciaria">
 
-                        <td>ID do Card: </td>
+                        <td class="label-form3" >ID do Card: </td>
                         <td><input type="text" id="Id-Card" placeholder="ID do card aqui ou N/A" class="inputII_total"></td>
 
 
-                        <td>Dispositivo: </td>
+                        <td class="label-form3">Dispositivo: </td>
                         <td><input type="text" name="" id="Dispositivo" placeholder="Dispositivo do aluno ou N/A" class="inputII_total"></td>
 
 
                     </tr>
                     <tr>
                     </tr>
-                    <tr class="Padrao-Terciária">
-                        <td>Versão do APP</td>
+                    <tr class="padrao-terciaria">
+                        <td class="label-form3">Versão do APP</td>
                         <td><input type="text" id="versao" placeholder="Digite a versão" class="inputII_total"></td>
 
-                        <td>Reproduzido?</td>
+                        <td class="label-form3">Reproduzido?</td>
                         <td><select name="Reproduzido" id="Reproduzido" class="inputII_total">
                             <option value="N/A" class="option">N/A</option>
                             <option value="Sim" class="option">Sim</option>
@@ -203,7 +200,7 @@
                 <table class="tabela_resultadoII">
                     
                     <tr>
-                    <tr class="Padrao-Terciária">
+                    <tr class="padrao-terciaria">
 
                         <td>Id do Card</td>
                         <td><input type="text" id="id_id_card" disabled class="input_resposta"></td>
@@ -215,25 +212,28 @@
                         <td><input type="text" id="id_versao_app" disabled class="input_resposta"></td>
 
                     </tr>
-                    <tr class="Padrao-Terciária">
+                    <tr class="padrao-terciaria">
                         <td>Reproduzido:</td>
                         <td><input type="text" id="id_reproduzido" disabled class="input_resposta"></td>       
                     </tr>
                     
                 </table>
 
-            <button id="btn_dados" value="" class="botao-limpar-3" alt="Limpar">LIMPAR</button>
+                
+            <button id="" value="" class="botao-limpar-3" alt="Limpar">LIMPAR</button>
             <button id="btn_dados" value="" class="adicionar" alt="adicionar">ADICIONAR</button>
+            
         </div>
+        
         <div id="form2" class="form-content">
             <div class="cont-content">
-             <table class="tabela_dadosIII Padrao-Terciária" >
+             <table class="tabela_dadosIII padrao-terciaria" >
                     <tr>
-                        <td class="Padrao-Terciária">Processos:</td>
+                        <td class="padrao-terciaria">Processos:</td>
                     </tr>
                     <tr>
                         <td> 
-                            <select name="Processos" id="Processos" class="Padrao-Quarternária Select-Content" onchange="ClicarI(this.value)"> 
+                            <select name="Processos" id="Processos" class="padrao-quartenaria Select-Content select-processos" onchange="ClicarI(this.value)"> 
                                 <option value="Conflito-de-dados">Conflito de Dados</option>
                                 <option value="Sugestão">Sugestão</option>
                                 <option value="Demanda">Demanda</option>
@@ -243,16 +243,16 @@
                 </table>
                 <div class="drop-app">
                     <div class="Demanda-Option">
-                        <h4 class="drop1 Padrao-Terciária">Demanda:</h4>
-                        <select name="Demanda-Option" id="Demanda-Option" class="Padrao-Quarternária Select-Content" onchange="RevelarProblemaDrop2(this.value)">
+                        <h4 class="drop1 padrao-terciaria">Demanda:</h4>
+                        <select name="Demanda-Option" id="Demanda-Option" class="padrao-quartenaria Select-Content" onchange="RevelarProblemaDrop2(this.value)">
                             <option value="Encaminhado">Encaminhado</option>
                             <option value="Reclamação">Reclamação</option>
                         </select>
                     </div>
-                    <div class="dropdown-select Padrao-Terciária">
+                    <div class="dropdown-select padrao-terciaria">
                         <span class="Span-drops">  
-                            <h4 class="drop1 Padrao-Terciária">Aplicação:</h4>
-                            <select name="Aplicação" id="Apps" class="Padrao-Quarternária Select-Content"  onchange="area()">
+                            <h4 class="drop1 padrao-terciaria">Aplicação:</h4>
+                            <select name="Aplicação" id="Apps" class="padrao-quartenaria Select-Content"  onchange="area()">
                                 <option value="N/A">--</option> 
                                 <option value="Academico">Acadêmico</option>
                                 <option value="Medsoft-Pro">Medsoft Pro</option>
@@ -263,34 +263,28 @@
                                 <option value="Outros">Outros</option>    
                             </select> 
                             <br>              
-                            <div class="drop2 Padrao-Terciária">
-                                <h4 class="Area Padrao-Terciária"> Área: </h4>
-                                    <select name="Area" id="Area" class="Padrao-Quarternária Select-Content" onchange="ProblemaD()">
+                            <div class="drop2 padrao-terciaria">
+                                <h4 class="Area padrao-terciaria"> Área: </h4>
+                                    <select name="Area" id="Area" class="padrao-quartenaria Select-Content" onchange="ProblemaD()">
                                         <option value="N/A">--</option>
                                     </select>
                                     <div class="Problemas">
                                         <div class="Problema">
-                                            <h4 class="Problema Padrao-Terciária"> Problema: </h4>
-                                            <select name="problema" id="ProblemaD" class="Padrao-Quarternária Select-Content">
+                                            <h4 class="problema-label padrao-terciaria"> Problema: </h4>
+                                            <select name="problema" id="ProblemaD" class="padrao-quartenaria Select-Content">
                                                 <option value="N/A">--</option>
                                             </select>
                                         </div>
-
+                    <form action="" class="textarea-descricao">
+                        <p><label class="label-textarea" for="">Descrição do Problema:</label></p>
+                            <textarea id="descricao-problema" name="descricao-problema" rows="14" cols="50" placeholder="Faça um resumo do problema de forma com que uma outra pessoa consiga entender o que foi feito no atendimento"></textarea>
+                            <br>
+                    </form>
                 </div>
                 
 
-                <button value="Aplicar" id="btn_dadosIII" onclick="DadosIII()"> <img src="/public//img/add-icon.svg" alt=""> </button>
+                <button id="btn_dados" value="" class="botao-limpar-2" alt="Limpar">LIMPAR</button>
             </div>
-        </div>
-        
-        <!-- <button onclick="abrirtab('form2')">&#11013;</button>
-            <button onclick="abrirtab('form4')">&#10145;</button> -->
-            
-        </div>
-            </div>
-        </div>
-        <div id="form4" class="form-content">
-        
         </div>
        </div>
     </main>

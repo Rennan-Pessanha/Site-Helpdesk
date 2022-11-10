@@ -5,6 +5,7 @@
     border-radius: 5px 5px 5px 5px;
     height: 2em;
     text-align: center;
+    margin: 8px 0;
 
 }
 
@@ -79,7 +80,7 @@ main > .tab > .botaoN , .add-botao{
     color: #525252;
     background: #FFF;
     height: 100%;
-    width: 25%;
+    width: 33.33%;
     border: none;
     margin-right: -4px;
     letter-spacing: 1px;
@@ -92,9 +93,7 @@ main > .tab > .botaoN , .add-botao{
 	transition: all ease 0.8s;
     margin-top: -8px;
 }
-  main > .tab > button:focus {
-    background: #C23C34;
-}
+
 
 .add-botao {
     margin-top: 0%;
@@ -103,8 +102,10 @@ main > .tab > .botaoN , .add-botao{
 .botoes {
     height: 100%;
     border: none;
-    width: 33%;
+    width: 33.33%;
     margin-right: -4px;
+    background: #FFF;
+    
 }
 
 .botoes:hover {
@@ -114,10 +115,10 @@ main > .tab > .botaoN , .add-botao{
 
 
 .buttonClicked{
-    background-color: #D54942;
+    background-color: #D0453E;
     height: 100%;
     border: none;
-    width: 25%;
+    width: 33.33%;
     margin-right: -4px;
 
 }
@@ -187,7 +188,9 @@ main > .line {
 }
 
 .input_total {
-    width: 50vw;
+    width: 49vw;
+    height: 14px;
+
 }
 
 .inputII_total{
@@ -197,6 +200,7 @@ main > .line {
 .Select-Content {
     width: 20vw;
     padding-top: 0px;
+    margin-left: 23px;
 }
 
 
@@ -229,12 +233,15 @@ main > .line {
 /* Segunda parte do Form */
 
 .tabela_dadosII{
-    margin-left: 0%;
     font-family: Secundária;
+    margin: 22px auto;
+    
+
 }
 
 .input_totalII {
     width: 30vw;
+    
 }
 
 
@@ -251,8 +258,9 @@ main > .line {
 .cont-content {
     width: 90%;
     height: 100%;
-    margin-left: 19%;
+    margin-left: 8%;
     display: inline-block;
+    margin-top: 12px;
 }
 
 
@@ -333,13 +341,18 @@ background-color: rgba(0, 0, 255, 0.034);
     padding-left: 12px;
 }
 
-h4.drop1.Padrao-Terciária {
-    margin: 0 0 11px 7px;
+h4.drop1.padrao-terciaria {
+    margin: 0 0 11px -80px;
+    position: absolute;
+    margin-top: 8px;
 }
 
 .Area {
     font-weight: normal;
-    font-family: Secundária;
+    margin-left: -80px !important;
+    position: absolute;
+    margin-top: 7px !important;
+
 }
 
 
@@ -399,7 +412,7 @@ input:focus {
     padding: 10px 20px;
     font-weight: 600;
     color: #525252;
-    margin-top: 75px !important;
+    margin-top: 110px !important;
 }
 
 .adicionar {
@@ -414,7 +427,7 @@ input:focus {
     border-radius: 4px;
     letter-spacing: 1px;
     padding: 10px 20px;
-    font-weight: 600;
+    font-weight: bold;
     color: #F1DBDA;
 
 }
@@ -436,6 +449,22 @@ input:focus {
 
 
 }
+.botao-limpar-2 {
+    background-color: #E6E8ED !important;
+    border: none;
+    font-size: 16px;
+    float: left;
+    margin-left: -78px !important;
+    cursor: pointer;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #525252;
+    margin-top: 95px !important;
+    position: absolute;
+}
+
 
 .botao-limpar-3 {
     background-color: #E6E8ED !important;
@@ -447,7 +476,7 @@ input:focus {
     border-radius: 4px;
     letter-spacing: 1px;
     padding: 10px 20px;
-    font-weight: lighter;
+    font-weight: bold;
     color: #525252;
     margin-top: 152px !important;
 
@@ -460,6 +489,32 @@ input:focus {
 .adicionar:hover {
     color: #D0453E ;
 }
+
+@media screen and (min-height: 950px ) {
+    .textarea-descricao {
+        margin-top: -220px;
+        margin-left: 39%;
+    }
+}
+
+
+@media screen and (max-width: 1921px ) {
+    .textarea-descricao {
+        margin-top: -220px;
+        margin-left: 37%;
+        width: 32%;
+    }
+
+
+}
+
+@media screen and (max-width: 1707px ) {
+    .input_total {
+        width: 48vw;
+        height: 14px;
+    }
+}
+
 
 
 @media screen and (max-height: 1400px ) {
@@ -535,3 +590,83 @@ input:focus {
     }
 
 }
+
+
+td.padrao-terciaria {
+    position: absolute;
+    margin-left: -81px;
+    margin-top: 6px !important;
+}
+
+.problema-label {
+    
+    position: absolute;
+    margin-left: -80px !important;
+    font-weight: normal;
+    margin-top: 7px !important;
+}
+
+.select-processos {
+    margin-bottom: -7px !important;
+    margin-left: 23px;
+}
+
+
+.label-textarea {
+    position: absolute;
+    margin-left: -216px;
+    z-index: 1;
+    margin-top: -1px;
+}
+
+
+.textarea-descricao {  
+    margin-top: -177px;
+    margin-left: 39%;
+    position: absolute;
+    padding-left: 226px;
+}
+
+.textarea-descricao textarea {
+    border-radius: 30px;
+    background-color: #E6E8ED;
+    border: none;
+    padding-left: 26px;
+    padding-top: 6px;
+    width: 93%;
+
+}
+
+
+
+
+@media screen and (max-width: 1920px ) {
+    .textarea-descricao {
+        margin-top: -220px;
+        margin-left: 37%;
+    }
+}
+
+@media screen and (max-width: 1750px ) {
+    .textarea-descricao {
+        margin-top: -220px;
+        margin-left: 34%;
+    }
+}
+
+@media screen and (max-width: 1536px ) {
+    .tabela_dados {
+        margin: 20px auto;
+        font-family: Secundária;
+        width: 101%;
+    }
+
+    .cont-content {
+        margin-left: 9%;
+    }
+
+    .textarea-descricao textarea {
+        width: 78%;
+    }
+}
+
