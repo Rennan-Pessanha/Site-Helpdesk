@@ -93,9 +93,7 @@ main > .tab > .botaoN , .add-botao{
 	transition: all ease 0.8s;
     margin-top: -8px;
 }
-  main > .tab > button:focus {
-    background: #C23C34;
-}
+
 
 .add-botao {
     margin-top: 0%;
@@ -117,7 +115,7 @@ main > .tab > .botaoN , .add-botao{
 
 
 .buttonClicked{
-    background-color: #D54942;
+    background-color: #D0453E;
     height: 100%;
     border: none;
     width: 33.33%;
@@ -463,7 +461,7 @@ input:focus {
     padding: 10px 20px;
     font-weight: bold;
     color: #525252;
-    margin-top: 47px !important;
+    margin-top: 95px !important;
     position: absolute;
 }
 
