@@ -60,7 +60,7 @@
 header {
     height: 70px;
     width: 100vw;
-    background: linear-gradient(to right, #A3241D, #FF6961 );    
+    background: linear-gradient(to right, #3C5C60, #407177 ,#448A93);
 }
 
 header > .logo { 

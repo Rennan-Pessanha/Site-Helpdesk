@@ -1,5 +1,5 @@
 window.addEventListener ('load',abrirtab('form1'))
-document.querySelectorAll('.path')[0].style.fill = '#D5554E'
+document.querySelectorAll('.path')[0].style.fill = '#AED8DE'
 window.addEventListener ('load',function(){
     let myButton = document.querySelectorAll('.tab > button');
 
@@ -18,13 +18,13 @@ myButton[0].setAttribute('class', 'buttonClicked');
 function svgColor(ele){
     switch(ele){
         case myButton[0]:
-            document.querySelectorAll('.path')[0].style.fill = '#D5554E'
+            document.querySelectorAll('.path')[0].style.fill = '#AED8DE'
             break;
         case myButton[1]:
-            document.querySelectorAll('.path')[1].style.fill = '#D5554E'
+            document.querySelectorAll('.path')[1].style.fill = '#AED8DE'
             break; 
         case myButton[2]:
-            document.querySelectorAll('.path')[2].style.fill = '#D5554E'
+            document.querySelectorAll('.path')[2].style.fill = '#AED8DE'
             break; 
     }
 }
