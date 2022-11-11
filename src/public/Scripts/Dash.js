@@ -150,7 +150,7 @@ window.Apex = {
       }
     ],
     title: {
-      text: "Tickets",
+      text: "",
       align: "left",
       style: {
         fontSize: "12px"
