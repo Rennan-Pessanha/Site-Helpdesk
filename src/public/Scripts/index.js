@@ -6,19 +6,37 @@ window.addEventListener ('load',function(){
 myButton.forEach(function(key){
     key.addEventListener('click', function(){
         removeStyles();
+        svgColor(this)
         this.setAttribute('class', 'buttonClicked');
+
         console.log('clicou')
     });
 })
 
 myButton[0].setAttribute('class', 'buttonClicked');
 
+function svgColor(ele){
+    switch(ele){
+        case myButton[0]:
+            document.querySelectorAll('.path')[0].style.fill = '#D5554E'
+            break;
+        case myButton[1]:
+            document.querySelectorAll('.path')[1].style.fill = '#D5554E'
+            break; 
+        case myButton[2]:
+            document.querySelectorAll('.path')[2].style.fill = '#D5554E'
+            break; 
+    }
+}
 
 function removeStyles(){
     for(let i = 0;i < myButton.length;i++){
         document.querySelectorAll('.tab > button')[i].classList.add('botaoN');
         console.log('limpou')
-
+    }
+    let svgs = document.querySelectorAll('.path');
+    for(i=0;i<svgs.length;i++){
+        svgs[i].style.fill = '#F1DBDA'
     }
 }
 })
