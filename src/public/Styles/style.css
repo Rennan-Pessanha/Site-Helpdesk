@@ -456,14 +456,14 @@ input:focus {
     border: none;
     font-size: 16px;
     float: left;
-    margin-left: -78px !important;
+    margin-left: -74px !important;
     cursor: pointer;
     border-radius: 4px;
     letter-spacing: 1px;
     padding: 10px 20px;
     font-weight: bold;
     color: #525252;
-    margin-top: 95px !important;
+    margin-top: 91px !important;
     position: absolute;
 }
 
@@ -774,6 +774,7 @@ td.padrao-terciaria {
         margin: 20px auto;
         font-family: Secundária;
         width: 101%;
+        margin-left: 29px;
     }
 
     .cont-content {
@@ -820,6 +821,10 @@ td.padrao-terciaria {
         padding: 7px !important;
     }
 
+    td.padrao-terciaria {
+        margin-left: -77px;
+    
+    }
     .label-form1, .label-form3 , .padrao-terciaria {
        
         font-size: 13px !important;

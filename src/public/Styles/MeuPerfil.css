@@ -522,7 +522,7 @@ h1 {
 
 .container-2  {
     position: absolute;
-    top: 20px;
+    top: 32px;
     right: -4;
     height: 100%;
     width: 66.5%;
@@ -532,8 +532,9 @@ h1 {
 .lista {
     top: 20px;
     height: 90%;
-    width: 99.7%;
-    margin-left: 19px;
+    width: 100.7%;
+    margin-left: 4px;
+
 }
 
 .lista li{
