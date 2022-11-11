@@ -1,4 +1,3 @@
-
 window.addEventListener ('load',abrirtab('form1'))
 
 window.addEventListener ('load',function(){
@@ -24,13 +23,7 @@ function removeStyles(){
 }
 })
 
-
-
 document.querySelector('.Demanda-Option').style.display = "none"
-
-
-
-
 
 // Configuração de abas na div para o formulário.
 

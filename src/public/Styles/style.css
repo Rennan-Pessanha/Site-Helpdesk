@@ -120,8 +120,11 @@ main > .tab > .botaoN , .add-botao{
     width: 33.33%;
     margin-right: -4px;
     background-color: #E3A5A1;
+    fill: #A3241D;
 
 }
+
+
 
 #btn_dados, #btn_dadosII {
     cursor: pointer;
@@ -622,7 +625,7 @@ td.padrao-terciaria {
 
 .textarea-descricao {  
     margin-top: -177px;
-    margin-left: 39%;
+    margin-left: 45%;
     position: absolute;
     padding-left: 226px;
 }
@@ -637,21 +640,30 @@ td.padrao-terciaria {
 
 }
 
-
+@media screen and (max-width: 2300px ) {
+    .textarea-descricao {
+        margin-top: -175px;
+        margin-left: 39%;
+    }
+}
 
 
 @media screen and (max-width: 1920px ) {
     .textarea-descricao {
-        margin-top: -220px;
+        margin-top: -177px;
         margin-left: 37%;
     }
 }
 
 @media screen and (max-width: 1750px ) {
     .textarea-descricao {
-        margin-top: -220px;
+        margin-top: -178px;
         margin-left: 34%;
     }
+
+
+    
+
 }
 
 @media screen and (max-width: 1536px ) {
@@ -668,5 +680,18 @@ td.padrao-terciaria {
     .textarea-descricao textarea {
         width: 78%;
     }
+    
+    .textarea-descricao {
+        margin-top: -178px;
+        margin-left: 36%;
+    }
+
+    
 }
 
+
+
+
+.cor {
+    fill: #D0453E;
+}
