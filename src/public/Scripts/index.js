@@ -7,6 +7,9 @@ myButton.forEach(function(key){
     key.addEventListener('click', function(){
         removeStyles();
         this.setAttribute('class', 'buttonClicked');
+        //this.childNodes[0].className ="svgteste" 
+        this.childNodes[0].childNodes[0].style.fill ="yellow"
+
         console.log('clicou')
     });
 })

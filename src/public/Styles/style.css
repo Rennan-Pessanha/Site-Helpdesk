@@ -102,7 +102,7 @@ main > .tab > .botaoN , .add-botao{
 .botoes {
     height: 100%;
     border: none;
-    width: 33.33%;
+    width: 33.5%;
     margin-right: -4px;
     background: #FFF;
     
@@ -120,7 +120,6 @@ main > .tab > .botaoN , .add-botao{
     width: 33.33%;
     margin-right: -4px;
     background-color: #E3A5A1;
-    fill: #A3241D;
 
 }
 
@@ -521,7 +520,7 @@ input:focus {
 
 
 
-@media screen and (max-height: 1400px ) {
+@media screen and (max-height: 1230px ) {
     main > .form-content {
     
         height: 46%;
@@ -552,6 +551,9 @@ input:focus {
         height: 302px;
     }
 
+    
+        
+
 }
 
 @media screen and (min-width: 1350px) {
@@ -566,6 +568,11 @@ input:focus {
         height: 316px;
     }
 
+    .botao-limpar {
+    
+        margin-top: 77px !important;
+    }
+
 }
 
 @media screen and (max-height: 650px) {
@@ -573,9 +580,14 @@ input:focus {
         height: 271px;
     }
 
-    .botao-limpar {
+    .botao-limpar, .botao-limpar-2 {
     
         margin-top: 8px !important;
+    }
+
+    .botao-limpar-2 {
+    
+        margin-top: 30px !important;
     }
 
 }
@@ -649,11 +661,20 @@ td.padrao-terciaria {
 }
 
 
+
+
+
 @media screen and (max-width: 1920px ) {
     .textarea-descricao {
         margin-top: -177px;
         margin-left: 37%;
     }
+
+    main {
+        height: 68% !important;
+    }
+
+   
 }
 
 @media screen and (max-width: 1750px ) {
@@ -662,6 +683,27 @@ td.padrao-terciaria {
         margin-left: 34%;
     }
 
+    .botao-limpar {
+        margin-top: 117px !important;
+    }
+
+    .botao-limpar-2 {
+        margin-top: 97px !important;
+        margin-left: -67px !important;
+    }
+    
+    .botao-limpar-3 {
+        margin-top: 125px !important;
+        margin-left: 34px !important;
+    }
+
+    .adicionar {
+        margin-top: 125px !important;
+    }
+
+    main {
+        height: 76% !important;
+    }
 
     
 
@@ -687,11 +729,103 @@ td.padrao-terciaria {
         margin-left: 36%;
     }
 
+    .botao-limpar {
+        margin-left: 23px !important;
+        margin-top: 78px !important;
+    }
+
+    .botao-limpar-2 {
+        margin-top: 57px !important;
+    }
+    
+    .botao-limpar-3 {
+        margin-top: 53px !important;
+        margin-left: 24px !important;
+    }
+
+    .adicionar {
+        margin-top: 54px !important;
+    }
+
+    main {
+        height: 78% !important;
+    }
     
 }
+
+
+@media screen and (max-width: 1400px ) {
+    .tabela_dados {
+        margin: 20px auto;
+        font-family: Secundária;
+        width: 101%;
+    }
+
+    .cont-content {
+        margin-left: 9%;
+    }
+
+    .textarea-descricao textarea {
+        width: 78%;
+    }
+    
+    .textarea-descricao {
+        margin-top: -178px;
+        margin-left: 36%;
+    }
+
+    .botao-limpar {
+        margin-top: 44px !important;
+    }
+
+    .botao-limpar-2 {
+        margin-top: 13px !important;
+        margin-left: -70px !important;
+    }
+    
+    .botao-limpar-3 {
+        margin-top: 80px !important;
+        margin-left: 23px !important;
+    }
+
+    .adicionar {
+        margin-top: 80px !important;
+    }
+    
+    .label-form1, .label-form3, .padrao-terciaria {
+     
+        font-size: 16px !important;
+    }
+
+    td {
+        padding: 7px !important;
+    }
+
+}
+
+@media screen and (max-width: 1232px ) {
+    main > .tab {
+        margin-top: 18px;
+
+    }
+
+    main > .form-content {
+        height: 268px;
+        margin-top: -44px;
+    }
+
+    main {
+        height: 82% !important;
+    }
+}
+
+
 
 svg:hover path {
     fill: #D5554E;
 }
 
+.svgteste {
+    fill: yellow;
+}
 
