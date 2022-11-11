@@ -4,15 +4,10 @@
 * { 
     margin: 0%;
     padding: 0%;
-<<<<<<< Updated upstream
-    overflow-x: hidden;
-    overflow-y: hidden;
-=======
 }
 
 ::-webkit-scrollbar {
     width: 0px;
->>>>>>> Stashed changes
 }
 
 @font-face {
@@ -658,11 +653,4 @@ article > .title > h1 {
 
 td {
     font-size: 14px;
-<<<<<<< Updated upstream
 }
-
-
-
-=======
-}
->>>>>>> Stashed changes
