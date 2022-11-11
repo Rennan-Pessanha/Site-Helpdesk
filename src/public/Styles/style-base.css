@@ -4,8 +4,15 @@
 * { 
     margin: 0%;
     padding: 0%;
+<<<<<<< Updated upstream
     overflow-x: hidden;
     overflow-y: hidden;
+=======
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+>>>>>>> Stashed changes
 }
 
 @font-face {
@@ -258,18 +265,19 @@ header > .burguer-content-icon > button {
 
 main {
     position: absolute;
-    background: #f2f2f2;
+    overflow-y: hidden;
+    background: #262D47;
+    color: white;
     right: -4;
     margin-left: 255px;
     height: 78%;
-    width: 69.5%;
+    width: 85%;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
 }
 
-
 .titulo {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 30px;
     font-family: 'Baloo Da 2', cursive;
     margin: -22px;
@@ -650,7 +658,11 @@ article > .title > h1 {
 
 td {
     font-size: 14px;
+<<<<<<< Updated upstream
 }
 
 
 
+=======
+}
+>>>>>>> Stashed changes
