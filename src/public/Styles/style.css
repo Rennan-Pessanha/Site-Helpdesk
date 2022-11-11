@@ -420,7 +420,7 @@ input:focus {
 
 .adicionar {
 
-    background-color: #C23C34 !important;
+    background-color: #E3A5A1 !important;
     border: none;
     font-size: 16px;
     float: right;
@@ -437,7 +437,7 @@ input:focus {
 
 
 .adicionar {
-    background-color: #C23C34 !important;
+    background-color: #E3A5A1 !important;
     border: none;
     font-size: 16px;
     float: right;
@@ -485,12 +485,13 @@ input:focus {
 
 }
 .botao-limpar:hover, .botao-limpar-3:hover, .adicionar:hover  {
-    background-color: #E5B8B5 !important;
+    background-color: #D0453E !important;
 
 }
 
 .adicionar:hover {
-    color: #D0453E ;
+    background-color:#D0453E ;
+    color: white;
 }
 
 @media screen and (min-height: 950px ) {
@@ -689,9 +690,8 @@ td.padrao-terciaria {
     
 }
 
-
-
-
-.cor {
-    fill: #D0453E;
+svg:hover path {
+    fill: #D5554E;
 }
+
+
