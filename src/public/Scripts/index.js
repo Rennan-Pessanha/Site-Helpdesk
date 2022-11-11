@@ -1,5 +1,5 @@
 window.addEventListener ('load',abrirtab('form1'))
-
+document.querySelectorAll('.path')[0].style.fill = '#D5554E'
 window.addEventListener ('load',function(){
     let myButton = document.querySelectorAll('.tab > button');
 

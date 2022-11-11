@@ -725,26 +725,27 @@ td.padrao-terciaria {
     }
     
     .textarea-descricao {
-        margin-top: -178px;
+        margin-top: -154px;
         margin-left: 36%;
     }
 
     .botao-limpar {
-        margin-left: 23px !important;
-        margin-top: 78px !important;
+        margin-left: 28px !important;
+        margin-top: 88px !important;
     }
 
     .botao-limpar-2 {
-        margin-top: 57px !important;
+        margin-top: 75px !important;
+        margin-left: -73px !important;
     }
     
     .botao-limpar-3 {
-        margin-top: 53px !important;
-        margin-left: 24px !important;
+        margin-top: 122px !important;
+        margin-left: 28px !important;
     }
 
     .adicionar {
-        margin-top: 54px !important;
+        margin-top: 122px !important;
     }
 
     main {
@@ -754,6 +755,16 @@ td.padrao-terciaria {
     .label-form1, .label-form3 , .padrao-terciaria {
        
         font-size: 16px !important;
+    }
+
+    .padrao-quartenaria {
+        font-family: 'Baloo Da 2', cursive;
+        color: rgb(0, 0, 0);
+        font-size: 13px !important;
+    }
+
+    .padrao-terciaria::placeholder {
+        font-size: 13px !important;
     }
 }
 
@@ -774,16 +785,17 @@ td.padrao-terciaria {
     }
     
     .textarea-descricao {
-        margin-top: -178px;
-        margin-left: 36%;
+        margin-top: -137px;
+        margin-left: 35%;
     }
 
     .botao-limpar {
         margin-top: 44px !important;
+        margin-left: 23px !important;
     }
 
     .botao-limpar-2 {
-        margin-top: 13px !important;
+        margin-top: 48px !important;
         margin-left: -70px !important;
     }
     
@@ -795,7 +807,10 @@ td.padrao-terciaria {
     .adicionar {
         margin-top: 80px !important;
     }
-    
+
+    .label-textarea {
+        margin-left: -169px;
+    }
     .label-form1, .label-form3, .padrao-terciaria {
      
         font-size: 16px !important;
@@ -805,6 +820,20 @@ td.padrao-terciaria {
         padding: 7px !important;
     }
 
+    .label-form1, .label-form3 , .padrao-terciaria {
+       
+        font-size: 13px !important;
+    }
+
+    .padrao-quartenaria {
+        font-family: 'Baloo Da 2', cursive;
+        color: rgb(0, 0, 0);
+        font-size: 11px !important;
+    }
+
+    .padrao-terciaria::placeholder , .inputII_total::placeholder {
+        font-size: 11px !important;
+    }
 }
 
 @media screen and (max-width: 1232px ) {
