@@ -115,11 +115,11 @@ main > .tab > .botaoN , .add-botao{
 
 
 .buttonClicked{
-    background-color: #D0453E;
     height: 100%;
     border: none;
     width: 33.33%;
     margin-right: -4px;
+    background-color: #E3A5A1;
 
 }
 
