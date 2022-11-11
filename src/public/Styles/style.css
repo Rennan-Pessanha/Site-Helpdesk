@@ -751,6 +751,10 @@ td.padrao-terciaria {
         height: 78% !important;
     }
     
+    .label-form1, .label-form3 , .padrao-terciaria {
+       
+        font-size: 16px !important;
+    }
 }
 
 
