@@ -60,7 +60,7 @@
 /*         Cabeça do site */
 
 header {
-    height: 70px;
+    height: 73px;
     width: 100vw;
     background: linear-gradient(to right, #3C5C60, #407177 ,#448A93);
 }
@@ -482,6 +482,8 @@ header > .content-int {
 
  .mobile-menu > a > h5 {
     text-decoration: none;
+    position: absolute;
+    margin-left: 5px;
 
 }
 
@@ -653,3 +655,21 @@ article > .title > h1 {
 td {
     font-size: 14px;
 }
+
+
+
+
+
+
+header > .logo { 
+    display: inline-block;
+    }
+    
+    header > .logo > img {
+    
+        margin-top: 13%;
+        margin-left: 13px;
+        display: inline-block;
+        width: 179%;
+        
+    }

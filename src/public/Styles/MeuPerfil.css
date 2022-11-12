@@ -9,8 +9,7 @@
 * { 
     margin: 0%;
     padding: 0%;
-    overflow-y: hidden;
-
+    
 
 }
 
@@ -25,6 +24,7 @@ main{
     width: 82.5%;
     border-radius: 17px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    
 }
 
 
@@ -1032,19 +1032,8 @@ li.p {
 }
 
 
-header > .logo > img {
-    margin-top: 5.3% !important;
-    margin-left: 13px;
-    display: inline-block;
-    width: 72.4% !important;
-}
 
-header > .logo {
-    display: inline-block;
-    width: 300px;
-}
 
-header > .content-int {
-   
-    top: -95% !important;
-}
+
+
+
