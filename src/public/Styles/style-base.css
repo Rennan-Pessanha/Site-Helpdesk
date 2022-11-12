@@ -70,12 +70,11 @@ display: inline-block;
 }
 
 header > .logo > img {
-    height: 200px;
-    width: 450px;
-    margin-top: -65px;
+
+    margin-top: 17px;
     margin-left: 160px;
     display: inline-block;
-    filter: invert(1);
+
     
 }
 

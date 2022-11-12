@@ -883,3 +883,12 @@ td.padrao-terciaria {
 .titulo-index {
     margin-top: -62px !important;
 }
+
+
+.logo {
+    height: 34px;
+    width: 450px;
+    margin-top: 17px;
+    margin-left: 160px;
+    display: inline-block;
+}
