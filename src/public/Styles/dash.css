@@ -1,72 +1,110 @@
-article {
-    background-color: #f5f7fa;
-    height: 100%;
-    width: 100%;
-    display: inline-block;
+
+.mainDash {
     position: absolute;
-
-}
-
-article > .title {
-    margin-top: 20px;
-    margin-left: 26px;
-    color: #656565;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-article > .title > h1 {
-    margin-bottom: 15px;
-}
-
-article > .form-content {
-    background-color: rgb(255, 255, 255);
-    height: 35%;
-    width: 60%;
-    margin-top: 30px;
-    margin-left: 26px;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.075);
-    border-style: ridge;
-    margin-bottom: 20px;
-}
-
-article > .form-content > .formu > h4 {
-    display: inline-block;
-    margin-left: 80px;
-    margin-top: 40px;
-
-}
-
-article > .form-content > .formu > hr {
-margin-top: 30px;
-}
-
-article > .form-content > .formu >  input {
-    display: inline-block;
-}
-
-article > .form-content > .formu > .dados {
-    display: inline-block;
+    background: #262D47;
+    overflow-y: hidden;
+    top: 15%;
+    right: -4;
+    margin-left: 255px;
+    height: 98%;
     width: 80%;
+    border-radius: 17px;
+    box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
 }
 
-article > .form-content > .formu {
-    margin-top: 0px;
+
+.titulo {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Baloo Da 2', cursive;
+    margin: -22px;
+    width: 899px;
+    margin-left: -71px;
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 100px;
+    position: absolute;
 }
 
-@media (max-width: 1000px) {
+#Colum {
 
-    article > .form-content {
-        margin: auto;
-        margin-top: 30px;
-    }
-
-    article > .title > h1 {
-        text-align: center;
-    }
-
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
-article > .line {
-    margin-top: 36px;
-    margin-left: 26px;
+
+  .content-area {
+    margin: 0 auto;
+  }
+  
+  .box {
+    background-color: #262D47;
+    padding: 25px 25px;
+    border-radius: 4px;
+    display: inline-flexbox;
+    width: 60%;
+  }
+  
+  .columnbox {
+    padding-right: 15px;
+  }
+  .radialbox {
+    max-height: 333px;
+    margin-bottom: 60px;
+  }
+  
+  .apexcharts-legend-series tspan:nth-child(3) {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .edit-on-codepen {
+    text-align: right;
+    width: 100%;
+    padding: 0 20px 40px;
+    position: relative;
+    top: -30px;
+    cursor: pointer;
+  }
+  
+  .spinner-border {
+    display: none;
+  }
+
+  .col-md-5 {
+    width: 58%;
+    display: inline-block;
+  }
+
+  .col-md-7 {
+    position: absolute;
+    width: 73%;
+    margin-left: -20%;
+    display: inline-block;
+  }
+
+  #medsoft-content {
+
+    position: absolute;
+    background: #262D47;
+    top: 115%;
+    right: -4;
+    margin-left: 255px;
+    height: 78%;
+    width: 80%;
+    border-radius: 17px;
+    box-shadow: rgb(48, 36, 36) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+
+  }
+
+  .bar-medsoft {
+  display: inline-block;
+  vertical-align: top;
+  }
+
+.pizza-medsoft {
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 3%;
 }
+

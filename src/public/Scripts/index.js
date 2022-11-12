@@ -1,9 +1,47 @@
-document.querySelector('.Orientações').style.display = "none"
+window.addEventListener ('load',abrirtab('form1'))
+document.querySelectorAll('.path')[0].style.fill = '#AED8DE'
+window.addEventListener ('load',function(){
+    let myButton = document.querySelectorAll('.tab > button');
+
+myButton.forEach(function(key){
+    key.addEventListener('click', function(){
+        removeStyles();
+        svgColor(this)
+        this.setAttribute('class', 'buttonClicked');
+
+        console.log('clicou')
+    });
+})
+
+myButton[0].setAttribute('class', 'buttonClicked');
+
+function svgColor(ele){
+    switch(ele){
+        case myButton[0]:
+            document.querySelectorAll('.path')[0].style.fill = '#AED8DE'
+            break;
+        case myButton[1]:
+            document.querySelectorAll('.path')[1].style.fill = '#AED8DE'
+            break; 
+        case myButton[2]:
+            document.querySelectorAll('.path')[2].style.fill = '#AED8DE'
+            break; 
+    }
+}
+
+function removeStyles(){
+    for(let i = 0;i < myButton.length;i++){
+        document.querySelectorAll('.tab > button')[i].classList.add('botaoN');
+        console.log('limpou')
+    }
+    let svgs = document.querySelectorAll('.path');
+    for(i=0;i<svgs.length;i++){
+        svgs[i].style.fill = '#F1DBDA'
+    }
+}
+})
+
 document.querySelector('.Demanda-Option').style.display = "none"
-
-
-
-
 
 // Configuração de abas na div para o formulário.
 
@@ -255,20 +293,7 @@ function ProblemaD(){
 
 // Configuração botões 
 
-let myButton = document.querySelectorAll('.tab > button');
 
-myButton.forEach(function(key){
-    key.addEventListener('click', function(){
-        removeStyles();
-        this.setAttribute('class', 'buttonClicked');
-    });
-})
-
-function removeStyles(){
-    for(let i = 0;i < myButton.length;i++){
-        document.querySelectorAll('.tab > button')[i].classList.add('botaoN');
-    }
-}
 
 // Botão de Enviar o Formulário
 

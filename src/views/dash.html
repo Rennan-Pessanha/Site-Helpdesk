@@ -7,6 +7,7 @@
     <title>Site Helpdesk</title>
     <link rel="stylesheet" href="/Styles/dash.css">
     <link rel="stylesheet" href="/Styles/style-base.css">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
     <header>
@@ -77,16 +78,75 @@
         <a href="/dashboard"> <img src="/img/Icones-menu/Dash.icon.svg" alt=""> <h5 class="Padrao-Secundário">Dashboard Geral</h5> </a>
 
         <a href="padroes"> <img src="/img/Icones-menu/Email.icon.svg" alt=""> <h5 class="Padrao-Secundário">Padrões de E-mail</h5> </a>
-
-
     </nav>
+
+<div class="mainDash">
+        <div class="content-item">
+             <h1 class="titulo">Dashboard</h1><hr>
+        </div>
+        <div id="wrapper">
+
+            <div class="content-area">
+                <div class="container-fluid">
+                    <div class="main">
     
-        
-<script src="/Scripts/js-base.js"></script> 
-    <main>
-            <div>
-                 <h1 class="titulo">Dashboard</h1><hr>
-    </main>   
-<script src="PadroesEmail.js"></script>
+                        
+                        <div class="row mt-4">
+                            <div class="col-md-5">
+                                    <div class="box columnbox mt-4">
+                                        <div id="columnchart"> </div>
+                                    </div>
+                            </div>
+                            <div class="col-md-7">
+                                    <div class="box  mt-4">
+                                        <div id="linechart"> </div>
+                                    </div>
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <div class="col-md-5">
+                                    <div class="box radialbox mt-4">
+                                            <div id="circlechart"> </div>
+                                        </div>
+                            </div>
+                            <div class="col-md-7">
+                                    <div class="box mt-4">
+                                        <div class="mt-4">
+                                            <div id="progress1"></div>
+                                        </div>
+                                        <div class="mt-4">
+                                            <div id="progress2"></div>
+                                        </div>
+                                        <div class="mt-4">
+                                            <div id="progress3"></div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <div class="float-right edit-on-codepen">
+                                
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+</div>
+
+<div id="medsoft-content">
+    <div class="bar-medsoft">
+    <div id="medsoft-problema-Dashboard"></div>
+    </div>
+    <div class="pizza-medsoft">
+        <div id="medsoft-problema-pizza"></div>
+    </div>
+</div>
+</script>
+<script src="/Scripts/dash.js"></script>
+<script src="/Scripts/index.js"></script>
 </body>
 </html>

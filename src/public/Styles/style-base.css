@@ -1,9 +1,13 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
 
 * { 
     margin: 0%;
     padding: 0%;
-    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
 }
 
 @font-face {
@@ -26,29 +30,39 @@
     font-size: 90%;
 }
 
-.Padrao-Terciária { 
+.padrao-terciaria { 
     font-family: 'Baloo Da 2', cursive;
     color: black;
     font-weight: small, bold;
     margin: 0;
+    margin-top: 1px;
+    font-size: 20px;
+
 }
 
-.Padrao-Quarternária {
+.padrao-quartenaria {
     font-family: 'Baloo Da 2', cursive;
     color: rgb(0, 0, 0);
-    font-size: 1em;
+    font-size: 16px;
     margin-bottom: 5px;
 
 }
 
-
+.label-form1, .label-form3 {
+    font-family: 'Baloo Da 2', cursive;
+    color: black;
+    font-weight: small, bold;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 20px;
+}
 
 /*         Cabeça do site */
 
 header {
     height: 70px;
     width: 100vw;
-    background: linear-gradient(to right, #A3241D, #FF6961 );    
+    background: linear-gradient(to right, #3C5C60, #407177 ,#448A93);
 }
 
 header > .logo { 
@@ -82,7 +96,7 @@ header > .content-int {
 .Sub-Menu-Perfil {
     position: absolute;
     background-color: rgb(255, 255, 255);
-    height: 11rem;
+    height: 18rem;
     width: 12rem;
     margin-left: 74%;
     display: none;
@@ -116,7 +130,7 @@ header > .content-int {
 .Sub-Menu-Not {
     position: absolute;
     background-color: rgb(255, 255, 255);
-    height: 12rem;
+    height: 18rem;
     width: 700px;
     margin-left: 39%;
     display: none;
@@ -159,7 +173,7 @@ header > .content-int {
 .Sub-Menu-Tar {
     position: absolute;
     background-color: rgb(255, 255, 255);
-    height: 12rem;
+    height: 18rem;
     width: 37rem;
     margin-left: 37%;
     display: none;
@@ -246,18 +260,19 @@ header > .burguer-content-icon > button {
 
 main {
     position: absolute;
+    overflow-y: hidden;
     background: #f2f2f2;
+    color: white;
     right: -4;
     margin-left: 255px;
     height: 78%;
-    width: 69.5%;
+    width: 69%;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
 }
 
-
 .titulo {
-    color: rgb(0, 0, 0);
+    color: black;
     font-size: 30px;
     font-family: 'Baloo Da 2', cursive;
     margin: -22px;
@@ -531,7 +546,7 @@ article > .title > h1 {
 .Sub-Menu-Tar {
     position: absolute;
     background-color: rgb(255, 255, 255);
-    height: 12rem;
+    height: 18rem;
     width: 37rem;
     margin-left: 53%;
     margin-top: -21%;
@@ -547,7 +562,7 @@ article > .title > h1 {
 .Sub-Menu-Not {
     position: absolute;
     background-color: rgb(255, 255, 255);
-    height: 12rem;
+    height: 18rem;
     width: 700px;
     margin-left: 51%;
     margin-top: -21%;
@@ -565,8 +580,8 @@ article > .title > h1 {
     background-color: rgb(255, 255, 255);
     height: 12rem;
     width: 700px;
-    margin-left: 55%;
-    margin-top: -29.5%;
+    margin-left: 56%;
+    margin-top: -19.5%;
     display: none;
     border-style: solid;
     border-top: none;
@@ -586,7 +601,7 @@ article > .title > h1 {
     .Sub-Menu-Tar {
         position: absolute;
         background-color: rgb(255, 255, 255);
-        height: 12rem;
+        height: 18rem;
         width: 37rem;
         margin-left: 47%;
         margin-top: -29.5%;
@@ -602,7 +617,7 @@ article > .title > h1 {
     .Sub-Menu-Not {
         position: absolute;
         background-color: rgb(255, 255, 255);
-        height: 12rem;
+        height: 18rem;
         width: 700px;
         margin-left: 44%;
         margin-top: -29.5%;
@@ -617,7 +632,7 @@ article > .title > h1 {
     .Sub-Menu-Perfil {
         position: absolute;
         background-color: rgb(255, 255, 255);
-        height: 11rem;
+        height: 18rem;
         width: 12rem;
         margin-left: 81%;
         margin-top: -26%;
@@ -639,4 +654,3 @@ article > .title > h1 {
 td {
     font-size: 14px;
 }
-
