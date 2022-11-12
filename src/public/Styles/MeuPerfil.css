@@ -1032,3 +1032,19 @@ li.p {
 }
 
 
+header > .logo > img {
+    margin-top: 5.3% !important;
+    margin-left: 13px;
+    display: inline-block;
+    width: 72.4% !important;
+}
+
+header > .logo {
+    display: inline-block;
+    width: 300px;
+}
+
+header > .content-int {
+   
+    top: -95% !important;
+}
