@@ -4,35 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-signin-client_id" content="892608599199-ii1eu43snk1cbrdenq4d9ams2vn48k2e.apps.googleusercontent.com">
     <title>Login</title>
     <link rel="stylesheet" href="/Styles/Login.css">
     <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
+    </script>
+    <script src="https://apis.google.com/js/client:platform.js?onload=start" async defer>
+    </script>
     <script src="https://unpkg.com/jwt-decode/build/jwt-decode.js"></script>
-</head>
-<script class=>
-  function handleCredentialResponse(response) {
-    const data = jwt_decode(response.credential)
-
-console.log(data.sub)
-
-  }
-  window.onload = function () {
-    google.accounts.id.initialize({
-      client_id: "892608599199-ii1eu43snk1cbrdenq4d9ams2vn48k2e.apps.googleusercontent.com",
-      callback: handleCredentialResponse
-    });
-    google.accounts.id.renderButton(
-      document.getElementById("buttonDiv"),
-      { theme: "outline", size: "large" }  // customization attributes
-    );
-    google.accounts.id.prompt(); // also display the One Tap dialog
-  }
-  function onSignIn(googleUser) {
-    var id_token = googleUser.getAuthResponse().id_token;
+    <script>
+      function handleCredentialResponse(response) {
+        const data = jwt_decode(response.credential)
+        console.log(data);
+      }
+      window.onload = function () {
+        google.accounts.id.initialize({
+          client_id: "628344260862-of0cpb9ingtvnnfs4nbumccgi9p6285k.apps.googleusercontent.com",
+          callback: handleCredentialResponse
+        });
+        google.accounts.id.renderButton(
+          document.getElementById("buttonDiv"),
+          { theme: "outline", size: "large" }  // customization attributes
+        );
+        google.accounts.id.prompt(); // also display the One Tap dialog
+      }
+  </script>
     
-  }
-</script>
+</head>
+
 <body>
     <header>
 
@@ -57,10 +56,10 @@ console.log(data.sub)
             </div>
             </div>            
             </div>
-            <div id="buttonDiv"></div> 
+            <div> <button  id="buttonDiv"></button></div> 
         </div>
     </article>
     
- <script src="../Scripts/login.js"></script>
+ <script src="/src/public/Scripts/login.js"></script>
 </body>
 </html>
