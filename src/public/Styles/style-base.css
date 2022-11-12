@@ -261,7 +261,7 @@ header > .burguer-content-icon > button {
 main {
     position: absolute;
     overflow-y: hidden;
-    background: #ffffff;
+    background: #f2f2f2;
     color: white;
     right: -4;
     margin-left: 255px;
@@ -272,7 +272,7 @@ main {
 }
 
 .titulo {
-    color: rgb(255, 255, 255);
+    color: black;
     font-size: 30px;
     font-family: 'Baloo Da 2', cursive;
     margin: -22px;

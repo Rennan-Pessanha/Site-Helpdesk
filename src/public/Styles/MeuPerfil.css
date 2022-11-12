@@ -33,8 +33,9 @@ main{
     font-size: 200%;
     font-family: 'Baloo Da 2', cursive;
     position: absolute;
-    margin: -15px 0 0px -41px;
+    margin: -23px 0 0px -41px;
     width: 899px;
+    margin-top: -22px !important;
 }
 
 .box-principal {
@@ -206,6 +207,7 @@ hr{
     font-family: 'Baloo Da 2', cursive;
     display: inline-block;
     font-weight: bold;
+    color: #3C5C60;
 
 }
 
@@ -407,7 +409,7 @@ li.indicadores {
 
 
 li p {
-    color: #e91212;
+    color: #3C5C60;
     font-size: 45px;
     font-family: 'Baloo Da 2', cursive;
     padding-left: 0px;
@@ -867,7 +869,7 @@ li.p {
 
     li p{
         
-        color: #e91212;
+        color: #3C5C60;
         font-size: 210%;
         font-family: 'Baloo Da 2', cursive;
         padding-left: 0px;

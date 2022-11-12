@@ -878,3 +878,8 @@ td.padrao-terciaria {
 .botoes:hover {
     cursor: pointer;
 }
+
+
+.titulo-index {
+    margin-top: -62px !important;
+}
