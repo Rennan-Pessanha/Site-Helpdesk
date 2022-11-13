@@ -264,7 +264,7 @@ main {
     color: white;
     right: -4;
     margin-left: 255px;
-    height: 78%;
+    height: 84%;
     width: 69%;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
@@ -672,4 +672,9 @@ header > .logo {
         display: inline-block;
         width: 179%;
         
+    }
+
+    .novo {
+        position: absolute;
+        z-index: 100;
     }
