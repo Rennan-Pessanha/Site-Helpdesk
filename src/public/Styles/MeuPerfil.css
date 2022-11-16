@@ -26,7 +26,7 @@ body {
   .grid {
     display: grid;
     grid-template-columns: 30% 65.5%;
-    grid-template-rows: 22% 33% 33%;
+    grid-template-rows: 22% 43% 33%;
     gap: 20px;
     grid-row: 1;
     margin-left: 20px;
@@ -110,7 +110,7 @@ body {
     grid-row: 1;
     grid-column: 1;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr 1fr;
  
   
   }
@@ -120,9 +120,8 @@ body {
     background-color: #e91212;
     width: 100%;
     grid-row-start: 2;
-    grid-row-end: 6;
+    grid-row-end: 3;
     grid-column: 2;
-    height: 51%;
     border-radius: 17px;
     box-sizing: border-box;
     box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
@@ -133,7 +132,6 @@ body {
   
   
   .nome-usuario {
-    position: absolute;
     font-weight: bold;
     color: rgb(0, 0, 0);
     font-size: 150%;
@@ -200,6 +198,7 @@ body {
     div.foto-de-perfil {
       grid-column: 2;
       grid-row: 1;
+      margin: 20px auto;
       
     }
   
@@ -244,7 +243,7 @@ body {
     grid-row: 3;
     grid-column-start: 1; 
     grid-column-end: 4;
-    margin-left: 4%;
+    margin: -5px auto;
   }
   
   .turno {
@@ -256,24 +255,23 @@ body {
     grid-row: 3;
     grid-column-start: 1; 
     grid-column-end: 4;
-    margin-left: 4%;
-    margin-top: 25%;
+    margin: 15% auto;
   
   }
   
   
   .foto-de-perfil{
     background: #A3241D;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 100px;
   
   }
   
   
   .foto-de-perfil img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 100px;
   }
   
@@ -292,7 +290,7 @@ body {
   .container-chamados {
     display: grid;
     grid-template-columns: 0.5fr 2fr 0.5fr 0.5fr 0.5fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     margin-top: 1%;
     align-items: initial;
     
@@ -338,7 +336,7 @@ body {
     grid-column-start: 1;
     grid-column-end: 5;
     margin-left: 1%;
-    margin-top: 10%;
+    margin-top:8%;
   }
   
   .quebradelinha-2 {
@@ -349,7 +347,7 @@ body {
     grid-column-start: 1;
     grid-column-end: 5;
     margin-left: 1%;
-    margin-top: 10%;
+    margin-top: 8%;
   }
   
   .quebradelinha-3 {
@@ -360,7 +358,7 @@ body {
     grid-column-start: 1;
     grid-column-end: 5;
     margin-left: 1%;
-    margin-top: 10%;
+    margin-top: 8%;
   
   }
   
