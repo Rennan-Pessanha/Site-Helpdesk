@@ -25,12 +25,12 @@ body {
 
   .grid {
     display: grid;
-    grid-template-columns: 30% 65.5%;
-    grid-template-rows: 22% 43% 33%;
+    grid-template-columns: 29% 65.5%;
+    grid-template-rows: 19% 43% 33%;
     gap: 20px;
     grid-row: 1;
-    margin-left: 20px;
     margin-top: 20px;
+    place-content: center;
   }
   
   .box-usuario , .box-historicos , .elemento-filho {
