@@ -60,7 +60,7 @@
 /*         Cabeça do site */
 
 header {
-    height: 70px;
+    height: 73px;
     width: 100vw;
     background: linear-gradient(to right, #3C5C60, #407177 ,#448A93);
 }
@@ -70,12 +70,11 @@ display: inline-block;
 }
 
 header > .logo > img {
-    height: 200px;
-    width: 450px;
-    margin-top: -65px;
-    margin-left: 160px;
+
+    margin-top: 13%;
+    margin-left: 13px;
     display: inline-block;
-    filter: invert(1);
+    width: 179%;
     
 }
 
@@ -85,7 +84,7 @@ header > .content-int {
     width: 300px;
     display: inline-block;
     position: relative;
-    top: -200%;
+    top: -83%;
     margin-left: 80%;
     padding: 10px;
 
@@ -265,7 +264,7 @@ main {
     color: white;
     right: -4;
     margin-left: 255px;
-    height: 78%;
+    height: 84%;
     width: 69%;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
@@ -483,6 +482,8 @@ header > .content-int {
 
  .mobile-menu > a > h5 {
     text-decoration: none;
+    position: absolute;
+    margin-left: 5px;
 
 }
 
@@ -654,3 +655,26 @@ article > .title > h1 {
 td {
     font-size: 14px;
 }
+
+
+
+
+
+
+header > .logo { 
+    display: inline-block;
+    }
+    
+    header > .logo > img {
+    
+        margin-top: 13%;
+        margin-left: 13px;
+        display: inline-block;
+        width: 179%;
+        
+    }
+
+    .novo {
+        position: absolute;
+        z-index: 100;
+    }

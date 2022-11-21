@@ -18,7 +18,7 @@ main{
     top: 93px;
     right: -4;
     margin-left: 285px;
-    height: 78%;
+    height: 69%;
     width: 69.5%;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
@@ -392,7 +392,7 @@ main {
 
 input:focus {
    border: none;
-   background-color: #F1DBDA;
+   background-color: #C6DEE0;
 }
 
 .botao-limpar {
@@ -767,7 +767,7 @@ td.padrao-terciaria {
     }
 
     main {
-        height: 78% !important;
+        height: 83% !important;
     }
     
     .label-form1, .label-form3 , .padrao-terciaria {
@@ -883,3 +883,5 @@ td.padrao-terciaria {
 .titulo-index {
     margin-top: -62px !important;
 }
+
+
