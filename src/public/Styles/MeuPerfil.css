@@ -415,4 +415,87 @@ body {
     color: #7A7A7A !important;
   }
 
-  
+  @media screen and (max-width: 1100px ) {
+    main {
+      margin-top: 8%;
+    }
+  }
+
+  @media screen and (max-width: 900px ) {
+    main {
+      margin-top: 10%;
+      margin-left: 5% !important;
+      width: 87% !important;
+    }
+  }
+
+
+
+    @media screen and (max-width: 800px ) {
+      main {
+        margin-top: 11%;
+      }
+
+      .grid {
+        grid-template-columns: 29% 65.5%;
+        grid-template-rows: 10% 43% 33%;
+        margin-top: -3px;
+        margin-left: 20px;
+        gap: 15px;
+      }
+
+      .elemento-filho p{
+          margin-top: -5%;
+      }
+
+      .quantidade {
+        font-size: 21px !important;
+    }
+
+    .box-usuario {
+     height: 259px;
+    }
+
+    .foto-de-perfil img {
+      width: 70px;
+      height: 70px;
+    }
+
+    .foto-de-perfil {
+      width: 70px;
+      height: 70px;
+    }
+
+    .nome-usuario {
+      font-size: 90%;
+    }
+
+    .box-historicos {
+      grid-row-start: 2;
+      grid-column: 2;
+      height: 97% !important;
+    }
+
+    .select-estiloso {
+      height: 19px;
+      left: 267px;
+      margin-top: -6%;
+    }
+
+    .select-estiloso select {
+      height: 20px;
+      margin-top: -6px;
+      vertical-align: top;
+      margin-top: -4px !important;
+  }
+
+  .quebradelinha, .quebradelinha-2, .quebradelinha-3 {
+    display: none;
+  }
+
+  .quebradelinha-titulo {
+    margin-top: 0%;
+    width: 61%;
+    margin-left: 1%;
+  }
+}
