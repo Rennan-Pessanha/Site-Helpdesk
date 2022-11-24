@@ -35,7 +35,7 @@ main > .form-content {
     height: 58%;
     width: 94%;
     border-radius: 17px;
-    box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 3px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
     overflow: hidden;
 }
 
@@ -69,7 +69,7 @@ margin-left: 27px;
 width: 94.1%;
 height: 90px;
 border-radius: 17px;
-box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
+box-shadow: rgb(0 0 0 / 10%) 0px 3px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
 overflow: hidden;
 }
 
