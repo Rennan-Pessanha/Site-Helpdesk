@@ -396,7 +396,6 @@ input:focus {
 }
 
 .botao-limpar {
-    background-color: #E6E8ED !important;
     border: none;
     font-size: 16px;
     float: left;
@@ -409,6 +408,8 @@ input:focus {
     font-weight: 600;
     color: #3C5C60;
     margin-top: 110px !important;
+    background: linear-gradient(to top, #E0E0E0, #F0F0F0);
+}
 }
 
 .adicionar {
@@ -443,11 +444,10 @@ input:focus {
     color: #3C5C60;
     margin-top: 152px !important;
     font-weight: bold;
-
+    background: linear-gradient(to top, #AED8DE, #C6DEE0);
 
 }
 .botao-limpar-2 {
-    background-color: #E6E8ED !important;
     border: none;
     font-size: 16px;
     float: left;
@@ -460,11 +460,11 @@ input:focus {
     color: #3C5C60;
     margin-top: 91px !important;
     position: absolute;
+    background: linear-gradient(to top, #E0E0E0, #F0F0F0);
 }
 
 
 .botao-limpar-3 {
-    background-color: #E6E8ED !important;
     border: none;
     font-size: 16px;
     float: left;
@@ -476,18 +476,21 @@ input:focus {
     font-weight: bold;
     color: #3C5C60;
     margin-top: 152px !important;
+    background: linear-gradient(to top, #E0E0E0, #F0F0F0);
 
 }
-.botao-limpar:hover, .botao-limpar-2:hover, .botao-limpar-3:hover, .adicionar:hover  {
-    background-color: #AED8DE !important;
-    color: #3C5C60;
-
+.botao-limpar:hover, .botao-limpar-2:hover, .botao-limpar-3:hover {
+    background: linear-gradient(to top, #CCCCCC, #E0E0E0) !important;
 }
 
-.adicionar:hover, .botao-limpar:hover, .botao-limpar-2:hover, .botao-limpar-3:hover  {
+ .botao-limpar:hover, .botao-limpar-2:hover, .botao-limpar-3:hover  {
     background-color:#AED8DE ;
-    color: white;
 
+
+}
+
+.adicionar:hover {
+    background: linear-gradient(to top, #A0D3DA, #AED8DE);
 }
 
 @media screen and (min-height: 950px ) {
