@@ -500,3 +500,11 @@ body {
     margin-left: 1%;
   }
 }
+
+@media screen and (max-width: 380px ) {
+  main {
+    margin-top: 23%;
+    margin-left: 2% !important;
+    width: 87% !important;
+  }
+}

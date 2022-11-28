@@ -660,7 +660,7 @@ window.Apex = {
   }],
     chart: {
     height: 390,
-    width: 850,
+    width: 600,
     type: 'line',
   },
   stroke: {

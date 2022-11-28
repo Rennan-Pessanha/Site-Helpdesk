@@ -6,7 +6,7 @@
     top: 15%;
     right: -4;
     margin-left: 255px;
-    height: 98%;
+    height: 120%;
     width: 80%;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
@@ -87,10 +87,10 @@
 
     position: absolute;
     background: #262D47;
-    top: 115%;
+    top: 140%;
     right: -4;
     margin-left: 255px;
-    height: 78%;
+    height: 70%;
     width: 80%;
     border-radius: 17px;
     box-shadow: rgb(48, 36, 36) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
@@ -106,5 +106,28 @@
   display: inline-block;
   margin-top: 5%;
   margin-left: 3%;
+}
+
+@media (max-width: 1305px) {
+
+  #medsoft-content {
+
+    position: absolute;
+    background: #262D47;
+    top: 140%;
+    right: -0%;
+    margin-left: 0%;
+    height: 120%;
+    width: 80%;
+    border-radius: 17px;
+    box-shadow: rgb(48, 36, 36) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+
+  }
+
+  .pizza-medsoft {
+    display: block;
+    margin-top: 5%;
+  }
+
 }
 
