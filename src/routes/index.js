@@ -1,7 +1,8 @@
 const { Router } = require('express');
 const path = require('path');
 const routes = new Router();
-const chamadosController = require('../controllers/chamadosController')
+const chamadosController = require('../controllers/chamadosController');
+/*import cors from 'cors';*/
 
 routes.get('/', (req, res) => {
     res.render('index');
