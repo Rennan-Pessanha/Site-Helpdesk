@@ -64,7 +64,7 @@ a{
 
 .campo-3 {
     margin-left: 84%;
-    margin-top: -2.5%;
+    margin-top: -3%;
 }
 
 .campo-4 {
@@ -75,10 +75,10 @@ a{
     background: url(/img/lupa.png) no-repeat right;
     background-size: 115%;
     border-radius: 17px;
-    top: 18%;
-    left: 85%;
+    top: -3.8%;
+    left: 84.5%;
     padding-right: 4px;
-    position: absolute;
+    position: relative;
 }
 
 
@@ -159,13 +159,14 @@ h2 {
 
 
 main {
-    height: auto !important;
+    height: 78% !important;
 }
 
 .principal {
     
         position: absolute;
         background: #f2f2f2;
+        color: black;
         right: -4;
         margin-left: 255px;
         top: 93px;
