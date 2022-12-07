@@ -5,17 +5,16 @@
 }
 
 header { 
-    background: linear-gradient(to right, #A3241D, #FF6961 );
+    background: linear-gradient(to top, #3C5C60, #407177 ,#448A93);
     height: 90px;
 }
 
 
-header > img { 
-    height: 190px;
+header > img {
+    height: 40px;
     margin: auto;
     margin-left: 40%;
-    margin-top: -50px;
-    filter: invert()
+    margin-top: 23px;
 }
 
 article { 

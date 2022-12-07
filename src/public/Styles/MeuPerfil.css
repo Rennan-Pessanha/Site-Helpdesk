@@ -415,7 +415,9 @@ body {
   .mes , .mes-2 , .mes-3, .hora , .hora-2 , .hora-3 {
     color: #7A7A7A !important;
   }
-
+  main {
+    margin-top: 92px;
+  }
   @media screen and (max-width: 1100px ) {
     main {
       margin-top: 8%;
