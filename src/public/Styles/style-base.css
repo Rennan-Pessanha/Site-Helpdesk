@@ -61,22 +61,16 @@
 
 header {
     height: 73px;
-    width: 100vw;
+    width: 100%;
     background: linear-gradient(to top, #3C5C60, #407177 ,#448A93);
 }
 
 header > .logo { 
 display: inline-block;
+
 }
 
-header > .logo > img {
 
-    margin-top: 13%;
-    margin-left: 13px;
-    display: inline-block;
-    width: 179%;
-    
-}
 
 header > .content-int {
     background-color: rgba(0, 0, 0, 0);
@@ -306,6 +300,10 @@ main {
         opacity: .08;
     }
 
+        header > .content-int {
+        margin-left: 80%;
+
+    }
 }
 
 
@@ -350,7 +348,19 @@ main {
 
 @media (max-width: 1000px) {
     header > .content-int {
-        margin-left: 65%;
+        margin-left: 80%;
+
+    }
+
+    header > .logo { 
+        display: inline-block;
+        width: 0%;
+        }
+}
+
+@media (max-width: 768px) {
+    header > .content-int {
+        margin-left: 80%;
 
     }
 }
@@ -526,6 +536,7 @@ article > .title > h1 {
         margin: auto;
         margin-top: 30px;
         overflow: hidden;
+        margin-right: 20%;
     }
 
     article > .title > h1 {
@@ -678,3 +689,5 @@ header > .logo {
         position: absolute;
         z-index: 100;
     }
+
+    

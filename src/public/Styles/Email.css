@@ -49,14 +49,64 @@ article > .line {
     margin-left: 26px;
 }
 
-.Padroes-Content {
-
-    background-color: rgb(190, 167, 167);
-    height: 100%;
-    width: 90%;
+.form-content {
+overflow: hidden;
 }
 
-.Listas-Content {
+#myInput {
+    background-image: url('/img/icons8-search-more-30.png'); 
+    background-position: 5px 6px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 10px 12px 40px;
+    border: 1px solid #ddd; 
+    margin-bottom: 12px;
+  }
+
+.Padroes-Content {
+
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    margin-left: 35%;
+    overflow: scroll;
+    
+    
+}
 
 
+li {
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-family: 'Baloo Da 2', cursive;
+    margin-left: 2%;
+    list-style: none;
+}
+
+li::before {
+    content: "📌";
+}
+
+#ListUl > a {
+    font-family: 'Baloo Da 2', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-bottom: 2%;
+    
+}
+
+#ListUl > a:hover {
+    font-size: 2em;
+    color: rgb(0, 0, 70);
+}
+
+#ListUl::before {
+    content: '📧';
+    margin-left: 10%;
+}
+
+#ListUl {
+    display: list-item;
 }
