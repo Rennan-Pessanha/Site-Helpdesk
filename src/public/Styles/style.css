@@ -707,7 +707,8 @@ td.padrao-terciaria {
 @media screen and (max-width: 1750px ) {
     .textarea-descricao {
         margin-top: -178px;
-        margin-left: 34%;
+        margin-left: 36%;
+        width: 27%;
     }
 
     .botao-limpar {
@@ -734,6 +735,14 @@ td.padrao-terciaria {
 
 }
 
+@media screen and (min-width: 2300px ) {
+ 
+    .textarea-descricao {
+        margin-left: 36%;
+        WIDTH: 31%;
+    }
+
+}
 @media screen and (max-width: 1536px ) {
     .tabela_dados {
         margin: 20px auto;
@@ -750,7 +759,7 @@ td.padrao-terciaria {
     }
     
     .textarea-descricao {
-        margin-top: -154px;
+        margin-top: -168px;
         margin-left: 36%;
     }
 
@@ -895,3 +904,4 @@ td.padrao-terciaria {
     }
   
 }
+
