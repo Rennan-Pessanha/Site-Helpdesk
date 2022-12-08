@@ -76,7 +76,7 @@ overflow: hidden;
 }
 
 
-li {
+ol {
     color: rgb(0, 0, 0);
     font-size: 1.5em;
     font-family: 'Baloo Da 2', cursive;
@@ -84,7 +84,7 @@ li {
     list-style: none;
 }
 
-li::before {
+ol::before {
     content: "📌";
 }
 
@@ -109,4 +109,5 @@ li::before {
 
 #ListUl {
     display: list-item;
+    list-style: none;
 }

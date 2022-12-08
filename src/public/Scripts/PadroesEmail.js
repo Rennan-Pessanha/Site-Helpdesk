@@ -1,9 +1,7 @@
 
-
-
 function myFunction() {
   let input = document.getElementById('myInput').value
-  input=input.toLowerCase();
+  input = input.toLowerCase();
   let x = document.getElementsByClassName('ListUl');
     
   for (i = 0; i < x.length; i++) { 

@@ -80,7 +80,7 @@ header > .content-int {
     width: 300px;
     display: inline-block;
     position: relative;
-    top: -83%;
+    top: -70%;
     margin-left: 80%;
     padding: 10px;
 
@@ -95,6 +95,7 @@ header > .content-int {
     width: 12rem;
     margin-left: 74%;
     display: none;
+    top: 71%;
     border-style: solid;
     border-top: none;
     box-shadow: rgb(0 0 0 / 10%) 0px 3px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
@@ -127,6 +128,8 @@ header > .content-int {
     background-color: rgb(255, 255, 255);
     height: 18rem;
     width: 700px;
+    top: 79%;
+    left: 10%;
     margin-left: 39%;
     display: none;
     border-style: solid;
@@ -171,6 +174,8 @@ header > .content-int {
     height: 18rem;
     width: 37rem;
     margin-left: 37%;
+    top: 79%;
+    left: 8%;
     display: none;
     border-style: solid;
     border-top: none;
