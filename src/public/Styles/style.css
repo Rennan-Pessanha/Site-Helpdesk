@@ -37,6 +37,7 @@ main > .form-content {
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 10%) 0px 3px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
     overflow: hidden;
+    max-width: 1050px;
 }
 
 main > .form-content > .formu > h4 {
@@ -186,17 +187,20 @@ main > .line {
 .input_total {
     width: 49vw;
     height: 14px;
+    max-width: 790px;
 
 }
 
 .inputII_total{
     width: 20vw;
+    max-width: 280px;
 }
 
 .Select-Content {
     width: 20vw;
     padding-top: 0px;
     margin-left: 23px;
+    max-width: 280px;
 }
 
 
@@ -237,6 +241,7 @@ main > .line {
 
 .input_totalII {
     width: 30vw;
+    max-width: 360px;
     
 }
 
@@ -249,6 +254,7 @@ main > .line {
 .input_totalIII {
     width: 10vw;
     margin-left: 0px;
+    max-width: 360px;
 }
 
 .cont-content {
@@ -656,7 +662,7 @@ td.padrao-terciaria {
 @media screen and (max-width: 2300px ) {
     .textarea-descricao {
         margin-top: -175px;
-        margin-left: 39%;
+        margin-left: 29%;
     }
 
     .botao-limpar {
@@ -701,7 +707,8 @@ td.padrao-terciaria {
 @media screen and (max-width: 1750px ) {
     .textarea-descricao {
         margin-top: -178px;
-        margin-left: 34%;
+        margin-left: 36%;
+        width: 27%;
     }
 
     .botao-limpar {
@@ -722,14 +729,20 @@ td.padrao-terciaria {
         margin-top: 158px !important;
     }
 
-    main {
-        height: 76% !important;
-    }
+  
 
     
 
 }
 
+@media screen and (min-width: 2300px ) {
+ 
+    .textarea-descricao {
+        margin-left: 36%;
+        WIDTH: 31%;
+    }
+
+}
 @media screen and (max-width: 1536px ) {
     .tabela_dados {
         margin: 20px auto;
@@ -746,7 +759,7 @@ td.padrao-terciaria {
     }
     
     .textarea-descricao {
-        margin-top: -154px;
+        margin-top: -168px;
         margin-left: 36%;
     }
 
@@ -769,9 +782,6 @@ td.padrao-terciaria {
         margin-top: 122px !important;
     }
 
-    main {
-        height: 83% !important;
-    }
     
     .label-form1, .label-form3 , .padrao-terciaria {
        
@@ -782,6 +792,7 @@ td.padrao-terciaria {
         font-family: 'Baloo Da 2', cursive;
         color: rgb(0, 0, 0);
         font-size: 13px !important;
+        height: 30px;
     }
 
     .padrao-terciaria::placeholder {
@@ -807,7 +818,7 @@ td.padrao-terciaria {
     }
     
     .textarea-descricao {
-        margin-top: -137px;
+        margin-top: -163px;
         margin-left: 35%;
     }
 
@@ -863,19 +874,14 @@ td.padrao-terciaria {
 }
 
 @media screen and (max-width: 1232px ) {
-    main > .tab {
-        margin-top: 18px;
-
-    }
+    
 
     main > .form-content {
         height: 268px;
         margin-top: -44px;
     }
 
-    main {
-        height: 82% !important;
-    }
+   
 }
 
 .botoes:hover {
@@ -887,4 +893,15 @@ td.padrao-terciaria {
     margin-top: -62px !important;
 }
 
+
+
+
+@media screen and (max-width: 1232px ) {
+    
+    main > .tab {
+        margin-top: 23px;
+
+    }
+  
+}
 

@@ -290,7 +290,7 @@ body {
   
   .container-chamados {
     display: grid;
-    grid-template-columns: 0.5fr 2fr 0.5fr 0.5fr 0.5fr;
+    grid-template-columns: 1fr 11fr;
     grid-template-rows: 1fr 1fr 1fr;
     margin-top: 1%;
     align-items: initial;
@@ -306,60 +306,59 @@ body {
   
   
   
-  .detalhamentos-chamados {
-    grid-column: 1;
-    grid-row: 1;
-    padding-left: 24%;
-    font-weight: bold;
-  }
   
-  .detalhamentos-chamados, .detalhamentos-chamados-2, .detalhamentos-chamados-3 {
-    padding-left: 24%;
-    font-weight: bold;
-  }
   
   .quebradelinha-titulo {
     grid-row: 2;
     opacity: 0.1;
     border-top: 1px solid rgb(255, 0, 0);
     margin-top: 1%;
-    width: 96%;
-    margin-left: 3%;
+    width: 97.3%;
+    margin-left: 1%;
   }
   
   .quebradelinha {
-    width: 110%;
-    grid-row: 1;
-    opacity: 0.1;
-    border-top: 1px solid rgb(255, 0, 0);
-    margin-top: 0%;
-    grid-column: 1;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    margin-left: 2%;
-    margin-top:8%;
+      display: inline-block;
+      grid-row: 1;
+      opacity: 0.1;
+      border-top: 1px solid rgb(255, 0, 0);
+      margin-top: 0%;
+      grid-column-start: 2;
+      margin-left: -8%;
+      width: 106%;
+  
   }
   
   .quebradelinha-2 {
-    width: 110%;
     grid-row: 2;
     opacity: 0.1;
     border-top: 1px solid rgb(255, 0, 0);
-    grid-column-start: 1;
-    grid-column-end: 5;
-    margin-left: 2%;
-    margin-top: 8%;
+    margin-top: 0%;
+    grid-column-start: 2;
+    margin-left: -8%;
+    width: 106%;
+
+
   }
   
   .quebradelinha-3 {
-    width: 110%;
     grid-row: 3;
     opacity: 0.1;
+      border-top: 1px solid rgb(255, 0, 0);
+      margin-top: 0%;
+      grid-column-start: 2;
+      margin-left: -8%;
+      width: 106%;
+  
+  }
+  .quebradelinha-4 {
+    grid-row: 4;
+    opacity: 0.1;
     border-top: 1px solid rgb(255, 0, 0);
-    grid-column-start: 1;
-    grid-column-end: 5;
-    margin-left: 2%;
-    margin-top: 8%;
+    margin-top: 0%;
+    grid-column-start: 2;
+    margin-left: -8%;
+    width: 106%;
   
   }
   
@@ -379,43 +378,100 @@ body {
     grid-column: 2;
     grid-row: 1;
     
+    
   }
   
   .resumo-2 {
     grid-column: 2;
     grid-row: 2;
+    
   }
   
   .resumo-3 {
     grid-column: 2;
     grid-row: 3;
+   
   
   }
   .hora {
     grid-column: 2;
     grid-row: 1;
-    padding-top: 7%;
+    margin-top: 17px;
+    
   }
   
   .hora-2 {
     grid-column: 2;
     grid-row: 2;
-    padding-top: 7%;
+    margin-top: 17px;
+    
+    
   }
   .hora-3 {
     grid-column: 2;
     grid-row: 3;
-    padding-top: 7%;
+    margin-top: 17px;
+    
+    
   }
 
   .mes , .mes-2 , .mes-3{
     margin-top: -7px;
+    grid-column: 1;
+    text-align: center;
   }
 
   .mes , .mes-2 , .mes-3, .hora , .hora-2 , .hora-3 {
     color: #7A7A7A !important;
   }
 
+  .mes {
+    grid-row: 2;
+    margin-top: -28px
+  }
+
+  .mes-2 {
+    grid-row: 3;
+    margin-top: -28px;
+  }
+
+  .mes-3 {
+    grid-row: 4;
+    margin-top: -28px;
+  }
+ 
+
+  .resumo-e-hora {
+    grid-column: 2;
+    margin-top: -6px;
+}
+
+
+.dia, .dia-2, .dia-3 {
+  grid-column: 1;
+  text-align: center;
+}
+
+.dia {
+  grid-column: 1;
+  grid-row: 1;
+  
+}
+
+.dia-2 {
+  grid-row: 2;
+  margin-top: 1px;
+}
+
+.dia-3 {
+  grid-row: 3;
+  margin-top: 1px;
+}
+
+
+  main {
+    margin-top: 92px;
+  }
   @media screen and (max-width: 1100px ) {
     main {
       margin-top: 8%;
