@@ -326,7 +326,6 @@ function SubmitForm() {
 
 
         var processos = document.getElementById('Processos').value;
-        var orientação = document.getElementById('Orientacoes').value;
         var demanda = document.getElementById('Demanda-Option').value;
         var app = document.getElementById('Apps').value;
         var Area = document.getElementById('Area').value
@@ -351,7 +350,6 @@ function SubmitForm() {
             "aluno_reproducao":reproducao,
 
             "aluno_Processos":processos,
-            "aluno_Orientação":orientação,
             "aluno_Demanda":demanda,
             "aluno_app":app,
 
@@ -370,8 +368,7 @@ function SubmitForm() {
             XHR.open('POST', '/send', true);
             XHR.setRequestHeader("Content-Type", "application/json;charset=UTF-8")
             XHR.send(SubmitForm);
-
-            //window.location.reload()
+            window.location.reload()
 
     }else{
         abrirtab('form1');
