@@ -323,6 +323,7 @@ function SubmitForm() {
         var id_card = document.getElementById('Id-Card').value;
         var versao_do_app = document.getElementById('versao').value;
         var reproducao = document.getElementById('Reproduzido').value;
+        var Descricao = document.getElementById('descricao-problema').value
 
 
         var processos = document.getElementById('Processos').value;
@@ -348,6 +349,7 @@ function SubmitForm() {
             "aluno_card_id":id_card,
             "aluno_app_versao":versao_do_app,
             "aluno_reproducao":reproducao,
+            "aluno_Desc":Descricao,
 
             "aluno_Processos":processos,
             "aluno_Demanda":demanda,

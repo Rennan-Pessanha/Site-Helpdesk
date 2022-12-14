@@ -15,6 +15,12 @@ const chamadosSchema = new mongoose.Schema({
     aluno_card_id: {type: String},
     aluno_app_versao: {type: String},
     aluno_reproducao: {type: String},
+    aluno_Processos: {type: String, required: true},
+    aluno_Demanda: {type: String, required: true},
+    aluno_app: {type: String, required: true},
+    Aluno_Area: {type: String, required: true},
+    Aluno_Problema: {type: String, required: true},
+    aluno_Desc: {type: String, required: true},
 })
 
 const chamados = mongoose.model('chamados', chamadosSchema);

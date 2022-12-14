@@ -78,7 +78,7 @@ overflow: hidden;
     display: none;
 }
 
-ol {
+.summary {
     color: rgb(0, 0, 0);
     font-size: 1.5em;
     font-family: 'Baloo Da 2', cursive;
@@ -86,7 +86,7 @@ ol {
     list-style: none;
 }
 
-ol::before {
+.summary::before {
     content: "📌";
 }
 
@@ -98,7 +98,7 @@ ol::before {
     margin-bottom: 2%;
     
 }
-/*
+
 #ListUl > a:hover {
     font-size: 2em;
     color: rgb(0, 0, 70);
@@ -108,9 +108,3 @@ ol::before {
     content: '📧';
     margin-left: 10%;
 }
-
-#ListUl {
-    display: list-item;
-    list-style: none;
-}
-*/
