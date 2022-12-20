@@ -833,12 +833,12 @@ td.padrao-terciaria {
     }
     
     .botao-limpar-3 {
-        margin-top: 80px !important;
+        margin-top: 50px !important;
         margin-left: 23px !important;
     }
 
     .adicionar {
-        margin-top: 80px !important;
+        margin-top: 50px !important;
     }
 
     .label-textarea {
@@ -902,6 +902,35 @@ td.padrao-terciaria {
         margin-top: 23px;
 
     }
+  
+}
+
+@media screen and (max-width: 768px ) {
+    
+    main > .tab {
+        margin-top: 23px;
+
+    }
+
+    .adicionar {
+        margin-top: 30px !important;
+    }
+
+    .botao-limpar {
+        margin-top: 34px !important;
+        margin-left: 23px !important;
+    }
+
+    .botao-limpar-2 {
+        margin-top: 38px !important;
+        margin-left: -70px !important;
+    }
+    
+    .botao-limpar-3 {
+        margin-top: 30px !important;
+        margin-left: 23px !important;
+    }
+
   
 }
 

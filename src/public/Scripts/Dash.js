@@ -140,7 +140,7 @@ window.Apex = {
       {
         name: "Load Average",
         data: generateMinuteWiseTimeSeries(
-          new Date("12/12/2016 00:20:00").getTime(),
+          new Date("12/12/2011 00:00:00").getTime(),
           12,
           {
             min: 10,

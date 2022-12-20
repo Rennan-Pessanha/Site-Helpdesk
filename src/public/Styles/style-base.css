@@ -93,7 +93,7 @@ header > .content-int {
     width: 12rem;
     margin-left: 74%;
     display: none;
-    top: 71%;
+    top: 51%;
     border-style: solid;
     border-top: none;
     box-shadow: rgb(0 0 0 / 10%) 0px 3px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
@@ -126,7 +126,7 @@ header > .content-int {
     background-color: rgb(255, 255, 255);
     height: 18rem;
     width: 700px;
-    top: 79%;
+    top: 55%;
     left: 10%;
     margin-left: 39%;
     display: none;
@@ -172,7 +172,7 @@ header > .content-int {
     height: 18rem;
     width: 37rem;
     margin-left: 37%;
-    top: 79%;
+    top: 55%;
     left: 8%;
     display: none;
     border-style: solid;
@@ -262,7 +262,6 @@ main {
     background: #f2f2f2;
     color: white;
     right: -4;
-    margin-left: 255px;
     height: 70%;
     width: 69%;
     max-width: 1100px;
@@ -369,6 +368,18 @@ main {
         margin-left: 80%;
 
     }
+    main {
+        overflow-y: hidden;
+        background: #f2f2f2;
+        color: white;
+        height: 100%;
+        margin: auto;
+        width: 69%;
+        max-width: 1100px;
+        border-radius: 17px;
+        box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+    }
+    
 }
 
 @media (max-width: 425px) {
