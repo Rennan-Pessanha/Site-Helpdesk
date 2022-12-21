@@ -371,10 +371,11 @@ function SubmitForm() {
             XHR.setRequestHeader("Content-Type", "application/json;charset=UTF-8")
             XHR.send(SubmitForm);
             window.location.reload()
+            window.alert('Formulário enviado por sucesso!')
 
     }else{
         abrirtab('form1');
-        document.getElementById('msg_erro').innerHTML = 'Preencha todos os campos antes de aplicar'
+        window.alert('Prencha todos os campos antes de aplicar')
     }
 }
 
