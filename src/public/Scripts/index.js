@@ -297,6 +297,7 @@ function ProblemaD(){
 
 // Botão de Enviar o Formulário
 
+
 function SubmitForm() {
 
     var XHR = new XMLHttpRequest()
@@ -304,12 +305,21 @@ function SubmitForm() {
     var dados_total = document.getElementById('dados_total').value;
     var ov_total = document.getElementById('ov_total').value;
     var chamado_total = document.getElementById('chamado_total').value;
+    var Descricao = document.getElementById('descricao-problema').value
 
-    if(dados_total != '' && ov_total != '' && chamado_total != ''){
 
-        var id = dados_total.split('\t')[1];
-        var cpf = dados_total.split('\t')[2];
-        var nome = dados_total.split('\t')[3];
+    var processos = document.getElementById('Processos').value;
+    var demanda = document.getElementById('Demanda-Option').value;
+    var app = document.getElementById('Apps').value;
+    var Area = document.getElementById('Area').value
+    var Problema = document.getElementById('ProblemaD').value
+
+
+    if(dados_total != '' && ov_total != '' && chamado_total != ''&&Descricao != '' && processos != '' && demanda != ''&&app != '' && Area != '' && Problema != ''){
+
+        var id = dados_total.split('-')[1];
+        var cpf = dados_total.split('-')[2];
+        var nome = dados_total.split('-')[3];
 
         var ov_produto = ov_total.split('\t')[4];
         var ov_data = ov_total.split('\t')[2];
@@ -323,15 +333,7 @@ function SubmitForm() {
         var id_card = document.getElementById('Id-Card').value;
         var versao_do_app = document.getElementById('versao').value;
         var reproducao = document.getElementById('Reproduzido').value;
-        var Descricao = document.getElementById('descricao-problema').value
-
-
-        var processos = document.getElementById('Processos').value;
-        var demanda = document.getElementById('Demanda-Option').value;
-        var app = document.getElementById('Apps').value;
-        var Area = document.getElementById('Area').value
-        var Problema = document.getElementById('ProblemaD').value
-
+       
 
 
 
@@ -362,15 +364,19 @@ function SubmitForm() {
 
             
         }
+        if(dados_total.length < 17 && dados_total.value !=''){
+            alert('Campo Dados asdasddsad incorrect')
+            return ;
+        }
         
-        
+        console.log(SubmitForm)
         SubmitForm = JSON.stringify(SubmitForm)
         
         
             XHR.open('POST', '/send', true);
             XHR.setRequestHeader("Content-Type", "application/json;charset=UTF-8")
             XHR.send(SubmitForm);
-            window.location.reload()
+            //window.location.reload()
             window.alert('Formulário enviado por sucesso!')
 
     }else{
