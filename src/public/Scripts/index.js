@@ -298,13 +298,25 @@ function ProblemaD(){
 // Botão de Enviar o Formulário
 
 
+
 function SubmitForm() {
 
     var XHR = new XMLHttpRequest()
 
-    var dados_total = document.getElementById('dados_total').value;
-    var ov_total = document.getElementById('ov_total').value;
-    var chamado_total = document.getElementById('chamado_total').value;
+    var dados_id = document.getElementById('dados_id').value;
+    var dados_cpf = document.getElementById('dados_cpf').value
+    var dados_nome = document.getElementById('dados_nome').value
+
+    var ov_data = document.getElementById('ov_data').value;
+    var ov_produto = document.getElementById('ov_produto').value;
+    var ov_status = document.getElementById('ov_status').value;
+
+
+    var chamado_data = document.getElementById('chamado_data').value;
+    var chamado_hora = document.getElementById('chamado_hora').value;
+    var chamado_responsavel = document.getElementById('chamado_responsavel').value;
+    
+    
     var Descricao = document.getElementById('descricao-problema').value
 
 
@@ -313,21 +325,31 @@ function SubmitForm() {
     var app = document.getElementById('Apps').value;
     var Area = document.getElementById('Area').value
     var Problema = document.getElementById('ProblemaD').value
+    let list = [dados_id,dados_cpf,dados_nome,ov_data,ov_produto,ov_status,chamado_data,chamado_hora,chamado_responsavel,Descricao,processos,demanda,app,Area,Problema];
+    console.log(list);
+    
+  
+        
 
 
-    if(dados_total != '' && ov_total != '' && chamado_total != ''&&Descricao != '' && processos != '' && demanda != ''&&app != '' && Area != '' && Problema != ''){
+    
 
-        var id = dados_total.split('-')[1];
-        var cpf = dados_total.split('-')[2];
-        var nome = dados_total.split('-')[3];
 
-        var ov_produto = ov_total.split('\t')[4];
-        var ov_data = ov_total.split('\t')[2];
-        var ov_status = (ov_total.split('\t')[6] + " " + ov_total.split('\t')[7]);
+    if ('funciona vai'){
 
-        var chamado_data = chamado_total.split('\t')[2];
-        var chamado_hora = chamado_total.split('\t')[3];
-        var chamado_responsavel = chamado_total.split('\t')[9];
+        var id = dados_id 
+        var cpf = dados_cpf
+        var nome = dados_nome;
+        
+        
+
+        var ov_produto = ov_produto
+        var ov_data = ov_data
+        var ov_status = ov_status
+
+        var chamado_data = chamado_data
+        var chamado_hora = chamado_hora
+        var chamado_responsavel = chamado_responsavel
 
         var dados_dispositivos = document.getElementById('Dispositivo').value;
         var id_card = document.getElementById('Id-Card').value;
@@ -364,10 +386,10 @@ function SubmitForm() {
 
             
         }
-        if(dados_total.length < 17 && dados_total.value !=''){
+        /*if(dados_total.length < 17 && dados_total.value !=''){
             alert('Campo Dados asdasddsad incorrect')
             return ;
-        }
+        }*/
         
         console.log(SubmitForm)
         SubmitForm = JSON.stringify(SubmitForm)
@@ -376,7 +398,7 @@ function SubmitForm() {
             XHR.open('POST', '/send', true);
             XHR.setRequestHeader("Content-Type", "application/json;charset=UTF-8")
             XHR.send(SubmitForm);
-            //window.location.reload()
+            window.location.reload()
             window.alert('Formulário enviado por sucesso!')
 
     }else{
