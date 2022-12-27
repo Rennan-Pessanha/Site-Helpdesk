@@ -8,8 +8,21 @@
     <title>Site Helpdesk</title>
     <link rel="stylesheet" href="/Styles/style.css">
     <link rel="stylesheet" href="/Styles/style-base.css">
+    
 
     <style>
+        
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+      
+            input[type=number] {
+                -moz-appearance: textfield;
+            }
+       
+    
         @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Nanum+Gothic&display=swap');
 
         table,
@@ -160,13 +173,13 @@
             <table class="tabela_dados">
                 <tr class="padrao-terciaria">
                     <td class="label-form1">Dados do aluno:</td>
-                    <td><input type="text" name="" id="dados_id" placeholder="Cole ID, CPF e NOME aqui" class="input_total padrao-terciaria" ></td>
-                    <td><input type="text" name="" id="dados_cpf" placeholder="Cole ID, CPF e NOME aqui" class="input_total padrao-terciaria" ></td>
-                    <td><input type="text" name="" id="dados_nome" placeholder="Cole ID, CPF e NOME aqui" class="input_total padrao-terciaria"></td>
+                    <td><input type="number" name="" id="dados_id" placeholder="Digite o Id do aluno" class="input_total padrao-terciaria" ></td>
+                    <td><input type="number" name="" id="dados_cpf" placeholder="Digite o CPF do aluno" class="input_total padrao-terciaria" ></td>
+                    <td><input type="text" name="" id="dados_nome" placeholder="Digite o nome do aluno" class="input_total padrao-terciaria"></td>
                 </tr>
                 <tr class="padrao-terciaria">
                     <td class="label-form1">OV do aluno:</td>
-                    <td><input type="text" id="ov_data" placeholder="Cole aqui a data" class="input_total padrao-terciaria"></td>
+                    <td><input type="date" id="ov_data" placeholder="Cole aqui a data" class="input_total padrao-terciaria"></td>
                     <td><input type="text" id="ov_produto" placeholder="Cole aqui o produto" class="input_total padrao-terciaria"></td>
                     <td><input type="text" id="ov_status" placeholder="Cole aqui o status" class="input_total padrao-terciaria"></td>
                 </tr>

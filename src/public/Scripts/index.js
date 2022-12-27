@@ -386,20 +386,20 @@ function SubmitForm() {
 
             
         }
-        /*if(dados_total.length < 17 && dados_total.value !=''){
-            alert('Campo Dados asdasddsad incorrect')
+        if (dados_id.length < 17 && list.value !=''){
+            alert('Por favor, preenche o campo ID ')
             return ;
-        }*/
+        }
         
         console.log(SubmitForm)
         SubmitForm = JSON.stringify(SubmitForm)
         
         
-            XHR.open('POST', '/send', true);
+            /*XHR.open('POST', '/send', true);
             XHR.setRequestHeader("Content-Type", "application/json;charset=UTF-8")
             XHR.send(SubmitForm);
             window.location.reload()
-            window.alert('Formulário enviado por sucesso!')
+            window.alert('Formulário enviado por sucesso!')*/
 
     }else{
         abrirtab('form1');
