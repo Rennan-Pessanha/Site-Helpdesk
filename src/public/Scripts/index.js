@@ -389,7 +389,12 @@ function SubmitForm() {
         if (dados_id.length < 5 && list.value !=''){
             alert('Por favor, preenche o campo ID ')
             return ;
-        }
+        }if (dados_cpf.length < 11 && list.value !=''){
+            alert('Atenção!!!verifique o CPF do aluno, está vazio ou faltando numero ')
+            return ;
+        }if (dados_nome.length < 5 &&list.value !=''){
+            alert('Atenção!!! O campo aluno está vaziou ou faltando caracteres')
+            return ;}
         
         console.log(SubmitForm)
         SubmitForm = JSON.stringify(SubmitForm)
@@ -403,7 +408,7 @@ function SubmitForm() {
 
     }else{
         abrirtab('form1');
-        window.alert('Prencha todos os campos antes de aplicar')
+        window.alert('Formulário não enviado, verifique os campos ou entre em contato com os desenvolvedores ')
     }
 }
 
