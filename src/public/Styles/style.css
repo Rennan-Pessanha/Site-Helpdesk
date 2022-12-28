@@ -185,9 +185,10 @@ main > .line {
 }
 
 .input_total {
+    padding-top: 50;
     width: 49vw;
     height: 14px;
-    max-width: 790px;
+    max-width: 200px;
 
 }
 
