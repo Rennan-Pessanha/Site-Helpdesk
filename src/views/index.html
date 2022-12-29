@@ -171,11 +171,14 @@
         <div id="form1" class="form-content">
 
             <table class="tabela_dados">
-                <tr class="padrao-terciaria">
+                <tr nome="jump"class="padrao-terciaria">
+                
+                    
                     <td class="label-form1">Dados do aluno:</td>
-                    <td><input type="number" name="" id="dados_id" placeholder="Digite o Id do aluno" class="input_total padrao-terciaria" ></td>
-                    <td><input type="number" name="" id="dados_cpf" placeholder="Digite o CPF do aluno" class="input_total padrao-terciaria" ></td>
-                    <td><input type="text" name="" id="dados_nome" placeholder="Digite o nome do aluno" class="input_total padrao-terciaria"></td>
+                    <td><input type="text" maxlength=5 id="dados_id" placeholder="Digite o Id do aluno" class="input_total padrao-terciaria"></td>
+                    <td><input type="text" name="campo2" id="dados_cpf" placeholder="Digite o CPF do aluno" class="input_total padrao-terciaria"></td>
+                    <td><input type="text" name="campo3" id="dados_nome" placeholder="Digite o nome do aluno" class="input_total padrao-terciaria"></td>
+                
                 </tr>
                 <tr class="padrao-terciaria">
                     <td class="label-form1">OV do aluno:</td>
@@ -204,6 +207,7 @@
                     <td><input type="time" id="chamado_hora" placeholder="Informe a hora do chamado" class="input_total padrao-terciaria"></td>
                     <td><input type="text" id="chamado_responsavel" placeholder="Informe nome do atendente" class="input_total padrao-terciaria"></td>
                 </tr>
+                <a href="" id="link"class="btn btn-secondary paste">Clique aqui para colar OUTRO texto</a>
             </table>
 
             <button id="btn_dados" value="" type="reset" class="botao-limpar" alt="Limpar">LIMPAR</button>
@@ -364,6 +368,7 @@
 
 
                                 <button id="btn_dados" value="" class="botao-limpar-2" alt="Limpar">LIMPAR</button>
+                                
                             </div>
                     </div>
                     
@@ -371,6 +376,7 @@
             
         
     </main>
+   
     <script src="/Scripts/js-base.js">
 
         

@@ -1,3 +1,5 @@
+
+
 window.addEventListener ('load',abrirtab('form1'))
 document.querySelectorAll('.path')[0].style.fill = '#AED8DE'
 window.addEventListener ('load',function(){
@@ -327,14 +329,10 @@ function SubmitForm() {
     var Problema = document.getElementById('ProblemaD').value
     let list = [dados_id,dados_cpf,dados_nome,ov_data,ov_produto,ov_status,chamado_data,chamado_hora,chamado_responsavel,Descricao,processos,demanda,app,Area,Problema];
     console.log(list);
-    
-  
-        
+
 
 
     
-
-
     if ('funciona vai'){
 
         var id = dados_id 
@@ -400,17 +398,30 @@ function SubmitForm() {
         SubmitForm = JSON.stringify(SubmitForm)
         
         
-            XHR.open('POST', '/send', true);
+            /*XHR.open('POST', '/send', true);
             XHR.setRequestHeader("Content-Type", "application/json;charset=UTF-8")
             XHR.send(SubmitForm);
             window.location.reload()
-            window.alert('Formulário enviado por sucesso!')
+            window.alert('Formulário enviado por sucesso!') */
 
     }else{
         abrirtab('form1');
         window.alert('Formulário não enviado, verifique os campos ou entre em contato com os desenvolvedores ')
     }
+
+    
 }
+var btnPaste = document.getElementById('link');
+
+btnPaste.addEventListener('click', async (e) => {
+    e.preventDefault();
+  
+    const response = await navigator.clipboard.readText();
+    dados_id.value = response;
+    
+    alert('Um texto que você tenha copiado da área de transferência foi inserido no campo, clique em ok para ver!');
+  });
+  
 
 
 
