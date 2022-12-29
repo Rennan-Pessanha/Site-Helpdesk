@@ -418,9 +418,34 @@ btnPaste.addEventListener('click', async (e) => {
   
     const response = await navigator.clipboard.readText();
     dados_id.value = response;
+
     
-    alert('Um texto que você tenha copiado da área de transferência foi inserido no campo, clique em ok para ver!');
+    alert('Campo ID preenchido com sucesso!');
   });
+  var btnPaste = document.getElementById('link2');
+
+  btnPaste.addEventListener('click', async (e) => {
+      e.preventDefault();
+    
+      const response = await navigator.clipboard.readText();
+      dados_cpf.value = response;
+  
+      
+      alert('Campo CPF preenchido com sucesso!');
+    });
+ 
+    var btnPaste = document.getElementById('link3');
+
+    btnPaste.addEventListener('click', async (e) => {
+        e.preventDefault();
+      
+        const response = await navigator.clipboard.readText();
+        dados_nome.value = response;
+    
+        
+        alert('Campo  Nome preenchido com sucesso!');
+      });
+
   
 
 
