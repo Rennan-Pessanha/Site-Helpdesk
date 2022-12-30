@@ -411,44 +411,110 @@ function SubmitForm() {
 
     
 }
-var btnPaste = document.getElementById('link');
 
-btnPaste.addEventListener('click', async (e) => {
+    var campos = document.querySelectorAll('.input_total')
+    for (let i = 0; i < campos.length; ++i){
+        campos[i].addEventListener('keydown',function(e){ 
+            if (e.key =="Backspace"){
+    
+                
+                var mens = confirm("deseja apagar tudo?")
+                if (mens == true){
+                    campos[0].value = ''
+                    campos[1].value = ''
+                    campos[2].value = ''
+                    campos[3].value = ''
+                    campos[4].value = ''
+                    campos[5].value = ''
+                    campos[6].value = ''
+                    campos[7].value = ''
+                    campos[8].value = ''
+                    
+
+                }else{
+                    return false
+                }
+                
+            
+            }})}
+   
+    
+   
+
+    for (let i = 0; i < campos.length; ++i){
+        campos[i].addEventListener('paste',function(e){ 
+      console.log(i)
+          
+    var clipboardData, pastedData;
+
+    e.stopPropagation();
     e.preventDefault();
-  
-    const response = await navigator.clipboard.readText();
-    dados_id.value = response;
+
+    clipboardData = e.clipboardData || window.Clipboard;
+    pastedData = clipboardData.getData('Text');
 
     
-    alert('Campo ID preenchido com sucesso!');
-  });
-  var btnPaste = document.getElementById('link2');
+    pastedData=pastedData.split('\t')
+    pastedData.splice(pastedData.indexOf(""),1)
+    pastedData.splice(pastedData.indexOf(""),1)
+   
+    var campo1=pastedData[0]
+    var campo2=pastedData[1]
+    var campo3=pastedData[2]
 
-  btnPaste.addEventListener('click', async (e) => {
-      e.preventDefault();
+    if(campos[i].id=="dados_id"){
+        
+
+        campos[0].value=campo1
+        campos[1].value=campo2
+        campos[2].value=campo3
+
+
+
+    }
+    if(campos[i].id=="ov_data"){
+      
+        console.log(campos[3].value)
+
+        campos[3].value=campo1
+        campos[4].value=campo2
+        campos[5].value=campo3
+
+
+    }if(campos[i].id=="chamado_data"){
+       
+        campos[6].value=campo1
+        campos[7].value=campo2
+        campos[8].value=campo3
+
+
+    }  
+        })}
+        function apagarcampo(event)
+{
     
-      const response = await navigator.clipboard.readText();
-      dados_cpf.value = response;
-  
-      
-      alert('Campo CPF preenchido com sucesso!');
-    });
- 
-    var btnPaste = document.getElementById('link3');
+    if (event.key =="Backspace"){
 
-    btnPaste.addEventListener('click', async (e) => {
-        e.preventDefault();
-      
-        const response = await navigator.clipboard.readText();
-        dados_nome.value = response;
+        campo1.value = ''
+
+        campo2.value = ''
+    
+    }
+}
+/**/
+
     
         
-        alert('Campo  Nome preenchido com sucesso!');
-      });
+          
+ //meus preciosos    
+//campo1.addEventListener('keyup',digitacao)
+//campo2.addEventListener('keyup',digitacao)
+//campo1.addEventListener('keydown',apagarcampo)
+//campo2.addEventListener('keydown',apagarcampo)
 
+
+    
   
 
 
-
-
-
+    
