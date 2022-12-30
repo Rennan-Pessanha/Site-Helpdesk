@@ -398,11 +398,11 @@ function SubmitForm() {
         SubmitForm = JSON.stringify(SubmitForm)
         
         
-            /*XHR.open('POST', '/send', true);
+            XHR.open('POST', '/send', true);
             XHR.setRequestHeader("Content-Type", "application/json;charset=UTF-8")
             XHR.send(SubmitForm);
             window.location.reload()
-            window.alert('Formulário enviado por sucesso!') */
+            window.alert('Formulário enviado por sucesso!') 
 
     }else{
         abrirtab('form1');
