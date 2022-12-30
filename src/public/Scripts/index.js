@@ -410,12 +410,13 @@ function SubmitForm() {
     }
 
     
-}
+} 
+/* Em caso de manutenção cuidado essa parte é o pulo de um input para o outro e a contagem se basea nos \t */
 
     var campos = document.querySelectorAll('.input_total')
     for (let i = 0; i < campos.length; ++i){
         campos[i].addEventListener('keydown',function(e){ 
-            if (e.key =="Backspace"){
+            if (e.key =="Delete"){
     
                 
                 var mens = confirm("deseja apagar tudo?")
@@ -453,39 +454,45 @@ function SubmitForm() {
     clipboardData = e.clipboardData || window.Clipboard;
     pastedData = clipboardData.getData('Text');
 
+     pastedData = pastedData+"\t"
+    console.log(pastedData);
+    
     
     pastedData=pastedData.split('\t')
-    pastedData.splice(pastedData.indexOf(""),1)
-    pastedData.splice(pastedData.indexOf(""),1)
    
-    var campo1=pastedData[0]
-    var campo2=pastedData[1]
-    var campo3=pastedData[2]
+    pastedData.splice(pastedData.indexOf(""),1)
+    pastedData.splice(pastedData.indexOf(""),1)
+     console.log(pastedData)
+    
+    
 
     if(campos[i].id=="dados_id"){
         
+        console.log(pastedData)
+        
 
-        campos[0].value=campo1
-        campos[1].value=campo2
-        campos[2].value=campo3
+        campos[0].value=pastedData[0]
+        campos[1].value=pastedData[1]
+        campos[2].value=pastedData[2]
 
 
 
     }
     if(campos[i].id=="ov_data"){
-      
-        console.log(campos[3].value)
 
-        campos[3].value=campo1
-        campos[4].value=campo2
-        campos[5].value=campo3
+        
+       
+
+        campos[3].value=pastedData[1];
+        campos[4].value=pastedData[3];
+        campos[5].value=pastedData[5]+" "+pastedData[6];
 
 
     }if(campos[i].id=="chamado_data"){
        
-        campos[6].value=campo1
-        campos[7].value=campo2
-        campos[8].value=campo3
+        campos[6].value=pastedData[1];
+        campos[7].value=pastedData[2];
+        campos[8].value=pastedData[8];
 
 
     }  
