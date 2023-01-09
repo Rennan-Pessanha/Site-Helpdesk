@@ -17,15 +17,15 @@ google.charts.load("current", {packages:["timeline"]});
         data.addRows([
           [new Date("January 09, 2023 03:24:00"), 1000, 'Inadimplência', 'Bloqueado',
                                   400, 'Bug de inadimplência', 'Bloqueio'],
-          [new Date("December 17, 2023 03:24:00"), 700, 'Login code', 'Liberação ou trocar', 
+          [new Date("February 09, 2023,  "), 700, 'Login code', 'Liberação ou trocar', 
                                   , 'Bug de liberação de secundário', 'Bug Troca de principal'],
-          [new Date("December 17, 2023 03:24:00"), 700, 'Dúvidas academicas', 'aulas bônus',
+          [new Date(" March 09, 2023 03:24:00"), 700, 'Dúvidas academicas', 'aulas bônus',
                                   555, 'Sugestões', 'sugestões e pontos de vistas'],
-          [new Date("December 17, 2023 03:24:00"), 800, 'Conflito de dados', 'Attack on our crew!',
+          [new Date("April 09, 2023 03:24:00"), 800, 'Conflito de dados', 'Attack on our crew!',
                                   555, 'Medsoft', 'Bugs não sondados'],
-          [new Date("December 17, 2023 03:24:00"), 555, 'Area restrita', 'Heavy casualties',
+          [new Date("May 09, 2023 03:24:00"), 555, 'Area restrita', 'Heavy casualties',
                                   200, 'Concursos', 'Problemas'],
-          [new Date("December 17, 2023 03:24:00"), 400, 'Medeletro', 'Problemas de login',
+          [new Date("June 09, 2023 03:24:00"), 400, 'Medeletro', 'Problemas de login',
                                   200, 'Plantão de recursos', 'bug plantão de recursos']
         ]);
 
