@@ -1,2 +1,7 @@
-import chamadosController from "../../controllers/chamadosController";
+
+import { handleCredentialResponse } from "./login";
+
+function img(response){
+    console.log(data);
+}
 
