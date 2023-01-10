@@ -7,20 +7,38 @@
   <title>
     Dashboard
   </title>
-  <script type="text/javascript"
-  
-    src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript"src="https://www.gstatic.com/charts/loader.js"></script>
+  <script>
+   
+</script>
  
 </head>
 <body>
+  
+  </div>
+  <nav class="menu"></nav>
   <h1><strong>Gráfico de problemas do medsoft</h1><strong>
+    <nav id="nav">
+    <li><a href="#chart_div">Gráfico de problemas do medsoft</a></li>
+    <li><a href="#piechart_3d">Porcentagem de atendimentos do help desk</a></li>
+    <li><a href="#example5.4">Controle de pausas do Help desk</a></li>
+    <button id="up" onclick="go('#down')">Mover para o gráfico debaixo</button>
+  </nav>
   
-  
+  </nav>
+
+
   <div id="chart_div" style="width: 900px; height: 500px;"></div>
   <h3>Porcentagem de atendimentos do help desk</h3>
+  
+    
   <div id="piechart_3d" style="width: 900px; height: 500px;"></div>
+  
   <h4>Controle de pausas do Help desk</h4>
-  <div id="example5.4" style="height: 150px;"></div>
+  <button id="down" onclick="go('#up')">Voltar para o top da página</button>
+  <div id="example5.4" style="height: 500px;"></div>
+  
+</div>
   <script src="/Scripts/Dash.js"></script>
 </body>
 

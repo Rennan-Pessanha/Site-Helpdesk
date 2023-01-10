@@ -1,10 +1,11 @@
 google.charts.load('current', {'packages':['annotationchart']});
 google.charts.load("current", {'packages':["corechart"]});
 google.charts.load("current", {packages:["timeline"]});
-      google.charts.setOnLoadCallback(ohbrabo);
-      google.charts.setOnLoadCallback(drawChart);
+google.charts.setOnLoadCallback(ohbrabo);
+google.charts.setOnLoadCallback(drawChart);
+google.charts.setOnLoadCallback(putão);
 
-      function drawChart() {
+      function drawChart() {//Primeiro gráfico um dia trocarei as váriaveis
         var data = new google.visualization.DataTable();
         data.addColumn('date', 'Date');
         console.log(data);
@@ -39,7 +40,7 @@ google.charts.load("current", {packages:["timeline"]});
       };
 
       
-      google.charts.setOnLoadCallback(putão);
+      
       function putão() {
         var data = google.visualization.arrayToDataTable([
           ['Login code', 'Problemas do medsoft'],
@@ -86,7 +87,18 @@ google.charts.load("current", {packages:["timeline"]});
     
         chart.draw(dataTable, options);
       }
+      
     
-
+     
+      
+      const go = (elem) => {
+        window.scroll({       // 1
+          top: document
+          .querySelector( elem )
+            .offsetTop,       // 2
+          left: 0,
+          behavior: 'smooth'// 3
+         });
+      };
 
       
