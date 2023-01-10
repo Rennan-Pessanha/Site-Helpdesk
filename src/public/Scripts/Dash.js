@@ -16,13 +16,13 @@ google.charts.setOnLoadCallback(putão);
         data.addColumn('string', 'Dúvidas acadêmica');
         data.addColumn('string', 'Sugestões');
         data.addRows([
-          [new Date("January 09, 2023 03:24:00"), 1000, 'Inadimplência', 'Bloqueado',
+          [new Date("January 09, 2023 03:24:00"), 100, 'Inadimplência', 'Bloqueado',
                                   400, 'Bug de inadimplência', 'Bloqueio'],
           [new Date("February 09, 2023,  "), 700, 'Login code', 'Liberação ou trocar', 
                                   , 'Bug de liberação de secundário', 'Bug Troca de principal'],
           [new Date(" March 09, 2023 03:24:00"), 700, 'Dúvidas academicas', 'aulas bônus',
                                   555, 'Sugestões', 'sugestões e pontos de vistas'],
-          [new Date("April 09, 2023 03:24:00"), 800, 'Conflito de dados', 'Attack on our crew!',
+          [new Date("April 09, 2023 03:24:00"), 800, 'Conflito de dados', 'atualizações',
                                   555, 'Medsoft', 'Bugs não sondados'],
           [new Date("May 09, 2023 03:24:00"), 555, 'Area restrita', 'Heavy casualties',
                                   200, 'Concursos', 'Problemas'],
