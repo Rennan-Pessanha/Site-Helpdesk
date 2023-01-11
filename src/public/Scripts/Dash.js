@@ -18,7 +18,7 @@ var texto = xhttp.responseText;
 texto = JSON.parse(texto)
 console.log(texto)
 var conflitoDdadosQtd = 0;
-var i_conflito2 = 0;
+var logincodeQtd = 0;
 var i_conflito3 = 0;
 texto.forEach(element => {
    switch(element.aluno_Processos)
@@ -26,15 +26,15 @@ texto.forEach(element => {
     case "Conflito-de-dados":
       conflitoDdadosQtd = conflitoDdadosQtd+1
       break
-    case "Sugestão" :
-      i_conflito2 = i_conflito2+1
+    case "Login-code" :
+      logincodeQtd = logincodeQtd+1
       break
       default : i_conflito3 = i_conflito3+1
    }
   });
 
   console.log("Conflito de dados"+conflitoDdadosQtd)
-  console.log("Erro Sugestao"+i_conflito2)
+  console.log("Troca de principal"+logincodeQtd)
   console.log("outros"+i_conflito3)
  
 
