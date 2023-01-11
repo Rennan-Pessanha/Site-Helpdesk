@@ -217,7 +217,7 @@ function ProblemaD(){
             temp = ['Vídeos Não Carregam', 'Aula Presencial', 'Video Travando', 'Videos Indisponiveis', 'Videos Trocados', 'Resolução de vídeo', 'Função Avançar/Retroceder', 'Qualidade Dos Videos', 'Qualidade Dos Audios', 'Vídeos Sem Audio', 'Aba Indisponivel', 'Conflito Em Porcentagem', 'Tela Cheia', 'Dificuldade Em Download', 'Aulas Repetidas', 'Bloco De Material Anterior', 'Dúvida']
         break
         case 'Login':
-            temp = ['Acesso Bloqueado', 'Travando na tela configuração de ambiente', 'Email Não Cadastrado', 'Login nao carrega', 'Serviço indisponivel', 'Erro de Senha', 'Reset De Senha', 'Usuario Sem OV Permitida', 'Logout', 'Instabilidade Momentânea', 'Assinatura de contrato', 'Regras De Acesso', 'Dùvida', 'Email Duplicado', 'Outros']
+            temp = ['Acesso Bloqueado', 'Travando na tela configuração de ambiente', 'Email Não Cadastrado', 'Login nao carrega', 'Serviço indisponivel', 'Erro de Senha', 'Reset De Senha', 'Usuario Sem OV Permitida', 'Logout', 'Instabilidade Momentânea', 'Assinatura de contrato', 'Regras De Acesso', 'Dùvida', 'Email Duplicado', 'Outros', 'Liberação de secundário', 'Troca de principal']
         break
         case 'Questões':
             temp = ['Resetar Questões', 'Respostas Não Ficam Salvas', 'Questões Duplicadas', 'Questões Indisponíveis', 'Filtro De Questões', 'Imprimir Questões', 'Conflito Em Porcentagem', 'Aba Indisponivel', 'Problema Em Imagem', 'Dificultade em Favoritar', 'Dificuldade Em Download', 'Gabarito Comentado', 'Dificuldade Em Depositar Duvidas', 'Questões Desordenadas', 'Dúvida']
