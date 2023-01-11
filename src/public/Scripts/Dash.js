@@ -1,3 +1,5 @@
+
+
 google.charts.load('current', {'packages':['annotationchart']});
 google.charts.load("current", {'packages':["corechart"]});
 google.charts.load("current", {packages:["timeline"]});
@@ -5,7 +7,42 @@ google.charts.setOnLoadCallback(ohbrabo);
 google.charts.setOnLoadCallback(drawChart);
 google.charts.setOnLoadCallback(putão);
 
-      function drawChart() {//Primeiro gráfico um dia trocarei as váriaveis
+var xhttp = new XMLHttpRequest();
+xhttp.open("GET", '/all', false);
+xhttp.send();//Utilizando esse carinha legal para inserir logo mais tarde no dashboard
+
+
+
+var texto = xhttp.responseText;
+
+texto = JSON.parse(texto)
+console.log(texto)
+var conflitoDdadosQtd = 0;
+var i_conflito2 = 0;
+var i_conflito3 = 0;
+texto.forEach(element => {
+   switch(element.aluno_Processos)
+   {
+    case "Conflito-de-dados":
+      conflitoDdadosQtd = conflitoDdadosQtd+1
+      break
+    case "Sugestão" :
+      i_conflito2 = i_conflito2+1
+      break
+      default : i_conflito3 = i_conflito3+1
+   }
+  });
+
+  console.log("Conflito de dados"+conflitoDdadosQtd)
+  console.log("Erro Sugestao"+i_conflito2)
+  console.log("outros"+i_conflito3)
+ 
+
+      function drawChart() {
+        
+        
+              
+         
         var data = new google.visualization.DataTable();
         data.addColumn('date', 'Date');
         console.log(data);
@@ -16,7 +53,7 @@ google.charts.setOnLoadCallback(putão);
         data.addColumn('string', 'Dúvidas acadêmica');
         data.addColumn('string', 'Sugestões');
         data.addRows([
-          [new Date("January 09, 2023 03:24:00"), 100, 'Inadimplência', 'Bloqueado',
+          [new Date("January 09, 2023 03:24:00"), conflitoDdadosQtd, 'Conflito', 'de dados',
                                   400, 'Bug de inadimplência', 'Bloqueio'],
           [new Date("February 09, 2023,  "), 700, 'Login code', 'Liberação ou trocar', 
                                   , 'Bug de liberação de secundário', 'Bug Troca de principal'],
@@ -38,13 +75,14 @@ google.charts.setOnLoadCallback(putão);
 
         chart.draw(data, options);
       };
+      
 
       
       
       function putão() {
         var data = google.visualization.arrayToDataTable([
           ['Login code', 'Problemas do medsoft'],
-          ['Troca de dispositivo principal',     11],
+          ['Conflito de dados',     conflitoDdadosQtd],
           ['Plantão de recursos',      2],
           ['Dúvidas acadêmicas',  2],
           ['Liberação de secundário', 2],

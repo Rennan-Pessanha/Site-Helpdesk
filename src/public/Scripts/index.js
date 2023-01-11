@@ -64,9 +64,15 @@ document.getElementById(idtab).style.display = 'block'
 
 function dados(){  
     //Coletando dados do input bruto
-    var dados_total = document.getElementById('dados_total').value;
-    var ov_total = document.getElementById('ov_total').value;
-    var chamado_total = document.getElementById('chamado_total').value;
+    var dados_total = document.getElementById('dados_id').value;
+    var dados_total = document.getElementById('dados_cpf').value;
+    var dados_total = document.getElementById('dados_nome').value;
+    var ov_total = document.getElementById('ov_data').value;
+    var ov_total = document.getElementById('ov_produto').value;
+    var ov_total = document.getElementById('ov_status').value;
+    var chamado_total = document.getElementById('chamado_data').value;
+    var chamado_total = document.getElementById('chamado_hora').value;
+    var chamado_total = document.getElementById('chamado_responsavel').value;
 
     if(dados_total == '' || ov_total == '' || chamado_total == ''){
         document.getElementById('msg_erro').innerHTML = 'Preencha todos os campos antes de aplicar.'
@@ -306,8 +312,8 @@ function SubmitForm() {
     var XHR = new XMLHttpRequest()
 
     var dados_id = document.getElementById('dados_id').value;
-    var dados_cpf = document.getElementById('dados_cpf').value
-    var dados_nome = document.getElementById('dados_nome').value
+    var dados_cpf = document.getElementById('dados_cpf').value;
+    var dados_nome = document.getElementById('dados_nome').value;
 
     var ov_data = document.getElementById('ov_data').value;
     var ov_produto = document.getElementById('ov_produto').value;
