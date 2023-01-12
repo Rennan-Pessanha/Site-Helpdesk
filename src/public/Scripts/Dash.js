@@ -19,9 +19,11 @@ texto = JSON.parse(texto)
 console.log(texto)
 var conflitoDdadosQtd = 0;
 var logincodeQtd = 0;
-var i_conflito3 = 0;
+var academicoQtd = 0;
+
 texto.forEach(element => {
-   switch(element.aluno_Processos)
+   switch(element.aluno_Processos, element.aluno_app
+    )
    {
     case "Conflito-de-dados":
       conflitoDdadosQtd = conflitoDdadosQtd+1
@@ -29,13 +31,16 @@ texto.forEach(element => {
     case "Login-code" :
       logincodeQtd = logincodeQtd+1
       break
-      default : i_conflito3 = i_conflito3+1
+      case "Medsoft-Pro" :
+        logincodeQtd = logincodeQtd+1
+        break
+      default : academicoQtd = academicoQtd+1
    }
   });
 
   console.log("Conflito de dados"+conflitoDdadosQtd)
   console.log("Troca de principal"+logincodeQtd)
-  console.log("outros"+i_conflito3)
+  console.log(""+academicoQtd)
  
 
       function drawChart() {
@@ -83,10 +88,10 @@ texto.forEach(element => {
         var data = google.visualization.arrayToDataTable([
           ['Login code', 'Problemas do medsoft'],
           ['Conflito de dados',     conflitoDdadosQtd],
-          ['Plantão de recursos',      2],
+          ['Troca de principal',      logincodeQtd],
           ['Dúvidas acadêmicas',  2],
           ['Liberação de secundário', 2],
-          ['Limpeza de dados',    7]
+          ['monta provas',    7]
         ]);
 
         var options = {
@@ -138,5 +143,5 @@ texto.forEach(element => {
           behavior: 'smooth'// 3
          });
       };
-
+      
       
