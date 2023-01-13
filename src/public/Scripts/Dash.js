@@ -3,9 +3,9 @@
 google.charts.load('current', {'packages':['annotationchart']});
 google.charts.load("current", {'packages':["corechart"]});
 google.charts.load("current", {packages:["timeline"]});
-google.charts.setOnLoadCallback(ohbrabo);
+google.charts.setOnLoadCallback(graficofuncionario);
 google.charts.setOnLoadCallback(drawChart);
-google.charts.setOnLoadCallback(putão);
+google.charts.setOnLoadCallback(dashpizza);
 
 var xhttp = new XMLHttpRequest();
 xhttp.open("GET", '/all', false);
@@ -19,6 +19,31 @@ texto = JSON.parse(texto)
 console.log(texto)
 var trocaprincipal = 0;
 var secundario = 0;
+var callcenter =0;
+var email=0;
+var whatszap=0;
+var conflito=0;
+var demanda=0;
+texto.forEach(element => {
+  switch(element.aluno_Atendimentos
+   )
+  {
+   case "Callcenter":
+     callcenter = callcenter+1
+     break
+   case "Email" :
+     email = email+1
+     break
+     case "Whatszap" :
+      whatszap = whatszap+1
+      break
+    
+     default :
+  }
+ });
+ console.log("Email"+email)
+ console.log("Central"+callcenter);
+ console.log("Viazap"+whatszap);
 
 
 
@@ -68,7 +93,8 @@ var secundario = 0;
 
       
       
-      function putão() {
+      function dashpizza() {
+        
         texto.forEach(element => {
           switch(element.Aluno_Problema
            )
@@ -83,11 +109,28 @@ var secundario = 0;
              default :
           }
          });
+         texto.forEach(element => {
+          switch(element.aluno_Processos
+           )
+          {
+           case "Conflito-de-dados":
+             conflito = conflito+1
+             break
+            case "Demanda":
+            demanda = demanda+1
+            break
+           
+            
+             default :
+          }
+         });
+         console.log("conflitos de dados"+conflito)
+         console.log("demandas"+demanda)
         var data = google.visualization.arrayToDataTable([
           ['Login code', 'Problemas do medsoft'],
-          ['Conflito de dados',     7],
+          ['Conflito de dados',     conflito],
           ['Troca de principal',     trocaprincipal],
-          ['Dúvidas acadêmicas',  2],
+          ['Demandas',  demanda],
           ['Liberação de secundário', secundario],
           ['monta provas',    7]
         ]);
@@ -104,7 +147,7 @@ var secundario = 0;
       };
 
       
-      function ohbrabo() {
+     /* function graficofuncionario() {
         var container = document.getElementById('example5.4');
         var chart = new google.visualization.Timeline(container);
         var dataTable = new google.visualization.DataTable();
@@ -129,7 +172,10 @@ var secundario = 0;
         };
     
         chart.draw(dataTable, options);
-      }
+      };*/
+
+
+      
       
     
      
@@ -148,15 +194,15 @@ var secundario = 0;
   series: [{
   name: 'Callcenter',
   type: 'column',
-  data: [23, 11, 22, 27, 13, 22, 37, 21, 44, 22, 30]
+  data: [callcenter]
 }, {
   name: 'Email',
   type: 'area',
-  data: [44, 55, 41, 67, 22, 43, 21, 41, 56, 27, 43]
+  data: [email]
 }, {
   name: 'Blip',
   type: 'line',
-  data: [30, 25, 36, 30, 45, 35, 64, 52, 59, 36, 39]
+  data: [whatszap]
 }],
   chart: {
   height: 350,
