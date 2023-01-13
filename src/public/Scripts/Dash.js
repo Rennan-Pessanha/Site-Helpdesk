@@ -17,30 +17,14 @@ var texto = xhttp.responseText;
 
 texto = JSON.parse(texto)
 console.log(texto)
-var conflitoDdadosQtd = 0;
-var logincodeQtd = 0;
-var academicoQtd = 0;
+var trocaprincipal = 0;
+var secundario = 0;
 
-texto.forEach(element => {
-   switch(element.aluno_Processos, element.aluno_app
-    )
-   {
-    case "Conflito-de-dados":
-      conflitoDdadosQtd = conflitoDdadosQtd+1
-      break
-    case "Login-code" :
-      logincodeQtd = logincodeQtd+1
-      break
-      case "Medsoft-Pro" :
-        logincodeQtd = logincodeQtd+1
-        break
-      default : academicoQtd = academicoQtd+1
-   }
-  });
 
-  console.log("Conflito de dados"+conflitoDdadosQtd)
-  console.log("Troca de principal"+logincodeQtd)
-  console.log(""+academicoQtd)
+
+
+  
+  
  
 
       function drawChart() {
@@ -58,7 +42,7 @@ texto.forEach(element => {
         data.addColumn('string', 'Dúvidas acadêmica');
         data.addColumn('string', 'Sugestões');
         data.addRows([
-          [new Date("January 09, 2023 03:24:00"), conflitoDdadosQtd, 'Conflito', 'de dados',
+          [new Date("January 09, 2023 03:24:00"), , 'Conflito', 'de dados',
                                   400, 'Bug de inadimplência', 'Bloqueio'],
           [new Date("February 09, 2023,  "), 700, 'Login code', 'Liberação ou trocar', 
                                   , 'Bug de liberação de secundário', 'Bug Troca de principal'],
@@ -85,12 +69,26 @@ texto.forEach(element => {
       
       
       function putão() {
+        texto.forEach(element => {
+          switch(element.Aluno_Problema
+           )
+          {
+           case "Troca de principal":
+             trocaprincipal = trocaprincipal+1
+             break
+           case "Liberação de secundário" :
+             secundario = secundario+1
+             break
+            
+             default :
+          }
+         });
         var data = google.visualization.arrayToDataTable([
           ['Login code', 'Problemas do medsoft'],
-          ['Conflito de dados',     conflitoDdadosQtd],
-          ['Troca de principal',      logincodeQtd],
+          ['Conflito de dados',     7],
+          ['Troca de principal',     trocaprincipal],
           ['Dúvidas acadêmicas',  2],
-          ['Liberação de secundário', 2],
+          ['Liberação de secundário', secundario],
           ['monta provas',    7]
         ]);
 
@@ -101,6 +99,8 @@ texto.forEach(element => {
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
         chart.draw(data, options);
+        console.log("Troca de principal"+trocaprincipal)
+        console.log("Liberação de secundário"+secundario)
       };
 
       
@@ -144,4 +144,75 @@ texto.forEach(element => {
          });
       };
       
-      
+      var options = {// aqui está sendo mapeado sobre os atendmimentos
+  series: [{
+  name: 'Callcenter',
+  type: 'column',
+  data: [23, 11, 22, 27, 13, 22, 37, 21, 44, 22, 30]
+}, {
+  name: 'Email',
+  type: 'area',
+  data: [44, 55, 41, 67, 22, 43, 21, 41, 56, 27, 43]
+}, {
+  name: 'Blip',
+  type: 'line',
+  data: [30, 25, 36, 30, 45, 35, 64, 52, 59, 36, 39]
+}],
+  chart: {
+  height: 350,
+  type: 'line',
+  stacked: false,
+},
+stroke: {
+  width: [0, 2, 5],
+  curve: 'smooth'
+},
+plotOptions: {
+  bar: {
+    columnWidth: '50%'
+  }
+},
+
+fill: {
+  opacity: [0.85, 0.25, 1],
+  gradient: {
+    inverseColors: false,
+    shade: 'light',
+    type: "vertical",
+    opacityFrom: 0.85,
+    opacityTo: 0.55,
+    stops: [0, 100, 100, 100]
+  }
+},
+labels: ['01/01/2003', '02/01/2003', '03/01/2003', '04/01/2003', '05/01/2003', '06/01/2003', '07/01/2003',
+  '08/01/2003', '09/01/2003', '10/01/2003', '11/01/2003'
+],
+markers: {
+  size: 0
+},
+xaxis: {
+  type: 'datetime'
+},
+yaxis: {
+  title: {
+    text: 'Monitoria de atendimentos',
+  },
+  min: 0
+},
+tooltip: {
+  shared: true,
+  intersect: false,
+  y: {
+    formatter: function (y) {
+      if (typeof y !== "undefined") {
+        return y.toFixed(0) + " atendimentos";
+      }
+      return y;
+
+    }
+  }
+}
+};
+
+var chart = new ApexCharts(document.querySelector("#chart"), options);
+chart.render();

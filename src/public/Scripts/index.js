@@ -333,6 +333,7 @@ function SubmitForm() {
     var app = document.getElementById('Apps').value;
     var Area = document.getElementById('Area').value
     var Problema = document.getElementById('ProblemaD').value
+   
     let list = [dados_id,dados_cpf,dados_nome,ov_data,ov_produto,ov_status,chamado_data,chamado_hora,chamado_responsavel,Descricao,processos,demanda,app,Area,Problema];
     console.log(list);
 
@@ -359,6 +360,7 @@ function SubmitForm() {
         var id_card = document.getElementById('Id-Card').value;
         var versao_do_app = document.getElementById('versao').value;
         var reproducao = document.getElementById('Reproduzido').value;
+        var atendimentos = document.getElementById('Atendimentos').value
        
 
 
@@ -384,7 +386,8 @@ function SubmitForm() {
             "aluno_app":app,
 
             "Aluno_Area": Area,
-            "Aluno_Problema":Problema
+            "Aluno_Problema":Problema,
+            "aluno_Atendimentos":atendimentos
             
 
 

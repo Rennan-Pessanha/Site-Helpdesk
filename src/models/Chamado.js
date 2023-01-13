@@ -20,6 +20,7 @@ const chamadosSchema = new mongoose.Schema({
     aluno_app: {type: String, required: true},
     Aluno_Area: {type: String, required: true},
     Aluno_Problema: {type: String, required: true},
+    aluno_Atendimentos: {type: String, required: true},
     aluno_Desc: {type: String, required: true},
 })
 
