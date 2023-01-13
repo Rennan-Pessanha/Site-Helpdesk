@@ -3,7 +3,7 @@
 google.charts.load('current', {'packages':['annotationchart']});
 google.charts.load("current", {'packages':["corechart"]});
 google.charts.load("current", {packages:["timeline"]});
-google.charts.setOnLoadCallback(graficofuncionario);
+
 google.charts.setOnLoadCallback(drawChart);
 google.charts.setOnLoadCallback(dashpizza);
 
