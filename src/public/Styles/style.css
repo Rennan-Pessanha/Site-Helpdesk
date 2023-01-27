@@ -631,17 +631,17 @@ td.padrao-terciaria {
 
 
 .label-textarea {
-    position: absolute;
-    margin-left: -216px;
+    margin-left: 2%;
     z-index: 1;
     margin-top: -1px;
 }
 
 
 .textarea-descricao {  
-    margin-top: -177px;
-    margin-left: 45%;
+    margin-top: 5%;
+    margin-left: 15%;
     position: absolute;
+    right: 10%;
     padding-left: 226px;
 }
 
