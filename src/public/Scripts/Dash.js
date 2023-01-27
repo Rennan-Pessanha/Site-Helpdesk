@@ -1,4 +1,5 @@
 
+
 document.getElementById('dashpadrao').click()
 
 function AbrirDash(iddash) {
@@ -17,13 +18,13 @@ function AbrirDash(iddash) {
 // Dashboards
 
 
-google.charts.load('current', {'packages':['annotationchart']});
+
 google.charts.load("current", {'packages':["corechart"]});
-google.charts.load("current", {packages:["timeline"]});
+google.charts.load("current", {'packages':["timeline"]});
 
-google.charts.setOnLoadCallback(drawChart);
+
 google.charts.setOnLoadCallback(dashpizza);
-
+google.charts.setOnLoadCallback(graficofuncionario);
 var xhttp = new XMLHttpRequest();
 xhttp.open("GET", '/all', false);
 xhttp.send();//Utilizando esse carinha legal para inserir logo mais tarde no dashboard
@@ -69,43 +70,7 @@ texto.forEach(element => {
   
  
 
-      function drawChart() {
-        
-        
-              
-         
-        var data = new google.visualization.DataTable();
-        data.addColumn('date', 'Date');
-        console.log(data);
-        data.addColumn('number', 'Registro de sugestões ou dúvidas');
-        data.addColumn('string', 'Plantão de recursos');
-        data.addColumn('string', 'Informação em tempo real');
-        data.addColumn('number', 'Problemas ou bugs sondados nas ferramentas');
-        data.addColumn('string', 'Dúvidas acadêmica');
-        data.addColumn('string', 'Sugestões');
-        data.addRows([
-          [new Date("January 09, 2023 03:24:00"), , 'Conflito', 'de dados',
-                                  400, 'Bug de inadimplência', 'Bloqueio'],
-          [new Date("February 09, 2023,  "), 700, 'Login code', 'Liberação ou trocar', 
-                                  , 'Bug de liberação de secundário', 'Bug Troca de principal'],
-          [new Date(" March 09, 2023 03:24:00"), 700, 'Dúvidas academicas', 'aulas bônus',
-                                  555, 'Sugestões', 'sugestões e pontos de vistas'],
-          [new Date("April 09, 2023 03:24:00"), 800, 'Conflito de dados', 'atualizações',
-                                  555, 'Medsoft', 'Bugs não sondados'],
-          [new Date("May 09, 2023 03:24:00"), 555, 'Area restrita', 'Heavy casualties',
-                                  200, 'Concursos', 'Problemas'],
-          [new Date("June 09, 2023 03:24:00"), 400, 'Medeletro', 'Problemas de login',
-                                  200, 'Plantão de recursos', 'bug plantão de recursos']
-        ]);
-
-        var chart = new google.visualization.AnnotationChart(document.getElementById('chart_div'));
-
-        var options = {
-          displayAnnotations: true
-        };
-
-        chart.draw(data, options);
-      };
+    
       
 
       
@@ -164,8 +129,8 @@ texto.forEach(element => {
       };
 
       
-     /* function graficofuncionario() {
-        var container = document.getElementById('example5.4');
+     function graficofuncionario() {
+        var container = document.getElementById('controle');
         var chart = new google.visualization.Timeline(container);
         var dataTable = new google.visualization.DataTable();
         dataTable.addColumn({ type: 'string', id: 'Room' });
@@ -189,7 +154,7 @@ texto.forEach(element => {
         };
     
         chart.draw(dataTable, options);
-      };*/
+      };
 
 
       
