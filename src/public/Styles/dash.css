@@ -1,12 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+
+
+/* Classes */
+
+.Padrao-Primário { 
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Baloo Da 2', cursive;
+
+}
+
+.Padrao-Secundário {
+    font-family: 'Baloo Da 2', cursive;
+    color: black;
+    font-size: 90%;
+}
+
+.padrao-terciaria { 
+    font-family: 'Baloo Da 2', cursive;
+    color: black;
+    font-weight: small, bold;
+    margin: 0;
+    margin-top: 1px;
+    font-size: 20px;
+
+}
+
+.padrao-quartenaria {
+    font-family: 'Baloo Da 2', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-bottom: 5px;
+
+}
+
+/* Inicio do código */
+
+.h1_Content {
+    font-size: 1em;
+    margin-left: 2%;
+}
+
+.list_content {
+    display: inline-block;
+     margin-left: 5%;
+     margin-bottom: 2%;
+     background-color: #448A93;
+     border-style: dashed;
+     border-radius: 10px 10px 10px 10px;
+     border-width: 1%;
+     border-color: #448A93;
+}
+
+.list_content:hover {
+
+background-color: #319dac;
+border-color: #319dac;
+
+
+}
+
+.list_content > a {
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+
+}
+
 .cont-dash {
 position: absolute;
 background: #f2f2f2;
 top: 93px;
 right: -4;
 margin-left: 285px;
-height: 69%;
+height: 77%;
 width: 69.5%;
 border-radius: 17px;
 box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
 overflow: scroll;
 }
+
+
+/* Dashboards Styles */
+
+#chart_div {
+    margin: auto;
+    height: 50%;
+}
+
+#piechart_3d {
+
+    margin-left: 34%;
+
+}
+
+#chart {
+
+    width: 90%;
+    margin-left: 5%;
+
+}
+
+.buttonClicked {
+    display: block;
+}
+
+
+
+.Problem_content {
+  display: none;
+
+}
+
+.Porcentagem_content {
+display: none;
+
+}
+
+.chart_content {
+display: none;
+
+}
+    

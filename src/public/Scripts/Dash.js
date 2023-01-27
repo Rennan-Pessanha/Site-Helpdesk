@@ -1,4 +1,21 @@
 
+document.getElementById('dashpadrao').click()
+
+function AbrirDash(iddash) {
+
+  var conteudos = document.getElementsByClassName('dash_content')
+  
+  for (var i = 0; i < conteudos.length; i++) {
+      conteudos[i].style.display = 'none'
+  }
+  
+  document.getElementById(iddash).style.display = 'block'
+  }
+  
+
+
+// Dashboards
+
 
 google.charts.load('current', {'packages':['annotationchart']});
 google.charts.load("current", {'packages':["corechart"]});
