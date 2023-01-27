@@ -5,8 +5,17 @@ body {
   }
   
   main {
-    margin-top: 7%
-  }
+    position: absolute;
+    overflow-y: hidden;
+    background: #f2f2f2;
+    color: white;
+    right: -4;
+    height: 70%;
+    width: 69%;
+    max-width: 1100px;
+    border-radius: 17px;
+    box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+}
 
   P {
     margin: 0;

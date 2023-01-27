@@ -254,19 +254,6 @@ header > .burguer-content-icon > button {
     margin-top: 0px;
 }
 
-main {
-    position: absolute;
-    overflow-y: hidden;
-    background: #f2f2f2;
-    color: white;
-    right: -4;
-    height: 70%;
-    width: 69%;
-    max-width: 1100px;
-    border-radius: 17px;
-    box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
-}
-
 .titulo {
     color: black;
     font-size: 30px;
@@ -447,6 +434,7 @@ header > .content-int {
  .mobile-menu { 
     height: 100vh;
     width: 230px;
+    vertical-align: top;
     display: inline-block;
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
