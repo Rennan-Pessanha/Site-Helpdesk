@@ -18,7 +18,7 @@ main{
     top: 93px;
     right: -4;
     margin-left: 285px;
-    height: 69%;
+    height: 75%;
     width: 69.5%;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
@@ -26,18 +26,12 @@ main{
 }
 
 main > .form-content {
-    position: absolute;
     background: white;
-    top: 221px;
-    right: -4;
-    margin-left: 28px;
-    margin-top: -1%;
-    height: 58%;
+    margin-left: 2.5%;
     width: 94%;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 10%) 0px 3px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
     overflow: hidden;
-    max-width: 1050px;
 }
 
 main > .form-content > .formu > h4 {
@@ -65,10 +59,11 @@ main > .form-content > .formu {
 }
 
 main > .tab {
-margin-top: 40px;
-margin-left: 27px;
+margin-top: 2%;
+margin-left: 2.5%;
+margin-bottom: 2%;
 width: 94.1%;
-height: 90px;
+height: 20%;
 border-radius: 17px;
 box-shadow: rgb(0 0 0 / 10%) 0px 3px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
 overflow: hidden;
@@ -181,7 +176,7 @@ main > .line {
     border-radius: 30px;
     padding: 1vh 1.5vw;
     background-color: #E6E8ED;
-    border: none
+    border: none;
 }
 
 .input_total {
@@ -200,7 +195,7 @@ main > .line {
 .Select-Content {
     width: 20vw;
     padding-top: 0px;
-    margin-left: 23px;
+    margin-left: 5%;
     max-width: 280px;
 }
 
