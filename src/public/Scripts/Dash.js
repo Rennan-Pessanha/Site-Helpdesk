@@ -144,7 +144,7 @@ function Dashatendimento(){
           left: 0,
           behavior: 'smooth'// 3
          });
-      };
+      };}
       
       var options = {// aqui está sendo mapeado sobre os atendmimentos
   series: [{
@@ -186,8 +186,10 @@ fill: {
     stops: [0, 100, 100, 100]
   }
 },
-labels: []
-,
+labels: ['01/01/2003', '02/01/2003', '03/01/2003', '04/01/2003', '05/01/2003', '06/01/2003', '07/01/2003',
+  '08/01/2003', '09/01/2003', '10/01/2003', '11/01/2003'
+],
+
 markers: {
   size: 0
 },
@@ -218,4 +220,3 @@ tooltip: {
 var chart = new ApexCharts(document.querySelector("#chart"), options);
 chart.render();
 
-}
