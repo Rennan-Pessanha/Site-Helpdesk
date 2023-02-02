@@ -24,7 +24,7 @@ google.charts.load("current", {'packages':["timeline"]});
 
 
 google.charts.setOnLoadCallback(dashpizza);
-google.charts.setOnLoadCallback(graficofuncionario);
+
 var xhttp = new XMLHttpRequest();
 xhttp.open("GET", '/all', false);
 xhttp.send();//Utilizando esse carinha legal para inserir logo mais tarde no dashboard
@@ -128,39 +128,13 @@ texto.forEach(element => {
         console.log("Liberação de secundário"+secundario)
       };
 
-      
-     function graficofuncionario() {
-        var container = document.getElementById('controle');
-        var chart = new google.visualization.Timeline(container);
-        var dataTable = new google.visualization.DataTable();
-        dataTable.addColumn({ type: 'string', id: 'Room' });
-        dataTable.addColumn({ type: 'string', id: 'Name' });
-        dataTable.addColumn({ type: 'date', id: 'Começo' });
-        dataTable.addColumn({ type: 'date', id: 'Fim' });
-        dataTable.addRows([
-          [ 'Elias da costa gaes Assunção ',  'Estágiario',    new Date(0,0,0,13,30,0),  new Date(0,0,0,20,0,0) ],
-          [ 'Rennan Pessanha da Silva',  'Analista help desk',    new Date(0,0,0,14,30,0), new Date(0,0,0,16,0,0) ],
-          [ 'Maria Jessica Gomes de Souza',  'Analista help desk', new Date(0,0,0,16,30,0), new Date(0,0,0,19,0,0) ],
-          [ 'Leonardo Henrique de almeida', 'Atedente Help desk',   new Date(0,0,0,12,30,0), new Date(0,0,0,14,0,0) ],
-          [ 'João Gabriel Lima proença', 'Atendente Help desk',       new Date(0,0,0,14,30,0), new Date(0,0,0,16,0,0) ],
-          [ 'Felipe Satiro do Carmo de Souza', 'Atendente Help desk',        new Date(0,0,0,16,30,0), new Date(0,0,0,18,0,0) ],
-          [ 'Eduardo de Almeida Serpa ',   'Estágiario',       new Date(0,0,0,08,0,0), new Date(0,0,0,14,30,0) ],
-          [ 'Carlos Eduardo Farias Rocha ',   'Atendente Help desk',             new Date(0,0,0,14,30,0), new Date(0,0,0,16,0,0) ],
-          [ 'Juan Nascimento Mesquita do  Rosario ',   'Atendente Help desk',          new Date(0,0,0,16,30,0), new Date(0,0,0,18,30,0) ]]);
-    
-        var options = {
-          timeline: { colorByRowLabel: true },
-          alternatingRowStyle: false
-        };
-    
-        chart.draw(dataTable, options);
-      };
-
-
-      
-      
-    
      
+
+
+      
+      
+    
+function Dashatendimento(){     
       
       const go = (elem) => {
         window.scroll({       // 1
@@ -212,9 +186,8 @@ fill: {
     stops: [0, 100, 100, 100]
   }
 },
-labels: ['01/01/2003', '02/01/2003', '03/01/2003', '04/01/2003', '05/01/2003', '06/01/2003', '07/01/2003',
-  '08/01/2003', '09/01/2003', '10/01/2003', '11/01/2003'
-],
+labels: []
+,
 markers: {
   size: 0
 },
@@ -244,3 +217,5 @@ tooltip: {
 
 var chart = new ApexCharts(document.querySelector("#chart"), options);
 chart.render();
+
+}
