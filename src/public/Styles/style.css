@@ -17,6 +17,7 @@ main{
     background: #f2f2f2;
     top: 93px;
     right: -4;
+    max-width: 1300px;
     margin-left: 285px;
     height: 75%;
     width: 69.5%;
