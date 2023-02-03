@@ -271,10 +271,10 @@ function ProblemaD(){
             temp = ['Excluir Foto']
         break
         case 'Forum Pré':
-            temp = ['Exclusão De Comentário', 'Análise De Recurso']
+            temp = ['Exclusão De Comentário'], ['Análise De Recurso']
         break
         case 'Forum Pró':
-            temp = 'Exclusão De Comentário'
+            temp = ['Exclusão De Comentário']
         break
         case 'Ranking':
             temp = ['Exclusão De Nota']
