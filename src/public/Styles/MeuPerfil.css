@@ -4,6 +4,13 @@ body {
     font-family: "Baloo Da 2", cursive;
   }
   
+  #meu-perfil main {
+    margin-left: 10%;
+  }
+  
+  
+
+
   main {
     position: absolute;
     overflow-y: hidden;
