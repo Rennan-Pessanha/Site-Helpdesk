@@ -1,0 +1,653 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SiteHelpdesk.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SiteHelpdesk.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\Fontes\\Harmonia Sans Mono W01 Bold.otf",
+      "PackagePath": "staticwebassets\\Fontes\\Harmonia Sans Mono W01 Bold.otf"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\Fontes\\Harmonia Sans W01 Regular.ttf",
+      "PackagePath": "staticwebassets\\Fontes\\Harmonia Sans W01 Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\Fontes\\Harmonia Sans W06 Black Italic.otf",
+      "PackagePath": "staticwebassets\\Fontes\\Harmonia Sans W06 Black Italic.otf"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\Scripts\\Atendimentos.js",
+      "PackagePath": "staticwebassets\\Scripts\\Atendimentos.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\Scripts\\Cadastro.js",
+      "PackagePath": "staticwebassets\\Scripts\\Cadastro.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\Scripts\\Dash.js",
+      "PackagePath": "staticwebassets\\Scripts\\Dash.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\Scripts\\PadroesEmail.js",
+      "PackagePath": "staticwebassets\\Scripts\\PadroesEmail.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\Scripts\\index.js",
+      "PackagePath": "staticwebassets\\Scripts\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\Scripts\\js-base.js",
+      "PackagePath": "staticwebassets\\Scripts\\js-base.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\Scripts\\login.js",
+      "PackagePath": "staticwebassets\\Scripts\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\Scripts\\meuperfil.js",
+      "PackagePath": "staticwebassets\\Scripts\\meuperfil.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\Scripts\\table.js",
+      "PackagePath": "staticwebassets\\Scripts\\table.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\Styles\\Cadastro.css",
+      "PackagePath": "staticwebassets\\Styles\\Cadastro.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\Styles\\Email.css",
+      "PackagePath": "staticwebassets\\Styles\\Email.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\Styles\\HAtendimentos.css",
+      "PackagePath": "staticwebassets\\Styles\\HAtendimentos.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\Styles\\Login.css",
+      "PackagePath": "staticwebassets\\Styles\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\Styles\\MeuPerfil.css",
+      "PackagePath": "staticwebassets\\Styles\\MeuPerfil.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\Styles\\Meus-Atendimentos.css",
+      "PackagePath": "staticwebassets\\Styles\\Meus-Atendimentos.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\Styles\\dash.css",
+      "PackagePath": "staticwebassets\\Styles\\dash.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\Styles\\style-base.css",
+      "PackagePath": "staticwebassets\\Styles\\style-base.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\Styles\\style.css",
+      "PackagePath": "staticwebassets\\Styles\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\css\\Atendimentos.css",
+      "PackagePath": "staticwebassets\\css\\Atendimentos.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\css\\Style-base.css",
+      "PackagePath": "staticwebassets\\css\\Style-base.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\2.png",
+      "PackagePath": "staticwebassets\\img\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\3.png",
+      "PackagePath": "staticwebassets\\img\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Capa.webp",
+      "PackagePath": "staticwebassets\\img\\Capa.webp"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Aba-Aulas.png",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Aba-Aulas.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Aba-Materiais.png",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Aba-Materiais.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Aba-Questão.png",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Aba-Questão.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Admin.png",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Admin.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Area-Restrita.png",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Area-Restrita.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Arualização-E-Erratas.png",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Arualização-E-Erratas.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Aula-Bônus.png",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Aula-Bônus.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Concursos.jpg",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Concursos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Cronograma.png",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Cronograma.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Dúvidas-Academicas.png",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Dúvidas-Academicas.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Financeiro.jpg",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Financeiro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Material-Virtual.png",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Material-Virtual.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Med-Planner.png",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Med-Planner.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Medeletro.jpg",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Medeletro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Medsmarth.png",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Medsmarth.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Medsoft-Pro.png",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Medsoft-Pro.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Mentoria.png",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Mentoria.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Monta-Provas.png",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Monta-Provas.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Métricas.png",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Métricas.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\No-Papo.png",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\No-Papo.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Outros.jpg",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Outros.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\P-Recursos.png",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\P-Recursos.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Simulados.png",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Simulados.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\Slide-De-Aula.png",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\Slide-De-Aula.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Fotos-Medsoft\\duvida.jpg",
+      "PackagePath": "staticwebassets\\img\\Fotos-Medsoft\\duvida.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Clear.icon.svg",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Clear.icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Dash-Icone.png",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Dash-Icone.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Dash.icon.svg",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Dash.icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Documento-Icone.png",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Documento-Icone.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Email-Padrão.png",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Email-Padrão.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Email.icon.svg",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Email.icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Histórico-Icone.png",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Histórico-Icone.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Histórico.icon.svg",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Histórico.icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Icones superiores\\Form-Icon\\add-icon.svg",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Icones superiores\\Form-Icon\\add-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Icones superiores\\Form-Icon\\form-svgrepo-com 1.svg",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Icones superiores\\Form-Icon\\form-svgrepo-com 1.svg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Icones superiores\\Form-Icon\\icon-5.svg",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Icones superiores\\Form-Icon\\icon-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Icones superiores\\Form-Icon\\icone-2.svg",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Icones superiores\\Form-Icon\\icone-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Icones superiores\\Form-Icon\\icone-3.svg",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Icones superiores\\Form-Icon\\icone-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Icones superiores\\Form-Icon\\icone-4.svg",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Icones superiores\\Form-Icon\\icone-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Icones superiores\\Notificação.icon.svg",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Icones superiores\\Notificação.icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Icones superiores\\Perfil-Content\\CNot.png",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Icones superiores\\Perfil-Content\\CNot.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Icones superiores\\Perfil-Content\\FazerLogin.png",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Icones superiores\\Perfil-Content\\FazerLogin.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Icones superiores\\Perfil-Content\\MinhaConta.png",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Icones superiores\\Perfil-Content\\MinhaConta.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Icones superiores\\Perfil.icon.svg",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Icones superiores\\Perfil.icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Icones superiores\\Prencher Formulário.png",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Icones superiores\\Prencher Formulário.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Icones superiores\\Tarefas.png",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Icones superiores\\Tarefas.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Icones superiores\\Terefas.Icon.svg",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Icones superiores\\Terefas.Icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Icones superiores\\form.icon.svg",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Icones superiores\\form.icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Icones superiores\\img_119401.png",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Icones superiores\\img_119401.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Icones superiores\\logoff imagem.png",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Icones superiores\\logoff imagem.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Icones superiores\\notificação icone.png",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Icones superiores\\notificação icone.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Icones superiores\\perfil.png",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Icones superiores\\perfil.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\MeuPerfil.icon.svg",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\MeuPerfil.icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\Perfil-icone.png",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\Perfil-icone.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\add-icon.svg",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\add-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\clear-botao.svg",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\clear-botao.svg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\icone-acesso-informacao.png",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\icone-acesso-informacao.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\medgrupo-imagem.png",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\medgrupo-imagem.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Icones-menu\\menu_black_36dp.png",
+      "PackagePath": "staticwebassets\\img\\Icones-menu\\menu_black_36dp.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Pages",
+      "PackagePath": "staticwebassets\\img"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\Perfil Icone foto.png",
+      "PackagePath": "staticwebassets\\img\\Perfil Icone foto.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\foto-de-perfil.PNG",
+      "PackagePath": "staticwebassets\\img\\foto-de-perfil.PNG"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\fotoefeitos.com_.png",
+      "PackagePath": "staticwebassets\\img\\fotoefeitos.com_.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\helpdesk.jpg",
+      "PackagePath": "staticwebassets\\img\\helpdesk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\icons8-search-more-30.png",
+      "PackagePath": "staticwebassets\\img\\icons8-search-more-30.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\lapis-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\lapis-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\lupa.png",
+      "PackagePath": "staticwebassets\\img\\lupa.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\medgrupo-imagem.png",
+      "PackagePath": "staticwebassets\\img\\medgrupo-imagem.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\medgrupo.jpg",
+      "PackagePath": "staticwebassets\\img\\medgrupo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\setaprabaixo-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\setaprabaixo-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\js\\js-base.js",
+      "PackagePath": "staticwebassets\\js\\js-base.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.SiteHelpdesk.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.SiteHelpdesk.props",
+      "PackagePath": "build\\SiteHelpdesk.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.SiteHelpdesk.props",
+      "PackagePath": "buildMultiTargeting\\SiteHelpdesk.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.SiteHelpdesk.props",
+      "PackagePath": "buildTransitive\\SiteHelpdesk.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

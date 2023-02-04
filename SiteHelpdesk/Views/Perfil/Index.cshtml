@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Helpdesk</title>
+    <link rel="stylesheet" href="/Styles/MeuPerfil.css">
+    <link rel="stylesheet" href="/Styles/style-base.css">
+
+</head>
+<body id="meu-perfil">
+    <header>
+        <div class="logo">
+            <img src="https://marketing.medgrupo.com.br/medsmart/img/logo-medgrupo.a0ea0f9e.svg" alt="Medgrupo Icone">
+        </div>
+        <div class="title">
+        </div>
+        <div class="burguer-content-icon">
+            <button onclick="burguer()">
+                <img src="/img/Icones-menu/menu_black_36dp.png" alt="Menu-Burguer">
+            </button>
+        </div>
+        <div class="content-int">
+            <a href="#" id="Tar"> <img src="/img/Icones-menu/Icones superiores/Terefas.Icon.svg" alt=""> </a>
+
+            <a href="#" id="Not"> <img src="/img/Icones-menu/Icones superiores/Notificação.icon.svg" alt=""> </a>
+
+            <a href="#" id="Perfil"> <img class="perfil" src="/img/Icones-menu/Icones superiores/Perfil.icon.svg"> </a>
+
+        </div>
+
+        <div class="Sub-Menu-Perfil ">
+            <div class="Perfil-Content">
+                <img src="/img/Icones-menu/Icones superiores/Perfil-Content/MinhaConta.png" alt="Detalhes da conta"> <a href="#" class="Padrao-Secundário">Minha Conta</a> <br>
+                <img src="/img/Icones-menu/Icones superiores/Perfil-Content/CNot.png" alt="Configuração de Notificação"> <a href="#" class="Padrao-Secundário">Configurar Notificações</a> <br>
+                <img src="/img/Icones-menu/Icones superiores/Perfil-Content/FazerLogin.png" alt="Login"> <a href="Login.html" class="Padrao-Secundário"> Login/Logout</a>
+            </div>
+
+        </div>
+        <div class="Sub-Menu-Not Padrao-Primário">
+            <div class="Title-Not">
+                <h2>Notificações</h2>
+                <hr>
+            </div>
+            <div class="content-not Padrao-Secundário">
+                <h4>Você não tem notificações no momento.</h4>
+                <hr>
+            </div>
+            <div class="Footer-Not ">
+                <a href="#" class="Padrao-Terciária">Todas as notificações.</a>
+            </div>
+
+        </div>
+        <div class="Sub-Menu-Tar Padrao-Primário">
+            <div class="Title-Tar">
+                <h2>Tarefas</h2>
+                <hr>
+            </div>
+            <div class="content-Tar Padrao-Primário">
+                <h4>Você não tem Tarefas no momento.</h4>
+                <hr>
+            </div>
+            <div class="Footer-Tar Padrao-Terciária">
+                <a href="#" class="Padrao-Terciária">Todas as Tarefas</a>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="elemento-pai-meu-perfil">
+        <nav class="mobile-menu">
+
+            <a href="/"> <img src="/img/Icones-menu/Icones superiores/form.icon.svg" alt=""> <h5 class="Padrao-Secundário">Preencher Formulário</h5> </a>
+
+            <a href="/atendimentos"> <img src="/img/Icones-menu/Histórico.icon.svg" alt=""> <h5 class="Padrao-Secundário">Atendimentos Helpdesk</h5> </a>
+
+            <a href="/perfil"> <img src="/img/Icones-menu/MeuPerfil.icon.svg" alt=""> <h5 class="Padrao-Secundário">Meu Perfil</h5> </a>
+
+            <a href="/dashboard"> <img src="/img/Icones-menu/Dash.icon.svg" alt=""> <h5 class="Padrao-Secundário">Dashboard Geral</h5> </a>
+
+            <a href="padroes"> <img src="/img/Icones-menu/Email.icon.svg" alt=""> <h5 class="Padrao-Secundário">Padrões de E-mail</h5> </a>
+        </nav>
+        <script src="/Scripts/js-base.js"></script>
+
+        <main>
+            <h1 class="titulo">Meu Perfil</h1><hr>
+            <div class="grid">
+                <div class="box-usuario">
+                    <form action="" method="post" enctype="">
+                        <div class="upload">
+                            <input type="file" name="upload" />
+                        </div>
+                    </form>
+                    <div class="foto-de-perfil">
+                        <img src="/img/foto-de-perfil.PNG">
+                        <h2 class="nome-usuario">Seu Nome</h2>
+                    </div>
+                    <div class="cargo"> <h3>Cargo</h3></div>
+                    <div class="turno"> <h3>Tur no</h3></div>
+                    <div class="informacoes-usuario"></div>
+
+                </div>
+                <div class="box-historicos">
+                    <h4 class="detalhamento">Últimos Chamados</h4><hr class="quebradelinha-titulo">
+                    <div class="select-estiloso">
+                        <select>
+                            <option>Este Mês</option>
+                            <option>Mês Passado</option>
+                        </select>
+                    </div>
+
+
+                    <div class=" container-chamados">
+                        <hr class="quebradelinha">
+                        <p class="dia">28</p>
+                        <p class="mes">Set</p>
+                        <p class="resumo">Vídeos Trocados</p>
+                        <p class="hora">13:29</p><hr class="quebradelinha-2">
+
+                        <p class="dia-2">30</p>
+                        <p class="mes-2">Fev</p>
+                        <p class="resumo-2">E-mail Não Cadastrado</p>
+                        <p class="hora-2">13:29</p><hr class="quebradelinha-3">
+
+
+                        <p class="dia-3">15</p>
+                        <p class="mes-3">Fev</p>
+                        <p class="resumo-3">CPF Bloqueado</p>
+                        <p class="hora-3">13:29</p><hr class="quebradelinha-4">
+
+                    </div>
+                </div>
+
+                <div class="elemento-pai">
+                    <div class="elemento-filho"><p class="quantidade">6</p> <p class="marcadores">Chamados</p></div>
+                    <div class="elemento-filho"><p class="quantidade">6</p> <p class="marcadores">Chamados</p></div>
+                    <div class="elemento-filho"><p class="quantidade">6</p> <p class="marcadores">Histórico</p></div>
+                </div>
+
+            </div>
+        </main>
+        <article>
+            <div class="Sub-Menu-Perfil">
+                <div class="Perfil-Content">
+                    <img src="/img/Icones-menu/Icones superiores/Perfil-Content/MinhaConta.png" alt="Detalhes da conta"> <a href="#" class="Padrao-Secundário">Minha Conta</a> <br>
+                    <img src="/img/Icones-menu/Icones superiores/Perfil-Content/CNot.png" alt="Configuração de Notificação"> <a href="#" class="Padrao-Secundário">Configurar Notificações</a> <br>
+                    <img src="/img/Icones-menu/Icones superiores/Perfil-Content/FazerLogin.png" alt="Login"> <a href="Login.html" class="Padrao-Secundário"> Login/Logout</a>
+                </div>
+            </div>
+            <div class="Sub-Menu-Not Padrao-Primário">
+                <div class="Title-Not">
+                    <h2>Notificações</h2>
+                    <hr>
+                </div>
+                <div class="content-not Padrao-Secundário">
+                    <h4>Você não tem notificações no momento.</h4>
+                    <hr>
+                </div>
+                <div class="Footer-Not Padrao-Terciária">
+                    <a href="#" class="Padrao-Terciária">Todas as notificações.</a>
+                </div>
+
+            </div>
+            <div class="Sub-Menu-Tar Padrao-Primário">
+                <div class="Title-Tar">
+                    <h2>Tarefas</h2>
+                    <hr>
+                </div>
+                <div class="content-Tar Padrao-Secundário">
+                    <h4>Você não tem Tarefas no momento.</h4>
+                    <hr>
+                </div>
+                <div class="Footer-Tar Padrao-Terciária">
+                    <a href="#" class="Padrao-Terciária">Todas as Tarefas</a>
+                </div>
+
+            </div>
+
+            <div class="form-content">
+            </div>
+            <div class="line">
+                <hr>
+            </div>
+        </article>
+    </div>
+    <script src="/Scripts/meuperfil.js"></script>
+
+
+</body>
+</html>

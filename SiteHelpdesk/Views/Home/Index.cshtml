@@ -1,0 +1,384 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Helpdesk</title>
+    <link rel="stylesheet" href="/Styles/style.css">
+    <link rel="stylesheet" href="/Styles/style-base.css">
+    
+
+    <style>
+        
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+      
+            input[type=number] {
+                -moz-appearance: textfield;
+            }
+       
+    
+
+        table,
+        th,
+        td {
+            border: 1px solid rgba(141, 141, 141, 0);
+            border-collapse: collapse;
+            margin: auto;
+            margin-top: 10px;
+            padding: 10px;
+            margin-left: 0%;
+            margin-right: 0%;
+            margin-bottom: 12px;
+            padding-top: 1px;
+        }
+
+        table,
+        th,
+        td,
+        input {
+            background-color: transparent;
+            border-radius: 2px 2px 2px 2px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img class="LogoImg" src="https://marketing.medgrupo.com.br/medsmart/img/logo-medgrupo.a0ea0f9e.svg" alt="teste">
+        </div>
+        <div class="title">
+        </div>
+        <div class="burguer-content-icon">
+            <button onclick="burguer()">
+                <img src="/img/Icones-menu/menu_black_36dp.png" alt="Menu-Burguer">
+            </button>
+        </div>
+        <div class="content-int">
+            <a href="#" id="Tar"> <img src="/img/Icones-menu/Icones superiores/Terefas.Icon.svg" alt=""> </a>
+
+            <a href="#" id="Not"> <img src="/img/Icones-menu/Icones superiores/Notificação.icon.svg" alt=""> </a>
+
+            <a href="#" id="Perfil"> <img class="perfil" src="/img/Icones-menu/Icones superiores/Perfil.icon.svg"> </a>
+        </div>
+
+        <div class="Sub-Menu-Perfil ">
+            <div class="Perfil-Content">
+                <img src="/img/Icones-menu/Icones superiores/Perfil-Content/MinhaConta.png" alt="Detalhes da conta"> <a href="#" class="Padrao-Secundário">Minha Conta</a> <br>
+                <img src="/img/Icones-menu/Icones superiores/Perfil-Content/CNot.png" alt="Configuração de Notificação"> <a href="#" class="Padrao-Secundário">Configurar Notificações</a> <br>
+                <img src="/img/Icones-menu/Icones superiores/Perfil-Content/FazerLogin.png" alt="Login"> <a href="/Login" class="Padrao-Secundário"> Login/Logout</a>
+            </div>
+
+        </div>
+        <div class="Sub-Menu-Not Padrao-Primário">
+            <div class="Title-Not">
+                <h2>Notificações</h2>
+                <hr>
+            </div>
+            <div class="content-not Padrao-Secundário">
+                <h4>Você não tem notificações no momento.</h4>
+                <hr>
+            </div>
+            <div class="Footer-Not ">
+                <a href="#" class="padrao-terciaria">Todas as notificações.</a>
+            </div>
+
+        </div>
+        <div class="Sub-Menu-Tar Padrao-Primário">
+            <div class="Title-Tar">
+                <h2>Tarefas</h2>
+                <hr>
+            </div>
+            <div class="content-Tar Padrao-Primário">
+                <h4>Você não tem Tarefas no momento.</h4>
+                <hr>
+            </div>
+            <div class="Footer-Tar padrao-terciaria">
+                <a href="#" class="padrao-terciaria">Todas as Tarefas</a>
+            </div>
+
+        </div>
+    </header>
+    <nav class="mobile-menu">
+
+        <a href="/"> <img src="/img/Icones-menu/Icones superiores/form.icon.svg" alt="">
+            <h5 class="Padrao-Secundário">Preencher Formulário</h5>
+        </a>
+
+        <a href="/atendimentos"> <img src="/img/Icones-menu/Histórico.icon.svg" alt="">
+            <h5 class="Padrao-Secundário">Atendimentos Helpdesk</h5>
+        </a>
+
+        <a href="/perfil"> <img src="/img/Icones-menu/MeuPerfil.icon.svg" alt="">
+            <h5 class="Padrao-Secundário">Meu Perfil</h5>
+        </a>
+
+        <a href="/dashboard"> <img src="/img/Icones-menu/Dash.icon.svg" alt="">
+            <h5 class="Padrao-Secundário">Dashboard Geral</h5>
+        </a>
+
+        <a href="padroes"> <img src="/img/Icones-menu/Email.icon.svg" alt="">
+            <h5 class="Padrao-Secundário">Padrões de E-mail</h5>
+        </a>
+    </nav>
+    <main>
+        <div class="title Padrao-Primário">
+            <h1 class="titulo titulo-index">Registro de Atendimento</h1>
+            <hr>
+        </div>
+        <div class="tab">
+            <button id="tabpadrao" class="botoes" onclick="abrirtab('form1')"> <svg width="50" height="45" viewBox="0 0 50 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_210_4)">
+                        <path class="path" d="M17.6774 8.87386V6.94937C17.6774 6.60163 17.9933 6.31886 18.3813 6.31886H31.6185C32.0066 6.31886 32.3223 6.60183 32.3223 6.94937V8.87386C32.3223 9.22159 32.0064 9.50436 31.6185 9.50436H18.3815C17.9933 9.50456 17.6774 9.22159 17.6774 8.87386ZM29.0611 3.3569C28.8918 1.48098 27.137 0 25 0C22.863 0 21.1081 1.48098 20.9389 3.3569H29.0611ZM42.3898 10.9265V40.8094C42.3898 43.0052 40.3956 44.7917 37.9445 44.7917H12.0555C9.60436 44.7917 7.61017 43.0052 7.61017 40.8094V10.9265C7.61017 8.7307 9.60436 6.94423 12.0555 6.94423H14.3713C14.3713 6.94601 14.3711 6.94779 14.3711 6.94937V8.87386C14.3711 10.8548 16.1702 12.4663 18.3813 12.4663H31.6185C33.8298 12.4663 35.6287 10.8548 35.6287 8.87386V6.94937C35.6287 6.94759 35.6285 6.94581 35.6285 6.94423H37.9442C40.3956 6.94423 42.3898 8.7307 42.3898 10.9265ZM19.4378 28.3261C18.6605 27.897 17.642 28.1134 17.163 28.8097L15.5997 31.0813L14.7927 30.5118C14.0759 30.0057 13.0359 30.1165 12.4712 30.759C11.9063 31.4018 12.0299 32.3328 12.7472 32.8389L15.0112 34.4362C15.3048 34.6434 15.6656 34.7536 16.0339 34.7536C16.1301 34.7536 16.2268 34.7461 16.3229 34.7308C16.7869 34.657 17.194 34.4092 17.4414 34.0498L19.9776 30.3639C20.4568 29.6677 20.215 28.7554 19.4378 28.3261ZM19.4378 17.663C18.6605 17.2337 17.642 17.4505 17.163 18.1466L15.5997 20.4182L14.7927 19.8487C14.0759 19.3428 13.0359 19.4534 12.4712 20.096C11.9063 20.7387 12.0299 21.6698 12.7472 22.1759L15.0112 23.7731C15.3048 23.9803 15.6656 24.0905 16.0339 24.0905C16.1301 24.0905 16.2268 24.083 16.3229 24.0678C16.7869 23.9939 17.194 23.7461 17.4414 23.3867L19.9776 19.701C20.4568 19.0046 20.215 18.0923 19.4378 17.663ZM36.5593 33.2728C36.5593 32.4547 35.8193 31.7918 34.9061 31.7918H24.1053C23.1923 31.7918 22.4521 32.4547 22.4521 33.2728C22.4521 34.0909 23.1923 34.7538 24.1053 34.7538H34.9061C35.8193 34.7538 36.5593 34.0909 36.5593 33.2728ZM36.5593 22.6097C36.5593 21.7916 35.8193 21.1287 34.9061 21.1287H24.1053C23.1923 21.1287 22.4521 21.7916 22.4521 22.6097C22.4521 23.4278 23.1923 24.0907 24.1053 24.0907H34.9061C35.8193 24.0907 36.5593 23.4278 36.5593 22.6097Z" fill="#F1DBDA" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_210_4">
+                            <rect width="50" height="44.7917" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+
+                <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+
+                <button class="botoes cor" onclick="abrirtab('form2')"><svg focusable="false" width="44" height="45" viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="path" d="M12.4428 13.125H31.5571C31.3591 12.8288 31.1886 12.5044 30.9741 12.2231L36.1313 6.95063L33.539 4.29938L28.3213 9.63563C27.898 9.32281 27.4552 9.03846 26.9958 8.78438C25.4589 7.9437 23.7429 7.50387 22 7.50387C20.257 7.50387 18.541 7.9437 17.0041 8.78438C16.5458 9.03188 16.1095 9.3225 15.6805 9.63375L10.4628 4.29938L7.87046 6.95063L13.0276 12.2231C12.8113 12.5063 12.6426 12.8288 12.4428 13.125ZM10.5526 16.875H3.66663V20.625H7.89613C7.77696 21.5531 7.69996 22.4944 7.69996 23.4375C7.69996 24.3881 7.77696 25.3369 7.89613 26.2706H3.66663V30.0206H8.71379C8.73763 30.0938 8.75229 30.1706 8.77613 30.2419C9.12079 31.2825 9.54796 32.2913 10.0503 33.2419C10.131 33.3938 10.2245 33.5325 10.3088 33.6806L6.03713 38.0494L8.62946 40.7006L12.4978 36.7425C13.5765 37.9752 14.8601 39.003 16.2891 39.7781C17.1673 40.2525 18.0895 40.62 19.0318 40.8656C19.4058 40.9631 19.7853 41.025 20.1648 41.0869V30H23.8315V41.0888C24.2125 41.0346 24.5907 40.9607 24.9645 40.8675C25.9174 40.6168 26.838 40.2517 27.7071 39.78C28.5596 39.3188 29.3828 38.7488 30.151 38.085C30.624 37.6763 31.0676 37.2188 31.4966 36.7425L35.3668 40.7006L37.9591 38.0494L33.6875 33.6806C33.7736 33.5306 33.8671 33.39 33.9478 33.2381C34.4483 32.2913 34.8773 31.2825 35.2201 30.24C35.244 30.1669 35.2586 30.0919 35.2825 30.0188H40.3333V26.2688H36.102C36.2211 25.3331 36.2981 24.3863 36.2981 23.4356C36.2981 22.4925 36.2211 21.5513 36.1038 20.6231H40.3333V16.875H10.5526Z" fill="#F1DBDA" />
+
+                    </svg>
+                </button>
+
+                <button class="botoes" onclick="abrirtab('form3')">
+                    <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_212_70)">
+                            <path class="path" d="M33.5315 17.4888V3.95395C33.5315 1.77967 31.8956 0 29.895 0H3.63654C1.63594 0 0 1.77976 0 3.95395V32.5195C0 34.6938 1.63594 36.4735 3.63654 36.4735H19.5031C21.4281 41.4817 25.9695 45 31.2703 45C38.3129 45 44.0217 38.7895 44.0217 31.1282C44.0217 24.3074 39.4936 18.6498 33.5315 17.4888ZM18.6605 33.0847H2.75245V8.19982H30.7792V17.2833C23.9671 17.5669 18.5208 23.6458 18.5208 31.1283C18.5188 31.7941 18.5774 32.4456 18.6605 33.0847ZM38.3129 33.8349H33.5939V38.9685H28.9485V33.8349H24.2295V28.7814H28.9485V23.6478H33.5939V28.7814H38.3129V33.8349Z" fill="#F1DBDA" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_212_70">
+                                <rect width="44.0217" height="45" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </button>
+        </div>
+        <div id="form1" class="form-content">
+
+            <table class="tabela_dados">
+                <tr nome="jump"class="padrao-terciaria">
+                
+                    
+                    <td class="label-form1">Dados do aluno:</td>
+                    <td><input type="text" id="dados_id" placeholder="Digite o Id do aluno" class="input_total padrao-terciaria"></td>
+                    <td><input type="text" name="campo2" id="dados_cpf" placeholder="Digite o CPF do aluno" class="input_total padrao-terciaria"></td>
+                    <td><input type="text" name="campo3" id="dados_nome" placeholder="Digite o nome do aluno" class="input_total padrao-terciaria"></td>
+                
+                </tr>
+                <tr class="padrao-terciaria">
+                    <td class="label-form1">OV do aluno:</td>
+                    <td><input type="text" id="ov_data" placeholder="insira a data" class="input_total padrao-terciaria"></td>
+                    <td><input type="text" id="ov_produto" placeholder="Cole aqui o produto" class="input_total padrao-terciaria "></td>
+                    <td><input type="text" id="ov_status" placeholder="Cole aqui o status" class="input_total padrao-terciaria"></td>
+                </tr>
+                <tr class="padrao-terciaria">
+                    <td class="label-form1">Chamado MGE:</td>
+                    <td><input type="text" id="chamado_data" placeholder="Insira a data do chamado" class="input_total padrao-terciaria"></td>
+                    <td><input type="text" id="chamado_hora" placeholder="Informe a hora do chamado" class="input_total padrao-terciaria"></td>
+                    <td><input type="text" id="chamado_responsavel" placeholder="Informe nome do atendente" class="input_total padrao-terciaria"></td>
+                </tr>
+                 
+              
+                
+            </table>
+
+            <button id="btn_dados" value="" type="reset" class="botao-limpar" alt="Limpar">LIMPAR</button>
+
+            <table class="tabela_resultado">
+                <tr class="padrao-terciaria">
+                    <td>ID</td>
+                    <td><input type="text" id="id_id" disabled class="input_resposta"></td>
+
+                    <td>CPF</td>
+                    <td><input type="text" id="id_cpf" disabled class="input_resposta"></td>
+
+
+                    <td>Nome</td>
+                    <td><input type="text" id="id_nome" disabled class="input_resposta"></td>
+
+                </tr>
+                <tr class="padrao-terciaria">
+                    <td>OV aluno</td>
+                    <td><input type="text" id="id_produto" disabled class="input_resposta"></td>
+
+                    <td>Data contratação</td>
+                    <td><input type="text" id="id_ov_data" disabled class="input_resposta"></td>
+
+                    <td>Status OV</td>
+                    <td><input type="text" id="id_ov_status" disabled class="input_resposta"></td>
+                </tr>
+
+                <tr class="padrao-terciaria">
+                    <td>Data</td>
+                    <td><input type="text" id="id_chamado_data" disabled class="input_resposta"></td>
+
+                    <td>Hora</td>
+                    <td><input type="text" id="id_chamado_hora" disabled class="input_resposta"></td>
+
+                    <td>Responsável</td>
+                    <td><input type="text" id="id_chamado_responsavel" disabled class="input_resposta"></td>
+                    <script>alert("Aperte delete para limpar todos os campos");</script>
+                    
+                </tr>
+                
+
+            </table>
+            <p id="msg_erro"></p>
+        </div>
+        <div id="form3" class="form-content" class="tabela_resultado">
+
+            <table class="tabela_dadosII">
+                <tr class="padrao-terciaria">
+
+                    <td class="label-form3">ID do Card: </td>
+                    <td><input type="text" id="Id-Card" placeholder="ID do card aqui ou N/A" class="inputII_total"></td>
+
+
+                    <td class="label-form3">Dispositivo: </td>
+                    <td><input type="text" name="" id="Dispositivo" placeholder="Dispositivo do aluno ou N/A" class="inputII_total"></td>
+
+
+                </tr>
+                <tr>
+                </tr>
+                <tr class="padrao-terciaria">
+                    <td class="label-form3">Versão do APP</td>
+                    <td><input type="text" id="versao" placeholder="Digite a versão" class="inputII_total"></td>
+
+                    <td class="label-form3">Reproduzido?</td>
+                    <td><select name="Reproduzido" id="Reproduzido" class="inputII_total">
+                            <option value="N/A" class="option">N/A</option>
+                            <option value="Sim" class="option">Sim</option>
+                            <option value="Não" class="option">Não</option>
+                        </select></td>
+                        <td class="label-form3">Atendimento</td>
+                        <td><select name="Atendimentos" id="Atendimentos" class="inputII_total">
+                            
+                            <option value="Callcenter" class="option">Call Center</option>
+                            <option value="Email" class="option">Email</option>
+                            <option value="Whatszap" class="option">Whats App</option>
+                        </select></td>
+
+                </tr>
+            </table>
+
+
+            <table class="tabela_resultadoII">
+
+                <tr>
+                <tr class="padrao-terciaria">
+
+                    <td>Id do Card</td>
+                    <td><input type="text" id="id_id_card" disabled class="input_resposta"></td>
+
+                    <td>Dispositivo:</td>
+                    <td><input type="text" id="id_dispositivo" disabled class="input_resposta"></td>
+
+                    <td>Versão do App</td>
+                    <td><input type="text" id="id_versao_app" disabled class="input_resposta"></td>
+
+                </tr>
+                <tr class="padrao-terciaria">
+                    <td>Reproduzido:</td>
+                    <td><input type="text" id="id_reproduzido" disabled class="input_resposta"></td>
+                </tr>
+
+            </table>
+
+
+            <button id="" value="" class="botao-limpar-3" alt="Limpar">LIMPAR</button>
+            <button id="btn_dados" value="" onclick="SubmitForm()" class="adicionar" alt="adicionar">ADICIONAR</button>
+
+        </div>
+
+        <div id="form2" class="form-content">
+            <div class="cont-content">
+                <table class="tabela_dadosIII padrao-terciaria">
+                    <tr>
+                        <td class="padrao-terciaria">Processos:</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="Processos" id="Processos" class="padrao-quartenaria Select-Content select-processos" onchange="ClicarI(this.value)">
+                                <option value="Conflito-de-dados">Conflito de Dados</option>
+                                <option value="Login-code">Login code</option>
+                                <option value="Sugestão">Sugestão</option>
+                                <option value="Demanda">Demanda</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <div class="drop-app">
+                    <div class="Demanda-Option">
+                        <h4 class="drop1 padrao-terciaria">Demanda:</h4>
+                        <select name="Demanda-Option" id="Demanda-Option" class="padrao-quartenaria Select-Content" onchange="RevelarProblemaDrop2(this.value)">
+                            <option value="Encaminhado">Encaminhado</option>
+                            <option value="Reclamação">Reclamação</option>
+                        </select>
+                    </div>
+                    <div class="dropdown-select padrao-terciaria">
+                        <span class="Span-drops">
+                            <h4 class="drop1 padrao-terciaria">Aplicação:</h4>
+                            <select name="Aplicação" id="Apps" class="padrao-quartenaria Select-Content" onchange="area()">
+                                <option value="N/A">--</option>
+                                <option value="Academico">Acadêmico</option>
+                                <option value="Medsoft-Pro">Medsoft Pro</option>
+                                <option value="Recursos">Plantão de Recursos</option>
+                                <option value="MEDELETRO">MedEletro</option>
+                                <option value="AreaRestrita">Área Restrita</option>
+                                <option value="Concursos">Concursos</option>
+                                <option value="Outros">Outros</option>
+                            </select>
+                            <br>
+                            <div class="drop2 padrao-terciaria">
+                                <h4 class="Area padrao-terciaria"> Área: </h4>
+                                <select name="Area" id="Area" class="padrao-quartenaria Select-Content" onchange="ProblemaD()">
+                                    <option value="N/A">--</option>
+                                </select>
+                                <div class="Problemas">
+                                    <div class="Problema">
+                                        <h4 class="problema-label padrao-terciaria"> Problema: </h4>
+                                        <select name="problema" id="ProblemaD" class="padrao-quartenaria Select-Content">
+                                            <option value="N/A">--</option>
+                                        </select>
+                                    </div>
+                                    <form action="" class="textarea-descricao">
+                                        <p><label class="label-textarea" for="">Descrição do Problema:</label></p>
+                                        <textarea id="descricao-problema" name="descricao-problema" rows="10" cols="50" placeholder="Faça um resumo do problema de forma com que uma outra pessoa consiga entender o que foi feito no atendimento"></textarea>
+                                        <br>
+                                    </form>
+                                </div>
+
+
+                                <button id="btn_dados" value="" class="botao-limpar-2" alt="Limpar">LIMPAR</button>
+                                
+                            </div>
+                    </div>
+                    
+                </div>
+            
+        
+    </main>
+   
+    <script src="/Scripts/js-base.js">
+
+        
+    </script>
+    <script src="/Scripts/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Helpdesk</title>
+    <link rel="stylesheet" href="/Styles/Meus-Atendimentos.css">
+    <link rel="stylesheet" href="/Styles/style-base.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://marketing.medgrupo.com.br/medsmart/img/logo-medgrupo.a0ea0f9e.svg" alt="Medgrupo Icone">
+        </div>
+        <div class="title">
+        </div>
+        <div class="burguer-content-icon">
+            <button onclick="burguer()">
+                <img src="/img/Icones-menu/menu_black_36dp.png" alt="Menu-Burguer">
+            </button>
+        </div>
+        <div class="content-int">
+            <a href="#" id="Tar"> <img src="/img/Icones-menu/Icones superiores/Terefas.Icon.svg" alt=""> </a>
+
+            <a href="#" id="Not"> <img src="/img/Icones-menu/Icones superiores/Notificação.icon.svg" alt=""> </a>
+
+            <a href="#" id="Perfil"> <img class="perfil" src="/img/Icones-menu/Icones superiores/Perfil.icon.svg"> </a>
+
+        </div>
+
+        <div class="Sub-Menu-Perfil ">
+            <div class="Perfil-Content">
+                <img src="/img/Icones-menu/Icones superiores/Perfil-Content/MinhaConta.png" alt="Detalhes da conta"> <a href="#" class="Padrao-Secundário">Minha Conta</a> <br>
+                <img src="/img/Icones-menu/Icones superiores/Perfil-Content/CNot.png" alt="Configuração de Notificação"> <a href="#" class="Padrao-Secundário">Configurar Notificações</a> <br>
+                <img src="/img/Icones-menu/Icones superiores/Perfil-Content/FazerLogin.png" alt="Login"> <a href="Login.html" class="Padrao-Secundário"> Login/Logout</a>
+            </div>
+
+        </div>
+        <div class="Sub-Menu-Not Padrao-Primário">
+            <div class="Title-Not">
+                <h2>Notificações</h2>
+                <hr>
+            </div>
+            <div class="content-not Padrao-Secundário">
+                <h4>Você não tem notificações no momento.</h4>
+                <hr>
+            </div>
+            <div class="Footer-Not ">
+                <a href="#" class="Padrao-Terciária">Todas as notificações.</a>
+            </div>
+
+        </div>
+        <div class="Sub-Menu-Tar Padrao-Primário">
+            <div class="Title-Tar">
+                <h2>Tarefas</h2>
+                <hr>
+            </div>
+            <div class="content-Tar Padrao-Primário">
+                <h4>Você não tem Tarefas no momento.</h4>
+                <hr>
+            </div>
+            <div class="Footer-Tar Padrao-Terciária">
+                <a href="#" class="Padrao-Terciária">Todas as Tarefas</a>
+            </div>
+
+        </div>
+    </header>
+    <nav class="mobile-menu">
+        <a href="/"> <img src="/img/Icones-menu/Icones superiores/form.icon.svg" alt=""> <h5 class="Padrao-Secundário">Preencher Formulário</h5> </a>
+
+        <a href="atendimentos"> <img src="/img/Icones-menu/Histórico.icon.svg" alt=""> <h5 class="Padrao-Secundário">Atendimentos Helpdesk</h5> </a>
+
+        <a href="perfil"> <img src="/img/Icones-menu/MeuPerfil.icon.svg" alt=""> <h5 class="Padrao-Secundário">Meu Perfil</h5> </a>
+
+        <a href="/dashboard"> <img src="/img/Icones-menu/Dash.icon.svg" alt=""> <h5 class="Padrao-Secundário">Dashboard Geral</h5> </a>
+
+        <a href="/padroes"> <img src="/img/Icones-menu/Email.icon.svg" alt=""> <h5 class="Padrao-Secundário">Padrões de E-mail</h5> </a>
+    </nav>
+
+    <div class="Sub-Menu-Perfil">
+        <div class="Perfil-Content">
+            <img src="/img/Icones-menu/Icones superiores/Perfil-Content/MinhaConta.png" alt="Detalhes da conta"> <a href="#" class="Padrao-Secundário">Minha Conta</a> <br>
+            <img src="/img/Icones-menu/Icones superiores/Perfil-Content/CNot.png" alt="Configuração de Notificação"> <a href="#" class="Padrao-Secundário">Configurar Notificações</a> <br>
+            <img src="/img/Icones-menu/Icones superiores/Perfil-Content/FazerLogin.png" alt="Login"> <a href="Login.html" class="Padrao-Secundário"> Login/Logout</a>
+        </div>
+
+    </div>
+    <div class="Sub-Menu-Not Padrao-Primário">
+        <div class="Title-Not">
+            <h2>Notificações</h2>
+            <hr>
+        </div>
+        <div class="content-not Padrao-Secundário">
+            <h4>Você não tem notificações no momento.</h4>
+            <hr>
+        </div>
+        <div class="Footer-Not ">
+            <a href="#" class="Padrao-Terciária">Todas as notificações.</a>
+        </div>
+
+    </div>
+    <div class="Sub-Menu-Tar Padrao-Primário">
+        <div class="Title-Tar">
+            <h2>Tarefas</h2>
+            <hr>
+        </div>
+        <div class="content-Tar Padrao-Primário">
+            <h4>Você não tem Tarefas no momento.</h4>
+            <hr>
+        </div>
+        <div class="Footer-Tar Padrao-Terciária">
+            <a href="#" class="Padrao-Terciária">Todas as Tarefas</a>
+        </div>
+
+    </div>
+    <div class="title Padrao-Primário">
+        <h1 class="Padrao-Primário"></h1>
+    </div>
+
+    <main class="principal">
+        <h1 class="titulo">Histórico de Atendimentos</h1><hr>
+        <div class="campo-3">
+            <input class="busca-aluno" type="number" id="number" name="number" placeholder="Digite um id" required>
+        </div>
+        <div class="campo-4">
+            <button class="button" id="refresh" onclick="loadChamados()"></button>
+        </div>
+
+        <div class="container-titulo">
+            <div>
+                <h2 id="campoNome"></h2>
+            </div>
+        </div>
+        <div id="chamados-box" class="form-content">
+        </div>
+        <div class="line">
+            <hr>
+        </div>
+    </main>
+    <script src="/Scripts/js-base.js"></script>
+    <script src="/Scripts/Atendimentos.js"></script>
+</body>
+</html>

@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Helpdesk</title>
+    <link rel="stylesheet" href="/Styles/Email.css">
+    <link rel="stylesheet" href="/Styles/style-base.css">
+    <style>
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://marketing.medgrupo.com.br/medsmart/img/logo-medgrupo.a0ea0f9e.svg" alt="Medgrupo Icone">
+        </div>
+        <div class="title">
+        </div>
+        <div class="burguer-content-icon">
+            <button onclick="burguer()">
+                <img src="/img/Icones-menu/menu_black_36dp.png" alt="Menu-Burguer">
+            </button>
+        </div>
+        <div class="content-int">
+            <a href="#" id="Tar"> <img src="/img/Icones-menu/Icones superiores/Terefas.Icon.svg" alt=""> </a>
+
+            <a href="#" id="Not"> <img src="/img/Icones-menu/Icones superiores/Notificação.icon.svg" alt=""> </a>
+
+            <a href="#" id="Perfil"> <img class="perfil" src="/img/Icones-menu/Icones superiores/Perfil.icon.svg"> </a>
+
+        </div>
+
+        <div class="Sub-Menu-Perfil ">
+            <div class="Perfil-Content">
+                <img src="/img/Icones-menu/Icones superiores/Perfil-Content/MinhaConta.png" alt="Detalhes da conta"> <a href="#" class="Padrao-Secundário">Minha Conta</a> <br>
+                <img src="/img/Icones-menu/Icones superiores/Perfil-Content/CNot.png" alt="Configuração de Notificação"> <a href="#" class="Padrao-Secundário">Configurar Notificações</a> <br>
+                <img src="/img/Icones-menu/Icones superiores/Perfil-Content/FazerLogin.png" alt="Login"> <a href="Login.html" class="Padrao-Secundário"> Login/Logout</a>
+            </div>
+
+        </div>
+        <div class="Sub-Menu-Not Padrao-Primário">
+            <div class="Title-Not">
+                <h2>Notificações</h2>
+                <hr>
+            </div>
+            <div class="content-not Padrao-Secundário">
+                <h4>Você não tem notificações no momento.</h4>
+                <hr>
+            </div>
+            <div class="Footer-Not ">
+                <a href="#" class="Padrao-Terciária">Todas as notificações.</a>
+            </div>
+
+        </div>
+        <div class="Sub-Menu-Tar Padrao-Primário">
+            <div class="Title-Tar">
+                <h2>Tarefas</h2>
+                <hr>
+            </div>
+            <div class="content-Tar Padrao-Primário">
+                <h4>Você não tem Tarefas no momento.</h4>
+                <hr>
+            </div>
+            <div class="Footer-Tar Padrao-Terciária">
+                <a href="#" class="Padrao-Terciária">Todas as Tarefas</a>
+            </div>
+
+        </div>
+    </header>
+    <section>
+        <nav class="mobile-menu">
+            <a href="/"> <img src="/img/Icones-menu/Icones superiores/form.icon.svg" alt=""> <h5 class="Padrao-Secundário">Preencher Formulário</h5> </a>
+
+            <a href="/atendimentos"> <img src="/img/Icones-menu/Histórico.icon.svg" alt=""> <h5 class="Padrao-Secundário">Atendimentos Helpdesk</h5> </a>
+
+            <a href="/perfil"> <img src="/img/Icones-menu/MeuPerfil.icon.svg" alt=""> <h5 class="Padrao-Secundário">Meu Perfil</h5> </a>
+
+            <a href="/dashboard"> <img src="/img/Icones-menu/Dash.icon.svg" alt=""> <h5 class="Padrao-Secundário">Dashboard Geral</h5> </a>
+
+            <a href="/padroes"> <img src="/img/Icones-menu/Email.icon.svg" alt=""> <h5 class="Padrao-Secundário">Padrões de E-mail</h5> </a>
+
+
+        </nav>
+        <article>
+            <div class="Sub-Menu-Perfil">
+                <div class="Perfil-Content">
+                    <img src="/img/Icones-menu/Icones superiores/Perfil-Content/MinhaConta.png" alt="Detalhes da conta"> <a href="#" class="Padrao-Secundário">Minha Conta</a> <br>
+                    <img src="/img/Icones-menu/Icones superiores/Perfil-Content/CNot.png" alt="Configuração de Notificação"> <a href="#" class="Padrao-Secundário">Configurar Notificações</a> <br>
+                    <img src="/img/Icones-menu/Icones superiores/Perfil-Content/FazerLogin.png" alt="Login"> <a href="Login.html" class="Padrao-Secundário"> Login/Logout</a>
+                </div>
+
+            </div>
+            <div class="Sub-Menu-Not Padrao-Primário">
+                <div class="Title-Not">
+                    <h2>Notificações</h2>
+                    <hr>
+                </div>
+                <div class="content-not Padrao-Secundário">
+                    <h4>Você não tem notificações no momento.</h4>
+                    <hr>
+                </div>
+                <div class="Footer-Not Padrao-Terciária">
+                    <a href="#" class="Padrao-Terciária">Todas as notificações.</a>
+                </div>
+
+            </div>
+            <div class="Sub-Menu-Tar Padrao-Primário">
+                <div class="Title-Tar">
+                    <h2>Tarefas</h2>
+                    <hr>
+                </div>
+                <div class="content-Tar Padrao-Secundário">
+                    <h4>Você não tem Tarefas no momento.</h4>
+                    <hr>
+                </div>
+                <div class="Footer-Tar Padrao-Terciária">
+                    <a href="#" class="Padrao-Terciária">Todas as Tarefas</a>
+                </div>
+
+            </div>
+            <div class="title Padrao-Primário">
+                <h1 class="Padrao-Primário"> Padrões de E-mail </h1>
+                <hr>
+            </div>
+            <div class="form-content">
+                <div class="Pesquisa">
+                    <input type="text" id="myInput" name="Search" placeholder="Email..">
+                </div>
+
+                <div class="Padroes-Content">
+
+
+                    <ol data-type="nav-menu">
+
+
+                        <li class="toggle">
+                            <details open="">
+                                <summary class="summary">Medsoft</summary>
+
+                                <ol>
+                                    <li id="ListUl">  <a href="https://drive.google.com/drive/folders/1PtIYxdlJwPCJY3jqy8Yb87F3ytFhVUEX" target="_blank"> Acessos </a> </li>
+                                    <li id="ListUl"> <a href="https://drive.google.com/drive/folders/1hHUjzG7oBAZHbZy9KiQgVe9TvUTDhTcL" target="_blank"> CPF Bloqueado </a> </li>
+                                    <li id="ListUl"> <a href="https://drive.google.com/drive/folders/14Yc8jzLoLkBfjLRYvm8uJfuOQryyCvDr" target="_blank"> Instabilidades </a> </li>
+                                    <li id="ListUl"> <a href="https://drive.google.com/drive/folders/1qQzqdIQmUqJdJ8PvGeIJCkJIno35xSMR" target="_blank"> Materiais </a> </li>
+                                    <li id="ListUl"> <a href="https://drive.google.com/drive/folders/1CkIjzkOCEKD4UZNJ25rQTLiTsRnHyQo9" target="_blank"> Menu Branco </a> </li>
+                                    <li id="ListUl"> <a href="https://drive.google.com/drive/folders/1Am5TUrIiNGaOR8m3lzsYvSQLe6j2ji93" target="_blank"> Conflito de dados </a> </li>
+                                    <li id="ListUl"> <a href="https://drive.google.com/drive/folders/1TXtHd-BgO0z2B-HLRRgjxGErhIvTJ96E" target="_blank"> Fluxo de caixa </a> </li>
+                                    <li id="ListUl"> <a href="https://drive.google.com/drive/folders/1tsiXhfOwZarlh9sJwC2ud_iqZdm2QSOu" target="_blank"> Main </a> </li>
+                                    <li id="ListUl"> <a href="https://drive.google.com/drive/folders/1yqsacXD6iaq9WZ1_qjHGJ2FeLYD3yTUL" target="_blank"> Mentoria </a> </li>
+                                    <li id="ListUl"> <a href="https://drive.google.com/drive/folders/1qR1Ew9lkWyJAUms9lJV8ZoA4rkj2nOMJ" target="_blank"> Aulas </a> </li>
+                                    <li id="ListUl"> <a href="https://drive.google.com/drive/folders/1BLZTU7XWIYCCyoGm9RJlx-wwwG8np7X8" target="_blank"> Demanda </a> </li>
+                                    <li id="ListUl"> <a href="https://drive.google.com/drive/folders/1sZA04UIW4IKxXP-oCBf4gy4OY_XEmPs9"> Login/logout </a> </li>
+                                    <li id="ListUl"> <a href="https://drive.google.com/drive/folders/1oxG8sG2u-51I88MXhZaos5Rbt9RA3mfZ" target="_blank"> Medsmart </a> </li>
+                                    <li id="ListUl"> <a href="https://drive.google.com/drive/folders/1uHRg5K36UuWJyMpNnogyE6BNrkMXL0oi" target="_blank"> Apostilas Digitais </a> </li>
+                                    <li id="ListUl"> <a href="https://drive.google.com/drive/folders/1JaDg5Xvu5CjuKzS6xIAHQlHN4HHu6Wnz" target="_blank"> Cronograma </a> </li>
+                                    <li id="ListUl"> <a href="https://drive.google.com/drive/folders/1Uy3wIPPQaJTSs375BvIOP3dNeIYAPvZm" target="_blank"> Instalação </a> </li>
+                                    <li id="ListUl"> <a href="https://drive.google.com/drive/folders/1-LFq1Nm78dZ1ShmnPcV0fcap6m-e9E3U" target="_blank"> Medimagem </a> </li>
+                                    <li id="ListUl"> <a href="https://drive.google.com/drive/folders/1B9nzhttEbz-UJI2K9s3utdluPzU_Ia4L" target="_blank"> Questões </a> </li>
+
+                                </ol>
+                            </details>
+                        </li>
+                        <li class="toggle">
+                            <details open="">
+                                <summary class="summary">Plantão de recursos</summary>
+                                <ol>
+                                    <li id="ListUl"> <a href="https://drive.google.com/drive/folders/1xMmk5XKU0sP0Uf2P7KT5aHfrt4DPVMuT" target="_blank"> Concursos e Recursos </a> </li>
+                                    <li id="ListUl"> <a href="https://docs.google.com/document/d/1v2UG3cN5W_nT2BkwwfjQH_pDzsvj7JN8LdCQkKs-Qnw/edit?usp=sharing"> Flash player </a> </li>
+                                    <li id="ListUl"> <a href="https://docs.google.com/document/d/1q1qOhaI6LeqyMi1yL6CLh3ntVqEN3y80-uwQK7LNmd8/edit?usp=sharing" target="_blank"> Imprenssões de provas </a> </li>
+                                    <li id="ListUl"> <a href="https://docs.google.com/document/d/1VTt1MHyfcUPZudKzI6rCczwyUdgbGCiIh6XmGzPkUmw/edit" target="_blank"> Pop-ups </a> </li>
+                                </ol>
+                            </details>
+                        </li>
+
+                        <li class="toggle">
+                            <details open="">
+                                <summary class="summary">Login Code</summary>
+                                <ol>
+                                    <li id="ListUl"> <a href="https://docs.google.com/document/d/1OhAVzEv603CDeqe5c6UK4dIQbHYyyMXkv1edSSrfl0M/edit#heading=h.sl4sc5pvt4cq" target="_blank"> Permissão de câmera(IOS/ANDROID) </a> </li>
+                                    <li id="ListUl"> <a href="https://docs.google.com/document/d/15ZXbVc_7SeixnOuCITXfXLss1KfUPZuuBphNyVAGyiw/edit?usp=sharing" target="_blank"> Funcionamento Login Code </a> </li>
+                                    <li id="ListUl"> <a href="https://docs.google.com/document/d/1tTugo5dfAHrHL54yjZDpMcZOfcMdozmoXjCgddflt3o/edit?usp=sharing" target="_blank"> Troca de dispositivo principal </a> </li>
+                                </ol>
+                            </details>
+                        </li>
+
+
+                    </ol>
+                </div>
+
+
+            </div>
+            <div class="line">
+                <hr>
+            </div>
+        </article>
+        <script src="/Scripts/js-base.js"></script>
+        <script src="/Scripts/PadroesEmail.js"></script>
+</body>
+</html>

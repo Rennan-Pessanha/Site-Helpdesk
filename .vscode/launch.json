@@ -1,54 +1,35 @@
 {
-    // Use o IntelliSense para saber mais sobre os atributos possíveis.
-    // Focalizar para exibir as descrições dos atributos existentes.
-    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Xdebug Cloud",
-            "type": "php",
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (web)",
+            "type": "coreclr",
             "request": "launch",
-            "xdebugCloudToken": ""
-        },
-        {
-            "name": "Listen for Xdebug",
-            "type": "php",
-            "request": "launch",
-            "port": 9003
-        },
-        {
-            "name": "Launch currently open script",
-            "type": "php",
-            "request": "launch",
-            "program": "${file}",
-            "cwd": "${fileDirname}",
-            "port": 0,
-            "runtimeArgs": [
-                "-dxdebug.start_with_request=yes"
-            ],
-            "env": {
-                "XDEBUG_MODE": "debug,develop",
-                "XDEBUG_CONFIG": "client_port=${port}"
-            }
-        },
-        {
-            "name": "Launch Built-in web server",
-            "type": "php",
-            "request": "launch",
-            "runtimeArgs": [
-                "-dxdebug.mode=debug",
-                "-dxdebug.start_with_request=yes",
-                "-S",
-                "localhost:0"
-            ],
-            "program": "",
-            "cwd": "${workspaceRoot}",
-            "port": 9003,
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/SiteHelpdesk/bin/Debug/net6.0/SiteHelpdesk.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/SiteHelpdesk",
+            "stopAtEntry": false,
+            // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
             "serverReadyAction": {
-                "pattern": "Development Server \\(http://localhost:([0-9]+)\\) started",
-                "uriFormat": "http://localhost:%s",
-                "action": "openExternally"
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
             }
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
         }
     ]
 }

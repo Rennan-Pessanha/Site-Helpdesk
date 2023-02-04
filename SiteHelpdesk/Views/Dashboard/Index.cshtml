@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <link rel="stylesheet" href="/Styles/style-base.css">
+    <link rel="stylesheet" href="/Styles/dash.css">
+    <title>
+        Dashboard
+    </title>
+
+    <script>
+
+    </script>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="LogoImg" src="https://marketing.medgrupo.com.br/medsmart/img/logo-medgrupo.a0ea0f9e.svg" alt="teste">
+        </div>
+        <div class="title">
+        </div>
+        <div class="burguer-content-icon">
+            <button onclick="burguer()">
+                <img src="/img/Icones-menu/menu_black_36dp.png" alt="Menu-Burguer">
+            </button>
+        </div>
+        <div class="content-int">
+            <a href="#" id="Tar"> <img src="/img/Icones-menu/Icones superiores/Terefas.Icon.svg" alt=""> </a>
+
+            <a href="#" id="Not"> <img src="/img/Icones-menu/Icones superiores/Notificação.icon.svg" alt=""> </a>
+
+            <a href="#" id="Perfil"> <img class="perfil" src="/img/Icones-menu/Icones superiores/Perfil.icon.svg"> </a>
+        </div>
+
+        <div class="Sub-Menu-Perfil ">
+            <div class="Perfil-Content">
+                <img src="/img/Icones-menu/Icones superiores/Perfil-Content/MinhaConta.png" alt="Detalhes da conta"> <a href="#" class="Padrao-Secundário">Minha Conta</a> <br>
+                <img src="/img/Icones-menu/Icones superiores/Perfil-Content/CNot.png" alt="Configuração de Notificação"> <a href="#" class="Padrao-Secundário">Configurar Notificações</a> <br>
+                <img src="/img/Icones-menu/Icones superiores/Perfil-Content/FazerLogin.png" alt="Login"> <a href="/Login" class="Padrao-Secundário"> Login/Logout</a>
+            </div>
+
+        </div>
+        <div class="Sub-Menu-Not Padrao-Primário">
+            <div class="Title-Not">
+                <h2>Notificações</h2>
+                <hr>
+            </div>
+            <div class="content-not Padrao-Secundário">
+                <h4>Você não tem notificações no momento.</h4>
+                <hr>
+            </div>
+            <div class="Footer-Not ">
+                <a href="#" class="padrao-terciaria">Todas as notificações.</a>
+            </div>
+
+        </div>
+        <div class="Sub-Menu-Tar Padrao-Primário">
+            <div class="Title-Tar">
+                <h2>Tarefas</h2>
+                <hr>
+            </div>
+            <div class="content-Tar Padrao-Primário">
+                <h4>Você não tem Tarefas no momento.</h4>
+                <hr>
+            </div>
+            <div class="Footer-Tar padrao-terciaria">
+                <a href="#" class="padrao-terciaria">Todas as Tarefas</a>
+            </div>
+
+        </div>
+    </header>
+    <nav class="mobile-menu">
+
+        <a href="/">
+            <img src="/img/Icones-menu/Icones superiores/form.icon.svg" alt="">
+            <h5 class="Padrao-Secundário">Preencher Formulário</h5>
+        </a>
+
+        <a href="/atendimentos">
+            <img src="/img/Icones-menu/Histórico.icon.svg" alt="">
+            <h5 class="Padrao-Secundário">Atendimentos Helpdesk</h5>
+        </a>
+
+        <a href="/perfil">
+            <img src="/img/Icones-menu/MeuPerfil.icon.svg" alt="">
+            <h5 class="Padrao-Secundário">Meu Perfil</h5>
+        </a>
+
+        <a href="/dashboard">
+            <img src="/img/Icones-menu/Dash.icon.svg" alt="">
+            <h5 class="Padrao-Secundário">Dashboard Geral</h5>
+        </a>
+
+        <a href="padroes">
+            <img src="/img/Icones-menu/Email.icon.svg" alt="">
+            <h5 class="Padrao-Secundário">Padrões de E-mail</h5>
+        </a>
+    </nav>
+
+    <div class="cont-dash">
+
+        <div class="Dash">
+            <nav class=""></nav>
+            <h1><strong class="h1_Content Padrao-Primário">Dashboards Gerais</h1><strong>
+                <nav id="nav_content">
+                    <li class="list_content Padrao-Primário"><a id="dashpadrao" href="#" onclick="AbrirDash('dash1')">Gráfico de problemas do medsoft</a></li>
+                    <li class="list_content Padrao-Primário"><a href="#" onclick="AbrirDash('dash2')">Porcentagem de atendimentos do help desk</a></li>
+                    <li class="list_content Padrao-Primário"><a href="#" onclick="AbrirDash('dash3')">Controle de pausas do Help desk</a></li>
+                    <!---<button id="up" onclick="go('#down')">Mover para o gráfico debaixo</button> -->
+                </nav>
+
+
+                <div class="Problem_content dash_content" id="dash1">
+                    <div id="piechart_3d" style="width: 1000px; height: 600px;"></div>
+
+
+
+                </div>
+
+                <div class="Porcentagem_content dash_content" id="dash2">
+
+                    <div id="chart"></div>
+                </div>
+
+
+                <div class="chart_content dash_content" id="dash3">
+
+
+                    <table id="dados">
+                        <button id="medsoft" class>Problemas Medsoft</button>
+                        <ul id="resultado"></ul>
+                        <li></li>
+                    </table>
+
+
+                </div>
+
+
+        </div>
+
+
+    </div>
+
+
+    <script src="/Scripts/js-base.js"></script>
+    <script src="/Scripts/Dash.js"></script>
+    <script src="/Scripts/table.js"></script>
+
+</body>
+</html>
