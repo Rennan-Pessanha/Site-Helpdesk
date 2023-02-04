@@ -26,7 +26,7 @@ google.charts.load("current", {'packages':["timeline"]});
 google.charts.setOnLoadCallback(dashpizza);
 
 var xhttp = new XMLHttpRequest();
-xhttp.open("GET", '/all', false);
+xhttp.open("GET", '/atendimentos/todos', false);
 xhttp.send();//Utilizando esse carinha legal para inserir logo mais tarde no dashboard
 
 

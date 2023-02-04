@@ -56,18 +56,20 @@ function loadChamados(){
 
                 
                 //Transformando dados em texto
-                const dispositivo = document.createTextNode(`Dispositivo: ${r.aluno_dispositivo}`);
-                const card = document.createTextNode(`CARD: ${r.aluno_card_id}`);
-                const reproduzido = document.createTextNode(`Reproduzido?: ${r.aluno_reproducao}`);
-                const appVersao = document.createTextNode(`Versão APP: ${r.aluno_app_versao}`);
-                const ov = document.createTextNode(`Ordem de venda: ${r.aluno_ov}`);
-                const ovStatus = document.createTextNode(`Status: ${r.aluno_ov_status}`);
+                const dispositivo = document.createTextNode(`Dispositivo: ${r.dispositivo}`);
+                const card = document.createTextNode(`CARD: ${r.idCard}`);
+                const reproduzido = document.createTextNode(`Reproduzido?: ${r.reproduzido}`);
+                const appVersao = document.createTextNode(`Versão APP: ${r.appVersao}`);
+                const ov = document.createTextNode(`Ordem de venda: ${r.ov}`);
+                const ovStatus = document.createTextNode(`Status: ${r.ovStatus}`);
                 //const nome = document.createTextNode(`Aluno: ${r.aluno_nome}`);
-                const data = document.createTextNode(`Data: ${r.aluno_chamado_data}`)
+                const data = document.createTextNode(`Data: ${r.chamadoData}`)
                 const responsavel = document.createTextNode(`Responsável: ${r.responsavel}`)
-                const alunoId = document.createTextNode(`Aluno ID: ${r.aluno_id}`)
+                const alunoId = document.createTextNode(`Aluno ID: ${r.idAluno}`)
+
+                //TO DO
                 const process = document.createTextNode(`Processo: ${r.aluno_Processos}`)
-                const demanda = document.createTextNode(`Demanda: ${r.aluno_Demanda}`)
+                const demanda = document.createTextNode(`Demanda: ${r.aluno_Demanda}`) 
                 const app = document.createTextNode(`Aplicativo: ${r.aluno_app}`)
                 const area = document.createTextNode(`Area: ${r.Aluno_Area}`)
                 const problema = document.createTextNode(`Problema: ${r.Aluno_Problema}`)

@@ -89,18 +89,6 @@
       "PackagePath": "staticwebassets\\Styles\\style.css"
     },
     {
-      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\css\\Atendimentos.css",
-      "PackagePath": "staticwebassets\\css\\Atendimentos.css"
-    },
-    {
-      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\css\\Style-base.css",
-      "PackagePath": "staticwebassets\\css\\Style-base.css"
-    },
-    {
-      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
       "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -395,14 +383,6 @@
     {
       "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\img\\setaprabaixo-removebg-preview.png",
       "PackagePath": "staticwebassets\\img\\setaprabaixo-removebg-preview.png"
-    },
-    {
-      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\js\\js-base.js",
-      "PackagePath": "staticwebassets\\js\\js-base.js"
-    },
-    {
-      "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
       "Id": "C:\\Users\\mat97\\OneDrive\\Documentos\\GitHub\\Site-Helpdesk\\SiteHelpdesk\\wwwroot\\lib\\bootstrap\\LICENSE",
