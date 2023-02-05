@@ -642,7 +642,7 @@ td.padrao-terciaria {
 
 
 .textarea-descricao {  
-    grid-column: 3;
+    grid-column: 2;
     right: 10%;
     display: flex;
     width: 90%;
