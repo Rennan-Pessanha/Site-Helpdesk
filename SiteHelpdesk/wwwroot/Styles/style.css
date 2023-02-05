@@ -267,7 +267,7 @@ main > .line {
     margin-top: 12px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto 1fr;
 }
 
 
@@ -504,12 +504,6 @@ input:focus {
     background: linear-gradient(to top, #A0D3DA, #AED8DE);
 }
 
-@media screen and (min-height: 950px ) {
-    .textarea-descricao {
-        margin-top: -220px;
-    
-    }
-}
 
 
 @media screen and (max-width: 1921px ) {
@@ -922,3 +916,8 @@ td.padrao-terciaria {
   
 }
 
+
+
+table, th, td, tr, input {
+    height: 20px;
+}
