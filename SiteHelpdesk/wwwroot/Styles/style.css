@@ -246,6 +246,11 @@ main > .line {
 .tabela_dadosIII{
     margin-bottom: 10px;
     font-family: Secundária;
+    grid-column: 1;
+}
+
+.drop-app {
+    grid-column: 1;
 }
 
 .input_totalIII {
@@ -260,6 +265,9 @@ main > .line {
     margin-left: 8%;
     display: inline-block;
     margin-top: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 
@@ -499,7 +507,7 @@ input:focus {
 @media screen and (min-height: 950px ) {
     .textarea-descricao {
         margin-top: -220px;
-        margin-left: 39%;
+    
     }
 }
 
@@ -507,7 +515,6 @@ input:focus {
 @media screen and (max-width: 1921px ) {
     .textarea-descricao {
         margin-top: -220px;
-        margin-left: 37%;
         width: 32%;
     }
 
@@ -639,11 +646,10 @@ td.padrao-terciaria {
 
 
 .textarea-descricao {  
-    margin-top: 5%;
-    margin-left: 15%;
-    position: absolute;
+    grid-column: 3;
     right: 10%;
-    padding-left: 226px;
+    display: flex;
+    width: 90%;
 }
 
 .textarea-descricao textarea {
@@ -659,7 +665,7 @@ td.padrao-terciaria {
 @media screen and (max-width: 2300px ) {
     .textarea-descricao {
         margin-top: -175px;
-        margin-left: 29%;
+        
     }
 
     .botao-limpar {
@@ -689,10 +695,7 @@ td.padrao-terciaria {
 
 
 @media screen and (max-width: 1920px ) {
-    .textarea-descricao {
-        margin-top: -177px;
-        margin-left: 37%;
-    }
+   
 
     main {
         height: 68% !important;
@@ -703,8 +706,7 @@ td.padrao-terciaria {
 
 @media screen and (max-width: 1750px ) {
     .textarea-descricao {
-        margin-top: -178px;
-        margin-left: 36%;
+       
         width: 27%;
     }
 
@@ -734,10 +736,7 @@ td.padrao-terciaria {
 
 @media screen and (min-width: 2300px ) {
  
-    .textarea-descricao {
-        margin-left: 36%;
-        WIDTH: 31%;
-    }
+
 
 }
 @media screen and (max-width: 1536px ) {
@@ -755,10 +754,6 @@ td.padrao-terciaria {
         width: 78%;
     }
     
-    .textarea-descricao {
-        margin-top: -168px;
-        margin-left: 36%;
-    }
 
     .botao-limpar {
         margin-left: 28px !important;
@@ -814,11 +809,7 @@ td.padrao-terciaria {
         width: 78%;
     }
     
-    .textarea-descricao {
-        margin-top: -163px;
-        margin-left: 35%;
-    }
-
+  
     .botao-limpar {
         margin-top: 44px !important;
         margin-left: 23px !important;
