@@ -37,7 +37,6 @@ main > .form-content {
 
 main > .form-content > .formu > h4 {
     display: inline-block;
-    margin-left: 80px;
     margin-top: 40px;
 
 }
@@ -196,7 +195,6 @@ main > .line {
 .Select-Content {
     width: 20vw;
     padding-top: 0px;
-    margin-left: 5%;
     max-width: 280px;
 }
 
@@ -247,6 +245,7 @@ main > .line {
     margin-bottom: 10px;
     font-family: Secundária;
     grid-column: 1;
+    display: flex;
 }
 
 .drop-app {
@@ -260,16 +259,21 @@ main > .line {
 }
 
 .cont-content {
-    width: 50%;
+    width: 80%;
     height: 100%;
     margin-left: 8%;
     display: inline-block;
     margin-top: 12px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: auto 1fr;
     margin: 0 auto;
     column-gap: 50px;
+    font-family: 'Baloo Da 2', cursive;
+    color: black;
+    font-weight: small, bold;
+    font-size: 20px;
+    padding-top: 20px;
 }
 
 
@@ -351,15 +355,11 @@ background-color: rgba(0, 0, 255, 0.034);
 }
 
 h4.drop1.padrao-terciaria {
-    margin: 0 0 11px -80px;
-    position: absolute;
-    margin-top: 8px;
+    margin-right: 4px;
 }
 
 .Area {
     font-weight: normal;
-    margin-left: -80px !important;
-    position: absolute;
     margin-top: 7px !important;
 
 }
@@ -621,21 +621,15 @@ td.padrao-terciaria {
 }
 
 .problema-label {
-    
-    position: absolute;
-    margin-left: -80px !important;
     font-weight: normal;
     margin-top: 7px !important;
 }
 
-.select-processos {
-    margin-bottom: -7px !important;
-    margin-left: 23px;
-}
+
 
 
 .label-textarea {
-    margin-left: 2%;
+    margin-right: 8px;
     z-index: 1;
     margin-top: -1px;
 }
@@ -645,7 +639,7 @@ td.padrao-terciaria {
     grid-column: 2;
     right: 10%;
     display: flex;
-    width: 90%;
+    width: 100%;
     grid-row: 1/-1;
 
 }
@@ -925,4 +919,13 @@ td.padrao-terciaria {
 
 table, th, td, tr, input {
     height: 20px;
+}
+
+.container-opcoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+#index h4 {
+    margin-right: 5px;
 }
