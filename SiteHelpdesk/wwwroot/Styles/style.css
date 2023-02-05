@@ -260,14 +260,16 @@ main > .line {
 }
 
 .cont-content {
-    width: 90%;
+    width: 50%;
     height: 100%;
     margin-left: 8%;
     display: inline-block;
     margin-top: 12px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr;
+    margin: 0 auto;
+    column-gap: 50px;
 }
 
 
@@ -644,6 +646,8 @@ td.padrao-terciaria {
     right: 10%;
     display: flex;
     width: 90%;
+    grid-row: 1/-1;
+
 }
 
 .textarea-descricao textarea {
@@ -653,6 +657,7 @@ td.padrao-terciaria {
     padding-left: 26px;
     padding-top: 6px;
     width: 93%;
+    height: 80%;
 
 }
 
