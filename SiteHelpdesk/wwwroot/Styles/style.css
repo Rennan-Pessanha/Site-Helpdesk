@@ -170,11 +170,17 @@ main > .line {
     margin-top: 11%;
 }
 
-.input_total, .inputII_total, .Select-Content 
-    {
+.input_total, .inputII_total{
     
     border-radius: 30px;
     padding: 1vh 1.5vw;
+    background-color: #E6E8ED;
+    border: none;
+}
+
+.Select-Content 
+    {
+    border-radius: 30px;
     background-color: #E6E8ED;
     border: none;
 }
@@ -246,6 +252,7 @@ main > .line {
     font-family: Secundária;
     grid-column: 1;
     display: flex;
+    align-self: end;
 }
 
 .drop-app {
@@ -273,7 +280,7 @@ main > .line {
     color: black;
     font-weight: small, bold;
     font-size: 20px;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 
@@ -926,6 +933,9 @@ table, th, td, tr, input {
     justify-content: space-between;
 }
 
-#index h4 {
-    margin-right: 5px;
+.selects {
+    display: flex;
+    grid-template-columns: 91px auto;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
