@@ -1,22 +1,22 @@
 
 # User-specific files
-*.suo
-*.user
-*.sln.docstates
+*SiteHelpdesk/.suo
+*SiteHelpdesk/.user
+*SiteHelpdesk/.sln.docstates
 
 .vs
 
 # Build results
-[Dd]ebug/
-[Rr]elease/
-x64/
-[Bb]in/
-[Oo]bj/
+SiteHelpdesk/[Dd]ebug/
+SiteHelpdesk/[Rr]elease/
+SiteHelpdesk/x64/
+SiteHelpdesk/[Bb]in/
+SiteHelpdesk/[Oo]bj/
 # build folder is nowadays used for build scripts and should not be ignored
 #build/
 
 # NuGet Packages
-*.nupkg
+SiteHelpdesk/*.nupkg
 # The packages folder can be ignored because of Package Restore
 **/packages/*
 # except build/, which is used as an MSBuild target.
@@ -25,8 +25,8 @@ x64/
 #!**/packages/repositories.config
 
 # MSTest test Results
-[Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
+SiteHelpdesk/[Tt]est[Rr]esult*/
+SiteHelpdesk/[Bb]uild[Ll]og.*
 
 *_i.c
 *_p.c
@@ -189,6 +189,7 @@ Icon?
 
 # Visual Studio temp something
 .vs/
+SiteHelpdesk/.vs/
 
 # dotnet stuff
 project.lock.json
@@ -202,6 +203,8 @@ project.lock.json
 
 # Visual Studio Code
 .vscode/
+SiteHelpdesk/.vscode/
+
 
 # Output folder used by Webpack or other FE stuff
 **/node_modules/*
