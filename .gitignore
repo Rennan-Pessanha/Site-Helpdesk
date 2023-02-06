@@ -224,3 +224,4 @@ AppPackages/
 *.vsidx
 
 .vs/
+SiteHelpdesk/bin/Debug/net6.0/SiteHelpdesk.pdb
