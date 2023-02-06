@@ -1,22 +1,28 @@
+# The following command works for downloading when using Git for Windows:
+# curl -LOf http://gist.githubusercontent.com/kmorcinek/2710267/raw/.gitignore
+#
+# Download this file using PowerShell v3 under Windows with the following comand:
+# Invoke-WebRequest https://gist.githubusercontent.com/kmorcinek/2710267/raw/ -OutFile .gitignore
+#
+# or wget:
+# wget --no-check-certificate http://gist.githubusercontent.com/kmorcinek/2710267/raw/.gitignore
 
 # User-specific files
-*SiteHelpdesk/.suo
-*SiteHelpdesk/.user
-*SiteHelpdesk/.sln.docstates
-
-.vs
+*.suo
+*.user
+*.sln.docstates
 
 # Build results
-**[Dd]ebug/
-**[Rr]elease/
-**x64/
-**[Bb]in/
-**[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Bb]in/
+[Oo]bj/
 # build folder is nowadays used for build scripts and should not be ignored
 #build/
 
 # NuGet Packages
-SiteHelpdesk/*.nupkg
+*.nupkg
 # The packages folder can be ignored because of Package Restore
 **/packages/*
 # except build/, which is used as an MSBuild target.
@@ -25,8 +31,8 @@ SiteHelpdesk/*.nupkg
 #!**/packages/repositories.config
 
 # MSTest test Results
-SiteHelpdesk/[Tt]est[Rr]esult*/
-SiteHelpdesk/[Bb]uild[Ll]og.*
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
 
 *_i.c
 *_p.c
@@ -189,7 +195,6 @@ Icon?
 
 # Visual Studio temp something
 .vs/
-SiteHelpdesk/.vs/
 
 # dotnet stuff
 project.lock.json
@@ -203,8 +208,6 @@ project.lock.json
 
 # Visual Studio Code
 .vscode/
-SiteHelpdesk/.vscode/
-
 
 # Output folder used by Webpack or other FE stuff
 **/node_modules/*
@@ -221,7 +224,3 @@ AppPackages/
 #####
 # End of core ignore list, below put you custom 'per project' settings (patterns or path)
 #####
-*.vsidx
-
-.vs/
-SiteHelpdesk/bin/Debug/net6.0/SiteHelpdesk.pdb
