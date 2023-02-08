@@ -38,6 +38,14 @@ namespace SiteHelpdesk.Models
         
         public string? AppVersao { get; set; }
         public bool? Reproduzido { get; set; } = false;
+        [Required]
+        public string Processo { get; set; }
+        [Required]
+        public string Aplicativo { get; set; }
+        [Required]
+        public string Area { get; set; }
+        [Required]
+        public string Problema { get; set; }
     }
 }
 

@@ -87,7 +87,7 @@ function loadChamados(){
                 liDescrição.className = 'infoHide'
 
                 let campoNome = document.getElementById('campoNome');
-                campoNome.innerHTML = `Aluno: ${r.aluno_nome}`
+                campoNome.innerHTML = `Aluno: ${r.nomeAluno}`
 
                 //Adicionando conteúdos nos <li>
                 if(dispositivo.nodeValue!='Dispositivo: '){
