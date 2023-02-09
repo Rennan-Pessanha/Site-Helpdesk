@@ -528,7 +528,23 @@ function hideInserir(){
 }
 
 
+//adicionando o novo input ao select
 
+let input_inserido = document.querySelector('.aplicacao-input');
+let botaoInserir2 = document.querySelector('#AdicionarCampos');
+
+let select_opts = document.getElementById('Apps');
+
+function adicionarSelect() {
+ let input_valor = input_inserido.value;
+ console.log(input_inserido.value);
+  if(input_valor != '') {
+    select_opts.innerHTML += '<option>' +input_valor+ '</option>';
+    input_inserido.value = '';
+  }
+};    
+  
+botaoInserir2.addEventListener('click', adicionarSelect);
         
           
 
