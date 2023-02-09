@@ -525,6 +525,14 @@ function Inserir(){
 function hideInserir(){
     var element = document.querySelector(".InserirDados");
     element.classList.remove("showInserirDados");
+    
+
+    
+}
+
+function Enviardados(){
+    alert("Enviardados");
+
 }
 
 
