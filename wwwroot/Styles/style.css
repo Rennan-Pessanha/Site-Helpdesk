@@ -532,14 +532,7 @@ input:focus {
 
 
 
-@media screen and (max-width: 1921px ) {
-    .textarea-descricao {
-        margin-top: -220px;
-        width: 32%;
-    }
 
-
-}
 
 @media screen and (max-width: 1707px ) {
     .input_total {
@@ -680,10 +673,7 @@ td.padrao-terciaria {
 }
 
 @media screen and (max-width: 2300px ) {
-    .textarea-descricao {
-        margin-top: -175px;
-        
-    }
+  
 
     .botao-limpar {
         margin-top: 117px !important;
@@ -722,10 +712,7 @@ td.padrao-terciaria {
 }
 
 @media screen and (max-width: 1750px ) {
-    .textarea-descricao {
-       
-        width: 27%;
-    }
+
 
     .botao-limpar {
         margin-top: 117px !important;
@@ -751,11 +738,7 @@ td.padrao-terciaria {
 
 }
 
-@media screen and (min-width: 2300px ) {
- 
 
-
-}
 @media screen and (max-width: 1536px ) {
     .tabela_dados {
         margin: 20px auto;
@@ -767,9 +750,7 @@ td.padrao-terciaria {
         margin-left: 9%;
     }
 
-    .textarea-descricao textarea {
-        width: 78%;
-    }
+    
     
 
     .botao-limpar {
@@ -822,9 +803,7 @@ td.padrao-terciaria {
         margin-left: 9%;
     }
 
-    .textarea-descricao textarea {
-        width: 78%;
-    }
+
     
   
     .botao-limpar {
