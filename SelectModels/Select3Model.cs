@@ -3,15 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace SiteHelpdesk.SelectModels
 {
-    public class Select3Model
+    public class Select3Model : SelectGeneric
     {
-        [Key]
-        [Required]
-        public int Id { get; set; }
-        [Required]
-        [StringLength(30)]
-        public string Valor { get; set; }
-
         [ForeignKey("Select")]
         public int IdPai { get; set; }
 
