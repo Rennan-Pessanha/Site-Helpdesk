@@ -450,7 +450,7 @@ input:focus {
 }
 
 
-.adicionar {
+.adicionar  {
     background-color: #C6DEE0 !important;
     border: none;
     font-size: 16px;
@@ -467,7 +467,24 @@ input:focus {
     background: linear-gradient(to top, #AED8DE, #C6DEE0);
 
 }
-.botao-limpar-2 {
+.botao-adicionar{
+    background-color: #C6DEE0 !important;
+    border: none;
+    font-size: 16px;
+    float: right;
+    margin-right: 37px;
+    cursor: pointer;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    font-weight: lighter;
+    color: #3C5C60;
+    margin-top: 12px !important;
+    font-weight: bold;
+    background: linear-gradient(to top, #AED8DE, #C6DEE0);
+
+}
+.botao-limpar-2{
     border: none;
     font-size: 16px;
     float: left;

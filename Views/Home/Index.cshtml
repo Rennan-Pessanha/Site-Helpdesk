@@ -299,7 +299,9 @@
             </table>
 
 
+
             <button id="" value="" class="botao-limpar-3" alt="Limpar">LIMPAR</button>
+            
             <button id="btn_dados" value="" onclick="SubmitForm()" class="adicionar" alt="adicionar">ADICIONAR</button>
 
         </div>
@@ -357,8 +359,11 @@
                                         </select>
                                     </div>    
                                 </div>
+                                
 
                                 <button id="btn_dados" value="" class="botao-limpar-2" alt="Limpar">LIMPAR</button>
+                                <button type= button onclick="Inserir()"id="AdicionarCampos" class="botao-adicionar"  alt="Adicionarcampos">Adicionar Campos</button>
+                                
                                 
                             </div>
                     </div>
@@ -370,6 +375,33 @@
                         <textarea id="descricao-problema" name="descricao-problema" rows="10" cols="50" placeholder="Faça um resumo do problema de forma com que uma outra pessoa consiga entender o que foi feito no atendimento"></textarea>
                          <br>
                 </div>
+                <a>
+                <div class="InserirDados">
+                    <div class="popup-wrapper">
+                    <div type=button onclick="hideInserir()"class="close-popup">x</div>
+                    <div class="campos">
+                    <h2>Adicione novos campos</h2>
+                    <p>Cada campo insere novos objetos no banco de dados, você também pode deletar campos</p>
+                    <input class="style" type="text" name="Processos"placeholder="Insira um novo campo  Processos"></input>
+                    
+                    <br/>
+                    <input class="style"  type="text" name="Aplicacao"placeholder="Insira um novo campo  Aplicação"></input>
+                    
+                     <br/>
+                    <input class="style"  type="text" name="Area"placeholder="Insira um novo campo  Área"></input>
+                    
+                     <br/>
+                    <input class="style"  type="text" name="Problema"placeholder="Insira um novo campo  Problema"></input>
+                    
+                     <br/>
+                    </div>
+                    
+                    </div>
+
+                    </a><div>
+                    <button class="get"type="button">Enviar</button></div>
+                </div>
+                
             </div>
     </main>
    

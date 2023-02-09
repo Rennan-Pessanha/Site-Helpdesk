@@ -517,16 +517,21 @@ function SubmitForm() {
     
     }
 }
-/**/
+function Inserir(){
+    var element = document.querySelector(".InserirDados");
+    element.classList.add("showInserirDados");
+    console.log('entrou')
+}
+function hideInserir(){
+    var element = document.querySelector(".InserirDados");
+    element.classList.remove("showInserirDados");
+}
 
-    
+
+
         
           
- //meus preciosos    
-//campo1.addEventListener('keyup',digitacao)
-//campo2.addEventListener('keyup',digitacao)
-//campo1.addEventListener('keydown',apagarcampo)
-//campo2.addEventListener('keydown',apagarcampo)
+
 
 
     
