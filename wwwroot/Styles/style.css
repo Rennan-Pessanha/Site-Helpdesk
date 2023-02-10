@@ -571,7 +571,7 @@ input:focus {
 
 @media screen and (min-width: 1350px) {
     main > .form-content {
-        height: 302px;
+        height: 390px;
     }
 
     
@@ -681,17 +681,17 @@ td.padrao-terciaria {
     }
 
     .botao-limpar-2 {
-        margin-top: 98px !important;
-        margin-left: -80px !important;
+        margin-top: 72px !important;
+        margin-left: -96px !important;
     }
     
     .botao-limpar-3 {
-        margin-top: 158px !important;
+        margin-top: 130px !important;
         margin-left: 39px !important;
     }
 
     .adicionar {
-        margin-top: 158px !important;
+        margin-top: 130px !important;
     }
 
 
@@ -720,16 +720,16 @@ td.padrao-terciaria {
      }
 
     .botao-limpar-2 {
-        margin-left: -67px !important;
+        margin-left: -87px !important;
     }
     
     .botao-limpar-3 {
        margin-left: 34px !important;
-       margin-top: 158px !important;
+       margin-top: 100px !important;
     }
 
     .adicionar {
-        margin-top: 158px !important;
+        margin-top: 100px !important;
     }
 
   
