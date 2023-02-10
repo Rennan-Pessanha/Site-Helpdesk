@@ -549,23 +549,18 @@ function alteraTitulo(num) {
     popup.placeholder = "Nova opção em " + num;
     
     if (num ==="Processos"){
-        console.log("Clicou em Processos");
         select_opts = document.getElementById('Processos');
     }
     if (num ==="Aplicação"){
-        console.log("Clicou em Aplicação");
         select_opts = document.getElementById('Apps');
     }
     if (num ==="Processos"){
-        console.log("Clicou em Processos");
         select_opts = document.getElementById('Processos');
     }
     if (num ==="Área"){
-        console.log("Clicou em Problema");
         select_opts = document.getElementById('Area');
     }
     if (num ==="Problema"){
-        console.log("Clicou em Problema");
         select_opts = document.getElementById('ProblemaD');
     }
 }
