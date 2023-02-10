@@ -520,6 +520,9 @@ function SubmitForm() {
 
 
 
+
+
+//adicionando a função de adicionar novo option a todos os botões
 const btnClicado = document.querySelectorAll("#AdicionarCampos");
 
 function hideInserir(){
@@ -539,10 +542,32 @@ function mostrarPopUp() {
 }
 function alteraTitulo(num) {
     let popup = document.querySelector(".aplicacao-input");
-    console.log(popup.placeholder);
-    document.getElementById("titulo-option").innerHTML = num.getAttribute("alt");
+    document.getElementById("titulo-option").innerHTML = num.getAttribute("alt") + ":";
+
+    num = num.getAttribute("alt");
     console.log(num);
-    popup.placeholder = num.getAttribute("alt");
+    popup.placeholder = "Nova opção em " + num;
+    
+    if (num ==="Processos"){
+        console.log("Clicou em Processos");
+        select_opts = document.getElementById('Processos');
+    }
+    if (num ==="Aplicação"){
+        console.log("Clicou em Aplicação");
+        select_opts = document.getElementById('Apps');
+    }
+    if (num ==="Processos"){
+        console.log("Clicou em Processos");
+        select_opts = document.getElementById('Processos');
+    }
+    if (num ==="Área"){
+        console.log("Clicou em Problema");
+        select_opts = document.getElementById('Area');
+    }
+    if (num ==="Problema"){
+        console.log("Clicou em Problema");
+        select_opts = document.getElementById('ProblemaD');
+    }
 }
 
 btnClicado.forEach((val,i)=>{
@@ -558,19 +583,21 @@ btnClicado.forEach((val,i)=>{
 
 let input_inserido = document.querySelector('.aplicacao-input');
 let botaoInserir = document.querySelector('#AdicionarCampos');
-
 let select_opts = document.getElementById('Apps');
+console.log(select_opts);
 
 function adicionarSelect() {
- let input_valor = input_inserido.value;
- console.log(input_inserido.value);
-  if(input_valor != '') {
-    select_opts.innerHTML += '<option>' +input_valor+ '</option>';
-    input_inserido.value = '';
-  }
-};    
-  
-botaoInserir.addEventListener('click', adicionarSelect);
+    let input_valor = input_inserido.value;
+    console.log(input_inserido.value);
+     if(input_valor != '') {
+       select_opts.innerHTML += '<option>' +input_valor+ '</option>';
+       input_inserido.value = '';
+     }
+   };    
+     
+   botaoInserir.addEventListener('click', adicionarSelect);
+
+
 
 
 
