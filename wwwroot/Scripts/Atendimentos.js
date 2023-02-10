@@ -35,12 +35,11 @@ function loadChamados(){
                 const liDispositivo = document.createElement('li')
                 const liReproduzido = document.createElement('li')
                 const liCard = document.createElement('li')
-                const liProcesso = document.createElement('li')
-                const liDemanda = document.createElement('li')
+                const liProcesso = document.createElement('li')            
                 const liAplicativo = document.createElement('li')
                 const liArea = document.createElement('li')
                 const liProblema = document.createElement('li')
-                const liDescrição = document.createElement('li')
+                
                 const div = document.createElement('div');
                 div.className = 'chamado'
                 div.id = `chamado${i}`
@@ -68,12 +67,12 @@ function loadChamados(){
                 const alunoId = document.createTextNode(`Aluno ID: ${r.idAluno}`)
 
                 //TO DO
-                const process = document.createTextNode(`Processo: ${r.aluno_Processos}`)
-                const demanda = document.createTextNode(`Demanda: ${r.aluno_Demanda}`) 
-                const app = document.createTextNode(`Aplicativo: ${r.aluno_app}`)
-                const area = document.createTextNode(`Area: ${r.Aluno_Area}`)
-                const problema = document.createTextNode(`Problema: ${r.Aluno_Problema}`)
-                const desc = document.createTextNode(`Descrição: ${r.aluno_Desc}`)
+                const process = document.createTextNode(`Processo: ${r.processo}`)
+                
+                const app = document.createTextNode(`Aplicativo: ${r.aplicativo}`)
+                const area = document.createTextNode(`Area: ${r.area}`)
+                const problema = document.createTextNode(`Problema: ${r.problema}`)
+                
                 
                 //Adicionando classe nos conteúdos para ficarem escondidos
                 liDispositivo.className = 'infoHide'
@@ -84,7 +83,7 @@ function loadChamados(){
                 liAppVersao.className = 'infoHide'
                 liAlunoOv.className = 'infoHide'
                 liStatus.className = 'infoHide'
-                liDescrição.className = 'infoHide'
+                
 
                 let campoNome = document.getElementById('campoNome');
                 campoNome.innerHTML = `Aluno: ${r.nomeAluno}`
@@ -97,10 +96,7 @@ function loadChamados(){
                 if(dispositivo.nodeValue!='Processo: '){
                     liProcesso.appendChild(process)
                  }
-
-                 if(dispositivo.nodeValue!='Demanda: '){
-                    liDemanda.appendChild(demanda)
-                 }
+              
 
                  if(dispositivo.nodeValue!='Aplicativo: '){
                     liAplicativo.appendChild(app)
@@ -113,10 +109,7 @@ function loadChamados(){
                  if(dispositivo.nodeValue!='Problema: '){
                     liProblema.appendChild(problema)
                  }
-                
-                 if(dispositivo.nodeValue!='Descrição do Problema: '){
-                    liDescrição.appendChild(desc)
-                 }
+                             
 
                 if(card.nodeValue!='CARD: ' && card.nodeValue!='CARD: N/A'){
                     liCard.appendChild(card)
@@ -148,12 +141,11 @@ function loadChamados(){
                 lista.appendChild(liDispositivo)
                 lista.appendChild(liCard)
                 lista.appendChild(liReproduzido)
-                lista.appendChild(liProcesso)
-                lista.appendChild(liDemanda)
+                lista.appendChild(liProcesso)             
                 lista.appendChild(liAplicativo)
                 lista.appendChild(liArea)
                 lista.appendChild(liProblema)
-                lista.appendChild(liDescrição)
+                
                 div.appendChild(lista)
                 link.appendChild(div)
                 
