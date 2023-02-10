@@ -5,7 +5,7 @@
     border-radius: 5px 5px 5px 5px;
     height: 2em;
     text-align: center;
-    margin: 8px 0;
+    margin: 0;
 
 }
 
@@ -564,7 +564,7 @@ input:focus {
 @media screen and (max-height: 1024px ) {
     main > .form-content {
         margin-top: -1%;
-        height: 309px;
+        height: 410px;
     }
 
 }
@@ -825,9 +825,7 @@ td.padrao-terciaria {
         margin-top: 50px !important;
     }
 
-    .label-textarea {
-        margin-left: -169px;
-    }
+   
     .label-form1, .label-form3, .padrao-terciaria {
      
         font-size: 16px !important;
@@ -927,6 +925,14 @@ table, th, td, tr, input {
 .container-opcoes{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container-opcoes:nth-child(1){
+  
+    margin-bottom: 10px;
+
 }
 
 .selects {
@@ -934,4 +940,22 @@ table, th, td, tr, input {
     grid-template-columns: 91px auto;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+.icone-adicionar {
+    display: block;
+    cursor: pointer;
+    padding-left: 2px;
+}
+
+.box-input {
+    position: absolute;
+    display: flex;
+    width: 100px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.campos {
+    position: relative;
 }

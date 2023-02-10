@@ -311,15 +311,16 @@
                  <div class="tabela_dadosIII padrao-terciaria">
                     <div class="container-opcoes">
                         <h4 class="padrao-terciaria">Processos:</h4>
-
                         <select name="Processos" id="Processos" class="padrao-quartenaria Select-Content select-processos" onchange="ClicarI(this.value)">
                             <option value="Conflito-de-dados">Conflito de Dados</option>
                             <option value="Login-code">Login code</option>
                             <option value="Sugestão">Sugestão</option>
                             <option value="Demanda">Demanda</option>
                         </select>  
-                    </div>                  
+                        <img class="icone-adicionar" onclick="Inserir()"id="AdicionarCampos"  alt="Adicionarcampos" src="/img/icone-adicionar.svg" alt="">
+                    </div>
                 </div>
+                
                 <div class="drop-app">
                     <div class="Demanda-Option">
                         <h4 class="drop1 padrao-terciaria">Demanda:</h4>
@@ -342,13 +343,15 @@
                                     <option value="Concursos">Concursos</option>
                                     <option value="Outros">Outros</option>
                                 </select>
+                               <img class="icone-adicionar" onclick="Inserir()"id="AdicionarCampos"  alt="Adicionarcampos" src="/img/icone-adicionar.svg" alt="">
                             </div>
                             <div class="drop2 padrao-terciaria">
                                <div class="container-opcoes">
-                                    <h4 class="Area padrao-terciaria"> Área: </h4>
+                                    <h4 class="Area padrao-terciaria"> Área:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
                                     <select name="Area" id="Area" class="padrao-quartenaria Select-Content" onchange="ProblemaD()">
                                         <option value="N/A">--</option>
                                     </select>
+                                   <img class="icone-adicionar" onclick="Inserir()"id="AdicionarCampos"  alt="Adicionarcampos" src="/img/icone-adicionar.svg" alt="">
                                 </div>
                                 <div class="Problemas">
                                     <div class="Problema container-opcoes">
@@ -356,12 +359,13 @@
                                         <select name="problema" id="ProblemaD" class="padrao-quartenaria Select-Content">
                                             <option value="N/A">--</option>
                                         </select>
-                                    </div>    
+                                        <img class="icone-adicionar" onclick="Inserir()"id="AdicionarCampos"  alt="Adicionarcampos" src="/img/icone-adicionar.svg" alt="">
+                                    </div>
                                 </div>
                                 
 
                                 <button id="btn_dados" value="" class="botao-limpar-2" alt="Limpar">LIMPAR</button>
-                                <button type= button onclick="Inserir()"id="AdicionarCampos" class="botao-adicionar"  alt="Adicionarcampos">Adicionar Campos</button>
+                               
                                 
                                 
                             </div>
@@ -377,32 +381,22 @@
                 <a>
                 <div class="InserirDados">
                     <div class="popup-wrapper">
-                    <div type=button onclick="hideInserir()"class="close-popup">x</div>
-                    <div class="campos">
-                    <h2>Adicione novos campos</h2>
-                    <p>Cada campo insere novos objetos no banco de dados, você também pode deletar campos</p>
-                    <input class="style" type="text" name="Processos"placeholder="Novo campo  Processos"></input>
-                    
-                    <br/>
-                    <input class="style aplicacao-input"  type="text" name="Aplicacao"placeholder="Novo campo  Aplicação"></input>
-                    
-                     <br/>
-                    <input class="style"  type="text" name="Area"placeholder="Novo campo  Área"></input>
-                    
-                     <br/>
-                    <input class="style"  type="text" name="Problema"placeholder="Novo campo  Problema"></input>
-                    
-                     <br/>
-                    <button type= submit id="AdicionarCampos" class="botao-adicionar"  alt="Adicionarcampos" onclick = "adicionarSelect()">Enviar</button></div>
-                    </div>
-                    
-                    </div>
-
-                    </a><div>
-                   
+                        <div type=button onclick="hideInserir()"class="close-popup">x</div>
+                             <div class="campos">
+                             <h2>Nova opção</h2>
+                              <br/>
+                        <div class="box-input">
+                             <input class="style aplicacao-input"  type="text" name="Aplicacao"placeholder="Novo campo  Aplicação"></input>
+                                <br/>
+                             <img class="icone-adicionar" onclick = "adicionarSelect()"id="AdicionarCampos"  alt="Adicionarcampos" src="/img/icone-aplicar.svg" alt="" type ="submit" >
+                            </div>
+                            </div>
+                       </div>
+                    </a>
+                    <div>
                 </div>
-                
             </div>
+              
     </main>
    
     <script src="/Scripts/js-base.js">

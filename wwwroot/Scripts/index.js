@@ -526,8 +526,6 @@ function hideInserir(){
     var element = document.querySelector(".InserirDados");
     element.classList.remove("showInserirDados");
     
-
-    
 }
 
 function Enviardados(){
@@ -539,7 +537,7 @@ function Enviardados(){
 //adicionando o novo input ao select
 
 let input_inserido = document.querySelector('.aplicacao-input');
-let botaoInserir2 = document.querySelector('#AdicionarCampos');
+let botaoInserir = document.querySelector('#AdicionarCampos');
 
 let select_opts = document.getElementById('Apps');
 
@@ -552,14 +550,9 @@ function adicionarSelect() {
   }
 };    
   
-botaoInserir2.addEventListener('click', adicionarSelect);
-        
-          
+botaoInserir.addEventListener('click', adicionarSelect);
 
 
-
-    
-  
 
 
     
