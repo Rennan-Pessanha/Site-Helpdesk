@@ -517,11 +517,11 @@ function SubmitForm() {
     
     }
 }
-function Inserir(){
-    var element = document.querySelector(".InserirDados");
-    element.classList.add("showInserirDados");
-    console.log('entrou')
-}
+
+
+
+const btnClicado = document.querySelectorAll("#AdicionarCampos");
+
 function hideInserir(){
     var element = document.querySelector(".InserirDados");
     element.classList.remove("showInserirDados");
@@ -530,8 +530,28 @@ function hideInserir(){
 
 function Enviardados(){
     alert("Enviardados");
-
 }
+let h4 = document.querySelectorAll('.icone-adicionar');
+
+function mostrarPopUp() {
+    var element = document.querySelector(".InserirDados");
+    element.classList.add("showInserirDados");
+}
+function alteraTitulo(num) {
+    let popup = document.querySelector(".aplicacao-input");
+    console.log(popup.placeholder);
+    document.getElementById("titulo-option").innerHTML = num.getAttribute("alt");
+    console.log(num);
+    popup.placeholder = num.getAttribute("alt");
+}
+
+btnClicado.forEach((val,i)=>{
+    btnClicado[i].addEventListener("click",function clicouBotao(){
+        mostrarPopUp()
+        alteraTitulo(btnClicado[i]);
+        console.log(i)
+    })
+})
 
 
 //adicionando o novo input ao select
