@@ -8,6 +8,6 @@ namespace SiteHelpdesk.SelectModels
         [ForeignKey("Select")]
         public int IdPai { get; set; }
 
-        public Select2Model Select { get; set; }
+        private Select2Model Select { get; set; }
     }
 }
