@@ -266,7 +266,7 @@ main > .line {
 }
 
 .cont-content {
-    width: 80%;
+    width: 90%;
     height: 100%;
     margin-left: 8%;
     display: inline-block;
@@ -667,7 +667,7 @@ td.padrao-terciaria {
     border: none;
     padding-left: 26px;
     padding-top: 6px;
-    width: 93%;
+    width: 96%;
     height: 80%;
 
 }
@@ -682,7 +682,7 @@ td.padrao-terciaria {
 
     .botao-limpar-2 {
         margin-top: 72px !important;
-        margin-left: -96px !important;
+        margin-left: -34px !important;
     }
     
     .botao-limpar-3 {
@@ -720,7 +720,7 @@ td.padrao-terciaria {
      }
 
     .botao-limpar-2 {
-        margin-left: -87px !important;
+        margin-left: -32px !important;
     }
     
     .botao-limpar-3 {
@@ -746,21 +746,19 @@ td.padrao-terciaria {
         width: 101%;
     }
 
-    .cont-content {
-        margin-left: 9%;
-    }
 
     
     
 
     .botao-limpar {
         margin-left: 28px !important;
-        margin-top: 88px !important;
+        margin-top: 110px !important;
+    
     }
 
     .botao-limpar-2 {
-        margin-top: 75px !important;
-        margin-left: -73px !important;
+        margin-top: 81px !important;
+        margin-left: -33px !important;
     }
     
     .botao-limpar-3 {
@@ -798,12 +796,6 @@ td.padrao-terciaria {
         width: 101%;
         margin-left: 29px;
     }
-
-    .cont-content {
-        margin-left: 9%;
-    }
-
-
     
   
     .botao-limpar {
@@ -813,7 +805,7 @@ td.padrao-terciaria {
 
     .botao-limpar-2 {
         margin-top: 48px !important;
-        margin-left: -70px !important;
+        margin-left: -32px !important;
     }
     
     .botao-limpar-3 {
@@ -855,16 +847,7 @@ td.padrao-terciaria {
     }
 }
 
-@media screen and (max-width: 1232px ) {
-    
 
-    main > .form-content {
-        height: 268px;
-        margin-top: -44px;
-    }
-
-   
-}
 
 .botoes:hover {
     cursor: pointer;
