@@ -701,8 +701,8 @@ header > .logo {
         position: fixed;
         padding: 0;
         top: 0px;
-        left:200px;
-        width: 80%;
+        left:-432px;
+        width: 100%;
         height: 800px;
         display: flex;
         align-items: center;
@@ -732,12 +732,12 @@ header > .logo {
         float: right;
         width: 20px;
         border-radius: 5px;
-        background-color: #E6E8ED;
+        background-color: white;
         text-align: center;
         line-height: 24px;
     }
-    .close-popup:houver{
-        background-color: darkgray;
+    .close-popup:hover{
+        background-color: #E6E8ED;
     }
     .popup-wrapper {
      text-align: center;
@@ -755,11 +755,13 @@ header > .logo {
      border-radius: 5px;
      min-width: 65px;
     }
-    .close-popup{
+    .close-popup {
         position: absolute;
-        top: 5px;
-        right: 10px;
+        top: 3px;
+        right: 3px;
         cursor: pointer !important;
         z-index: 1;
+        border: 0.2px solid ;
     }
+    
     

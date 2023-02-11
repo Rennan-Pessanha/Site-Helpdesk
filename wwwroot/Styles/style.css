@@ -940,6 +940,8 @@ table, th, td, tr, input {
     border: none;
     border-radius: 5px;
     padding-left: 5px;
+    font-family: 'Baloo Da 2', cursive;
+    margin-right: 10px;
 }
 
 .todos-selects {
