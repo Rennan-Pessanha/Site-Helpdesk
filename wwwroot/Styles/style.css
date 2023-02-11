@@ -19,7 +19,7 @@ main{
     right: -4;
     max-width: 1300px;
     margin-left: 285px;
-    height: 60%;
+    height: 63%;
     width: 69.5%;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
@@ -266,21 +266,21 @@ main > .line {
 }
 
 .cont-content {
-    width: 90%;
-    height: 100%;
-    margin-left: 8%;
-    display: inline-block;
-    margin-top: 12px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto 1fr;
-    margin: 0 auto;
-    column-gap: 50px;
-    font-family: 'Baloo Da 2', cursive;
-    color: black;
-    font-weight: small, bold;
-    font-size: 20px;
-    padding-top: 25px;
+        width: 95%;
+        height: 100%;
+        margin-left: 8%;
+        display: inline-block;
+        margin: 0 auto;
+        font-family: 'Baloo Da 2', cursive;
+        color: black;
+        font-weight: small, bold;
+        font-size: 20px;
+        padding-top: 0px;
+        align-content: center;
+        display: grid;
+        grid-template-columns: 430px 55%;
+        margin-top: -6.5% !important;
+    
 }
 
 
@@ -340,11 +340,6 @@ background-color: rgba(0, 0, 255, 0.034);
 }
 
 
-.Span-drops {
-    padding-left: 12px;
-   
-
-}
 
 .drop2 { 
     display: inline-block;
@@ -818,9 +813,16 @@ td.padrao-terciaria {
     }
 
    
-    .label-form1, .label-form3, .padrao-terciaria {
+    .label-form1, .label-form3, .padrao-terciaria, .label-textarea {
      
         font-size: 16px !important;
+    }
+
+    .cont-content {
+   
+        grid-template-columns: 430px 55%;
+        gap: 40px;
+        margin-top: -81px !important;
     }
 
     td {
@@ -921,8 +923,8 @@ table, th, td, tr, input {
 .selects {
     display: flex;
     grid-template-columns: 91px auto;
-    flex-direction: column;
     flex-wrap: wrap;
+    grid-column: 1;
 }
 
 .icone-adicionar {
@@ -945,4 +947,27 @@ table, th, td, tr, input {
 
 .aplicacao-input {
     width: 80%;
+}
+
+.todos-selects {
+    display: grid;
+    width: 95%;
+    grid-template-columns: 20% 67% 10%;
+    gap :15px;
+}
+
+
+
+.icone-adicionar {
+    grid-column: 3;
+    align-self: center;
+}
+
+select {
+    margin-bottom: 20px;
+}
+
+.botao-limpar-2 {
+     margin-left: 0px !important;
+     align-self: end;
 }

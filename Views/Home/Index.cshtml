@@ -304,11 +304,10 @@
 
         </div>
 
-        <div id="form2" class="form-content">
-            <div class="cont-content">
-                <div class="selects">
-                 <div class="tabela_dadosIII padrao-terciaria">
-                    <div class="container-opcoes">
+        <div id="form2" class="form-content container-opcoes">
+            <div class="cont-content drop-app">
+                <div class="todos-selects">                 
+                   
                         <h4 class="padrao-terciaria titulo-h4">Processos:</h4>
                         <select name="Processos" id="Processos" class="padrao-quartenaria Select-Content select-processos" onchange="ClicarI(this.value)">
                             <option value="Conflito-de-dados">Conflito de Dados</option>
@@ -317,10 +316,8 @@
                             <option value="Demanda">Demanda</option>
                         </select>  
                         <img class="icone-adicionar"id="AdicionarCampos"  alt="Processos" src="/img/icone-adicionar-2.png">
-                    </div>
-                </div>
-                
-                <div class="drop-app">
+        
+
                     <div class="Demanda-Option">
                         <h4 class="drop1 padrao-terciaria">Demanda:</h4>
                         <select name="Demanda-Option" id="Demanda-Option" class="padrao-quartenaria Select-Content" onchange="RevelarProblemaDrop2(this.value)">
@@ -328,55 +325,54 @@
                             <option value="Reclamação">Reclamação</option>
                         </select>
                     </div>
-                    <div class="dropdown-select padrao-terciaria">
-                        <span class="Span-drops">
-                            <div class="container-opcoes">
-                                <h4 class="drop1 padrao-terciaria">Aplicação:</h4>
-                                <select name="Aplicação" id="Apps" class="padrao-quartenaria Select-Content" onchange="area()">
-                                    <option value="N/A">--</option>
-                                    <option value="Academico">Acadêmico</option>
-                                    <option value="Medsoft-Pro">Medsoft Pro</option>
-                                    <option value="Recursos">Plantão de Recursos</option>
-                                    <option value="MEDELETRO">MedEletro</option>
-                                    <option value="AreaRestrita">Área Restrita</option>
-                                    <option value="Concursos">Concursos</option>
-                                    <option value="Outros">Outros</option>
-                                </select>
-                                  <img class="icone-adicionar"id="AdicionarCampos" onclick="funcaoForeach()" alt="Aplicação" src="/img/icone-adicionar.svg">
-                            </div>
-                            <div class="drop2 padrao-terciaria">
-                               <div class="container-opcoes">
-                                    <h4 class="Area padrao-terciaria"> Área:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
-                                    <select name="Area" id="Area" class="padrao-quartenaria Select-Content" onchange="ProblemaD()">
-                                        <option value="N/A">--</option>
-                                    </select>
-                                   <img class="icone-adicionar"id="AdicionarCampos" onclick="funcaoForeach()" alt="Área" src="/img/icone-adicionar-2.png">
-                                </div>
-                                <div class="Problemas">
-                                    <div class="Problema container-opcoes">
-                                        <h4 class="problema-label padrao-terciaria"> Problema: </h4>
-                                        <select name="problema" id="ProblemaD" class="padrao-quartenaria Select-Content">
-                                            <option value="N/A">--</option>
-                                        </select>
-                                        <img class="icone-adicionar"id="AdicionarCampos" onclick="funcaoForeach()" alt="Problema" src="/img/icone-adicionar-2.png">
-                                    </div>
-                                </div>
+
+                   
+                         <h4 class="padrao-terciaria titulo-h4">Aplicação:</h4>
+                            <select name="Aplicação" id="Apps" class="padrao-quartenaria Select-Content" onchange="area()">
+                                <option value="N/A">--</option>
+                                <option value="Academico">Acadêmico</option>
+                                <option value="Medsoft-Pro">Medsoft Pro</option>
+                                <option value="Recursos">Plantão de Recursos</option>
+                                <option value="MEDELETRO">MedEletro</option>
+                                <option value="AreaRestrita">Área Restrita</option>
+                                <option value="Concursos">Concursos</option>
+                                <option value="Outros">Outros</option>
+                            </select>
+                        <img class="icone-adicionar"id="AdicionarCampos" onclick="funcaoForeach()" alt="Aplicação" src="/img/icone-adicionar.svg">
+                    
+
+                   
+                         <h4 class="Area padrao-terciaria titulo-h4"> Área:</h4>
+                            <select name="Area" id="Area" class="padrao-quartenaria Select-Content" onchange="ProblemaD()">
+                                <option value="N/A">--</option>
+                            </select>
+                        <img class="icone-adicionar"id="AdicionarCampos" onclick="funcaoForeach()" alt="Área" src="/img/icone-adicionar-2.png">
+                    
+
+                    
+                        <h4 class="problema-label padrao-terciaria"> Problema: </h4>
+                        <select name="problema" id="ProblemaD" class="padrao-quartenaria Select-Content">
+                            <option value="N/A">--</option>
+                        </select>
+                        <img class="icone-adicionar"id="AdicionarCampos" onclick="funcaoForeach()" alt="Problema" src="/img/icone-adicionar-2.png">
+                
+                </div>
                                 
 
                                 <button id="btn_dados" value="" class="botao-limpar-2" alt="Limpar">LIMPAR</button>
-                               
-                                
-                                
+
+                                <div action="" class="textarea-descricao">
+                                <p><label class="padrao-terciaria label-textarea" for="">Descrição:</label></p>
+                                <textarea id="descricao-problema" name="descricao-problema" rows="10" cols="50" placeholder="Faça um resumo do problema de forma com que uma outra pessoa consiga entender o que foi feito no atendimento"></textarea>
+                                <br>
                             </div>
+                            </div>
+                            
                     </div>
                     </div>
                     
                 </div>
-                <div action="" class="textarea-descricao">
-                        <p><label class="label-textarea" for="">Descrição:</label></p>
-                        <textarea id="descricao-problema" name="descricao-problema" rows="10" cols="50" placeholder="Faça um resumo do problema de forma com que uma outra pessoa consiga entender o que foi feito no atendimento"></textarea>
-                         <br>
-                </div>
+          
                 <a>
                 <div class="InserirDados">
                     <div class="popup-wrapper">
