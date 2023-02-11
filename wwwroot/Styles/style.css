@@ -279,7 +279,7 @@ main > .line {
         align-content: center;
         display: grid;
         grid-template-columns: 430px 55%;
-        margin-top: -6.5% !important;
+        margin-top: -58px;
     
 }
 
@@ -403,6 +403,8 @@ h4.drop1.padrao-terciaria {
 
 main {
     overflow: hidden;
+    min-width: 1155px;
+
 }
 
 input:focus {
@@ -709,19 +711,13 @@ td.padrao-terciaria {
 @media screen and (max-width: 1750px ) {
 
 
-    .botao-limpar {
+    .botao-limpar, .botao-limpar-2, .botao-limpar-3 {
         margin-top: 117px !important;
         margin-left: 34px !important;   
      }
 
-    .botao-limpar-2 {
-        margin-left: -32px !important;
-    }
     
-    .botao-limpar-3 {
-       margin-left: 34px !important;
-       margin-top: 100px !important;
-    }
+    
 
     .adicionar {
         margin-top: 100px !important;
@@ -821,8 +817,8 @@ td.padrao-terciaria {
     .cont-content {
    
         grid-template-columns: 430px 55%;
-        gap: 40px;
-        margin-top: -81px !important;
+        gap: 0px;
+    
     }
 
     td {
@@ -952,8 +948,10 @@ table, th, td, tr, input {
 .todos-selects {
     display: grid;
     width: 95%;
-    grid-template-columns: 20% 67% 10%;
-    gap :15px;
+    grid-template-columns: 82px 278px 40px;
+    column-gap: 10px;
+    min-width: 410px;
+    row-gap: 15px;
 }
 
 
@@ -968,6 +966,22 @@ select {
 }
 
 .botao-limpar-2 {
-     margin-left: 0px !important;
-     align-self: end;
+    margin-left: 0px !important;
+    align-self: end;
+    position: absolute;
+    margin: -66px !important;
+    margin-left: 58px !important;
+}
+
+.adicionar {
+        position: absolute;
+        margin: -66px !important;
+        margin-left: 188px !important;
+
+        right: 143px;
+        bottom: 146px;
+}
+
+.tabela_dados, .tabela_dadosII {
+    margin-top: 19px !important;
 }
