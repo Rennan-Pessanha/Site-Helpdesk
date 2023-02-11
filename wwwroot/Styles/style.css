@@ -236,6 +236,7 @@ main > .line {
 .tabela_dadosII{
     font-family: Secundária;
     margin: 22px auto;
+    width: 96%;
     
 
 }
@@ -266,7 +267,7 @@ main > .line {
 }
 
 .cont-content {
-        width: 95%;
+        width: 94%;
         height: 100%;
         margin-left: 8%;
         display: inline-block;
@@ -280,6 +281,7 @@ main > .line {
         display: grid;
         grid-template-columns: 430px 55%;
         margin-top: -58px;
+        column-gap: 60px;
     
 }
 
@@ -643,7 +645,7 @@ td.padrao-terciaria {
 
 
 .label-textarea {
-    margin-right: 8px;
+    margin-right: 21px !important;
     z-index: 1;
     margin-top: -1px;
 }
@@ -735,6 +737,7 @@ td.padrao-terciaria {
         margin: 20px auto;
         font-family: Secundária;
         width: 101%;
+        margin-left: 22px;
     }
 
 
@@ -780,29 +783,22 @@ td.padrao-terciaria {
 }
 
 
-@media screen and (max-width: 1400px ) {
+@media screen and (max-width: 1670px ) {
     .tabela_dados {
         margin: 20px auto;
         font-family: Secundária;
         width: 101%;
-        margin-left: 29px;
+        margin-left: 22px;
     }
     
   
-    .botao-limpar {
-        margin-top: 44px !important;
-        margin-left: 23px !important;
-    }
+
 
     .botao-limpar-2 {
         margin-top: 48px !important;
         margin-left: -32px !important;
     }
     
-    .botao-limpar-3 {
-        margin-top: 50px !important;
-        margin-left: 23px !important;
-    }
 
     .adicionar {
         margin-top: 50px !important;
@@ -818,6 +814,7 @@ td.padrao-terciaria {
    
         grid-template-columns: 430px 55%;
         gap: 0px;
+        column-gap: 30px;
     
     }
 
@@ -948,7 +945,7 @@ table, th, td, tr, input {
 .todos-selects {
     display: grid;
     width: 95%;
-    grid-template-columns: 82px 278px 40px;
+    grid-template-columns: 100px 278px 40px;
     column-gap: 10px;
     min-width: 410px;
     row-gap: 15px;
@@ -977,9 +974,8 @@ select {
         position: absolute;
         margin: -66px !important;
         margin-left: 188px !important;
-
         right: 143px;
-        bottom: 146px;
+        margin: -66px !important;
 }
 
 .tabela_dados, .tabela_dadosII {
