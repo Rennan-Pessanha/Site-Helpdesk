@@ -488,14 +488,14 @@ input:focus {
     border: none;
     font-size: 16px;
     float: left;
-    margin-left: -74px !important;
+    margin-left: -51px !important;
     cursor: pointer;
     border-radius: 4px;
     letter-spacing: 1px;
     padding: 10px 20px;
     font-weight: bold;
     color: #3C5C60;
-    margin-top: 91px !important;
+    margin-top: 80px !important;
     position: absolute;
     background: linear-gradient(to top, #E0E0E0, #F0F0F0);
 }
@@ -934,11 +934,15 @@ table, th, td, tr, input {
 .box-input {
     position: absolute;
     display: flex;
-    width: 100px;
+    width: 90%;
     margin: 0 auto;
     padding-left: 20px;
 }
 
 .campos {
     position: relative;
+}
+
+.aplicacao-input {
+    width: 80%;
 }
