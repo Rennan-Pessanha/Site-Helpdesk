@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="/Styles/style.css">
     <link rel="stylesheet" href="/Styles/style-base.css">
     
-
     <style>
         
             input::-webkit-outer-spin-button,
@@ -21,8 +20,6 @@
             input[type=number] {
                 -moz-appearance: textfield;
             }
-       
-    
 
         table,
         th,
@@ -44,7 +41,6 @@
         input {
             background-color: transparent;
             border-radius: 2px 2px 2px 2px;
-
         }
     </style>
 </head>
@@ -70,9 +66,13 @@
         </div>
 
         <div class="Sub-Menu-Perfil ">
-            <div class="Perfil-Content">
+            <div class="Perfil-Content Padrao-Primário">
+            <h2 class=" Padrao-Primário Title-Not">Perfil</h2>
+            <hr>
                 <img src="/img/Icones-menu/Icones superiores/Perfil-Content/MinhaConta.png" alt="Detalhes da conta"> <a href="#" class="Padrao-Secundário">Minha Conta</a> <br>
+                <hr>
                 <img src="/img/Icones-menu/Icones superiores/Perfil-Content/CNot.png" alt="Configuração de Notificação"> <a href="#" class="Padrao-Secundário">Configurar Notificações</a> <br>
+                <hr>
                 <img src="/img/Icones-menu/Icones superiores/Perfil-Content/FazerLogin.png" alt="Login"> <a href="/Login" class="Padrao-Secundário"> Login/Logout</a>
             </div>
 
@@ -168,9 +168,8 @@
         <div id="form1" class="form-content">
 
             <table class="tabela_dados">
+
                 <tr nome="jump"class="padrao-terciaria">
-                
-                    
                     <td class="label-form1">Dados do aluno:</td>
                     <td><input type="text" id="dados_id" placeholder="Digite o Id do aluno" class="input_total padrao-terciaria"></td>
                     <td><input type="text" name="campo2" id="dados_cpf" placeholder="Digite o CPF do aluno" class="input_total padrao-terciaria"></td>
@@ -189,11 +188,7 @@
                     <td><input type="text" id="chamado_hora" placeholder="Informe a hora do chamado" class="input_total padrao-terciaria"></td>
                     <td><input type="text" id="chamado_responsavel" placeholder="Informe nome do atendente" class="input_total padrao-terciaria"></td>
                 </tr>
-                 
-              
-                
             </table>
-
 
             <table class="tabela_resultado">
                 <tr class="padrao-terciaria">
@@ -230,8 +225,6 @@
                     <td><input type="text" id="id_chamado_responsavel" disabled class="input_resposta"></td>
                     
                 </tr>
-                
-
             </table>
             <p id="msg_erro"></p>
         </div>
@@ -268,13 +261,10 @@
                             <option value="Email" class="option">Email</option>
                             <option value="Whatszap" class="option">Whats App</option>
                         </select></td>
-
                 </tr>
             </table>
 
-
             <table class="tabela_resultadoII">
-
                 <tr>
                 <tr class="padrao-terciaria">
 
@@ -294,25 +284,19 @@
                 </tr>
 
             </table>
-
-            
-           
-
         </div>
 
         <div id="form2" class="form-content container-opcoes">
             <div class="cont-content drop-app">
-                <div class="todos-selects">                 
-                   
-                        <h4 class="padrao-terciaria titulo-h4">Processos:</h4>
-                        <select name="Processos" id="Processos" class="padrao-quartenaria Select-Content select-processos" onchange="ClicarI(this.value)">
-                            <option value="Conflito-de-dados">Conflito de Dados</option>
-                            <option value="Login-code">Login code</option>
-                            <option value="Sugestão">Sugestão</option>
-                            <option value="Demanda">Demanda</option>
-                        </select>  
-                        <img class="icone-adicionar"id="AdicionarCampos"  alt="Processos" src="/img/icone-adicionar-2.png">
-        
+                <div class="todos-selects">                                    
+                    <h4 class="padrao-terciaria titulo-h4">Processos:</h4>
+                    <select name="Processos" id="Processos" class="padrao-quartenaria Select-Content select-processos" onchange="ClicarI(this.value)">
+                        <option value="Conflito-de-dados">Conflito de Dados</option>
+                        <option value="Login-code">Login code</option>
+                        <option value="Sugestão">Sugestão</option>
+                        <option value="Demanda">Demanda</option>
+                    </select>  
+                    <img class="icone-adicionar"id="AdicionarCampos"  alt="Processos" src="/img/icone-adicionar-2.png">
 
                     <div class="Demanda-Option">
                         <h4 class="drop1 padrao-terciaria">Demanda:</h4>
@@ -322,73 +306,63 @@
                         </select>
                     </div>
 
+                    <h4 class="padrao-terciaria titulo-h4">Aplicação:</h4>
+                    <select name="Aplicação" id="Apps" class="padrao-quartenaria Select-Content" onchange="area()">
+                        <option value="N/A">--</option>
+                        <option value="Academico">Acadêmico</option>
+                        <option value="Medsoft-Pro">Medsoft Pro</option>
+                        <option value="Recursos">Plantão de Recursos</option>
+                        <option value="MEDELETRO">MedEletro</option>
+                        <option value="AreaRestrita">Área Restrita</option>
+                        <option value="Concursos">Concursos</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+                    <img class="icone-adicionar"id="AdicionarCampos" onclick="funcaoForeach()" alt="Aplicação" src="/img/icone-adicionar.svg">
                    
-                         <h4 class="padrao-terciaria titulo-h4">Aplicação:</h4>
-                            <select name="Aplicação" id="Apps" class="padrao-quartenaria Select-Content" onchange="area()">
-                                <option value="N/A">--</option>
-                                <option value="Academico">Acadêmico</option>
-                                <option value="Medsoft-Pro">Medsoft Pro</option>
-                                <option value="Recursos">Plantão de Recursos</option>
-                                <option value="MEDELETRO">MedEletro</option>
-                                <option value="AreaRestrita">Área Restrita</option>
-                                <option value="Concursos">Concursos</option>
-                                <option value="Outros">Outros</option>
-                            </select>
-                        <img class="icone-adicionar"id="AdicionarCampos" onclick="funcaoForeach()" alt="Aplicação" src="/img/icone-adicionar.svg">
+                    <h4 class="Area padrao-terciaria titulo-h4"> Área:</h4>
+                    <select name="Area" id="Area" class="padrao-quartenaria Select-Content" onchange="ProblemaD()">
+                        <option value="N/A">--</option>
+                    </select>
+                    <img class="icone-adicionar"id="AdicionarCampos" onclick="funcaoForeach()" alt="Área" src="/img/icone-adicionar-2.png">
                     
-
-                   
-                         <h4 class="Area padrao-terciaria titulo-h4"> Área:</h4>
-                            <select name="Area" id="Area" class="padrao-quartenaria Select-Content" onchange="ProblemaD()">
-                                <option value="N/A">--</option>
-                            </select>
-                        <img class="icone-adicionar"id="AdicionarCampos" onclick="funcaoForeach()" alt="Área" src="/img/icone-adicionar-2.png">
-                    
-
-                    
-                        <h4 class="problema-label padrao-terciaria"> Problema: </h4>
-                        <select name="problema" id="ProblemaD" class="padrao-quartenaria Select-Content">
-                            <option value="N/A">--</option>
-                        </select>
+                    <h4 class="problema-label padrao-terciaria"> Problema: </h4>
+                    <select name="problema" id="ProblemaD" class="padrao-quartenaria Select-Content">
+                        <option value="N/A">--</option>
+                    </select>
                         <img class="icone-adicionar"id="AdicionarCampos" onclick="funcaoForeach()" alt="Problema" src="/img/icone-adicionar-2.png">
-                
                 </div>
-                                
 
-                               
+                    <div action="" class="textarea-descricao">
+                        <p><label class="padrao-terciaria label-textarea" for="">Descrição:</label></p>
+                        <textarea id="descricao-problema" name="descricao-problema" rows="10" cols="50" placeholder="Faça um resumo do problema de forma com que uma outra pessoa consiga entender o que foi feito no atendimento"></textarea>
+                        <br>
+                    </div>
 
-                                <div action="" class="textarea-descricao">
-                                <p><label class="padrao-terciaria label-textarea" for="">Descrição:</label></p>
-                                <textarea id="descricao-problema" name="descricao-problema" rows="10" cols="50" placeholder="Faça um resumo do problema de forma com que uma outra pessoa consiga entender o que foi feito no atendimento"></textarea>
-                                <br>
-                            </div>
-                            </div>
-                            
-                    </div>
-                    </div>
-                    
-                </div>
+                </div>                           
+            </div>
+        </div>
+    </div>
           
                 <a>
                 <div class="InserirDados">
                     <div class="popup-wrapper">
                         <div type=button onclick="hideInserir()"class="close-popup">x</div>
-                             <div class="campos">
-                             <h2 id="titulo-option"></h2>
-                              <br/>
+                            <div class="campos">
+                            <h2 id="titulo-option"></h2>
+                            <br/>
                         <div class="box-input">
                              <input class="style aplicacao-input"  type="text" name="Aplicacao"placeholder="Novo campo  Aplicação"></input>
-                                <br/>
+                            <br/>
                              <img class="icone-adicionar" onclick = "adicionarSelect()" alt="Aplicar-botao" src="/img/icone-aplicar-2.png" type ="submit" >
-                            </div>
-                            </div>
-                       </div>
-                    </a>
+                        </div>
+                     </div>
+                </div>
+                </a>
                     <div>
                 </div>
             </div>
                <button id="btn_dados" value="" class="botao-limpar-2" alt="Limpar">LIMPAR</button>
-                <button id="btn_dados" value="" onclick="SubmitForm()" class="adicionar" alt="adicionar">ADICIONAR</button>
+               <button id="btn_dados" value="" onclick="SubmitForm()" class="adicionar" alt="adicionar">ADICIONAR</button>
     </main>
    
     <script src="/Scripts/js-base.js">

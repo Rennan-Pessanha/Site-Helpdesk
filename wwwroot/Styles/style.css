@@ -826,15 +826,11 @@ td.padrao-terciaria {
         margin-left: -77px;
     
     }
-    .label-form1, .label-form3 , .padrao-terciaria {
-       
-        font-size: 13px !important;
-    }
+  
 
     .padrao-quartenaria {
         font-family: 'Baloo Da 2', cursive;
         color: rgb(0, 0, 0);
-        font-size: 11px !important;
     }
 
     .padrao-terciaria::placeholder , .inputII_total::placeholder {
@@ -940,6 +936,10 @@ table, th, td, tr, input {
 
 .aplicacao-input {
     width: 80%;
+    background-color: #E6E8ED;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
 }
 
 .todos-selects {

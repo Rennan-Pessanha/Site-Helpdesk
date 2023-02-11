@@ -566,7 +566,6 @@ article > .title > h1 {
     height: 18rem;
     width: 37rem;
     margin-left: 53%;
-    margin-top: -21%;
     display: none;
     border-style: solid;
     border-top: none;
@@ -574,6 +573,7 @@ article > .title > h1 {
     border-color: rgba(0, 0, 0, 0.267);
     border-width: 0.1px;
     z-index: 1;
+    top: 73px;
 }
 
 .Sub-Menu-Not {
@@ -582,7 +582,6 @@ article > .title > h1 {
     height: 18rem;
     width: 700px;
     margin-left: 51%;
-    margin-top: -21%;
     display: none;
     border-style: solid;
     border-top: none;
@@ -590,15 +589,15 @@ article > .title > h1 {
     border-color: rgba(0, 0, 0, 0.267);
     border-width: 0.1px;
     z-index: 1;
+    top: 73px;
 }
 
 .Sub-Menu-Perfil {
     position: absolute;
     background-color: rgb(255, 255, 255);
-    height: 12rem;
+    height: 23rem;
     width: 700px;
     margin-left: 56%;
-    margin-top: -19.5%;
     display: none;
     border-style: solid;
     border-top: none;
@@ -606,7 +605,9 @@ article > .title > h1 {
     border-color: rgba(0, 0, 0, 0.267);
     border-width: 0.1px;
     z-index: 1;
-
+    top: 73px;
+    padding-left: 10px;
+    font-size: 20px;
 
     }
 
@@ -740,7 +741,7 @@ header > .logo {
     }
     .popup-wrapper {
      text-align: center;
-     width: 330%;
+     width: 268%;
      max-width: 500px;
      justify-content: space-around;
      margin: 10px;
@@ -752,6 +753,7 @@ header > .logo {
      font-weight: normal;
      height: 100px;
      border-radius: 5px;
+     min-width: 65px;
     }
     .close-popup{
         position: absolute;
