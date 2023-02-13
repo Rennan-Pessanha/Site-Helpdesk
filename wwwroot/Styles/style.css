@@ -362,17 +362,10 @@ h4.drop1.padrao-terciaria {
     margin-right: 4px;
 }
 
-.Area {
-    font-weight: normal;
-    margin-top: 7px !important;
-
-}
 
 
-.Problema { 
-    font-weight: normal;
-    font-family: Secundária;
-}
+
+
 
 .ProblemaD { 
         display: none;
@@ -636,10 +629,7 @@ td.padrao-terciaria {
     margin-top: 6px !important;
 }
 
-.problema-label {
-    font-weight: normal;
-    margin-top: 7px !important;
-}
+
 
 
 
@@ -916,12 +906,6 @@ table, th, td, tr, input {
     grid-column: 1;
 }
 
-.icone-adicionar {
-    display: block;
-    cursor: pointer;
-    padding-left: 2px;
-}
-
 .box-input {
     position: absolute;
     display: flex;
@@ -955,9 +939,12 @@ table, th, td, tr, input {
 
 
 
-.icone-adicionar {
+#AdicionarCampo {
     grid-column: 3;
     align-self: center;
+    display: block;
+    cursor: pointer;
+    padding-left: 2px;
 }
 
 select {
@@ -982,4 +969,8 @@ select {
 
 .tabela_dados, .tabela_dadosII {
     margin-top: 19px !important;
+}
+
+#btn-aplicar-select {
+    cursor: pointer;
 }

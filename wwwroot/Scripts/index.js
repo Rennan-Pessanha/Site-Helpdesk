@@ -523,7 +523,7 @@ function SubmitForm() {
 
 
 //adicionando a função de adicionar novo option a todos os botões
-const btnClicado = document.querySelectorAll("#AdicionarCampos");
+const btnClicado = document.querySelectorAll("#AdicionarCampo");
 
 function hideInserir(){
     var element = document.querySelector(".InserirDados");
@@ -534,7 +534,7 @@ function hideInserir(){
 function Enviardados(){
     alert("Enviardados");
 }
-let h4 = document.querySelectorAll('.icone-adicionar');
+let h4 = document.querySelectorAll('#icone-adicionar');
 
 function mostrarPopUp() {
     var element = document.querySelector(".InserirDados");
@@ -542,9 +542,9 @@ function mostrarPopUp() {
 }
 function alteraTitulo(num) {
     let popup = document.querySelector(".aplicacao-input");
-    document.getElementById("titulo-option").innerHTML = num.getAttribute("alt") + ":";
+    document.getElementById("titulo-option").innerHTML = num.getAttribute("class") + ":";
 
-    num = num.getAttribute("alt");
+    num = num.getAttribute("class");
     console.log(num);
     popup.placeholder = "Nova opção em " + num;
     
@@ -583,7 +583,7 @@ console.log(select_opts);
 
 function adicionarSelect() {
     let input_valor = input_inserido.value;
-    console.log(input_inserido.value);
+    console.log(input_inserido);
      if(input_valor != '') {
        select_opts.innerHTML += '<option>' +input_valor+ '</option>';
        input_inserido.value = '';
