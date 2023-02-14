@@ -45,7 +45,7 @@
     </style>
 </head>
 
-<body class="index">
+<body id="index">
     <header>
         <div class="logo">
             <img class="LogoImg" src="https://marketing.medgrupo.com.br/medsmart/img/logo-medgrupo.a0ea0f9e.svg" alt="teste">
@@ -147,7 +147,7 @@
                 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
 
-                <button class="botoes cor" onclick="abrirtab('form2')"><svg focusable="false" width="44" height="45" viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <button class="botoes cor" onclick="abrirtab('form2')" id="btn-2" ><svg focusable="false" width="44" height="45" viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path class="path" d="M12.4428 13.125H31.5571C31.3591 12.8288 31.1886 12.5044 30.9741 12.2231L36.1313 6.95063L33.539 4.29938L28.3213 9.63563C27.898 9.32281 27.4552 9.03846 26.9958 8.78438C25.4589 7.9437 23.7429 7.50387 22 7.50387C20.257 7.50387 18.541 7.9437 17.0041 8.78438C16.5458 9.03188 16.1095 9.3225 15.6805 9.63375L10.4628 4.29938L7.87046 6.95063L13.0276 12.2231C12.8113 12.5063 12.6426 12.8288 12.4428 13.125ZM10.5526 16.875H3.66663V20.625H7.89613C7.77696 21.5531 7.69996 22.4944 7.69996 23.4375C7.69996 24.3881 7.77696 25.3369 7.89613 26.2706H3.66663V30.0206H8.71379C8.73763 30.0938 8.75229 30.1706 8.77613 30.2419C9.12079 31.2825 9.54796 32.2913 10.0503 33.2419C10.131 33.3938 10.2245 33.5325 10.3088 33.6806L6.03713 38.0494L8.62946 40.7006L12.4978 36.7425C13.5765 37.9752 14.8601 39.003 16.2891 39.7781C17.1673 40.2525 18.0895 40.62 19.0318 40.8656C19.4058 40.9631 19.7853 41.025 20.1648 41.0869V30H23.8315V41.0888C24.2125 41.0346 24.5907 40.9607 24.9645 40.8675C25.9174 40.6168 26.838 40.2517 27.7071 39.78C28.5596 39.3188 29.3828 38.7488 30.151 38.085C30.624 37.6763 31.0676 37.2188 31.4966 36.7425L35.3668 40.7006L37.9591 38.0494L33.6875 33.6806C33.7736 33.5306 33.8671 33.39 33.9478 33.2381C34.4483 32.2913 34.8773 31.2825 35.2201 30.24C35.244 30.1669 35.2586 30.0919 35.2825 30.0188H40.3333V26.2688H36.102C36.2211 25.3331 36.2981 24.3863 36.2981 23.4356C36.2981 22.4925 36.2211 21.5513 36.1038 20.6231H40.3333V16.875H10.5526Z" fill="#F1DBDA" />
 
                     </svg>
@@ -232,15 +232,12 @@
 
             <table class="tabela_dadosII">
                 <tr class="padrao-terciaria">
-
                     <td class="label-form3">ID do Card: </td>
                     <td><input type="text" id="Id-Card" placeholder="ID do card aqui ou N/A" class="inputII_total"></td>
 
 
                     <td class="label-form3">Dispositivo: </td>
                     <td><input type="text" name="" id="Dispositivo" placeholder="Dispositivo do aluno ou N/A" class="inputII_total"></td>
-
-
                 </tr>
                 <tr>
                 </tr>
@@ -345,6 +342,11 @@
                         <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6.99375 11.25H8.11875V8.1375H11.25V7.0125H8.11875V3.75H6.99375V7.0125H3.75V8.1375H6.99375V11.25ZM7.5 15C6.475 15 5.50625 14.8031 4.59375 14.4094C3.68125 14.0156 2.88438 13.4781 2.20312 12.7969C1.52187 12.1156 0.984375 11.3188 0.590625 10.4062C0.196875 9.49375 0 8.51875 0 7.48125C0 6.45625 0.196875 5.4875 0.590625 4.575C0.984375 3.6625 1.52187 2.86875 2.20312 2.19375C2.88438 1.51875 3.68125 0.984375 4.59375 0.590625C5.50625 0.196875 6.48125 0 7.51875 0C8.54375 0 9.5125 0.196875 10.425 0.590625C11.3375 0.984375 12.1313 1.51875 12.8063 2.19375C13.4813 2.86875 14.0156 3.6625 14.4094 4.575C14.8031 5.4875 15 6.4625 15 7.5C15 8.525 14.8031 9.49375 14.4094 10.4062C14.0156 11.3188 13.4813 12.1156 12.8063 12.7969C12.1313 13.4781 11.3375 14.0156 10.425 14.4094C9.5125 14.8031 8.5375 15 7.5 15ZM7.51875 13.875C9.28125 13.875 10.7812 13.2531 12.0187 12.0094C13.2562 10.7656 13.875 9.25625 13.875 7.48125C13.875 5.71875 13.2562 4.21875 12.0187 2.98125C10.7812 1.74375 9.275 1.125 7.5 1.125C5.7375 1.125 4.23438 1.74375 2.99063 2.98125C1.74688 4.21875 1.125 5.725 1.125 7.5C1.125 9.2625 1.74688 10.7656 2.99063 12.0094C4.23438 13.2531 5.74375 13.875 7.51875 13.875Z" fill="#448A93"/>
                         </svg>
+                        <span class="span-popup" id="popup-info"></span>
+                         <div class="popup-instrucao" id="popup-info">
+                            <p>Clique para adicionar um novo campo</p>
+                          
+                        </div>
                     </div>
                 </div>
 
@@ -358,7 +360,7 @@
             </div>
         </div>
     </div>
-          
+   
                 <a>
                 <div class="InserirDados">
                     <div class="popup-wrapper">
@@ -378,17 +380,12 @@
                      </div>
                 </div>
                 </a>
-                    <div>
-                </div>
             </div>
                <button id="" value="" class="botao-limpar-2" alt="Limpar">LIMPAR</button>
                <button id="btn_dados" value="" onclick="SubmitForm()" class="adicionar" alt="adicionar">ADICIONAR</button>
     </main>
    
-    <script src="/Scripts/js-base.js">
-
-        
-    </script>
+    <script src="/Scripts/js-base.js"></script>
     <script src="/Scripts/index.js"></script>
 </body>
 

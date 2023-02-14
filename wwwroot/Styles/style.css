@@ -19,7 +19,7 @@ main{
     right: -4;
     max-width: 1300px;
     margin-left: 285px;
-    height: 63%;
+    height: 68%;
     width: 69.5%;
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
@@ -556,7 +556,7 @@ input:focus {
 @media screen and (max-height: 1024px ) {
     main > .form-content {
         margin-top: -1%;
-        height: 410px;
+        height: 355px;
     }
 
 }
@@ -973,4 +973,46 @@ select {
 
 #btn-aplicar-select {
     cursor: pointer;
+    margin-top: 2px;
+    margin-right: 13px;
+}
+
+#titulo-option {
+    font-family: 'Baloo Da 2', cursive;
+    color: black;
+    font-weight: small, bold;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.Problema {
+    position: relative;
+}
+
+.popup-instrucao {
+    position: absolute;
+    width: 182px;
+    border-radius: 8px;
+    left: -86px;
+    top: 40px;
+    padding: 10px;
+    background-color: #448A93;
+    color: white;
+    font-weight: 400;
+}
+
+.span-popup {
+    content: "";
+    background-color: #448A93;
+    height: 24px;
+    width: 23px;
+    top: 30px;
+    left: -2px;
+    position: absolute;
+    transform: rotate(45deg);
+    border-radius: 5px;
+}
+
+.popup-instrucao p {
+    z-index: 100;
 }

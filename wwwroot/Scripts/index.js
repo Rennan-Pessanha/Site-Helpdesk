@@ -546,7 +546,7 @@ function alteraTitulo(num) {
 
     num = num.getAttribute("class");
     console.log(num);
-    popup.placeholder = "Nova opção em " + num;
+    popup.placeholder = "Nova opção em " + num.toLowerCase();
     
     if (num ==="Processos"){
         select_opts = document.getElementById('Processos');
@@ -577,7 +577,7 @@ btnClicado.forEach((val,i)=>{
 //adicionando o novo input ao select
 
 let input_inserido = document.querySelector('.aplicacao-input');
-let botaoInserir = document.querySelector('#AdicionarCampos');
+
 let select_opts = document.getElementById('Apps');
 console.log(select_opts);
 
@@ -590,11 +590,20 @@ function adicionarSelect() {
      }
    };    
      
-   botaoInserir.addEventListener('click', adicionarSelect);
 
 
 
 
-
-
+//Fazendo o popup de instruções do form sumir depois de 3 segundos
     
+   setTimeout(function(){
+
+    var a = document.querySelector(".popup-instrucao");
+    var b = document.querySelector(".span-popup")
+    
+    a.style="display:none"
+    b.style="display:none"
+    
+    console.log("funcionou")
+    }, 3000);
+

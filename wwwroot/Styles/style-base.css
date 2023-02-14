@@ -741,7 +741,7 @@ header > .logo {
     }
     .popup-wrapper {
      text-align: center;
-     width: 268%;
+     width:220%;
      max-width: 500px;
      justify-content: space-around;
      margin: 10px;
