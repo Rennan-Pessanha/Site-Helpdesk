@@ -996,14 +996,14 @@ select {
     left: -86px;
     top: 40px;
     padding: 10px;
-    background-color: #448A93;
-    color: white;
+    background-color: #AED8DE;
+    color:#3C5C60;
     font-weight: 400;
 }
 
 .span-popup {
     content: "";
-    background-color: #448A93;
+    background-color: #AED8DE;
     height: 24px;
     width: 23px;
     top: 30px;
