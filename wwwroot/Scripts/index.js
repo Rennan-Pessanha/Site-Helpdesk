@@ -75,7 +75,7 @@ function dados(){
     var chamado_total = document.getElementById('chamado_responsavel').value;
 
     if(dados_total == '' || ov_total == '' || chamado_total == ''){
-        document.getElementById('msg_erro').innerHTML = 'Preencha todos os campos antes de aplicar.'
+        alert ('Preencha todos os campos antes de aplicar.')
         document.querySelector('.tabela_resultado').style.display = "none"
     }
     else{
@@ -423,6 +423,7 @@ function SubmitForm() {
 /* Em caso de manutenção cuidado essa parte é o pulo de um input para o outro e a contagem se basea nos \t */
 
     var campos = document.querySelectorAll('.input_total')
+    var textArea = document.querySelector('#descricao-problema')
     for (let i = 0; i < campos.length; ++i){
         campos[i].addEventListener('keydown',function(e){ 
             if (e.key =="Delete"){
@@ -439,6 +440,7 @@ function SubmitForm() {
                     campos[6].value = ''
                     campos[7].value = ''
                     campos[8].value = ''
+                    textArea.value = ''
                     
 
                 }else{
@@ -463,7 +465,7 @@ function SubmitForm() {
                     campos[6].value = ''
                     campos[7].value = ''
                     campos[8].value = ''
-                    
+                    textArea.value = ''
 
                 }else{
                     return false
