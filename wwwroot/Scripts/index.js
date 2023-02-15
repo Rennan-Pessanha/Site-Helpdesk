@@ -449,7 +449,31 @@ function SubmitForm() {
             }})}
    
     
-   
+   for (let i = 0; i < campos.length; ++i){
+        function apagarCampos(){ 
+
+                var mens = confirm("deseja apagar tudo?")
+                if (mens == true){
+                    campos[0].value = ''
+                    campos[1].value = ''
+                    campos[2].value = ''
+                    campos[3].value = ''
+                    campos[4].value = ''
+                    campos[5].value = ''
+                    campos[6].value = ''
+                    campos[7].value = ''
+                    campos[8].value = ''
+                    
+
+                }else{
+                    return false
+                }
+                
+            
+            }}
+  
+
+    
 
     for (let i = 0; i < campos.length; ++i){
         campos[i].addEventListener('paste',function(e){ 
@@ -569,7 +593,6 @@ btnClicado.forEach((val,i)=>{
     btnClicado[i].addEventListener("click",function clicouBotao(){
         mostrarPopUp()
         alteraTitulo(btnClicado[i]);
-        console.log(i)
     })
 })
 
@@ -579,23 +602,16 @@ btnClicado.forEach((val,i)=>{
 let input_inserido = document.querySelector('.aplicacao-input');
 
 let select_opts = document.getElementById('Apps');
-console.log(select_opts);
 
 function adicionarSelect() {
     let input_valor = input_inserido.value;
-    console.log(input_inserido);
      if(input_valor != '') {
        select_opts.innerHTML += '<option>' +input_valor+ '</option>';
        input_inserido.value = '';
      }
    };    
      
-
-
-
-
-//Fazendo o popup de instruções do form sumir depois de 3 segundos
-    
+//Fazendo o popup de instruções do form2 sumir depois de 3 segundos
    setTimeout(function(){
 
     var a = document.querySelector(".popup-instrucao");
@@ -604,6 +620,5 @@ function adicionarSelect() {
     a.style="display:none"
     b.style="display:none"
     
-    console.log("funcionou")
     }, 6000);
 
