@@ -605,5 +605,5 @@ function adicionarSelect() {
     b.style="display:none"
     
     console.log("funcionou")
-    }, 3000);
+    }, 6000);
 
