@@ -154,15 +154,7 @@ function DadosII(){
 
 
 
-
-// Configuração botões 
-
-
-
 // Botão de Enviar o Formulário
-
-
-
 function SubmitForm() {
 
     var XHR = new XMLHttpRequest()

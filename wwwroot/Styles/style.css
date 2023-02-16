@@ -278,7 +278,7 @@ main > .line {
         align-content: center;
         display: grid;
         grid-template-columns: 430px 55%;
-        margin-top: -58px;
+        margin-top: -42px;
         column-gap: 60px;
     
 }
