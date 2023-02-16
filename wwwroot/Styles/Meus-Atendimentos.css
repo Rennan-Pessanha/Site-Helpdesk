@@ -170,7 +170,7 @@ main {
         right: -4;
         margin-left: 255px;
         top: 93px;
-        height: 60% !important;
+        height: 68% !important;
         width: 69.5%;
         max-width: 1300px;
         border-radius: 17px;
@@ -179,4 +179,9 @@ main {
     
 }
 
+
+.principal {
+    min-width: 1155px;
+    min-height: 580px;
+}
 

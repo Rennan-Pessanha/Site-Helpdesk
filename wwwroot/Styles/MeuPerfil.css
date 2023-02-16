@@ -24,6 +24,7 @@ body {
     border-radius: 17px;
     box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
     margin-top: 19px;
+    min-height: 580px;
 }
 
   P {

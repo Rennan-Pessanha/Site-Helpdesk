@@ -764,4 +764,21 @@ header > .logo {
         border: 0.2px solid ;
     }
     
-    
+    .tabela_dadosII {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 94%;
+        margin: 0 auto;
+        column-gap: 19px;
+        row-gap: 20px;
+    }
+
+    .label-form3 {
+        margin-right: 15px;
+    }
+
+   .card-div , .dispositivo-div , .versao-div , .reproduzido-div , .atendimento-div {
+    display: flex;
+    align-items: baseline;   
+}
+   
