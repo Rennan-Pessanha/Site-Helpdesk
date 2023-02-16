@@ -7,14 +7,14 @@ categorias = JSON.parse(categorias)
 let lista = Array(categorias)
 console.log (lista)
 lista.forEach(e => {
- let select = document.querySelector("#Processos")
- let select1 = document.querySelector("#Apps")
- let select2 = document.querySelector("#Area")
- let select3 = document.querySelector("#ProblemaD")
+ const select = document.querySelector("#Processos")
+ const select1 = document.querySelector("#Apps")
+ const select2 = document.querySelector("#Area")
+ const select3 = document.querySelector("#ProblemaD")
 
  e.processos.forEach(e => {
   select.options[select.options.length] = new Option(e.valor, e.id) 
-  console.log(e.valor)
+  console.log(e)
   });
  
     e.aplicacao.forEach(e => {
