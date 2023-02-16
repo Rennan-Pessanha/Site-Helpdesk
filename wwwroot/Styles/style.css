@@ -18,7 +18,7 @@ main{
     top: 93px;
     right: -4;
     max-width: 1300px;
-    margin-left: 285px;
+    margin-left: 255px;
     height: 68%;
     width: 69.5%;
     border-radius: 17px;
@@ -69,9 +69,7 @@ box-shadow: rgb(0 0 0 / 10%) 0px 3px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
 overflow: hidden;
 }
 
-@media screen and (max-width: 1000px ) {
-    
-    }
+
 main > .tab > .botaoN , .add-botao{
     color: #525252;
     background: #FFF;
@@ -399,7 +397,7 @@ h4.drop1.padrao-terciaria {
 main {
     overflow: hidden;
     min-width: 1155px;
-
+    min-height: 580px;
 }
 
 input:focus {
@@ -690,15 +688,7 @@ td.padrao-terciaria {
 
 
 
-@media screen and (max-width: 1920px ) {
-   
 
-    main {
-        height: 68% !important;
-    }
-
-   
-}
 
 @media screen and (max-width: 1750px ) {
 
@@ -1015,4 +1005,11 @@ select {
 
 .popup-instrucao p {
     z-index: 100;
+}
+
+
+@media screen and (max-width: 800px ) {
+    main {
+        height: 80%;
+    }
 }
