@@ -649,13 +649,15 @@ td.padrao-terciaria {
 }
 
 .textarea-descricao textarea {
-    border-radius: 30px;
+   
     background-color: #E6E8ED;
     border: none;
     padding-left: 26px;
-    padding-top: 6px;
+    padding-top: 10px;
     width: 96%;
-    height: 80%;
+    height: 90%;
+    display: block;
+    resize: none;
 
 }
 
