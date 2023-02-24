@@ -330,7 +330,7 @@
                     </div>
                     
                     <h4 class="problema-label padrao-terciaria"> Problema: </h4>
-                    <select name="problema" id="ProblemaD"  class="padrao-quartenaria Select-Content">
+                    <select name="problema" id="ProblemaD"  class="padrao-quartenaria Select-Content" onchange="teste()">
                         <option value="N/A">--</option>
                     </select>
                     <div class="Problema" id="AdicionarCampo">
@@ -364,9 +364,10 @@
                             <h2 id="titulo-option"></h2>
                             <br/>
                         <div class="box-input">
-                             <input class="style aplicacao-input"  type="text" name="Aplicacao"placeholder="Novo campo  Aplicação"></input>
+                             <input class="style aplicacao-input" id="valorpost"  type="text" name="Aplicacao"placeholder="Novo campo  Aplicação"></input>
+                           
                             <br/>
-                            <div class="icone-adicionar" id="btn-aplicar-select" onclick = "adicionarSelect()">
+                            <div class="icone-adicionar" id="btn-aplicar-select" onclick="postSelect()">
                                 <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                      <path d="M4.87467 9.87492L0.208008 5.20825L1.10384 4.31242L4.87467 8.08325L12.8747 0.083252L13.7705 0.979086L4.87467 9.87492Z" fill="#448A93"/>
                                 </svg>
@@ -383,6 +384,7 @@
     <script src="/Scripts/js-base.js"></script>
     <script src="/Scripts/index.js"></script>
     <script src="/Scripts/selects.js"></script>
+    <script src="/Scripts/postoptions.js"></script>
 </body>
 
 </html>

@@ -447,28 +447,13 @@ btnClicado.forEach((val,i)=>{
 })
 
 
+
+
+
+
 //adicionando o novo input ao select
 
 let input_inserido = document.querySelector('.aplicacao-input');
 
-let select_opts = document.getElementById('Apps');
 
-function adicionarSelect() {
-    let input_valor = input_inserido.value;
-     if(input_valor != '') {
-       select_opts.innerHTML += '<option>' +input_valor+ '</option>';
-       input_inserido.value = '';
-     }
-   };    
-     
-//Fazendo o popup de instruções do form2 sumir depois de 3 segundos
-   setTimeout(function(){
-
-    var a = document.querySelector(".popup-instrucao");
-    var b = document.querySelector(".span-popup")
-    
-    a.style="display:none"
-    b.style="display:none"
-    
-    }, 6000);
 
