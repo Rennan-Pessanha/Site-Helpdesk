@@ -58,7 +58,7 @@ function loadSelect2(id){
     
     
     
-   });// Essa parte está buscando dados do banco e criando selects no html
+   });
 }
 function loadSelect3(id){
   let lista = Array(Getall())
@@ -74,10 +74,10 @@ function loadSelect3(id){
         }else{
           console.log("nao encontrou")
         }});    
-   });// Essa parte está buscando dados do banco e criando selects no html
+   });// Fim do método GET do select abaixo está o Post
 }
 
-
+// essa parte ela cria o post pro banco, cuidado em mexer nela.
 
 function Refresh(){
   window.location.reload();   
