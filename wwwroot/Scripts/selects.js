@@ -7,57 +7,37 @@ let categorias = xhttp.responseText;
 categorias = JSON.parse(categorias)  
 return categorias
 }
-var select3 = document.querySelector("#ProblemaD")
-var select2 = document.querySelector("#Area")
-var  select1 = document.querySelector("#Apps")
-var select = document.querySelector("#Processos")
-var idAplicacao 
-var areaid
-var problemaIdpai
+const select3 = document.querySelector("#ProblemaD")
+const select2 = document.querySelector("#Area")
+const  select1 = document.querySelector("#Apps")
+const select = document.querySelector("#Processos")
+
 function createSelect(){
 
   let lista = Array(Getall())
   console.log (lista)
   lista.forEach(e => {
-    
-   
-
    e.processos.forEach(e => {
-    select.options[select.options.length] = new Option(e.valor, e.id) 
-    
+    select.options[select.options.length] = new Option(e.valor, e.id)   
     });
-   
       e.aplicacao.forEach(e => {
           select1.options[select1.options.length] = new Option(e.valor, e.id) 
-          
-          
-            idAplicacao = e.id
-          console.log(idAplicacao)
           });    
   });// Essa parte está buscando dados do banco e criando options no html
 }
-
-
 function loadSelect2(id){
   const app = document.getElementById(id).value
   let lista = Array(Getall())
   lista.forEach(e => {
-    
     select3.options.length = 1 
     select2.options.length = 1
        e.area.forEach(e => {
         if (e.idPai == app ){
         select2.options[select2.options.length] = new Option(e.valor, e.id) 
-        areaid = e.idPai
-        console.log(areaid)
-        
       }else{
         console.log("nao encontrou")
       }
         });
-    
-    
-    
    });
 }
 function loadSelect3(id){
@@ -69,21 +49,17 @@ function loadSelect3(id){
        e.problema.forEach(e => {
         if (e.idPai == app ){
           select3.options[select3.options.length] = new Option(e.valor, e.id) 
-          e.idPai = problemaIdpai
-           console.log(problemaIdpai)
+         
         }else{
           console.log("nao encontrou")
         }});    
    });// Fim do método GET do select abaixo está o Post
 }
-
 // essa parte ela cria o post pro banco, cuidado em mexer nela.
-
 function Refresh(){
   window.location.reload();   
   window.addEventListener ('load',abrirtab('form2'))
 }
-
 function postSelect() {
   let campo = document.getElementById("titulo-option").innerHTML;
   let dados = document.getElementById("valorpost").value;
@@ -157,13 +133,7 @@ function postSelect() {
            Refresh()
 
   }
-  
-        
-
-  
-
 }
-
 $(window).on("load", createSelect());
 
 
