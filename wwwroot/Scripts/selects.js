@@ -98,10 +98,17 @@ function postSelect() {
   if (campo == 'Aplicação') {
       nid = 2; console.log(nid)
   }
-  if (campo == 'Área') {
+  if(document.getElementById('Apps').value == ''){
+    alert("Campo aplicação vazio, por favor selecione uma aplicação!");
+  }else{
+      campo == 'Área'
       nid = 3; console.log(nid)
   }
-  if (campo == 'Problema') {
+  if(document.getElementById('Area').value == ''){
+          alert("Campo área está vazio, por favor selecione uma Área para criar uma opção no problema");
+          return
+  }
+  else{ campo == 'Problema' 
       nid = 4; console.log(nid)
   }
   if(nid ===1 || nid===2)
