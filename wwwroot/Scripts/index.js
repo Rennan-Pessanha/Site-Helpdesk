@@ -402,6 +402,7 @@ const btnClicado = document.querySelectorAll("#AdicionarCampo");
 function hideInserir(){
     var element = document.querySelector(".InserirDados");
     element.classList.remove("showInserirDados");
+   
     
 }
 
@@ -440,13 +441,23 @@ function alteraTitulo(num) {
 }
 
 btnClicado.forEach((val,i)=>{
+    
     btnClicado[i].addEventListener("click",function clicouBotao(){
         mostrarPopUp()
-        alteraTitulo(btnClicado[i]);
+        alteraTitulo(btnClicado[i]); 
+        let reset 
+        reset = document.getElementById("valorpost").value = ''
+       
     })
+   
+   
+        
+      
+    
+    
 })
 
-
+  
 
 
 

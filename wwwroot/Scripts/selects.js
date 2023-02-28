@@ -56,10 +56,7 @@ function loadSelect3(id){
    });// Fim do método GET do select abaixo está o Post
 }
 // essa parte ela cria o post pro banco, cuidado em mexer nela.
-function Refresh(){
-  window.location.reload();   
-  window.addEventListener ('load',abrirtab('form2'))
-}
+
 function postSelect() {
   let campo = document.getElementById("titulo-option").innerHTML;
   let dados = document.getElementById("valorpost").value;
@@ -94,8 +91,8 @@ function postSelect() {
              headers: {"Content-type": "application/json; charset=UTF-8"}
            })
            .then(response => response.json()) 
-           .then(json => console.log(json));
-           Refresh()
+           .then(json => dados = document.getElementById("valorpost").value = '');
+           
   }if(nid===3){
       dados = {
           Valor: dados, 
@@ -109,9 +106,7 @@ function postSelect() {
            })
            .then(response => response.json())
            .catch(error => {alert("Insira uma aplicação!");}) 
-           .then(json => console.log(json));
-          Refresh()
-
+           .then(json => dados = document.getElementById("valorpost").value = '');
   }
   if(nid===4){
       dados = {
@@ -126,12 +121,11 @@ function postSelect() {
            })
            .then(response => response.json()) 
            .catch(error => {alert("Insira uma área!");})
-           .then(json => console.log(json));
-           
-           Refresh()
-
+           .then(json => dados = document.getElementById("valorpost").value = '');       
   }
-}
+  
+} 
+
 $(window).on("load", createSelect());
 
 
